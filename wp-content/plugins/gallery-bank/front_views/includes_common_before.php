@@ -23,6 +23,14 @@ switch ($album_type) {
 						$album_id
 					)
 			);
+		$album_desc = $wpdb->get_var
+			(
+				$wpdb->prepare
+					(
+						"SELECT description FROM " . gallery_bank_albums() . " where album_id = %d",
+						$album_id
+					)
+			);
 		if($display == "all" || $display == "")
 		{
 			switch($sort_by)
@@ -183,6 +191,15 @@ switch ($album_type) {
 						$album_id
 					)
 			);
+		$album_desc = $wpdb->get_var
+			(
+				$wpdb->prepare
+					(
+						"SELECT description FROM " . gallery_bank_albums() . " where album_id = %d",
+						$album_id
+					)
+			);
+		
 		$albumCover = $wpdb->get_row
 			(
 				$wpdb->prepare
@@ -912,6 +929,7 @@ switch ($album_type) {
 		{
 		?>
 			<h3><?php echo stripcslashes(htmlspecialchars_decode($album)); ?></h3>
+			<h5><?php echo stripcslashes(htmlspecialchars_decode($album_desc)); ?></h5>
 		<?php
 		}
 	break;

@@ -1,13 +1,13 @@
-=== Gallery Bank - Responsive Photo Galleries & Albums ===
+=== Gallery Bank - Photo Galleries & Albums ===
 Contributors: Gallery-Bank,contact-banker
-Tags: add album, add gallery, add picture, add pictures, admin, AJAX, album, banner rotator, best gallery, best gallery plugin, best image slider, best portfolio, bilder, comments, easy media gallery, fancy gallery, filterable gallery, filterable portfolio, foto, fotoalbum, fotogalerie, free photo gallery, fullscreen gallery, galary, galeri, galerie, galerij, galery, gallary, Galleria, gallerie, galleries, gallery, gallery decription, gallery image, gallery lightbox, Gallery Plugin, gallery shortcode, gallery slider, gelary, gellary, gellery, google, grid gallery, html5 player, html5 video, html5-audio, image, image album, image gallery, image gallery plugin, image lightbox, image rotate, image slider, image slideshow, images, images gallery, jquery, jquery gallery, links, media, media gallery, multiple pictures, nextgen gallery, page, pagination gallery, pagination portfolio, photo, photo album, photo albums, photo gallery, photoalbum, photogallery, photos, photoset, picture, pictures, plugin, plugin for gallery, plugin gallery, portfolio, portfolio gallery, portfolio plugin, Post, posts, responsive gallery, responsive image gallery, responsive slider, responsive slideshow, responsive wordpress photo gallery, seo, seo image, shortcode, sidebar, Simple gallery, slide show, slideshow, thumbnail, twitter, upload images, upload photos, video gallery, view images, view pictures, website gallery, widget, widget gallery, wordpress gallery, wordpress gallery plugin, wordpress photo gallery plugin, wordpress portfolio plugin, wp gallery, wp gallery plugin, wp gallery plugins
+Tags: add album, add gallery, add pictures, admin, AJAX, album, banner rotator, best gallery, best gallery plugin, comments, Facebook, filterable gallery, foto, fotoalbum, fotogalerie, free photo gallery, fullscreen gallery, fullscreen slider, galeri, galerie, Galleria, galleries, gallery, gallery decription, gallery image, gallery lightbox, gallery shortcode, gallery slider, image, image album, image gallery, image lightbox, image rotate, image slider, image slideshow, images, images gallery, instagram, jquery, jquery gallery, lightbox, media, mosaic, multiple pictures, photo, photo album, photo albums, photo gallery, photoalbum, photogallery, photography, photos, photoset, picture, pictures, responsive, responsive gallery, responsive wordpress photo gallery, sidebar, Simple gallery, slide, slide show, slideshow, thumbnail, thumbnail view, thumbnails, thumbs, upload images, upload photos, video gallery, videos, view images, view pictures, vimeo, website gallery, widget gallery, wordpress gallery, wordpress gallery plugin, wordpress photo gallery plugin, wp gallery, wp gallery plugins, youtube, gallery bank
 Requires at least: 3.4
-Tested up to: 4.2.3
-Stable tag: 3.0.225
+Tested up to: 4.3
+Stable tag: 3.0.335
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
-WP Gallery Bank is an enhanced gallery tool to create Responsive and Beautiful Photo Galleries and Albums for WordPress Websites.
+Gallery Bank is an super advanced plugin which creates Beautiful Photo Galleries and Albums for WordPress Websites. It is fully responsive.
 
 == Description ==
 
@@ -72,7 +72,7 @@ Gallery Bank Regularly updates and simplicity of usage along with efficient func
 
 **[Like & Support Us on Facebook](https://www.facebook.com/TechBanker/)**
 
-= Key Features in Gallery Bank Lite Edition =
+= **Key Features in Gallery Bank Lite Edition** =
  
 * Multi-Lingual. Available now in 36 Languages.
 * Responsive Photo Gallery
@@ -91,7 +91,7 @@ Gallery Bank Regularly updates and simplicity of usage along with efficient func
 * Masonry Gallery Format
 * List Album Format
 
-= Key Features in Gallery Bank Premium Editions =
+= **Key Features in Gallery Bank Premium Editions** =
 
  Take your media to the next level with [Gallery Bank Premium Editions](http://tech-banker.com/products/wp-gallery-bank/), which gives you 200+ features such as:
 
@@ -499,6 +499,50 @@ is False in shortcode.
 17. Displaying Individual Album with Images.
 
 == Changelog ==
+
+
+= 3.0.335 =
+
+* Few Minor Bugs Fixed.
+
+= 3.0.334 =
+
+* Album Description Shown under Album Title
+
+= 3.0.333 =
+
+* Few Urgent Bugs Fixed.
+
+= 3.0.332 =
+
+* Delete Image Bug Fixed.
+
+= 3.0.331 =
+
+* Pretty Photo Title & Description Bug Fixed.
+
+= 3.0.330 =
+
+* Few 1ecurity Issues Fixed.
+* Isotope 2.2.2 Version used.
+
+= 3.0.229 =
+
+* Compatibility with 4.3
+* Changed variables to avoid confliction with Next Gen and Contact Bank plugins.
+* Prettyphoto XSS Security Issue Fixed.
+
+= 3.0.228 =
+
+* Few Minor Bugs Fixed
+
+= 3.0.227 =
+
+* Compatibility with 4.2.4
+
+= 3.0.226 =
+
+* Few Minor Bugs Fixed
 
 = 3.0.225 =
 

@@ -170,12 +170,14 @@ else
 				die();
 	   		break;
 			case "delete_pic":
-				$delete_array = (html_entity_decode($_REQUEST["delete_array"]));
+				
+				$data_to_be_deleted = json_decode(stripslashes(html_entity_decode($_REQUEST["delete_array"])));
 				$albumId = intval($_REQUEST["albumid"]);
+				$query_data = implode(",",$data_to_be_deleted);
 		
 				$wpdb->query
 				(
-					"DELETE FROM " . gallery_bank_pics() . " WHERE pic_id in ($delete_array)"
+					"DELETE FROM " . gallery_bank_pics() . " WHERE pic_id in ($query_data)"
 				);
 				die();
 			break;

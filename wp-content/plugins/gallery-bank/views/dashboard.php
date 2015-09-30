@@ -440,7 +440,7 @@
 	</form>
 
 	<script type="text/javascript">
-		jQuery(".hovertip").tooltip();
+		jQuery(".hovertip").tooltip_tip();
 		jQuery(document).ready(function() 
 		{
 			jQuery(".imgLiquidFill").imgLiquid({fill:true});

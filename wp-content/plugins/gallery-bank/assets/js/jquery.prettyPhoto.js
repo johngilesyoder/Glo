@@ -1,6 +1,6 @@
 /* ------------------------------------------------------------------------
  prettyPhoto v3.1.5
- Â© Copyright, Stephane Caron
+ © Copyright, Stephane Caron
  http://www.no-margin-for-errors.com
 
 
@@ -497,7 +497,7 @@
                 u = true
             }
             $pp_pic_holder.fadeIn(function () {
-                settings.show_title && pp_titles[set_position] != "" && typeof pp_titles[set_position] != "undefined" ? $ppt.html(unescape(pp_titles[set_position])) : $ppt.html("Â ");
+                settings.show_title && pp_titles[set_position] != "" && typeof pp_titles[set_position] != "undefined" ? $ppt.html(unescape(pp_titles[set_position])) : $ppt.html(" ");
                 imgPreloader = "";
                 skipInjection = false;
                 switch (S(pp_images[set_position])) {
