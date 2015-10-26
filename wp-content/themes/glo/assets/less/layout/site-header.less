@@ -1,6 +1,41 @@
 // site-header.less
 // -----------------------------------------------------------------
 
+.site-header {
+  margin-bottom: 50px;
+  .topbar {
+    background: #333;
+    color: #fff;
+    height: 45px;
+    line-height: 45px;
+    .topbar-request-quote {
+      text-align: right;
+      text-transform: uppercase;
+      .btn-quote {
+        margin-left: 15px;
+        font-weight: 600;
+        padding: 2px 15px;
+      }
+    }
+  }
+
+  .navbar-brand {
+    padding: 12.5px 15px;
+    img {
+      height: 75px;
+    }
+  }
+  .navbar-nav {
+    text-transform: uppercase;
+    font-weight: 600;
+    & > li {
+      & > a {
+        font-weight: 700;
+        font-size: 14px;
+      }
+    }
+  }
+}
 
 // Media Queries
 // --------------------------------------------------

@@ -252,7 +252,7 @@ function primary_nav()
         'after'           => '',
         'link_before'     => '<span>',
         'link_after'      => '</span>',
-        'items_wrap'      => '<ul class="nav navbar-nav navbar-left">%3$s</ul>',
+        'items_wrap'      => '<ul class="nav navbar-nav navbar-right">%3$s</ul>',
         'depth'           => 2,
         'walker'          => new wp_bootstrap_navwalker()
         )

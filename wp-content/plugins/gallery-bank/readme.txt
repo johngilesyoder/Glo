@@ -2,8 +2,8 @@
 Contributors: Gallery-Bank,contact-banker
 Tags: add album, add gallery, add pictures, admin, AJAX, album, banner rotator, best gallery, best gallery plugin, comments, Facebook, filterable gallery, foto, fotoalbum, fotogalerie, free photo gallery, fullscreen gallery, fullscreen slider, galeri, galerie, Galleria, galleries, gallery, gallery decription, gallery image, gallery lightbox, gallery shortcode, gallery slider, image, image album, image gallery, image lightbox, image rotate, image slider, image slideshow, images, images gallery, instagram, jquery, jquery gallery, lightbox, media, mosaic, multiple pictures, photo, photo album, photo albums, photo gallery, photoalbum, photogallery, photography, photos, photoset, picture, pictures, responsive, responsive gallery, responsive wordpress photo gallery, sidebar, Simple gallery, slide, slide show, slideshow, thumbnail, thumbnail view, thumbnails, thumbs, upload images, upload photos, video gallery, videos, view images, view pictures, vimeo, website gallery, widget gallery, wordpress gallery, wordpress gallery plugin, wordpress photo gallery plugin, wp gallery, wp gallery plugins, youtube, gallery bank
 Requires at least: 3.4
-Tested up to: 4.3
-Stable tag: 3.0.335
+Tested up to: 4.3.1
+Stable tag: 3.0.339
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -500,6 +500,21 @@ is False in shortcode.
 
 == Changelog ==
 
+= 3.0.339 =
+
+* Few Urgent Bugs Fixed.
+
+= 3.0.338 =
+
+* Database Engine updated.
+
+= 3.0.337 =
+
+* Few Urgent Bugs Fixed.
+
+= 3.0.336 =
+
+* Few Minor Bugs Fixed.
 
 = 3.0.335 =
 

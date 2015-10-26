@@ -10,7 +10,7 @@
   <link href="<?php echo get_template_directory_uri(); ?>/assets/owl/owl.theme.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/style.css">
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  
   <!-- Typekit -->
   <script src="//use.typekit.net/cmt2uhr.js"></script>
   <script>try{Typekit.load({ async: true });}catch(e){}</script>
@@ -19,39 +19,37 @@
 <body <?php body_class( $class ); ?>> 
 
   <header class="site-header">
-    <div class="topper">
-      <div class="container">
-        <div class="row">
-          <div class="social col-md-6">
-            <a href="https://www.facebook.com/glowindows" target="_blank"><i class="icon-facebook-circled"></i></a>
-            <a href="https://twitter.com/GloWindows" target="_blank"><i class="icon-twitter-circled"></i></a>
-            <a href="https://www.pinterest.com/GloWindows/" target="_blank"><i class="icon-pinterest-circled"></i></a>
-            <a href="#" target="_blank"><i class="icon-gplus-circled"></i></a>
-            <a href="http://www.houzz.com/pro/glowindows/glo-european-windows" target="_blank"><i class="icon-record"></i></a>
-          </div>
-          <div class="contact col-md-6">
-            <p>(406) 721-2741<a href="#" class="switch quote-btn" gumby-trigger="#modal1">Request A Quote</a></p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="logo">
-      <a href="/"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo.png"></a>
-    </div>
-    <div class="logo-sm">
-      <a href="/"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo-sm-white.png"></a>
-    </div>
-    <div class="nav">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">  
-            <?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu' ) ); ?>
-          </div>
-        </div>
-      </div>
-    </div>
-  </header>
 
-  <!-- .wrapper closes in footer -->
-  <div class="row">
-    <div class="twelve columns wrapper">
+    <div class="topbar">
+      <div class="container">
+        <div class="row">
+          <div class="topbar-request-quote col-md-offset-6 col-md-6">
+            <p>(406) 721-2741<a href="#" class="btn btn-primary btn-quote" gumby-trigger="#modal1">Request A Quote</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <nav class="site-header navbar navbar-default">
+      <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="/">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo.png">
+          </a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="navbar-collapse">
+          <?php primary_nav(); ?>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+
+  </header>
