@@ -6970,6 +6970,16 @@ a img.aligncenter {
   font-weight: 700;
   font-size: 14px;
 }
+@media (max-width: 767px) {
+  .site-header {
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 480px) {
+  .site-header .topbar .topbar-request-quote {
+    text-align: center;
+  }
+}
 .site-footer {
   background: #333;
   color: #fff;
@@ -7063,5 +7073,166 @@ h2 {
   }
   .error-message {
     margin-bottom: 30px;
+  }
+}
+.page-template-page-home .home-block {
+  position: relative;
+  text-align: center;
+  margin-bottom: 30px;
+  text-decoration: none;
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+.page-template-page-home .home-block .home-block-title {
+  position: relative;
+  font-size: 18px;
+  letter-spacing: 2px;
+  margin: 0;
+}
+.page-template-page-home .home-block .home-block-title a {
+  color: #333;
+  text-decoration: none;
+}
+.page-template-page-home .home-block .home-block-title a i {
+  display: inline-block;
+  position: relative;
+  top: 2px;
+  height: 16px;
+  width: 9px;
+  margin-left: 10px;
+  background-image: url('assets/img/icon-chevron-right-black.svg');
+  background-size: 9px;
+  background-repeat: no-repeat;
+}
+.page-template-page-home .home-block .home-block-title:after {
+  display: block;
+  position: absolute;
+  width: 15%;
+  margin: auto;
+  left: 0;
+  right: 0;
+  bottom: -20px;
+  border-bottom: 2px solid #ee7522;
+  content: '';
+}
+.page-template-page-home .home-block-img {
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  display: block;
+  background: #000;
+}
+.page-template-page-home .home-block-img:hover .block-img {
+  opacity: .4;
+}
+.page-template-page-home .home-block-img:hover .home-block-title {
+  transform: translateY(0);
+}
+.page-template-page-home .home-block-img .block-img {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  opacity: .9;
+  transition: opacity .35s;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.page-template-page-home .home-block-img .home-block-title {
+  margin: 0;
+  color: #fff;
+  text-shadow: 0 1px 30px #000;
+  word-spacing: -0.15em;
+  font-weight: 600;
+  transition: transform 0.35s;
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+.page-template-page-home .home-block-img .home-block-title i {
+  display: inline-block;
+  position: relative;
+  top: 2px;
+  height: 16px;
+  width: 9px;
+  margin-left: 10px;
+  background-image: url('assets/img/icon-chevron-right-white.svg');
+  background-size: 9px;
+  background-repeat: no-repeat;
+}
+.page-template-page-home .home-block-img .home-block-title:after {
+  border-bottom: 3px solid #ee7522;
+}
+.page-template-page-home .home-block-text .home-block-content {
+  width: 75%;
+  margin: 0 auto;
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+.page-template-page-home .home-block-text .home-block-content .home-block-title {
+  margin: 0 auto 80px;
+}
+.page-template-page-home .home-block-text .home-block-content p {
+  font-size: 18px;
+  line-height: 27px;
+}
+.home-about-you {
+  height: 402.5px;
+}
+.home-products {
+  height: 402.5px;
+}
+.home-projects {
+  height: 835px;
+}
+.home-passive-house {
+  height: 460px;
+}
+.home-about-us {
+  height: 460px;
+}
+.home-blog {
+  height: 490px;
+}
+.home-professionals {
+  height: 490px;
+}
+@media (max-width: 767px) {
+  .page-template-page-home .home-block-img:hover .block-img {
+    opacity: .8;
+  }
+  .page-template-page-home .home-block-img .block-img {
+    opacity: .8;
+  }
+  .page-template-page-home .home-about-you,
+  .page-template-page-home .home-about-us {
+    padding: 30px 0;
+    height: auto;
+  }
+  .page-template-page-home .home-about-you .home-block-content,
+  .page-template-page-home .home-about-us .home-block-content {
+    position: static;
+    transform: none;
+  }
+  .home-products,
+  .home-projects,
+  .home-passive-house,
+  .home-blog,
+  .home-professionals {
+    height: 490px;
+  }
+}
+@media (max-width: 480px) {
+  .home-products,
+  .home-projects,
+  .home-passive-house,
+  .home-blog,
+  .home-professionals {
+    height: 400px;
   }
 }

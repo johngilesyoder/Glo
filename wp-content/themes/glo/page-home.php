@@ -8,89 +8,57 @@ get_header(); ?>
 <div class="container">
 
 	<div class="row">
-		<div href="/about-us" class="col-md-6">
-			<h2 class="line-under">About You</h2>
-			<p class="centered-home">You believe the environment matters and you want to leave the next generation with something to be proud of.</p>
-			<p class="centered-home">You don't want to sacrifice quality for the bottom line and you believe the products you buy shouldn't either.</p>
-			<div class="align-bottom">
-				<a href="/products" class="grid">
-					<figure class="effect-bubba">
-						<img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/images/1.jpg" alt="Kitchen Area Glo Windows"/>
-						<figcaption>
-							<h2 class="line-under">PRODUCTS</h2>
-							<?php // <p><a href="#">Wood</a> | <a href="#">Aluminum</a> | <a href="#">Passive</a></p> ?>
-						</figcaption>			
-					</figure>
-				</a>
-			</div>
-		</div>
-
 		<div class="col-md-6">
-			<a href="/projects" class="grid">
-				<figure class="effect-bubba linkcenter">
-					<img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/images/2.jpg" alt="Desk Glo Windows"/>
-					<figcaption>
-						<h2 class="line-under">Projects</h2>
-					</figcaption>			
-				</figure>
+			<div class="home-block home-block-text home-about-you">
+				<div class="home-block-content">
+					<h2 class="home-block-title"><a href="/about-you/">About You <i></i></a></h2>
+					<p>You believe the environment matters and you want to leave the next generation with something to be proud of.</p>
+					<p>You don't want to sacrifice quality for the bottom line and you believe the products you buy shouldn't either.</p>
+				</div>
+			</div>
+			<a href="/products" class="home-block home-block-img home-products">
+				<div class="block-img" style="background-image: url('<?php echo get_template_directory_uri(); ?>/images/1.jpg');"></div>
+				<h2 class="home-block-title">Products <i></i></h2>
+			</a>
+		</div>
+		<div class="col-md-6">
+			<a href="/projects" class="home-block home-block-img home-projects">
+				<div class="block-img" style="background-image: url('<?php echo get_template_directory_uri(); ?>/images/2.jpg');"></div>
+				<h2 class="home-block-title">Projects <i></i></h2>
 			</a>
 		</div>
 	</div>
-
 	<div class="row">
 		<div class="col-md-7">
-			<a href="/passive-house">
-				<figure class="effect-bubba">
-					<img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/images/3.jpg" alt="Bathroom Inspiration Glo Windows"/>
-					<figcaption>
-						<h2 class="line-under">Passive House</h2>
-					</figcaption>			
-				</figure>
+			<a href="/passive-house" class="home-block home-block-img home-passive-house">
+				<div class="block-img" style="background-image: url('<?php echo get_template_directory_uri(); ?>/images/3.jpg');"></div>
+				<h2 class="home-block-title">Passive House <i></i></h2>
 			</a>
-
 		</div>
-
-		<a href="/about-us" class="col-md-5">
-
-			<h2 class="line-under">About Us</h2>
-			<p  class="centered-home">We are passionate about future generations realizing the benefits of your educated selection of Glo windows today.  Elegant, efficient, durable.  The value of our windows is timeless.</p>
-			<p  class="centered-home">Glo Windows is consumed with innovation. Our high performance windows, doors and wall linings exceed energy efficiency performance standards.</p>
-
-		</a>
-			
+		<div class="col-md-5">
+			<div class="home-block home-block-text home-about-us">
+				<div class="home-block-content">
+					<h2 class="home-block-title"><a href="/about-us/">About Us <i></i></a></h2>
+					<p>We are passionate about future generations realizing the benefits of your educated selection of Glo windows today.  Elegant, efficient, durable.  The value of our windows is timeless.</p>
+					<p>Glo Windows is consumed with innovation. Our high performance windows, doors and wall linings exceed energy efficiency performance standards.</p>
+				</div>
+			</div>
+		</div>
 	</div>
-
 	<div class="row">
-
 		<div class="col-md-4">
-			
-			<a href="/blog" class="grid">
-				<figure class="effect-bubba linkcenter">
-					<img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/images/4.jpg" alt="Stairway Glo Windows"/>
-					<figcaption>
-						<h2 class="line-under">Blog</h2>
-					</figcaption>			
-				</figure>
+			<a href="/blog" class="home-block home-block-img home-blog">
+				<div class="block-img" style="background-image: url('<?php echo get_template_directory_uri(); ?>/images/4.jpg');"></div>
+				<h2 class="home-block-title">Blog <i></i></h2>
 			</a>
-
 		</div>
-
-		<div class="col-md-8" style="text-align: right;">
-
-			<a href="/professionals" class="grid">
-				<figure class="effect-bubba">
-					<img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/images/5.jpg" alt="Kitchen Inspiration Glo Windows"/>
-					<figcaption>
-						<h2 class="line-under">Professionals</h2>
-					</figcaption>			
-				</figure>
+		<div class="col-md-8">
+			<a href="/professionals" class="home-block home-block-img home-professionals">
+				<div class="block-img" style="background-image: url('<?php echo get_template_directory_uri(); ?>/images/5.jpg');"></div>
+				<h2 class="home-block-title">Professionals <i></i></h2>
 			</a>
-
 		</div>
-			
 	</div>
-
 </div>
-
 
 <?php get_footer(); ?>
