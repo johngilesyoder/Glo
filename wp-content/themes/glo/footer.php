@@ -60,17 +60,17 @@
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
 
 		<script>
-		  // $(document).ready(function() {
-		  //   $(".gallery").owlCarousel({
-		  //     autoPlay : 3000,
-			 //    stopOnHover : true,
-			 //    navigation:false,
-			 //    paginationSpeed : 1000,
-			 //    goToFirstSpeed : 2000,
-			 //    singleItem : true,
-			 //    autoHeight : true,
-		  //   	});
-		  // 	});
+		  $(document).ready(function() {
+		    $(".gallery").owlCarousel({
+		      autoPlay : 3000,
+			    stopOnHover : true,
+			    navigation:false,
+			    paginationSpeed : 1000,
+			    goToFirstSpeed : 2000,
+			    singleItem : true,
+			    autoHeight : true,
+		    	});
+		  	});
 		</script>
 
 		<script>

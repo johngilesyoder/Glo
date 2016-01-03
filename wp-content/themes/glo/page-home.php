@@ -11,7 +11,7 @@ get_header(); ?>
 		<div class="col-md-6">
 			<div class="home-block home-block-text home-about-you">
 				<div class="home-block-content">
-					<h2 class="home-block-title"><a href="/about-you/">About You <i></i></a></h2>
+					<h2 class="home-block-title"><a href="/about-us/">About You <i></i></a></h2>
 					<p>You believe the environment matters and you want to leave the next generation with something to be proud of.</p>
 					<p>You don't want to sacrifice quality for the bottom line and you believe the products you buy shouldn't either.</p>
 				</div>

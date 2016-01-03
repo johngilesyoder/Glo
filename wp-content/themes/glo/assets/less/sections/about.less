@@ -1,0 +1,43 @@
+// about.less
+// -----------------------------------------------------------------
+
+.page-template-page-about {
+  .about-block {
+    height: 400px;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  .block-text {
+    .vertical-center-parent();
+    p {
+      line-height: 1.5em;
+      width: 70%;
+      margin: 0 auto;
+      .vertical-center();
+    }
+  }
+  .section-title {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 0 0 15px;
+  }
+}
+
+
+// Media Queries
+// --------------------------------------------------
+
+// Large desktop and up
+@media (min-width: 1200px) {}
+
+// Desktop to large desktop
+@media (min-width: 992px) and (max-width: 1199px) {}
+
+// Tablet to desktop
+@media (min-width: 768px) and (max-width: 991px) {}
+
+// Up to tablet
+@media (max-width: 767px) {}
+
+// Up to landscape phone
+@media (max-width: 480px) {}
