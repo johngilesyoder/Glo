@@ -21,7 +21,7 @@ get_header(); ?>
   ?>
   <div class="product-line">
   	<div class="product-line-hero">
-      <div class="product-line-img" style="background-image:url('<?php echo get_template_directory_uri(); ?>/images/product/<?php echo $term->term_id; ?>');"></div>
+      <div class="product-line-img" style="background-image:url('<?php echo get_template_directory_uri(); ?>/images/product/<?php echo $term->term_id; ?>.jpg');"></div>
       <h2><?php echo $term->name; ?></h2>
   	</div>
   	<div class="product-description">
