@@ -18,11 +18,11 @@ get_header(); ?>
 			<h2 class="section-title">About You</h2>
 
 			<div class="row">
-				<div class="col-md-6">
-					<div class="about-block block-img" style="background:url('<?php echo get_template_directory_uri(); ?>/images/about-you.jpg');">
+				<div class="col-sm-6">
+					<div class="about-block block-img" style="background-image:url('<?php echo get_template_directory_uri(); ?>/images/about-you.jpg');">
 					</div>
 				</div>
-				<div class="col-md-6">
+				<div class="col-sm-6">
 					<div class="about-block block-text">
 						<p>You are informed and have energy efficiency goals in mind for your home or building. You want a company that is pushing industry standards forward with future generations in mind.</p>
 					</div>
@@ -30,15 +30,16 @@ get_header(); ?>
 			</div>
 
 			<div class="row">
-				<div class="col-md-6">
-					<div class="about-block block-text">
-						<p>You want a team of people who are consistent and follow through on their commitments to achieve your design and performance goals. Disregarding conventional standards, your search has led you here and we are excited to learn about your project!</p>
-					</div>
+			<div class="col-sm-6 col-sm-push-6">
+				<div class="about-block block-img" style="background-image:url('<?php echo get_template_directory_uri(); ?>/images/about-you.jpg');">
 				</div>
-				<div class="col-md-6">
-					<div class="about-block block-img" style="background:url('<?php echo get_template_directory_uri(); ?>/images/about-you.jpg');">
-					</div>
+			</div>
+			<div class="col-sm-6 col-sm-pull-6">
+				<div class="about-block block-text">
+					<p>You want a team of people who are consistent and follow through on their commitments to achieve your design and performance goals. Disregarding conventional standards, your search has led you here and we are excited to learn about your project!</p>
 				</div>
+			</div>
+				
 			</div>
 
 		</section>

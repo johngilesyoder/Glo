@@ -7062,6 +7062,9 @@ a img.aligncenter {
 .page-content img {
   max-width: 100%;
 }
+.page-content iframe {
+  max-width: 100%;
+}
 @media (max-width: 767px) {
   .page-title {
     padding: 15px 0;
@@ -7268,8 +7271,26 @@ a img.aligncenter {
   -moz-transform: translateY(-50%);
   transform: translateY(-50%);
 }
+.page-template-page-about .block-img {
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 .page-template-page-about .section-title {
   text-transform: uppercase;
   letter-spacing: 2px;
   padding: 0 0 15px;
+}
+@media (max-width: 767px) {
+  .page-template-page-about .about-block {
+    height: 300px;
+  }
+  .page-template-page-about .block-text {
+    height: auto;
+  }
+  .page-template-page-about .block-text p {
+    transform: none;
+    position: static;
+    width: 100%;
+    text-align: left;
+  }
 }

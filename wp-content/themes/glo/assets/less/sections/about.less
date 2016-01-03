@@ -16,6 +16,10 @@
       .vertical-center();
     }
   }
+  .block-img {
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
   .section-title {
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -37,7 +41,24 @@
 @media (min-width: 768px) and (max-width: 991px) {}
 
 // Up to tablet
-@media (max-width: 767px) {}
+@media (max-width: 767px) {
+
+  .page-template-page-about {
+    .about-block {
+      height: 300px;
+    }
+    .block-text {
+      height: auto;
+      p {
+        transform: none;
+        position: static;
+        width: 100%;
+        text-align: left;
+      }
+    }
+  }
+
+}
 
 // Up to landscape phone
 @media (max-width: 480px) {}
