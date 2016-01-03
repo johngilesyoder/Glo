@@ -41,7 +41,7 @@ get_header(); ?>
   						<div class="product-excerpt">
                 <?php the_excerpt(); ?>
               </div>
-  						<a class="btn btn-primary" href="<?php the_permalink(); ?>">View <?php the_title(); ?></a>
+  						<a class="btn btn-primary" href="<?php the_permalink(); ?>">View <?php the_title(); ?> &nbsp;&rarr;</a>
   					</div>
           </div>
 					<?php endwhile; else: ?>
