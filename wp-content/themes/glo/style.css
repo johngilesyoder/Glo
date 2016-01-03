@@ -7572,3 +7572,43 @@ img {
   overflow: hidden;
   border: 1px solid #ccc;
 }
+.page-template-page-products .page-title {
+  margin-bottom: 0;
+}
+.page-template-page-products .product-line {
+  margin-bottom: 90px;
+}
+.page-template-page-products .product-line-hero {
+  height: 650px;
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  text-align: center;
+  background: #000;
+  margin-bottom: 30px;
+}
+.page-template-page-products .product-line-hero .product-line-img {
+  height: 100%;
+  width: 100%;
+  opacity: .8;
+  background-position: 50% 50%;
+  background-attachment: fixed;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.page-template-page-products .product-line-hero h2 {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  transform: translateY(-50%);
+  margin: 0;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 28px;
+  font-weight: 700;
+}
