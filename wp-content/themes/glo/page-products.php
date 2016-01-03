@@ -21,7 +21,7 @@ get_header(); ?>
   ?>
   <div class="product-line">
   	<div class="product-line-hero">
-      <div class="product-line-img" style="background-image:url('http://placehold.it/1200x600'); background-position: center; background-size: cover;"></div>
+      <div class="product-line-img" style="background-image:url('<?php echo get_template_directory_uri(); ?>/images/product/<?php echo $term->term_id; ?>');"></div>
       <h2><?php echo $term->name; ?></h2>
   	</div>
   	<div class="product-description">
@@ -36,10 +36,14 @@ get_header(); ?>
 					?>
 					<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 					<!-- <a href="<?php the_permalink() ?>" rel="bookmark" class="product-link"><?php the_title(); ?></a> -->
-					<div class="product-description">
-						<?php the_excerpt(); ?>
-						<a class="btn-link" href="<?php the_permalink(); ?>">View <?php the_title(); ?></a>
-					</div>
+					<div class="product">
+            <div class="product-description">
+  						<div class="product-excerpt">
+                <?php the_excerpt(); ?>
+              </div>
+  						<a class="btn btn-primary" href="<?php the_permalink(); ?>">View <?php the_title(); ?></a>
+  					</div>
+          </div>
 					<?php endwhile; else: ?>
 					<?php endif; ?>
 				</div>
