@@ -7546,3 +7546,29 @@ img {
     margin-bottom: 15px;
   }
 }
+.page-template-page-calculator #calculator p {
+  font-size: 30px;
+  text-align: center;
+  line-height: 1.5em;
+}
+.page-template-page-calculator select {
+  width: auto;
+  margin: 0 10px;
+  vertical-align: middle;
+  display: inline-block;
+}
+.page-template-page-calculator input {
+  width: 120px;
+  color: #ee7522;
+  display: inline-block;
+  margin-left: 10px;
+  margin-bottom: 0;
+  vertical-align: middle;
+}
+.page-template-page-calculator .styled-select {
+  display: inline-block;
+  width: 140px;
+  height: 34px;
+  overflow: hidden;
+  border: 1px solid #ccc;
+}

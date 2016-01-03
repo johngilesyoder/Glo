@@ -5,51 +5,6 @@
 
 get_header(); ?>
 
-<style type="text/css">
-
-#calculator p {font-size: 30px;}
-	
-select {
-   background: transparent;
-   width: auto;
-   padding: 5px;
-   font-size: 30px;
-   line-height: 1;
-   border: 0;
-   border-radius: 0;
-   height: 34px;
-   -webkit-appearance: none;
-   color: #ee7624;
- }
-
- input {
-   background: transparent;
-   width: 120px;
-   padding: 5px;
-   font-size: 30px;
-   line-height: 1;
-   border: 0;
-   border-radius: 0;
-   -webkit-appearance: none;
-   color: #ee7624;
-   transition: .3s linear all;
- }
-
- input:focus {
- 	outline: none;
- 	background-color: #f2f2f2;
- }
-
- .styled-select {
-   display: inline-block;
-   width: 140px;
-   height: 34px;
-   overflow: hidden;
-   border: 1px solid #ccc;
- }
-
-</style>
-
 <div class="page-title">
   <div class="container">
     <h1><?php the_title(); ?></h1>
@@ -60,9 +15,9 @@ select {
   <div class="container">
 		<div id="calculator">
 			<form method="POST">
-				<p style="text-align: center;">
+				<p>
 				I want to calculate 
-				<select v-model="calc.equation">
+				<select v-model="calc.equation" class="form-control">
 					<option value="R-Value" selected="selected">R-Value</option>
 					<option value="U-Value">U-Value</option>
 				</select>
