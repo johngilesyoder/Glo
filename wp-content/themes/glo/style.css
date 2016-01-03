@@ -7592,7 +7592,6 @@ img {
   width: 100%;
   opacity: .8;
   background-position: 50% 50%;
-  background-attachment: fixed;
   background-size: cover;
   position: absolute;
   top: 0;
