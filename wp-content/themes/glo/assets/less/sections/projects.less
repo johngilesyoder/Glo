@@ -1,0 +1,90 @@
+// projects.less
+// -----------------------------------------------------------------
+
+
+.project-post {
+  margin-bottom: 60px;
+  display: block;
+  text-decoration: none;
+  &:hover {
+    text-decoration: none;
+    .view-more {
+      text-decoration: underline;
+    }
+  }
+  &.no-img {
+    .post-image {
+      background: lighten(tan, 29%);
+      position: relative;
+      .vertical-center-parent();
+      text-align: center;
+      &:after {
+        content: 'Under Construction';
+        .vertical-center();
+        text-transform: uppercase;
+        font-weight: 600;
+        letter-spacing: 2px;
+        color: lighten(tan, 17%);
+      }
+    }
+  }
+  .post-image {
+    background-size: cover;
+    background-position: 50% 50%;
+    height: 180px;
+    margin-bottom: 15px;
+  }
+  .post-title {
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 400;
+    height: 38px;
+    color: #333;
+    line-height: 1.25em;
+  }
+  .view-more {
+
+  }
+}
+
+
+// Media Queries
+// --------------------------------------------------
+
+// Large desktop and up
+@media (min-width: 1200px) {}
+
+// Desktop to large desktop
+@media (min-width: 992px) and (max-width: 1199px) {}
+
+// Tablet to desktop
+@media (min-width: 768px) and (max-width: 991px) {
+
+  .project-post {
+    .post-image {
+      height: 350px;
+    }
+    .post-title {
+      height: auto;
+    }
+  }
+
+}
+
+// Up to tablet
+@media (max-width: 767px) {
+
+  .project-post {
+    .post-image {
+      height: 350px;
+    }
+    .post-title {
+      height: auto;
+    }
+  }
+
+}
+
+// Up to landscape phone
+@media (max-width: 480px) {}

@@ -9,7 +9,7 @@ get_header(); ?>
 
 <div class="page-title">
 	<div class="container">
-		<h2>Blog</h2>
+		<h2>Projects</h2>
 	</div>
 </div>
 

@@ -5,13 +5,14 @@
 
 get_header(); ?>
 
-		<div class="title-belt">
-			<div class="row">
-				<div class="twelve columns">
-					<h1 class="entry">Testimonials</h1> 					
-				</div>
-			</div>
-		</div>
+<div class="page-title">
+	<div class="container">
+		<h1><?php the_title(); ?></h1>
+	</div>
+</div>
+
+<main class="page-wrapper">
+	<div class="container">
 
 	<?php
 
@@ -29,19 +30,12 @@ get_header(); ?>
 
 			?>
 
-				<div class="row">
+				<blockquote class="testimonial">
 
-					<div class="twelve columns testimonial">
+					<?php the_content(); ?>
 
-						<?php the_content(); ?>
-
-						<span class="customer">-<?php the_title(); ?></span>
-						<span class="quote-before">&#8220;</span>
-						<span class="quote-after">&#8221;</span>
-					
-					</div>
-				
-				</div>
+					<footer><cite><?php the_title(); ?></cite></footer>
+				</blockquote>
 
 			<?php
 				
@@ -53,7 +47,8 @@ get_header(); ?>
 		wp_reset_postdata();
 
 	?>
-
+	</div>
+</main>
 
 
 
