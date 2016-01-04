@@ -27,7 +27,10 @@
 						    <a href="http://www.houzz.com/pro/glowindows/glo-european-windows" class="social-link" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/houzz.svg"></a>
 					    </div>
 					    <p><strong>Glo Windows</strong><br>1001 S 4th Street W, Suite 1<br>Missoula, Montana 59801</p>
-					    <p>(406) 721-2741</p>
+					    <p>
+					    	<a href="mailto:hello@glowindows.com">hello@glowindows.com</a><br>
+					    	(406) 721-2741
+					    </p>
 							<?php dynamic_sidebar( 'footer-4' ); ?>
 						</div>
 					</div>
