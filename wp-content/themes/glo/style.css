@@ -7827,4 +7827,17 @@ fieldset[disabled] .product-quote .quote-btn.active {
     width: 50%;
     margin: 0 auto 60px;
   }
+  .single-product .nav-tabs li {
+    float: none;
+    margin-bottom: 0;
+  }
+  .single-product .nav-tabs li a {
+    border: 0;
+    border-radius: 3px;
+  }
+  .single-product .nav-tabs li.active a {
+    border: 0;
+    background: #ee7522;
+    color: #fff;
+  }
 }
