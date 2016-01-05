@@ -5,6 +5,14 @@
 
 get_header(); ?>
 
+<?php
+	$about_you	 = types_render_field("about-you-home", array("raw"=>"true"));
+	$about_us 	 = types_render_field("about-us-home", array("raw"=>"true"));
+	$seo_block_1 = types_render_field("seo-block-1", array("raw"=>"true"));
+	$seo_block_2 = types_render_field("seo-block-2", array("raw"=>"true"));
+	$seo_block_3 = types_render_field("seo-block-3", array("raw"=>"true"));
+?>
+
 <div class="container">
 
 	<div class="row">
@@ -12,8 +20,7 @@ get_header(); ?>
 			<div class="home-block home-block-text home-about-you">
 				<div class="home-block-content">
 					<h2 class="home-block-title"><a href="/about-us/">About You <i></i></a></h2>
-					<p>You believe the environment matters and you want to leave the next generation with something to be proud of.</p>
-					<p>You don't want to sacrifice quality for the bottom line and you believe the products you buy shouldn't either.</p>
+					<?php echo $about_you_home; ?>
 				</div>
 			</div>
 			<a href="/products" class="home-block home-block-img home-products">
@@ -39,8 +46,7 @@ get_header(); ?>
 			<div class="home-block home-block-text home-about-us">
 				<div class="home-block-content">
 					<h2 class="home-block-title"><a href="/about-us/">About Us <i></i></a></h2>
-					<p>We are passionate about future generations realizing the benefits of your educated selection of Glo windows today.  Elegant, efficient, durable.  The value of our windows is timeless.</p>
-					<p>Glo Windows is consumed with innovation. Our high performance windows, doors and wall linings exceed energy efficiency performance standards.</p>
+					<?php echo $about_us_home; ?>
 				</div>
 			</div>
 		</div>
@@ -62,16 +68,15 @@ get_header(); ?>
 
 	<div class="row">
 		<div class="col-md-4">
-			<?php types_render_field("seo-block-1", array("raw"=>"true")); ?>
+			<?php echo $seo_block_1; ?>
 		</div>
 		<div class="col-md-4">
-			<?php types_render_field("seo-block-2", array("raw"=>"true")); ?>
+			<?php echo $seo_block_2; ?>
 		</div>
 		<div class="col-md-4">
-			<?php types_render_field("seo-block-3", array("raw"=>"true")); ?>
+			<?php echo $seo_block_3; ?>
 		</div>
 	</div>
 </div>
-
 
 <?php get_footer(); ?>
