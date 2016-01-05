@@ -43,12 +43,14 @@
 
 
 		<!-- QUOTE MODAL -->
-		<div class="modal" id="modal1">
-		  <div class="content">
-		    <a class="close switch" gumby-trigger="|#modal1"><i class="icon-cancel" /></i></a>
-		    <div class="row">
-		      <div class="ten columns centered text-center">
-		        <h2>Request A Quote</h2>
+		<div class="modal fade" id="quoteModal">
+		  <div class="modal-dialog" role="document">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+		        <h4 class="modal-title" id="myModalLabel">Request a quote</h4>
+		      </div>
+		      <div class="modal-body">
 		        <?php echo do_shortcode( '[gravityform id="1" name="Request A Quote"]' ); ?>
 		      </div>
 		    </div>
