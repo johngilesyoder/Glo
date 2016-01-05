@@ -62,13 +62,13 @@ get_header(); ?>
 
 	<div class="row">
 		<div class="col-md-4">
-			<?php types_render_field("seo-block-1", array()); ?>
+			<?php types_render_field("seo-block-1", array("raw"=>"true")); ?>
 		</div>
 		<div class="col-md-4">
-			<?php types_render_field("seo-block-2", array()); ?>
+			<?php types_render_field("seo-block-2", array("raw"=>"true")); ?>
 		</div>
 		<div class="col-md-4">
-			<?php types_render_field("seo-block-3", array()); ?>
+			<?php types_render_field("seo-block-3", array("raw"=>"true")); ?>
 		</div>
 </div>
 
