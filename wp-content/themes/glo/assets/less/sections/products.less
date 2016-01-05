@@ -1,0 +1,103 @@
+// products.less
+// -----------------------------------------------------------------
+
+
+.page-template-page-products {
+  .page-title {
+    margin-bottom: 0;
+  }
+  .product-line {
+    margin-bottom: 90px;
+  }
+  .product-line-hero {
+    height: 650px;
+    .vertical-center-parent();
+    text-align: center;
+    background: #000;
+    margin-bottom: 30px;
+    .product-line-img {
+      height: 100%;
+      width: 100%;
+      opacity: .8;
+      background-position: 50% 50%;
+      background-size: cover;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+    }
+    h2 {
+      .vertical-center();
+      margin: 0;
+      color: #fff;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      font-size: 28px;
+      font-weight: 700;
+
+      text-shadow: 0 1px 30px #000;
+      word-spacing: -0.15em;
+      &:after {
+        display: block;
+        position: absolute;
+        width: 15%;
+        margin: auto;
+        left: 0;
+        right: 0;
+        bottom: -20px;
+        border-bottom: 2px solid @brand-primary;
+        content: '';
+      }
+    }
+  }
+  .product-excerpt {
+    margin-bottom: 30px;
+    h2 {
+
+    }
+  }
+  .btn-primary {
+    border-radius: 2px;
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+  .product {
+    margin-bottom: 60px;
+  }
+}
+
+
+// Media Queries
+// --------------------------------------------------
+
+// Large desktop and up
+@media (min-width: 1200px) {}
+
+// Desktop to large desktop
+@media (min-width: 992px) and (max-width: 1199px) {}
+
+// Tablet to desktop
+@media (min-width: 768px) and (max-width: 991px) {}
+
+// Up to tablet
+@media (max-width: 767px) {
+
+  .page-template-page-products {
+    .product-line {
+      margin-bottom: 0;
+    }
+    .product-line-hero {
+      height: 350px;
+    }
+    .product-excerpt {
+      h2 {
+        font-size: 28px;
+      }
+    }
+  }
+
+}
+
+// Up to landscape phone
+@media (max-width: 480px) {}

@@ -99,7 +99,7 @@ if(!function_exists("create_table_albums"))
             description TEXT ,
             album_order INTEGER(10),
             PRIMARY KEY (album_id)
-            ) ENGINE=MyISAM  DEFAULT CHARSET=utf8 COLLATE utf8_general_ci";
+            ) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE utf8_general_ci";
 		dbDelta($sql);
 	}
 }
@@ -121,7 +121,7 @@ if(!function_exists("create_table_album_pics"))
             pic_name TEXT NOT NULL,
             album_cover INTEGER(1) NOT NULL,
             PRIMARY KEY(pic_id)
-            ) ENGINE=MyISAM  DEFAULT CHARSET=utf8 COLLATE utf8_general_ci";
+            ) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE utf8_general_ci";
 		dbDelta($sql);
 	}
 }
@@ -135,7 +135,7 @@ if(!function_exists("create_table_album_settings"))
             setting_key VARCHAR(100) NOT NULL,
             setting_value TEXT NOT NULL,
             PRIMARY KEY (setting_id)
-            ) ENGINE=MyISAM  DEFAULT CHARSET=utf8 COLLATE utf8_general_ci";
+            ) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE utf8_general_ci";
 		dbDelta($sql);
 
 		include (GALLERY_BK_PLUGIN_DIR . "/lib/include_settings.php");

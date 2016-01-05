@@ -1,0 +1,123 @@
+// product.less
+// -----------------------------------------------------------------
+
+
+.single-product {
+  .product-top {
+    margin-bottom: 60px;
+  }
+  .product-image {
+    text-align: center;
+    img {
+
+    }
+  }
+  .page-content {
+    ul {
+      .list-unstyled();
+      li {
+        margin-right: 8px;
+        display: inline-block;
+        &:after {
+          content: ',';
+        }
+        &:last-child {
+          &:after {
+            content: '';
+          }
+        }
+        a {
+
+        }
+      }
+    }
+  }
+  .nav-tabs {
+    margin-bottom: 30px;
+    li {
+      a {
+        font-weight: 700;
+        font-size: 14px;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+      }
+    }
+  }
+  .tab-content {
+    li {
+      margin-bottom: 10px;
+    }
+  }
+}
+
+
+// Media Queries
+// --------------------------------------------------
+
+// Large desktop and up
+@media (min-width: 1200px) {}
+
+// Desktop to large desktop
+@media (min-width: 992px) and (max-width: 1199px) {}
+
+// Tablet to desktop
+@media (min-width: 768px) and (max-width: 991px) {
+
+  .single-product {
+    .product-top {
+      margin-bottom: 30px;
+    }
+    .product-meta {
+      margin-top: 30px;
+      margin-bottom: 30px;
+    }
+    .product-image {
+      img {
+        width: 50%;
+        margin: 0 auto 60px;
+      }
+    }
+  }
+
+}
+
+// Up to tablet
+@media (max-width: 767px) {
+
+  .single-product {
+    .product-top {
+      margin-bottom: 30px;
+    }
+    .product-meta {
+      margin-top: 30px;
+      margin-bottom: 30px;
+    }
+    .product-image {
+      img {
+        width: 50%;
+        margin: 0 auto 60px;
+      }
+    }
+    .nav-tabs {
+      li {
+        float: none;
+        margin-bottom: 0;
+        a {
+          border: 0;
+          border-radius: 3px;
+        }
+        &.active {
+          a {
+            border: 0;
+            background: @brand-primary;
+            color: #fff;
+          }
+        }
+      }
+    }
+  }
+
+}
+
+// Up to landscape phone
+@media (max-width: 480px) {}

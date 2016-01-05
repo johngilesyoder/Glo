@@ -14,40 +14,37 @@ get_header(); ?>
 
 <?php while ( have_posts() ) : the_post(); ?>
 
-
 	<?php $post_id = get_the_ID(); ?>
 	
-	<?php if ( has_post_thumbnail() ) { ?>
+	<?php if ( has_post_thumbnail() ) : ?>
 
 		<?php $thumb = wp_get_attachment_url( get_post_thumbnail_id($post->ID) ); ?>
 	
-		<div class="hero">
+		<div class="page-hero">
+			<div class="page-hero-img" style="background-image: url('<?php echo $thumb; ?>');"></div>
 			<h1><?php the_title(); ?></h1>
-			<img src="<?php echo $thumb; ?>">
 		</div>
 
-	<?php } else { ?>
+	<?php else : ?>
 
-		<div class="title-belt">
-			<div class="row">
-				<div class="twelve columns">
-					<?php the_title( '<h1 class="entry">', '</h1>' ); ?>
-				</div>
+		<div class="page-title">
+			<div class="container">
+				<h1><?php the_title(); ?></h1>
 			</div>
 		</div>
 
-	<?php } ?>
+	<?php endif; ?>
 
+	<main class="page-wrapper">
+		<div class="container">
+			<div class="page-content" data-target="content">
 
-	<div class="row content" data-target="content">
-		<div class="twelve columns">
-			<?php get_template_part( 'template-parts/content', 'page' ); ?>
-		</div><!-- .twelve -->
-	</div><!-- .content -->
+				<?php get_template_part( 'template-parts/content', 'page' ); ?>
+
+			</div>
+		</div>
+	</main>
 
 <?php endwhile; // End of the loop. ?>
-
-
-
 
 <?php get_footer(); ?>

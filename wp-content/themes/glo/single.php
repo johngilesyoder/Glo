@@ -7,25 +7,31 @@
 
 get_header(); ?>
 
-	<div class="row content">
-		<div class="twelve columns">
-			<?php while ( have_posts() ) : the_post(); ?>
-			
-				<h1><?php the_title(); ?></h1>
+<div class="page-title">
+	<div class="container">
+		<h2>Blog</h2>
+	</div>
+</div>
 
-				<?php the_content(); ?>
+<main class="page-wrapper">
+	<div class="container">
+		<div class="page-content">
+		<?php while ( have_posts() ) : the_post(); ?>
+		
+			<h1 class="post-title"><?php the_title(); ?></h1>
 
+			<?php the_content(); ?>
 
-				<?php
-					// If comments are open or we have at least one comment, load up the comment template.
-					if ( comments_open() || get_comments_number() ) :
-						comments_template();
-					endif;
-				?>
+			<?php
+				// If comments are open or we have at least one comment, load up the comment template.
+				//if ( comments_open() || get_comments_number() ) :
+				//	comments_template();
+				//endif;
+			?>
 
 		<?php endwhile; // End of the loop. ?>
 		</div>
 	</div>
+</main>
 
 <?php get_footer(); ?>
-

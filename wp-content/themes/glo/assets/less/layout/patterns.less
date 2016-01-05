@@ -1,0 +1,102 @@
+// patterns.less
+// -----------------------------------------------------------------
+
+.container-fluid {
+  padding: 0 30px;
+}
+.vertical-center {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.vertical-center-parent {
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+
+img {
+  max-width: 100%;
+}
+
+.product-circle {
+  display: block;
+  background-color: #6b6b6b;
+  border-radius: 50%;
+  border: 1px solid #6b6b6b;
+  color: white;
+  height: 105px; 
+  width: 105px;
+  padding: 0 3px 0 3px;
+  line-height: 106px;
+  font-size: 40px;
+  text-align: center;
+  margin: auto;
+  margin-top: 10px;
+  transition: .3s linear all;
+}
+
+.rvalue {
+  text-align: center;
+  border-top: 1px solid #ccc;
+  padding-top: 20px;
+  margin-top: 20px;
+  p {
+    font-weight: 600;
+    margin: 0;
+  }
+  span {
+    font-size: 60px;
+    font-weight: 600;
+    color: #ee7624; 
+  }
+}
+
+.product-quote {
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  padding: 30px;
+  background: lighten(@brand-primary, 40%);
+  .quote-btn {
+    .btn-primary();
+    font-size: 21px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 12px 30px;
+  }
+}
+
+
+// Media Queries
+// --------------------------------------------------
+
+// Large desktop and up
+@media (min-width: 1200px) {}
+
+// Desktop to large desktop
+@media (min-width: 992px) and (max-width: 1199px) {}
+
+// Tablet to desktop
+@media (min-width: 768px) and (max-width: 991px) {
+
+  .container-fluid {
+    padding: 0 15px;
+  }
+
+}
+
+// Up to tablet
+@media (max-width: 767px) {
+
+  .container-fluid {
+    padding: 0 15px;
+  }
+    
+}
+
+// Up to landscape phone
+@media (max-width: 480px) {}

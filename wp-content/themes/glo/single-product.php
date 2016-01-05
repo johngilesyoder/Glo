@@ -6,155 +6,151 @@
  */
 
 get_header(); ?>
+
 <?php while ( have_posts() ) : the_post(); ?>
 
 <?php $post_id = get_the_ID(); ?>
 	
-	<?php if ( has_post_thumbnail() ) { ?>
+	<?php if ( has_post_thumbnail() ) : ?>
 
-		<?php 
-			$thumb = wp_get_attachment_url( get_post_thumbnail_id($post->ID) ); 
-		?>
-	
-		<div class="hero">
+		<?php $thumb = wp_get_attachment_url( get_post_thumbnail_id($post->ID) ); ?>
+		
+		<div class="page-hero">
+			<div class="page-hero-img" style="background-image: url('<?php echo $thumb; ?>');"></div>
 			<h1><?php longName(); ?></h1>
-			<img src="<?php echo $thumb; ?>">
 		</div>
 
-	<?php } else { ?>
+	<?php else : ?>
 
-		<div class="title-belt">
-			<div class="row">
-				<div class="twelve columns">
-					<?php the_title( '<h1 class="entry">', '</h1>' ); ?> 
-					
-					<?php
-						
-						$terms = get_the_terms($post->ID, 'product-line');
-						
-						foreach ($terms as $taxindex => $taxitem) {
-							echo '<p>' . $taxitem->name . '</p>';
-						}
-					
-					?>
-					
+		<div class="page-title">
+			<div class="container">
+				<h1><?php longName(); ?></h1>
+			</div>
+		</div>
+
+	<?php endif; ?>
+
+<main class="page-wrapper">
+	<div class="container">
+		<div class="row product-top content" data-target="product-top">
+			<div class="col-md-3 col-md-offset-1 product-image">
+				<img src="<?php imageOne();?>"/>
+			</div>
+			<div class="col-md-3 col-md-offset-1 product-image">
+				<img src="<?php imageTwo();?>"/>
+			</div>
+			<div class="col-md-3 col-md-offset-1 product-meta">
+				<div class="product-circle">
+					<?php the_title(); ?> 
+				</div>
+				<div class="rvalue">
+					<p>R-VALUE:</p> 
+					<span><?php rvalue(); ?></span>
 				</div>
 			</div>
 		</div>
-
-	<?php } ?>
-
-	<div class="row product-top content" data-target="product-top">
-	
-		<div class="one column"></div>
-
-		<div class="three columns">
-			<img src="<?php imageOne();?>"/>
-		</div>
-
-		<div class="one column"></div>
-
-		<div class="three columns">
-			<img src="<?php imageTwo();?>"/>
-		</div>
-
-		<div class="one column"></div>
-
-		<div class="three columns">
-			
-			<div class="product-circle">
-				<?php the_title(); ?> 
-			</div>
-
-			<div class="rvalue">
-				<p>R-VALUE:</p> 
-				<span><?php rvalue(); ?></span>
-			</div>
-
-		</div>
-	
-	</div>
-
-	<div class="row content">
-		<div class="twelve columns">
+		<div class="page-content">
 			<?php the_content(); ?>
-			<div class="product-quote">
-				<a href="#" class="switch quote-btn" gumby-trigger="#modal1">Request A Quote</a>
-			</div>
 		</div>
-	</div>
+		<div class="product-quote">
+			<a href="#" class="switch quote-btn" gumby-trigger="#modal1">Request A Quote</a>
+		</div>
+				
+		<section class="product-tabs">
+			<!-- Nav tabs -->
+	    <ul class="nav nav-tabs">
 
-	<div class="row content">
-		<div class="twelve columns">
-			
-			<section class="tabs">
+			<?php if ( get_post_meta($post_id, 'wpcf-door-styles', true) != '' ) : ?>
+      	
+    	<li class="active"><a href="#door-styles" data-toggle="tab">Door Styles</a></li>
+    	
+    	<?php if ( get_post_meta($post_id, 'wpcf-colors', true) != '' ) : ?>
+    		
+    	<li><a href="#colors" data-toggle="tab">Colors</a></li>
+    	
+    	<?php endif; ?>
+      
+      <?php else : ?>
 
-			    <ul class="tab-nav">
-			        
-			        <li class="active"><a href="#">Specs</a></li>
+    	<?php if ( get_post_meta($post_id, 'wpcf-colors', true) != '' ) : ?>
+    		
+    	<li class="active"><a href="#colors" data-toggle="tab">Colors</a></li>
+    	
+    	<?php endif; ?>
+      	
+	    <? endif; ?>
 
-			        <?php if ( get_post_meta($post_id, 'wpcf-colors', true) != '' ) { ?>
-			        	<li><a href="#">Colors</a></li>
-			        <?php } ?>
+      <?php if ( get_post_meta($post_id, 'wpcf-wood', true) != '' ) { ?>
+      	<li><a href="#wood" data-toggle="tab">Wood</a></li>
+      <?php } ?>
 
-			        <?php if ( get_post_meta($post_id, 'wpcf-wood', true) != '' ) { ?>
-			        	<li><a href="#">Wood</a></li>
-			        <?php } ?>
+      <?php if ( get_post_meta($post_id, 'wpcf-handles', true) != '' ) { ?>
+        <li><a href="#window-handles" data-toggle="tab">Window Handles</a></li>
+			<?php } ?>
 
-			        <?php if ( get_post_meta($post_id, 'wpcf-handles', true) != '' ) { ?>
-				        <li><a href="#">Handles</a></li>
-					<?php } ?>
+			<?php if ( get_post_meta($post_id, 'wpcf-door-handles', true) != '' ) { ?>
+		  	<li><a href="#door-handles" data-toggle="tab">Door Handles</a></li>
+			<?php } ?>
 
-					<?php if ( get_post_meta($post_id, 'wpcf-door-handles', true) != '' ) { ?>
-				        <li><a href="#">Door Handles</a></li>
-					<?php } ?>
+			<li><a href="#specs" data-toggle="tab">Specs</a></li>
 
-					<?php if ( get_post_meta($post_id, 'wpcf-door-styles', true) != '' ) { ?>
-			        	<li><a href="#">Door Styles</a></li>
-			        <?php } ?>
+	    </ul>
 
-			    </ul>
+	    <!-- Tab panes -->
+	    <div class="tab-content">
 
-			    <div id="specs" class="tab-content active">
-			        <?php theSpecs(); ?>
-			    </div>
+  			<?php if ( get_post_meta($post_id, 'wpcf-door-styles', true) != '' ) : ?>
+  	    
+  	    <div id="door-styles" class="tab-pane fade in active">
+  	      <img src="<?php doorStyles(); ?>">
+  	    </div>
+		    
+		    <?php if ( get_post_meta($post_id, 'wpcf-colors', true) != '' ) : ?>
+        
+        <div id="colors" class="tab-pane fade">
+		      <img src="<?php colorSwatches(); ?>">
+		    </div>
+		    
+		    <?php endif; ?>
 
-			    <?php if ( get_post_meta($post_id, 'wpcf-colors', true) != '' ) { ?>
-		        	<div id="colors" class="tab-content">
-				        <img src="<?php colorSwatches(); ?>">
-				    </div>
-			    <?php } ?>
+  			<?php else : ?>
 
-			    
-			    <?php if ( get_post_meta($post_id, 'wpcf-wood', true) != '' ) { ?>
-				    <div id="wood" class="tab-content">
-				        <img src="<?php woodSwatches(); ?>">
-				    </div>
+  			<div id="colors" class="tab-pane fade in active">
+		      <img src="<?php colorSwatches(); ?>">
+		    </div>
+
+  			<?php endif; ?>
+
+			  <?php if ( get_post_meta($post_id, 'wpcf-wood', true) != '' ) { ?>
+		    <div id="wood" class="tab-pane fade">
+		    	<img src="<?php woodSwatches(); ?>">
+		    </div>
 				<?php } ?>
 			    
-			    <?php if ( get_post_meta($post_id, 'wpcf-handles', true) != '' ) { ?>
-				    <div id="handles" class="tab-content">
-				        <img src="<?php handles(); ?>">
-				    </div>
+		    <?php if ( get_post_meta($post_id, 'wpcf-handles', true) != '' ) { ?>
+		    <div id="window-handles" class="tab-pane fade">
+		    	<img src="<?php handles(); ?>">
+		    </div>
 				<?php } ?>
 
 				<?php if ( get_post_meta($post_id, 'wpcf-door-handles', true) != '' ) { ?>
-				    <div id="doorhandles" class="tab-content">
-				        <img src="<?php doorHandles(); ?>">
-				    </div>
+		    <div id="door-handles" class="tab-pane fade">
+		      <img src="<?php doorHandles(); ?>">
+		    </div>
 				<?php } ?>
 
-				<?php if ( get_post_meta($post_id, 'wpcf-door-styles', true) != '' ) { ?>
-				    <div id="doorstyles" class="tab-content">
-				        <img src="<?php doorStyles(); ?>">
-				    </div>
-				<?php } ?>
+				<div id="specs" class="tab-pane fade">
+					<?php theSpecs(); ?>
+	    	</div>
 
-			</section>
+			</div>
 
-		</div>
+			</div>
+		</section>
+
+	<?php endwhile; // End of the loop. ?>
+
 	</div>
-
-<?php endwhile; // End of the loop. ?>
+</main>
 
 <?php get_footer(); ?>

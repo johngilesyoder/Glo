@@ -4,7 +4,7 @@
  Plugin URI: http://tech-banker.com
  Description: Gallery Bank is an easy to use Responsive WordPress Gallery Plugin for photos, videos, galleries and albums.
  Author: Tech Banker
- Version: 3.0.335
+ Version: 3.0.450
  Author URI: http://tech-banker.com
  License: GPLv3 or later
 */
@@ -92,7 +92,7 @@ function add_gallery_bank_icon($meta = TRUE)
     if (!is_user_logged_in()) {
         return;
     }
-    
+
 	if(is_super_admin())
 	{
 		$gb_role = "administrator";
@@ -111,35 +111,35 @@ function add_gallery_bank_icon($meta = TRUE)
 		        height=\"25\" style=\"vertical-align:text-top; margin-right:5px;\" />Gallery Bank"),
 		        "href" => __(site_url() . "/wp-admin/admin.php?page=gallery_bank"),
 		    ));
-		
+
 		    $wp_admin_bar->add_menu(array(
 		        "parent" => "gallery_bank_links",
 		        "id" => "gallery_dashboard_links",
 		        "href" => site_url() . "/wp-admin/admin.php?page=gallery_bank",
 		        "title" => __("Dashboard", gallery_bank))
 		    );
-			
+
 			$wp_admin_bar->add_menu(array(
 		        "parent" => "gallery_bank_links",
 		        "id" => "shortcode_links",
 		        "href" => site_url() . "/wp-admin/admin.php?page=gallery_bank_shortcode",
 		        "title" => __("Short-Codes", gallery_bank))
 		    );
-			
+
 		    $wp_admin_bar->add_menu(array(
 		        "parent" => "gallery_bank_links",
 		        "id" => "sorting_links",
 		        "href" => site_url() . "/wp-admin/admin.php?page=gallery_album_sorting",
 		        "title" => __("Album Sorting", gallery_bank))
 		    );
-		
+
 		    $wp_admin_bar->add_menu(array(
 		        "parent" => "gallery_bank_links",
 		        "id" => "global_settings_links",
 		        "href" => site_url() . "/wp-admin/admin.php?page=global_settings",
 		        "title" => __("Global Settings", gallery_bank))
 		    );
-		
+
 			$wp_admin_bar->add_menu(array(
 				"parent" => "gallery_bank_links",
 				"id" => "gallery_auto_update_links",
@@ -158,21 +158,21 @@ function add_gallery_bank_icon($meta = TRUE)
 		        "href" => site_url() . "/wp-admin/admin.php?page=gallery_bank_system_status",
 		        "title" => __("System Status", gallery_bank))
 		    );
-		    
+
 		    $wp_admin_bar->add_menu(array(
 		    		"parent" => "gallery_bank_links",
 		    		"id" => "gallery_bank_recommended_plugins_links",
 		    		"href" => site_url() . "/wp-admin/admin.php?page=gallery_bank_recommended_plugins",
 		    		"title" => __("Recommendations", gallery_bank))
 		    );
-		
+
 			$wp_admin_bar->add_menu(array(
 		        "parent" => "gallery_bank_links",
 		        "id" => "purchase_pro_version_links",
 		        "href" => site_url() . "/wp-admin/admin.php?page=gallery_bank_purchase",
 		        "title" => __("Premium Editions", gallery_bank))
 		    );
-			
+
 			$wp_admin_bar->add_menu(array(
 					"parent" => "gallery_bank_links",
 					"id" => "gallery_bank_other_services_links",
@@ -187,70 +187,70 @@ function add_gallery_bank_icon($meta = TRUE)
 		        height=\"25\" style=\"vertical-align:text-top; margin-right:5px;\" />Gallery Bank"),
 		        "href" => __(site_url() . "/wp-admin/admin.php?page=gallery_bank"),
 		    ));
-		
+
 		    $wp_admin_bar->add_menu(array(
 		        "parent" => "gallery_bank_links",
 		        "id" => "gallery_dashboard_links",
 		        "href" => site_url() . "/wp-admin/admin.php?page=gallery_bank",
 		        "title" => __("Dashboard", gallery_bank))
 		    );
-			
+
 			$wp_admin_bar->add_menu(array(
 		        "parent" => "gallery_bank_links",
 		        "id" => "shortcode_links",
 		        "href" => site_url() . "/wp-admin/admin.php?page=gallery_bank_shortcode",
 		        "title" => __("Short-Codes", gallery_bank))
 		    );
-			
+
 		    $wp_admin_bar->add_menu(array(
 		        "parent" => "gallery_bank_links",
 		        "id" => "sorting_links",
 		        "href" => site_url() . "/wp-admin/admin.php?page=gallery_album_sorting",
 		        "title" => __("Album Sorting", gallery_bank))
 		    );
-		
+
 		    $wp_admin_bar->add_menu(array(
 		        "parent" => "gallery_bank_links",
 		        "id" => "global_settings_links",
 		        "href" => site_url() . "/wp-admin/admin.php?page=global_settings",
 		        "title" => __("Global Settings", gallery_bank))
 		    );
-		
+
 		    $wp_admin_bar->add_menu(array(
 		    		"parent" => "gallery_bank_links",
 		    		"id" => "gallery_auto_update_links",
 		    		"href" => site_url() . "/wp-admin/admin.php?page=gallery_auto_plugin_update",
 		    		"title" => __("Plugin Updates", gallery_bank))
 		    );
-		    
+
 		    $wp_admin_bar->add_menu(array(
 		    		"parent" => "gallery_bank_links",
 		    		"id" => "gallery_feature_request_links",
 		    		"href" => site_url() . "/wp-admin/admin.php?page=gallery_bank_feature_request",
 		    		"title" => __("Feature Requests", gallery_bank))
 		    );
-		    
+
 		    $wp_admin_bar->add_menu(array(
 		        "parent" => "gallery_bank_links",
 		        "id" => "system_status_links",
 		        "href" => site_url() . "/wp-admin/admin.php?page=gallery_bank_system_status",
 		        "title" => __("System Status", gallery_bank))
 		    );
-		
+
 			$wp_admin_bar->add_menu(array(
 		    		"parent" => "gallery_bank_links",
 		    		"id" => "gallery_bank_recommended_plugins_links",
 		    		"href" => site_url() . "/wp-admin/admin.php?page=gallery_bank_recommended_plugins",
 		    		"title" => __("Recommendations", gallery_bank))
 		    );
-		
+
 			$wp_admin_bar->add_menu(array(
 		        "parent" => "gallery_bank_links",
 		        "id" => "purchase_pro_version_links",
 		        "href" => site_url() . "/wp-admin/admin.php?page=gallery_bank_purchase",
 		        "title" => __("Premium Editions", gallery_bank))
 		    );
-			
+
 			$wp_admin_bar->add_menu(array(
 					"parent" => "gallery_bank_links",
 					"id" => "gallery_bank_other_services_links",
@@ -265,70 +265,70 @@ function add_gallery_bank_icon($meta = TRUE)
 		        height=\"25\" style=\"vertical-align:text-top; margin-right:5px;\" />Gallery Bank"),
 		        "href" => __(site_url() . "/wp-admin/admin.php?page=gallery_bank"),
 		    ));
-		
+
 		    $wp_admin_bar->add_menu(array(
 		        "parent" => "gallery_bank_links",
 		        "id" => "gallery_dashboard_links",
 		        "href" => site_url() . "/wp-admin/admin.php?page=gallery_bank",
 		        "title" => __("Dashboard", gallery_bank))
 		    );
-		    
+
 			$wp_admin_bar->add_menu(array(
 		        "parent" => "gallery_bank_links",
 		        "id" => "shortcode_links",
 		        "href" => site_url() . "/wp-admin/admin.php?page=gallery_bank_shortcode",
 		        "title" => __("Short-Codes", gallery_bank))
 		    );
-			
+
 		    $wp_admin_bar->add_menu(array(
 		        "parent" => "gallery_bank_links",
 		        "id" => "sorting_links",
 		        "href" => site_url() . "/wp-admin/admin.php?page=gallery_album_sorting",
 		        "title" => __("Album Sorting", gallery_bank))
 		    );
-		
+
 		    $wp_admin_bar->add_menu(array(
 		        "parent" => "gallery_bank_links",
 		        "id" => "global_settings_links",
 		        "href" => site_url() . "/wp-admin/admin.php?page=global_settings",
 		        "title" => __("Global Settings", gallery_bank))
 		    );
-		
+
 		    $wp_admin_bar->add_menu(array(
 		    		"parent" => "gallery_bank_links",
 		    		"id" => "gallery_auto_update_links",
 		    		"href" => site_url() . "/wp-admin/admin.php?page=gallery_auto_plugin_update",
 		    		"title" => __("Plugin Updates", gallery_bank))
 		    );
-		    
+
 		    $wp_admin_bar->add_menu(array(
 		    		"parent" => "gallery_bank_links",
 		    		"id" => "gallery_feature_request_links",
 		    		"href" => site_url() . "/wp-admin/admin.php?page=gallery_bank_feature_request",
 		    		"title" => __("Feature Requests", gallery_bank))
 		    );
-		    
+
 		    $wp_admin_bar->add_menu(array(
 		        "parent" => "gallery_bank_links",
 		        "id" => "system_status_links",
 		        "href" => site_url() . "/wp-admin/admin.php?page=gallery_bank_system_status",
 		        "title" => __("System Status", gallery_bank))
 		    );
-		
+
 			$wp_admin_bar->add_menu(array(
 		    		"parent" => "gallery_bank_links",
 		    		"id" => "gallery_bank_recommended_plugins_links",
 		    		"href" => site_url() . "/wp-admin/admin.php?page=gallery_bank_recommended_plugins",
 		    		"title" => __("Recommendations", gallery_bank))
 		    );
-		
+
 			$wp_admin_bar->add_menu(array(
 		        "parent" => "gallery_bank_links",
 		        "id" => "purchase_pro_version_links",
 		        "href" => site_url() . "/wp-admin/admin.php?page=gallery_bank_purchase",
 		        "title" => __("Premium Editions", gallery_bank))
 		    );
-			
+
 			$wp_admin_bar->add_menu(array(
 					"parent" => "gallery_bank_links",
 					"id" => "gallery_bank_other_services_links",

@@ -1,0 +1,52 @@
+// blog-post.less
+// -----------------------------------------------------------------
+
+
+.single-format-standard {
+  .post-title {
+    font-size: 42px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 400;
+    color: #333;
+    line-height: 1.25em;
+    margin-bottom: 30px;
+    margin-top: 0;
+  }
+}
+
+
+// Media Queries
+// --------------------------------------------------
+
+// Large desktop and up
+@media (min-width: 1200px) {}
+
+// Desktop to large desktop
+@media (min-width: 992px) and (max-width: 1199px) {}
+
+// Tablet to desktop
+@media (min-width: 768px) and (max-width: 991px) {}
+
+// Up to tablet
+@media (max-width: 767px) {
+
+  .single-format-standard {
+    .post-title {
+      font-size: 24px;
+      margin-bottom: 30px;
+    }
+  }
+
+}
+
+// Up to landscape phone
+@media (max-width: 480px) {
+
+  .single-format-standard {
+    .post-title {
+      margin-bottom: 15px;
+    }
+  }
+
+}

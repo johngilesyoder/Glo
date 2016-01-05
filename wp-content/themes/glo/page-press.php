@@ -5,9 +5,14 @@
 
 get_header(); ?>
 
-<div class="row">
+<div class="page-title">
+	<div class="container">
+		<h1><?php the_title(); ?></h1>
+	</div>
+</div>
 
-
+<main class="page-wrapper">
+	<div class="container">
 	<?php
 
 		$args = array(
@@ -23,12 +28,14 @@ get_header(); ?>
 				$the_query->the_post();
 
 			?>
+			
+				<div class="col-md-4">
+					<a href="<?php thePressURL(); ?>" class="press-link" target="_blank">
 
-				<a href="<?php thePressURL(); ?>" class="four columns press-link" target="_blank">
+						<?php echo get_the_post_thumbnail(); ?>
 
-					<?php echo get_the_post_thumbnail(); ?>
-
-				</a>
+					</a>
+				</div>
 
 			<?php
 				
@@ -41,9 +48,7 @@ get_header(); ?>
 		wp_reset_postdata();
 
 	?>
-
-
-</div>
-
+	</div>
+</main>
 
 <?php get_footer(); ?>
