@@ -70,6 +70,7 @@ get_header(); ?>
 		<div class="col-md-4">
 			<?php types_render_field("seo-block-3", array("raw"=>"true")); ?>
 		</div>
+	</div>
 </div>
 
 
