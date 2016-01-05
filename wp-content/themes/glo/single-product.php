@@ -53,7 +53,7 @@ get_header(); ?>
 			<?php the_content(); ?>
 		</div>
 		<div class="product-quote">
-			<a href="#" class="switch quote-btn" gumby-trigger="#modal1">Request A Quote</a>
+			<a href="#" class="switch quote-btn" data-toggle="modal" data-target="#quoteModal">Request A Quote</a>
 		</div>
 				
 		<section class="product-tabs">
