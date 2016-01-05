@@ -66,23 +66,31 @@
 
 		<script type="text/javascript">
 		  $(document).ready(function() {
-		  var stickyNavTop = 45;
-		   
-		  var stickyNav = function(){
-		  var scrollTop = $(window).scrollTop();
-		        
-		  if (scrollTop > stickyNavTop) { 
-		      $('#navbar').addClass('sticky');
-		  } else {
-		      $('#navbar').removeClass('sticky'); 
-		  }
-		  };
-		   
-		  stickyNav();
-		   
-		  $(window).scroll(function() {
-		      stickyNav();
-		  });
+			  var stickyNavTop = 45;
+			   
+			  if($(window).width() > 767)
+			  {
+			     // change functionality for smaller screens
+			     var stickyNav = function(){
+			     var scrollTop = $(window).scrollTop();
+			           
+			     if (scrollTop > stickyNavTop) { 
+			         $('#navbar').addClass('sticky');
+			         $('#navwrap').addClass('sticky');
+			     } else {
+			         $('#navbar').removeClass('sticky'); 
+			         $('#navwrap').removeClass('sticky'); 
+			     }
+			     };
+			      
+			     stickyNav();
+			      
+			     $(window).scroll(function() {
+			         stickyNav();
+			     });
+
+			  }
+
 		  });
 		</script>
 

@@ -3,6 +3,8 @@
 
 .site-header {
   margin-bottom: 50px;
+  z-index: 100;
+  position: relative;
   .topbar {
     background: #333;
     color: #fff;
@@ -21,12 +23,13 @@
     }
   }
   #navwrap {
-    height: 102px;
+    &.sticky {
+      height: 102px;
+    }
   }
   #navbar {
     &.sticky {
       position: fixed;
-      z-index: 100;
       top: 0;
       width: 100%;
     }
@@ -74,6 +77,11 @@
 
   .site-header {
     margin-bottom: 30px;
+    .navbar-collapse {
+      &.in {
+        //max-height: 354px !important;
+      }
+    }
   }
   
 }
@@ -86,6 +94,9 @@
       .topbar-request-quote {
         text-align: center;
       }
+    }
+    .navbar-collapse {
+      background: #fff;
     }
   }
 

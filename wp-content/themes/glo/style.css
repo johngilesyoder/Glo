@@ -4256,7 +4256,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .navbar-fixed-top .navbar-collapse,
 .navbar-fixed-bottom .navbar-collapse {
-  max-height: 340px;
+  max-height: 540px;
 }
 @media (max-device-width: 480px) and (orientation: landscape) {
   .navbar-fixed-top .navbar-collapse,
@@ -7200,6 +7200,8 @@ fieldset[disabled] .product-quote .quote-btn.active {
 }
 .site-header {
   margin-bottom: 50px;
+  z-index: 100;
+  position: relative;
 }
 .site-header .topbar {
   background: #333;
@@ -7218,12 +7220,11 @@ fieldset[disabled] .product-quote .quote-btn.active {
   padding: 2px 15px;
   font-size: 14px;
 }
-.site-header #navwrap {
+.site-header #navwrap.sticky {
   height: 102px;
 }
 .site-header #navbar.sticky {
   position: fixed;
-  z-index: 100;
   top: 0;
   width: 100%;
 }
@@ -7252,6 +7253,9 @@ fieldset[disabled] .product-quote .quote-btn.active {
 @media (max-width: 480px) {
   .site-header .topbar .topbar-request-quote {
     text-align: center;
+  }
+  .site-header .navbar-collapse {
+    background: #fff;
   }
 }
 .site-footer {
