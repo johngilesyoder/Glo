@@ -31,7 +31,7 @@ get_header(); ?>
 
 			<div class="row">
 			<div class="col-sm-6 col-sm-push-6">
-				<div class="about-block block-img" style="background-image:url('<?php echo get_template_directory_uri(); ?>/images/about-you.jpg');">
+				<div class="about-block block-img" style="background-image:url('<?php echo get_template_directory_uri(); ?>/images/about-us.jpg');">
 				</div>
 			</div>
 			<div class="col-sm-6 col-sm-pull-6">
