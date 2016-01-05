@@ -6935,9 +6935,63 @@ a img.aligncenter {
   font-weight: 400;
 }
 .modal-content .gform_wrapper .gform_button {
+  display: inline-block;
+  margin-bottom: 0;
+  font-weight: normal;
+  text-align: center;
+  vertical-align: middle;
+  touch-action: manipulation;
+  cursor: pointer;
+  background-image: none;
+  border: 1px solid transparent;
+  white-space: nowrap;
+  padding: 6px 12px;
+  font-size: 18px;
+  line-height: 1.42857143;
+  border-radius: 4px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
   color: #fff;
   background-color: #ee7522;
   border-color: #e56812;
+}
+.modal-content .gform_wrapper .gform_button:focus,
+.modal-content .gform_wrapper .gform_button:active:focus,
+.modal-content .gform_wrapper .gform_button.active:focus,
+.modal-content .gform_wrapper .gform_button.focus,
+.modal-content .gform_wrapper .gform_button:active.focus,
+.modal-content .gform_wrapper .gform_button.active.focus {
+  outline: thin dotted;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+.modal-content .gform_wrapper .gform_button:hover,
+.modal-content .gform_wrapper .gform_button:focus,
+.modal-content .gform_wrapper .gform_button.focus {
+  color: #333;
+  text-decoration: none;
+}
+.modal-content .gform_wrapper .gform_button:active,
+.modal-content .gform_wrapper .gform_button.active {
+  outline: 0;
+  background-image: none;
+  -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+.modal-content .gform_wrapper .gform_button.disabled,
+.modal-content .gform_wrapper .gform_button[disabled],
+fieldset[disabled] .modal-content .gform_wrapper .gform_button {
+  cursor: not-allowed;
+  opacity: 0.65;
+  filter: alpha(opacity=65);
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+a.modal-content .gform_wrapper .gform_button.disabled,
+fieldset[disabled] a.modal-content .gform_wrapper .gform_button {
+  pointer-events: none;
 }
 .modal-content .gform_wrapper .gform_button:focus,
 .modal-content .gform_wrapper .gform_button.focus {
