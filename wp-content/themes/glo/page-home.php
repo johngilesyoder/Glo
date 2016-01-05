@@ -59,6 +59,18 @@ get_header(); ?>
 			</a>
 		</div>
 	</div>
+
+	<div class="row">
+		<div class="col-md-4">
+			<?php types_render_field("seo-block-1", array()); ?>
+		</div>
+		<div class="col-md-4">
+			<?php types_render_field("seo-block-2", array()); ?>
+		</div>
+		<div class="col-md-4">
+			<?php types_render_field("seo-block-3", array()); ?>
+		</div>
 </div>
+
 
 <?php get_footer(); ?>
