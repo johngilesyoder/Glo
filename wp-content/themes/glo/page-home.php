@@ -20,7 +20,7 @@ get_header(); ?>
 			<div class="home-block home-block-text home-about-you">
 				<div class="home-block-content">
 					<h2 class="home-block-title"><a href="/about-us/">About You <i></i></a></h2>
-					<?php echo $about_you_home; ?>
+					<?php echo $about_you; ?>
 				</div>
 			</div>
 			<a href="/products" class="home-block home-block-img home-products">
@@ -46,7 +46,7 @@ get_header(); ?>
 			<div class="home-block home-block-text home-about-us">
 				<div class="home-block-content">
 					<h2 class="home-block-title"><a href="/about-us/">About Us <i></i></a></h2>
-					<?php echo $about_us_home; ?>
+					<?php echo $about_us; ?>
 				</div>
 			</div>
 		</div>
