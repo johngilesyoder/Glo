@@ -6927,6 +6927,12 @@ a img.aligncenter {
   text-transform: uppercase;
   letter-spacing: 4px;
 }
+.modal-content .gform_wrapper {
+  font-size: 14px;
+}
+.modal-content .gform_wrapper .ginput_complex label {
+  font-weight: 400;
+}
 .container-fluid {
   padding: 0 30px;
 }
