@@ -63,39 +63,9 @@
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/3.3.2/masonry.pkgd.min.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
 
-		<script type="text/javascript">
-		  $(document).ready(function() {
-			  var stickyNavTop = 45;
-			   
-			  if($(window).width() > 767)
-			  {
-			     // change functionality for smaller screens
-			     var stickyNav = function(){
-			     var scrollTop = $(window).scrollTop();
-			           
-			     if (scrollTop > stickyNavTop) { 
-			         $('#navbar').addClass('sticky');
-			         $('#navwrap').addClass('sticky');
-			     } else {
-			         $('#navbar').removeClass('sticky'); 
-			         $('#navwrap').removeClass('sticky'); 
-			     }
-			     };
-			      
-			     stickyNav();
-			      
-			     $(window).scroll(function() {
-			         stickyNav();
-			     });
-
-			  }
-
-		  });
-		</script>
-
 		<script>
-		  $(document).ready(function() {
-		    $(".gallery").owlCarousel({
+		  jQuery(document).ready(function() {
+		    jQuery(".gallery").owlCarousel({
 		      autoPlay : 3000,
 			    stopOnHover : true,
 			    navigation:false,
