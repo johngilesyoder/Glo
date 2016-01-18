@@ -5,6 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title><?php echo wp_title('|', true, 'right'); ?></title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <?php gravity_form_enqueue_scripts( 1, true ); ?>
   <?php echo wp_head(); ?>
   <link href="<?php echo get_template_directory_uri(); ?>/assets/owl/owl.carousel.css" rel="stylesheet">
   <link href="<?php echo get_template_directory_uri(); ?>/assets/owl/owl.theme.css" rel="stylesheet">
