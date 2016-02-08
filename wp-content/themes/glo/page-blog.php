@@ -24,7 +24,7 @@ get_header(); ?>
 			?>
 			<?php $query = new WP_Query( $args ); ?>
 			<?php if ( $query->have_posts() ) : while ( $query->have_posts() ) : $query->the_post();
-
+					
 					/*
 					 * Include the Post-Format-specific template for the content.
 					 * If you want to override this in a child theme, then include a file
