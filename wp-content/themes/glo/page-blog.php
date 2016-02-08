@@ -14,42 +14,40 @@ get_header(); ?>
 <main class="page-wrapper">
 	<div class="container">
 		<div class="row">
-		<?php
+			<?php 
+				$paged = ( get_query_var( 'paged' ) ) ? get_query_var( 'paged' ) : 1;
+				$args = array(
+					'post_type'      => 'post',
+					'paged'          => $paged,
+					'posts_per_page' => 3,
+				);
+			?>
+			<?php $query = new WP_Query( $args ); ?>
+			<?php if ( $query->have_posts() ) : while ( $query->have_posts() ) : $query->the_post();
 
-			$args = array(
-				'post_type' => 'post',
-			);
+					/*
+					 * Include the Post-Format-specific template for the content.
+					 * If you want to override this in a child theme, then include a file
+					 * called content-___.php (where ___ is the Post Format name) and that will be used instead.
+					 */
+					get_template_part( 'inc/blog-tile' );
 
-			// The Query
-			$the_query = new WP_Query( $args );
+				// End the loop.
+				endwhile;
 
-			// The Loop
-			if ( $the_query->have_posts() ) {
-				while ( $the_query->have_posts() ) {
-					$the_query->the_post();
+				// Previous/next page navigation.
+				the_posts_pagination( array(
+					'prev_text'          => __( 'Previous page', '' ),
+					'next_text'          => __( 'Next page', '' ),
+				) );
 
-					$url = wp_get_attachment_url( get_post_thumbnail_id($post->ID) );
+			// If no content, include the "No posts found" template.
+			else :
+				
 
-				?>
+			endif;
+			?>
 
-					<article class="col-md-4">
-						<a class="blog-post" href="<?php the_permalink(); ?>">
-							<div class="post-image" style="background-image:url('<?php echo $url; ?>');"></div>
-							<h1 class="post-title"><?php the_title(); ?></h1>
-							<span class="read-more">Read More &nbsp;&rarr;</span>
-						</a>
-					</article>
-
-				<?php
-					
-				}
-			} else {
-				// no posts found
-			}
-			/* Restore original Post Data */
-			wp_reset_postdata();
-
-		?>
 		</div>
 	</div>
 </main>

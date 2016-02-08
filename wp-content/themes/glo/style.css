@@ -7062,6 +7062,13 @@ fieldset[disabled] .modal-content .gform_wrapper .gform_button.active {
   color: #ee7522;
   background-color: #fff;
 }
+.pagination .screen-reader-text {
+  display: none;
+}
+.pagination .nav-links .page-numbers {
+  padding: 5px 10px;
+  background: #f2f2f2;
+}
 .container-fluid {
   padding: 0 30px;
 }
@@ -7687,21 +7694,21 @@ fieldset[disabled] .product-quote .quote-btn.active {
     padding: 15px;
   }
 }
-.page-template-page-blog .blog-post {
+.group-blog .blog-post {
   margin-bottom: 60px;
   display: block;
   text-decoration: none;
 }
-.page-template-page-blog .blog-post:hover .read-more {
+.group-blog .blog-post:hover .read-more {
   text-decoration: underline;
 }
-.page-template-page-blog .blog-post .post-image {
+.group-blog .blog-post .post-image {
   background-size: cover;
   background-position: 50% 50%;
   height: 180px;
   margin-bottom: 15px;
 }
-.page-template-page-blog .blog-post .post-title {
+.group-blog .blog-post .post-title {
   font-size: 18px;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -7711,24 +7718,24 @@ fieldset[disabled] .product-quote .quote-btn.active {
   line-height: 1.25em;
 }
 @media (min-width: 768px) and (max-width: 991px) {
-  .page-template-page-blog .blog-post {
+  .group-blog .blog-post {
     margin-bottom: 60px;
   }
-  .page-template-page-blog .blog-post .post-image {
+  .group-blog .blog-post .post-image {
     height: 350px;
   }
-  .page-template-page-blog .blog-post .post-title {
+  .group-blog .blog-post .post-title {
     height: auto;
   }
 }
 @media (max-width: 767px) {
-  .page-template-page-blog .blog-post {
+  .group-blog .blog-post {
     margin-bottom: 60px;
   }
-  .page-template-page-blog .blog-post .post-image {
+  .group-blog .blog-post .post-image {
     height: 350px;
   }
-  .page-template-page-blog .blog-post .post-title {
+  .group-blog .blog-post .post-title {
     height: auto;
   }
 }

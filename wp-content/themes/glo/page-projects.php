@@ -14,54 +14,25 @@ get_header(); ?>
 <main class="page-wrapper">
 	<div class="container">
 		<div class="row">
-
-
 		<?php
+		global $wp_query;
+		$paged = get_query_var('paged') ? get_query_var('paged') : 1;
+		$args = array(
+			'post_type' => 'project',
+			'posts_per_page' => 30,
+			'paged' => $paged
+		);
+		$wp_query = new WP_Query($args);
 
-			$args = array(
-				'post_type' => 'project',
-			);
+		while ( $wp_query->have_posts() ) : $wp_query->the_post();
 
-			// The Query
-			$the_query = new WP_Query( $args );
+		$url = wp_get_attachment_url( get_post_thumbnail_id($post->ID) );
 
-			// The Loop
-			if ( $the_query->have_posts() ) {
-				while ( $the_query->have_posts() ) {
-					$the_query->the_post();
-					$url = wp_get_attachment_url( get_post_thumbnail_id($post->ID) );
+		get_template_part( 'inc/project-tile'); ?>
 
-				?>
+		<?php endwhile; ?>
 
-					<article class="col-md-4">
-
-						<?php if ( has_post_thumbnail() ) : ?>
-						
-						<a class="project-post" href="<?php the_permalink(); ?>">
-						
-						<?php else : ?>
-
-						<a class="project-post no-img" href="<?php the_permalink(); ?>">
-
-						<?php endif; ?>
-						
-							<div class="post-image" style="background-image:url('<?php echo $url; ?>');"></div>
-							<h1 class="post-title"><?php the_title(); ?></h1>
-							<span class="view-more">View More &nbsp;&rarr;</span>
-						</a>
-					</article>
-
-				<?php
-					
-				}
-			} else {
-				// no posts found
-			}
-			/* Restore original Post Data */
-			wp_reset_postdata();
-
-		?>
-
+ 		<?php the_posts_pagination( ); ?> 
 		</div>
 	</div>
 </main>

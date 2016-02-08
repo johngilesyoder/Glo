@@ -13,36 +13,50 @@
 
 get_header(); ?>
 
-	<div id="primary" class="content-area">
-		<main id="main" class="site-main" role="main">
+<div class="page-title">
+	<div class="container">
+		<h1><?php the_title(); ?></h1>
+	</div>
+</div>
 
+<main class="page-wrapper">
+	<div class="container">
+		<div class="row">
 		<?php if ( have_posts() ) : ?>
 
-			<?php /* Start the Loop */ ?>
-			<?php while ( have_posts() ) : the_post(); ?>
+			<?php
+			// Start the loop.
+			while ( have_posts() ) : the_post();
 
-				<?php
+				/*
+				 * Include the Post-Format-specific template for the content.
+				 * If you want to override this in a child theme, then include a file
+				 * called content-___.php (where ___ is the Post Format name) and that will be used instead.
+				 */
+				get_template_part( 'inc/blog-tile' );
 
-					/*
-					 * Include the Post-Format-specific template for the content.
-					 * If you want to override this in a child theme, then include a file
-					 * called content-___.php (where ___ is the Post Format name) and that will be used instead.
-					 */
-					get_template_part( 'template-parts/content', get_post_format() );
-				?>
+			// End the loop.
+			endwhile;
+			?>
 
-			<?php endwhile; ?>
+		</div>
 
-			<?php the_posts_navigation(); ?>
+		<?php 
+		// Previous/next page navigation.
+		the_posts_pagination( array(
+			'prev_text'          => __( 'Previous page' ),
+			'next_text'          => __( 'Next page' ),
+			'before_page_number' => '<span class="meta-nav screen-reader-text">' . __( 'Page', 'twentysixteen' ) . ' </span>',
+		) );
 
-		<?php else : ?>
+	// If no content, include the "No posts found" template.
+	else :
+		
 
-			<?php get_template_part( 'template-parts/content', 'none' ); ?>
+	endif;
+	?>
 
-		<?php endif; ?>
+	</div>
+</main>
 
-		</main><!-- #main -->
-	</div><!-- #primary -->
-
-<?php get_sidebar(); ?>
 <?php get_footer(); ?>
