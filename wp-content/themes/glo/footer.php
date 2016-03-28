@@ -64,8 +64,8 @@
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
 
 		<script>
-		  jQuery q(document).ready(function() {
-		    jQuery q(".gallery").owlCarousel({
+		  jQuery(document).ready(function() {
+		    jQuery(".gallery").owlCarousel({
 		      autoPlay : 3000,
 			    stopOnHover : true,
 			    navigation:false,
