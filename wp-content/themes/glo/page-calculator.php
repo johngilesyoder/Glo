@@ -37,7 +37,7 @@ get_header(); ?>
 	</div>
 </main>
 
-<script src="http://cdnjs.cloudflare.com/ajax/libs/vue/0.12.7/vue.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/vue/0.12.7/vue.min.js"></script>
 <script type="text/javascript">	
 new Vue({
 	el: '#calculator',
