@@ -7201,8 +7201,18 @@ http://flickity.metafizzy.co
   /* IE8 */
   opacity: 1;
 }
-.gallery figcaption {
+.gallery {
+  height: 600px;
+  /* cell inherit height from carousel */
+}
+.gallery .gallery-item {
+  height: 600px;
+}
+.gallery .gallery-item figcaption {
   display: none;
+}
+.gallery .carousel-cell {
+  height: 100%;
 }
 .container-fluid {
   padding: 0 30px;

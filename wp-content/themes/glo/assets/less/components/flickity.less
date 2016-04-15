@@ -146,7 +146,19 @@ http://flickity.metafizzy.co
 
 
 .gallery {
-  figcaption {
-    display: none;
+  height: 600px;
+  .gallery-item {
+    height: 600px;
+    img {
+      
+    }
+    figcaption {
+      display: none;
+    }
+  }
+
+  /* cell inherit height from carousel */
+  .carousel-cell {
+    height: 100%;
   }
 }

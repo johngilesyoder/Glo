@@ -77,8 +77,9 @@
 		      wrapAround: true,
 		      autoPlay: true,
 		      imagesLoaded: true,
-		      percentPosition: false,
-		      cellSelector: '.gallery-item'
+		      percentPosition: true,
+		      cellSelector: '.gallery-item',
+		      setGallerySize: false
 		    });
 		  	});
 		</script>
