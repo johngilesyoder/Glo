@@ -7264,7 +7264,7 @@ http://flickity.metafizzy.co
   .gallery .gallery-item figcaption {
     display: none;
   }
-  .gallery .flickit-page-dots {
+  .gallery .flickity-page-dots {
     display: none;
   }
 }
