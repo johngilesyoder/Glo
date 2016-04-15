@@ -7201,12 +7201,8 @@ http://flickity.metafizzy.co
   /* IE8 */
   opacity: 1;
 }
-.gallery a {
-  display: inline-block;
-}
-.gallery a img {
-  width: auto !important;
-  height: auto !important;
+.gallery figcaption {
+  display: none;
 }
 .container-fluid {
   padding: 0 30px;
@@ -7222,9 +7218,6 @@ http://flickity.metafizzy.co
   -webkit-transform-style: preserve-3d;
   -moz-transform-style: preserve-3d;
   transform-style: preserve-3d;
-}
-img {
-  max-width: 100%;
 }
 .product-circle {
   display: block;
@@ -7521,10 +7514,6 @@ fieldset[disabled] .product-quote .quote-btn.active {
 .page-content p {
   font-size: 18px;
   margin-bottom: 30px;
-}
-.page-content img {
-  max-width: 100%;
-  height: auto;
 }
 .page-content iframe {
   max-width: 100%;
