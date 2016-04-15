@@ -60,22 +60,28 @@
 		<?php wp_footer(); ?>
 
 		<!-- SCRIPTS -->
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/3.3.2/masonry.pkgd.min.js"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
+		<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/3.3.2/masonry.pkgd.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script> -->
+		<script src="https://npmcdn.com/flickity@1.2/dist/flickity.pkgd.min.js"></script>
 
 		<script>
 		  jQuery(document).ready(function() {
-		    jQuery(".gallery").owlCarousel({
-		      autoPlay : 3000,
-			    stopOnHover : true,
-			    navigation:false,
-			    paginationSpeed : 1000,
-			    goToFirstSpeed : 2000,
-			    singleItem : true,
-			    autoHeight : true,
-		    	});
+		    // jQuery(".gallery").owlCarousel({
+		    //   autoPlay : 3000,
+			   //  stopOnHover : true,
+			   //  navigation:false,
+			   //  paginationSpeed : 1000,
+			   //  goToFirstSpeed : 2000,
+			   //  singleItem : true,
+			   //  autoHeight : true,
+		    // 	});
+		    $('.gallery').flickity({
+		      // options
+		    });
 		  	});
 		</script>
+
+
 
 		<script>
 		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
