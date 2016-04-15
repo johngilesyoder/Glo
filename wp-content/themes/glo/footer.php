@@ -77,6 +77,10 @@
 		    // 	});
 		    jQuery('.gallery').flickity({
 		      // options
+		      wrapAround: true,
+		      autoPlay: true,
+		      imagesLoaded: true
+
 		    });
 		  	});
 		</script>
