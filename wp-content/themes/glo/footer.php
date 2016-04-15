@@ -79,8 +79,8 @@
 		      // options
 		      wrapAround: true,
 		      autoPlay: true,
-		      imagesLoaded: true
-
+		      imagesLoaded: true,
+		      percentPosition: false
 		    });
 		  	});
 		</script>
