@@ -60,7 +60,6 @@
 		<?php wp_footer(); ?>
 
 		<!-- SCRIPTS -->
-		<script src="https://npmcdn.com/flickity@1.2/dist/flickity.pkgd.min.js"></script>
 
 		<script>
 		  jQuery(document).ready(function() {
