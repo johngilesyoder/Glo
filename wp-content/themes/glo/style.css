@@ -7207,10 +7207,13 @@ http://flickity.metafizzy.co
 }
 .gallery .gallery-item {
   height: 100%;
+  margin-left: 5px;
+  margin-right: 5px;
 }
 .gallery .gallery-item img {
   width: auto;
   height: 600px;
+  max-width: none;
 }
 .gallery .gallery-item figcaption {
   display: none;
