@@ -60,8 +60,6 @@
 		<?php wp_footer(); ?>
 
 		<!-- SCRIPTS -->
-		<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/3.3.2/masonry.pkgd.min.js"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script> -->
 		<script src="https://npmcdn.com/flickity@1.2/dist/flickity.pkgd.min.js"></script>
 
 		<script>
