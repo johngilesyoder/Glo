@@ -75,7 +75,7 @@
 			   //  singleItem : true,
 			   //  autoHeight : true,
 		    // 	});
-		    $('.gallery').flickity({
+		    jQuery('.gallery').flickity({
 		      // options
 		    });
 		  	});
