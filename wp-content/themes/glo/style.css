@@ -7203,6 +7203,7 @@ http://flickity.metafizzy.co
 }
 .gallery {
   height: 600px;
+  margin-bottom: 60px;
   /* cell inherit height from carousel */
 }
 .gallery .gallery-item {
@@ -7220,6 +7221,14 @@ http://flickity.metafizzy.co
 }
 .gallery .carousel-cell {
   height: 100%;
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .gallery {
+    height: 500px;
+  }
+  .gallery .gallery-item img {
+    height: 450px;
+  }
 }
 @media (min-width: 768px) and (max-width: 991px) {
   .gallery {

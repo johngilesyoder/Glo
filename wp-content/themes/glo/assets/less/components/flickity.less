@@ -147,6 +147,7 @@ http://flickity.metafizzy.co
 
 .gallery {
   height: 600px;
+  margin-bottom: 60px;
   .gallery-item {
     height: 100%;
     margin-left: 5px;
@@ -175,7 +176,18 @@ http://flickity.metafizzy.co
 @media (min-width: 1200px) {}
 
 // Desktop to large desktop
-@media (min-width: 992px) and (max-width: 1199px) {}
+@media (min-width: 992px) and (max-width: 1199px) {
+
+  .gallery {
+    height: 500px;
+    .gallery-item {
+      img {
+        height: 450px;
+      }
+    }
+  }
+
+}
 
 // Tablet to desktop
 @media (min-width: 768px) and (max-width: 991px) {
