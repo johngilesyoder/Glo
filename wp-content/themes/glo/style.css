@@ -7227,7 +7227,7 @@ http://flickity.metafizzy.co
     height: 500px;
   }
   .gallery .gallery-item img {
-    height: 450px;
+    height: 500px;
   }
 }
 @media (min-width: 768px) and (max-width: 991px) {
