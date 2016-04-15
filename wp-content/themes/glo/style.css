@@ -7221,6 +7221,30 @@ http://flickity.metafizzy.co
 .gallery .carousel-cell {
   height: 100%;
 }
+@media (min-width: 768px) and (max-width: 991px) {
+  .gallery {
+    height: 450px;
+  }
+  .gallery .gallery-item img {
+    height: 450px;
+  }
+}
+@media (max-width: 767px) {
+  .gallery {
+    height: 400px;
+  }
+  .gallery .gallery-item img {
+    height: 400px;
+  }
+}
+@media (max-width: 480px) {
+  .gallery {
+    height: 320px;
+  }
+  .gallery .gallery-item img {
+    height: 320px;
+  }
+}
 .container-fluid {
   padding: 0 30px;
 }

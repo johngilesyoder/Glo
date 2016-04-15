@@ -166,3 +166,56 @@ http://flickity.metafizzy.co
     height: 100%;
   }
 }
+
+
+// Media Queries
+// --------------------------------------------------
+
+// Large desktop and up
+@media (min-width: 1200px) {}
+
+// Desktop to large desktop
+@media (min-width: 992px) and (max-width: 1199px) {}
+
+// Tablet to desktop
+@media (min-width: 768px) and (max-width: 991px) {
+
+  .gallery {
+    height: 450px;
+    .gallery-item {
+      img {
+        height: 450px;
+      }
+    }
+  }
+
+}
+
+// Up to tablet
+@media (max-width: 767px) {
+
+  .gallery {
+    height: 400px;
+    .gallery-item {
+      img {
+        height: 400px;
+      }
+    }
+
+  }
+}
+
+// Up to landscape phone
+@media (max-width: 480px) {
+
+  .gallery {
+    height: 320px;
+    .gallery-item {
+      img {
+        height: 320px;
+      }
+    }
+
+  }
+
+}
