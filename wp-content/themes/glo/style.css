@@ -7206,7 +7206,11 @@ http://flickity.metafizzy.co
   /* cell inherit height from carousel */
 }
 .gallery .gallery-item {
-  height: 600px;
+  height: 100%;
+}
+.gallery .gallery-item img {
+  width: auto;
+  height: 100%;
 }
 .gallery .gallery-item figcaption {
   display: none;
