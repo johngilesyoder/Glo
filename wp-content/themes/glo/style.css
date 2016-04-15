@@ -7203,7 +7203,7 @@ http://flickity.metafizzy.co
 }
 .gallery {
   height: 600px;
-  margin-bottom: 60px;
+  margin-bottom: 70px;
   /* cell inherit height from carousel */
 }
 .gallery .gallery-item {
@@ -7227,6 +7227,12 @@ http://flickity.metafizzy.co
   display: block;
   font-size: 13px;
   text-align: center;
+}
+.gallery .gallery-item .flickity-page-dots {
+  bottom: -35px;
+}
+.gallery .gallery-item .flickity-page-dots .dot.is-selected {
+  background-color: #ee7522;
 }
 .gallery .carousel-cell {
   height: 100%;
