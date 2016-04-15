@@ -7228,14 +7228,14 @@ http://flickity.metafizzy.co
   font-size: 13px;
   text-align: center;
 }
-.gallery .gallery-item .flickity-page-dots {
-  bottom: -35px;
-}
-.gallery .gallery-item .flickity-page-dots .dot.is-selected {
-  background-color: #ee7522;
-}
 .gallery .carousel-cell {
   height: 100%;
+}
+.gallery .flickity-page-dots {
+  bottom: -35px;
+}
+.gallery .flickity-page-dots .dot.is-selected {
+  background-color: #ee7522;
 }
 @media (min-width: 992px) and (max-width: 1199px) {
   .gallery {
