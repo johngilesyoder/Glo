@@ -7518,10 +7518,6 @@ fieldset[disabled] .product-quote .quote-btn.active {
   font-size: 18px;
   margin-bottom: 30px;
 }
-.page-content img {
-  max-width: 100%;
-  height: auto;
-}
 .page-content iframe {
   max-width: 100%;
 }
