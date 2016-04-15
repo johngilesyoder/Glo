@@ -7256,11 +7256,15 @@ http://flickity.metafizzy.co
 @media (max-width: 767px) {
   .gallery {
     height: 400px;
+    margin-bottom: 40px;
   }
   .gallery .gallery-item img {
     height: 400px;
   }
   .gallery .gallery-item figcaption {
+    display: none;
+  }
+  .gallery .flickit-page-dots {
     display: none;
   }
 }
