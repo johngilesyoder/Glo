@@ -1,6 +1,6 @@
 <!doctype html>
 <html class="no-js" {{ language_attributes() }}>
-<head>
+<head <?php do_action( 'add_head_attributes' ); ?>>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title><?php echo wp_title('|', true, 'right'); ?></title>
@@ -37,9 +37,11 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="/">
-              <img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo.png">
-            </a>
+            <div class="navbar-brand" itemscope itemtype="http://schema.org/Organization">
+              <a itemprop="url" href="/">
+                <img itemprop="logo" src="<?php echo get_template_directory_uri(); ?>/assets/img/logo.png" />
+              </a>
+            </div>
           </div>
 
           <!-- Collect the nav links, forms, and other content for toggling -->
