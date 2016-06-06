@@ -1,5 +1,5 @@
 <!doctype html>
-<html class="no-js" <?php language_attributes(); ?>>
+<html class="no-js" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" <?php language_attributes(); ?>>
 <head <?php do_action( 'add_head_attributes' ); ?>>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -37,11 +37,9 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <div class="navbar-brand" itemscope itemtype="http://schema.org/Organization">
-              <a itemprop="url" href="/">
-                <img itemprop="logo" src="<?php echo get_template_directory_uri(); ?>/assets/img/logo.png" />
-              </a>
-            </div>
+            <a class="navbar-brand" href="/">
+              <img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo.png" alt="Site logo"/>
+            </a>
           </div>
 
           <!-- Collect the nav links, forms, and other content for toggling -->
