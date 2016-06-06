@@ -16,8 +16,14 @@ wp-content/advanced-cache.php
 wp-content/wp-cache-config.php
 wp-content/cache/*
 wp-content/cache/supercache/*
-wp-content/plugins/
+wp-content/themes/*
+/wp-content/themes/*
+!wp-content/themes/hatch/
+!/wp-content/themes/hatch/
 wp-content/plugins/*
+wp-content/plugins/*
+/wp-content/plugins/*
+/wp-content/plugins/*
 
 # wpengine specific
 .smushit-status
@@ -61,14 +67,12 @@ wp-content/mysql.sql
 /wp-includes
 /wp-content/index.php
 /wp-content/themes/twentyten
+/wp-content/themes/twentytwelve
+/wp-content/themes/twentythirteen
+/wp-content/themes/twentyfourteen
+/wp-content/themes/twentyfifteen
 /wp-content/themes/index.php
 /wp-content/plugins/index.php
-
-# ignore all mu-plugins, plugins, and themes
-# unless explicitly whitelisted at the end of this file
-/wp-content/mu-plugins/*
-/wp-content/plugins/*
-/wp-content/plugins/
 
 # large/disallowed file types
 # a CDN should be used for these
