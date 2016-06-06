@@ -7444,6 +7444,7 @@ fieldset[disabled] .product-quote .quote-btn.active {
 }
 .site-header .navbar-brand {
   padding: 12.5px 15px;
+  margin: 0;
 }
 .site-header .navbar-brand img {
   height: 75px;

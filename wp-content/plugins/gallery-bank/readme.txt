@@ -1,9 +1,9 @@
 === Gallery Bank - Photo Galleries & Albums ===
 Contributors: Gallery-Bank,contact-banker
-Tags: add album, add gallery, add pictures, admin, AJAX, album, best gallery, best gallery plugin, Facebook, filterable gallery, foto, fotoalbum, fotogalerie, free photo gallery, fullscreen gallery, fullscreen slider, galeri, galerie, Galleria, galleries, gallery, gallery decription, gallery image, gallery lightbox, gallery shortcode, gallery slider, image, image album, image gallery, image lightbox, image rotate, image slider, image slideshow, images, images gallery, instagram, jquery, jquery gallery, lightbox, media, mosaic, multiple pictures, photo, photo album, photo albums, photo gallery, photoalbum, photogallery, photography, photos, photoset, picture, pictures, responsive, responsive gallery, responsive wordpress photo gallery, sidebar, Simple gallery, slide, slide show, slideshow, thumbnail, thumbnail view, thumbnails, thumbs, upload images, upload photos, video gallery, videos, view images, view pictures, vimeo, website gallery, widget gallery, wordpress gallery, wordpress gallery plugin, wordpress photo gallery plugin, wp gallery, wp gallery plugins, youtube, gallery bank
+Tags: add album, add gallery, add pictures, admin, AJAX, album, best gallery, best gallery plugin, Facebook, filterable gallery, foto, fotoalbum, fotogalerie, free photo gallery, fullscreen gallery, fullscreen slider, galeri, galerie, Galleria, galleries, gallery, gallery decription, gallery image, gallery lightbox, gallery shortcode, gallery slider, image, image album, image gallery, image lightbox, image rotate, image slider, image slideshow, images, images gallery, instagram, jquery, jquery gallery, lightbox, media, mosaic, multiple pictures, photo, photo album, photo albums, photo gallery, photoalbum, photogallery, photography, photos, photoset, picture, pictures, responsive, responsive gallery, responsive wordpress photo gallery, sidebar, Simple gallery, slide, slide show, slideshow, thumbnail, thumbnail view, thumbnails, thumbs, upload images, upload photos, video gallery, videos, view images, view pictures, website gallery, widget gallery, wordpress gallery, wordpress gallery plugin, wordpress photo gallery plugin, wp gallery, wp gallery plugins, youtube, gallery bank
 Requires at least: 3.4
-Tested up to: 4.4.2
-Stable tag: 3.0.454
+Tested up to: 4.5.2
+Stable tag: 3.1.11
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -73,7 +73,7 @@ Gallery Bank Regularly updates and simplicity of usage along with efficient func
 **[Like & Support Us on Facebook](https://www.facebook.com/TechBanker/)**
 
 = **Key Features in Gallery Bank Lite Edition** =
- 
+
 * Multi-Lingual. Available now in 36 Languages.
 * Responsive Photo Gallery
 * Shortcode Wizard in your Page/Post.
@@ -95,7 +95,7 @@ Gallery Bank Regularly updates and simplicity of usage along with efficient func
 
  Take your media to the next level with [Gallery Bank Premium Editions](http://tech-banker.com/products/wp-gallery-bank/), which gives you 200+ features such as:
 
-* Unlimited Albums Creation 
+* Unlimited Albums Creation
 * Filmstrip Gallery Format
 * Slideshow Gallery
 * Special Effects on Images & Albums
@@ -135,7 +135,7 @@ You can add upto 3 albums with unlimited images in your Gallery Bank. After that
 In albums, editing can be done easily. You can edit or add more images/ pictures in your albums. You can change title/description of an album as well as title/description of each image uploaded in a particular album.
 
 = Sorting of Images in an Album using Gallery Bank =
- 
+
 Sorting of Images can be done in your albums. With this feature, you can change the order of pictures according to your requirement/choice.
 
 = Sorting of Albums using Gallery Bank =
@@ -218,25 +218,25 @@ If any problem occurs, please contact us at [support@tech-banker.com](mailto:sup
 
 ### Performing a new installation for Gallery Bank.
 
-After downloading the ZIP file,  
+After downloading the ZIP file,
 
-1. Log in to the administrator panel.  
-2. Go to Plugins Add > New > Upload.  
-3. Click "Choose file" ("Browse") and select the downloaded zip file.  
+1. Log in to the administrator panel.
+2. Go to Plugins Add > New > Upload.
+3. Click "Choose file" ("Browse") and select the downloaded zip file.
 
-**For Mac Users**  
-> * Go to your Downloads folder and locate the folder with the plugin. 
-> * Right-click on the folder and select Compress. 
-> * Now you have a newly created .zip file which can be installed as described here.*  
-> * Click "Install Now" button.  
-> * Click "Activate Plugin" button for activating the plugin.  
+**For Mac Users**
+> * Go to your Downloads folder and locate the folder with the plugin.
+> * Right-click on the folder and select Compress.
+> * Now you have a newly created .zip file which can be installed as described here.*
+> * Click "Install Now" button.
+> * Click "Activate Plugin" button for activating the plugin.
 
 == Other Notes ==
 
-= Minimum requirements for Gallery Bank. =  
-*   Wordpress 3.3+  
-*   PHP 5.x  
-*   MySQL 5.x  
+= Minimum requirements for Gallery Bank. =
+*   Wordpress 3.3+
+*   PHP 5.x
+*   MySQL 5.x
 
 If any problem occurs, please contact us at [support@tech-banker.com](mailto:support@tech-banker.com).
 
@@ -494,13 +494,80 @@ is False in shortcode.
 12. System Status
 13. Displaying Images using Masonry Layout.
 14. Displaying Images using Thumbnail Layout.
-15. Displaying Grid Album with Images. 
+15. Displaying Grid Album with Images.
 16. Displaying List Album with Images.
 17. Displaying Individual Album with Images.
 
 == Changelog ==
 
-= 3.0.451 = 
+= 3.1.11 =
+
+* Few Bugs Fixed
+* Code Optimized
+
+= 3.1.10 =
+
+* Few Bugs Fixed
+
+= 3.1.9 =
+
+* Compatibility with 4.5.2
+
+= 3.1.8 =
+
+* Few CSS Bugs Fixed
+
+= 3.1.7 =
+
+* Compatibility with 4.5.1
+* Few CSS Bugs Fixed
+
+= 3.1.6 =
+
+* Compatibility with 4.5
+
+= 3.1.5 =
+
+* Few CSS Bugs Fixed
+
+= 3.1.4 =
+
+* Few Bugs Fixed
+* Code Optimized
+ 
+= 3.1.3 =
+
+* Few Bugs Fixed
+
+= 3.1.2 =
+
+* Few Bugs Fixed
+* Code Optimized
+
+= 3.1.1 =
+
+* Database Issues Fixed
+* Code Optimized
+
+= 3.1.0 =
+
+* Major Version Release
+* Code Optimized
+* Fixed Major Bugs
+* Fixed Lightbox Issues
+* Fixed Masonry Layout Issues
+* Removed Font Icons and Replaced with Compatible Icons
+* Persian Language Added
+
+= 3.0.456 =
+
+* Few Urgent Bugs Fixed.
+
+= 3.0.455 =
+
+* Few Minor Bugs Fixed.
+
+= 3.0.454 =
 
 * Compatibility with 4.4.2
 
@@ -512,7 +579,7 @@ is False in shortcode.
 
 * Few CSS Bugs Fixed.
 
-= 3.0.451 = 
+= 3.0.451 =
 
 * Compatibility with 4.4.1
 
@@ -755,7 +822,7 @@ is False in shortcode.
 * Fixed whitespacing issue.
 * Unset plugin update scheduler on plugin uninstall.
 
-= 3.0.95 = 
+= 3.0.95 =
 
 * Fixed Major Bug Related to PL Uploader.
 * Fixed Code for Plugins using Versions prior to 4.0
@@ -774,7 +841,7 @@ is False in shortcode.
 * Thumbs View in Uploader.
 * Add, Edit Gallery Layout changed.
 * Updated JS files.
-* Slovenian Language updated. 
+* Slovenian Language updated.
 
 = 3.0.92 =
 
@@ -789,15 +856,15 @@ is False in shortcode.
 
 * Major security bug fixed regarding image uploader.
 
-= 3.0.89 = 
+= 3.0.89 =
 
 * Pretty Photo lightbox license updated.
 
-= 3.0.88 = 
+= 3.0.88 =
 
 * Pricing Changed
 
-= 3.0.87 = 
+= 3.0.87 =
 
 * Few Bugs Fixed
 
@@ -866,7 +933,7 @@ is False in shortcode.
 = 3.0.75 =
 
 * Masonry Colum Width Bug Fixed
-* Overlapping Masonry Layout Fixed 
+* Overlapping Masonry Layout Fixed
 
 = 3.0.74 =
 
@@ -939,7 +1006,7 @@ is False in shortcode.
 
 * Few Bugs Fixed
 
-= 3.0.59 = 
+= 3.0.59 =
 
 * Chinese Language Updated
 
@@ -951,40 +1018,40 @@ is False in shortcode.
 
 * Few Bugs Fixed
 
-= 3.0.56 = 
+= 3.0.56 =
 
 * Slovak Language Updated
 
-= 3.0.55 = 
+= 3.0.55 =
 
 * Few Bugs Fixed
 
-= 3.0.54 = 
+= 3.0.54 =
 
 * Few Bugs Fixed
 * Few Possible Security Issues Addressed
 
-= 3.0.53 = 
+= 3.0.53 =
 
 * Language Bug Fixed
 
-= 3.0.52 = 
+= 3.0.52 =
 
 * Danish Language Updated
 
-= 3.0.51 = 
+= 3.0.51 =
 
 * Social Icons Added to Lightbox
 
-= 3.0.50 = 
+= 3.0.50 =
 
 * Few Possible Security Issues Addressed
 
-= 3.0.49 = 
+= 3.0.49 =
 
 * Polish Language Updated
 
-= 3.0.48 = 
+= 3.0.48 =
 
 * Czech Language Updated
 
@@ -992,7 +1059,7 @@ is False in shortcode.
 
 * Advanced Security for Plugin Implemented
 
-= 3.0.46 = 
+= 3.0.46 =
 
 * Hungarian Language Updated
 
@@ -1047,7 +1114,7 @@ is False in shortcode.
 
 = 3.0.34 =
 
-* Bugs Fixed Related to Set as Album 
+* Bugs Fixed Related to Set as Album
 
 = 3.0.33 =
 
@@ -1085,7 +1152,7 @@ is False in shortcode.
 
 = 3.0.26 =
 
-* New Language ADDED - Belarusian 
+* New Language ADDED - Belarusian
 * Language Updated - Russian
 
 = 3.0.25 =

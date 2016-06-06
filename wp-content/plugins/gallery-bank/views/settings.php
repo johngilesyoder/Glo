@@ -29,241 +29,241 @@ else
 	    }
 	    $index = array_search("thumbnails_custom_enable", $setting_keys);
 	    $thumbnails_custom_enable = intval($album_css[$index]->setting_value);
-	
+
 	    $index = array_search("thumbnails_width", $setting_keys);
 	    $thumbnails_width = intval($album_css[$index]->setting_value);
-	
+
 	    $index = array_search("thumbnails_height", $setting_keys);
 	    $thumbnails_height = intval($album_css[$index]->setting_value);
-	
+
 	    $index = array_search("thumbnails_opacity", $setting_keys);
 	    $thumbnails_opacity = doubleval($album_css[$index]->setting_value);
-	
+
 	    $index = array_search("thumbnails_border_size", $setting_keys);
 	    $thumbnails_border_size = intval($album_css[$index]->setting_value);
-	
+
 	    $index = array_search("thumbnails_border_radius", $setting_keys);
 	    $thumbnails_border_radius = intval($album_css[$index]->setting_value);
-	
+
 	    $index = array_search("thumbnails_border_color", $setting_keys);
 	    $thumbnails_border_color = $album_css[$index]->setting_value;
-	
+
 	    $index = array_search("margin_btw_thumbnails", $setting_keys);
 	    $margin_btw_thumbnails = intval($album_css[$index]->setting_value);
-	
+
 	    $index = array_search("thumbnail_text_color", $setting_keys);
 	    $thumbnail_text_color = $album_css[$index]->setting_value;
-	
+
 	    $index = array_search("thumbnail_text_align", $setting_keys);
 	    $thumbnail_text_align = $album_css[$index]->setting_value;
-	
+
 	    $index = array_search("thumbnail_font_family", $setting_keys);
 	    $thumbnail_font_family = $album_css[$index]->setting_value;
-	
+
 	    $index = array_search("heading_font_size", $setting_keys);
 	    $heading_font_size = intval($album_css[$index]->setting_value);
-	
+
 	    $index = array_search("text_font_size", $setting_keys);
 	    $text_font_size = intval($album_css[$index]->setting_value);
-	
+
 	    $index = array_search("thumbnail_desc_length", $setting_keys);
 	    $thumbnail_desc_length = intval($album_css[$index]->setting_value);
-	
+
 	    $index = array_search("cover_custom_enable", $setting_keys);
 	    $cover_custom_enable = intval($album_css[$index]->setting_value);
-	
+
 	    $index = array_search("cover_thumbnail_width", $setting_keys);
 	    $cover_thumbnail_width = intval($album_css[$index]->setting_value);
-	
+
 	    $index = array_search("cover_thumbnail_height", $setting_keys);
 	    $cover_thumbnail_height = intval($album_css[$index]->setting_value);
-	
+
 	    $index = array_search("cover_thumbnail_opacity", $setting_keys);
 	    $cover_thumbnail_opacity = doubleval($album_css[$index]->setting_value);
-	
+
 	    $index = array_search("cover_thumbnail_border_size", $setting_keys);
 	    $cover_thumbnail_border_size = intval($album_css[$index]->setting_value);
-	
+
 	    $index = array_search("cover_thumbnail_border_radius", $setting_keys);
 	    $cover_thumbnail_border_radius = intval($album_css[$index]->setting_value);
-	
+
 	    $index = array_search("cover_thumbnail_border_color", $setting_keys);
 	    $cover_thumbnail_border_color = $album_css[$index]->setting_value;
-	
+
 	    $index = array_search("margin_btw_cover_thumbnails", $setting_keys);
 	    $margin_btw_cover_thumbnails = intval($album_css[$index]->setting_value);
-	
+
 	    $index = array_search("album_text_align", $setting_keys);
 	    $album_text_align = $album_css[$index]->setting_value;
-	
+
 	    $index = array_search("album_font_family", $setting_keys);
 	    $album_font_family = $album_css[$index]->setting_value;
-	
+
 	    $index = array_search("album_heading_font_size", $setting_keys);
 	    $album_heading_font_size = intval($album_css[$index]->setting_value);
-	
+
 	    $index = array_search("album_text_font_size", $setting_keys);
 	    $album_text_font_size = intval($album_css[$index]->setting_value);
-	
+
 	    $index = array_search("album_desc_length", $setting_keys);
 	    $album_desc_length = $album_css[$index]->setting_value;
-	
+
 	    $index = array_search("lightbox_type", $setting_keys);
 	    $lightbox_type = $album_css[$index]->setting_value;
-	
+
 	    $index = array_search("lightbox_overlay_opacity", $setting_keys);
 	    $lightbox_overlay_opacity = doubleval($album_css[$index]->setting_value);
-	
+
 	    $index = array_search("lightbox_overlay_border_size", $setting_keys);
 	    $lightbox_overlay_border_size = intval($album_css[$index]->setting_value);
-	
+
 	    $index = array_search("lightbox_overlay_border_radius", $setting_keys);
 	    $lightbox_overlay_border_radius = intval($album_css[$index]->setting_value);
-	
+
 	    $index = array_search("lightbox_text_color", $setting_keys);
 	    $lightbox_text_color = $album_css[$index]->setting_value;
-	
+
 	    $index = array_search("lightbox_overlay_border_color", $setting_keys);
 	    $lightbox_overlay_border_color = $album_css[$index]->setting_value;
-	
+
 	    $index = array_search("lightbox_inline_bg_color", $setting_keys);
 	    $lightbox_inline_bg_color = $album_css[$index]->setting_value;
-	
+
 	    $index = array_search("lightbox_overlay_bg_color", $setting_keys);
 	    $lightbox_overlay_bg_color = $album_css[$index]->setting_value;
-	
+
 	    $index = array_search("lightbox_fade_in_time", $setting_keys);
 	    $lightbox_fade_in_time = intval($album_css[$index]->setting_value);
-	
+
 	    $index = array_search("lightbox_fade_out_time", $setting_keys);
 	    $lightbox_fade_out_time = intval($album_css[$index]->setting_value);
-	
+
 	    $index = array_search("lightbox_text_align", $setting_keys);
 	    $lightbox_text_align = $album_css[$index]->setting_value;
-	
+
 	    $index = array_search("lightbox_font_family", $setting_keys);
 	    $lightbox_font_family = $album_css[$index]->setting_value;
-	
+
 	    $index = array_search("lightbox_heading_font_size", $setting_keys);
 	    $lightbox_heading_font_size = intval($album_css[$index]->setting_value);
-	
+
 	    $index = array_search("lightbox_text_font_size", $setting_keys);
 	    $lightbox_text_font_size = intval($album_css[$index]->setting_value);
-	
+
 	    $index = array_search("facebook_comments", $setting_keys);
 	    $facebook_comments = intval($album_css[$index]->setting_value);
-	
+
 	    $index = array_search("social_sharing", $setting_keys);
 	    $social_sharing = intval($album_css[$index]->setting_value);
-	
+
 	    $index = array_search("image_title_setting", $setting_keys);
 	    $image_title_setting = intval($album_css[$index]->setting_value);
-	
+
 	    $index = array_search("image_desc_setting", $setting_keys);
 	    $image_desc_setting = intval($album_css[$index]->setting_value);
-	
+
 	    $index = array_search("autoplay_setting", $setting_keys);
 	    $autoplay_setting = intval($album_css[$index]->setting_value);
-	
+
 	    $index = array_search("slide_interval", $setting_keys);
 	    $slide_interval = intval($album_css[$index]->setting_value);
-	
+
 	    $index = array_search("pagination_setting", $setting_keys);
 	    $pagination_setting = intval($album_css[$index]->setting_value);
-	
+
 	    $index = array_search("images_per_page", $setting_keys);
 	    $images_per_page = intval($album_css[$index]->setting_value);
-	
+
 	    $index = array_search("filters_setting", $setting_keys);
 	    $filters_setting = intval($album_css[$index]->setting_value);
-	
+
 	    $index = array_search("filter_font_family", $setting_keys);
 	    $filter_font_family = $album_css[$index]->setting_value;
-	
+
 	    $index = array_search("filter_font_size", $setting_keys);
 	    $filter_font_size = intval($album_css[$index]->setting_value);
-	
+
 	    $index = array_search("back_button_text", $setting_keys);
 	    $back_button_text = $album_css[$index]->setting_value;
-	
+
 	    $index = array_search("album_click_text", $setting_keys);
 	    $album_click_text = $album_css[$index]->setting_value;
-	
+
 	    $index = array_search("album_text_color", $setting_keys);
 	    $album_text_color = $album_css[$index]->setting_value;
-	
+
 	    $index = array_search("button_color", $setting_keys);
 	    $button_color = $album_css[$index]->setting_value;
-	
+
 	    $index = array_search("button_text_color", $setting_keys);
 	    $button_text_color = $album_css[$index]->setting_value;
-	
+
 	    $index = array_search("filters_color", $setting_keys);
 	    $filters_color = $album_css[$index]->setting_value;
-	
+
 	    $index = array_search("filters_text_color", $setting_keys);
 	    $filters_text_color = $album_css[$index]->setting_value;
-	
+
 	    $index = array_search("album_seperator", $setting_keys);
 	    $album_seperator = intval($album_css[$index]->setting_value);
-	
+
 	    $index = array_search("back_button_font_family", $setting_keys);
 	    $back_button_font_family = $album_css[$index]->setting_value;
-	
+
 	    $index = array_search("back_button_font_size", $setting_keys);
 	    $back_button_font_size = intval($album_css[$index]->setting_value);
-	
+
 	    $index = array_search("admin_full_control", $setting_keys);
 	    $admin_full_control = intval($album_css[$index]->setting_value);
-	
+
 	    $index = array_search("admin_read_control", $setting_keys);
 	    $admin_read_control = intval($album_css[$index]->setting_value);
-	
+
 	    $index = array_search("admin_write_control", $setting_keys);
 	    $admin_write_control = intval($album_css[$index]->setting_value);
-	
+
 	    $index = array_search("editor_full_control", $setting_keys);
 	    $editor_full_control = intval($album_css[$index]->setting_value);
-	
+
 	    $index = array_search("editor_read_control", $setting_keys);
 	    $editor_read_control = intval($album_css[$index]->setting_value);
-	
+
 	    $index = array_search("editor_write_control", $setting_keys);
 	    $editor_write_control = intval($album_css[$index]->setting_value);
-	
+
 	    $index = array_search("author_full_control", $setting_keys);
 	    $author_full_control = intval($album_css[$index]->setting_value);
-	
+
 	    $index = array_search("author_read_control", $setting_keys);
 	    $author_read_control = intval($album_css[$index]->setting_value);
-	
+
 	    $index = array_search("author_write_control", $setting_keys);
 	    $author_write_control = intval($album_css[$index]->setting_value);
-	
+
 	    $index = array_search("contributor_full_control", $setting_keys);
 	    $contributor_full_control = intval($album_css[$index]->setting_value);
-	
+
 	    $index = array_search("contributor_read_control", $setting_keys);
 	    $contributor_read_control = intval($album_css[$index]->setting_value);
-	
+
 	    $index = array_search("contributor_write_control", $setting_keys);
 	    $contributor_write_control = intval($album_css[$index]->setting_value);
-	
+
 	    $index = array_search("subscriber_full_control", $setting_keys);
 	    $subscriber_full_control = intval($album_css[$index]->setting_value);
-	
+
 	    $index = array_search("subscriber_read_control", $setting_keys);
 	    $subscriber_read_control = intval($album_css[$index]->setting_value);
-	
+
 	    $index = array_search("subscriber_write_control", $setting_keys);
 	    $subscriber_write_control = intval($album_css[$index]->setting_value);
-	
+
 	    $index = array_search("subscriber_write_control", $setting_keys);
 	    $subscriber_write_control = intval($album_css[$index]->setting_value);
-	
+
 	    $index = array_search("language_direction", $setting_keys);
 	    $lang_dir_setting = $album_css[$index]->setting_value;
-	
+
 	    ?>
 	    <!--suppress ALL -->
 	    <form id="global_settings" class="layout-form">
@@ -289,7 +289,7 @@ else
 														</h4>
 														<span class="tools">
 															<a data-target="#thumbnail_settings" data-toggle="collapse">
-																<i class="icon-chevron-down"></i>
+																<i class="icon-custom-arrow-down"></i>
 															</a>
 														</span>
 													</div>
@@ -505,7 +505,7 @@ else
 														</h4>
 														<span class="tools">
 															<a data-target="#album_cover_settings" data-toggle="collapse">
-																<i class="icon-chevron-down"></i>
+																<i class="icon-custom-arrow-down"></i>
 															 </a>
 														</span>
 													</div>
@@ -621,7 +621,7 @@ else
 											            <div class="widget-layout-body">
 											                <div class="layout-control-group">
 											                    <label class="layout-control-label"><?php _e("Text for Album Click", gallery_bank); ?> : </label>
-											
+
 											                    <div class="layout-controls">
 											                        <input type="text" class="layout-span10" id="ux_album_view" name="ux_album_view"
 											                               value="<?php echo $album_click_text; ?>"/>
@@ -631,7 +631,7 @@ else
 											            <div class="widget-layout-body">
 											                <div class="layout-control-group">
 											                    <label class="layout-control-label"><?php _e("Text Color", gallery_bank); ?> : </label>
-											
+
 											                    <div class="layout-controls">
 											                        <input type="text" class="layout-span10" id="ux_album_text_color" name="ux_album_text_color"
 											                               onclick="ux_clr_album_font_color();"
@@ -640,7 +640,7 @@ else
 										                               			<img onclick="ux_clr_album_font_color();"
 							                                                          style="vertical-align: middle;margin-left: 5px;"
 							                                                          src="<?php echo plugins_url("/assets/images/color.png",dirname(__FILE__)) ?>"/>
-											
+
 											                        <div id="clr_album_text_color"></div>
 											                    </div>
 											                </div>
@@ -735,7 +735,7 @@ else
 						           						 </h4>
 														<span class="tools">
 															<a data-target="#filter_settings" data-toggle="collapse">
-						                                        <i class="icon-chevron-down"></i>
+						                                        <i class="icon-custom-arrow-down"></i>
 						                                    </a>
 														</span>
 						   							</div>
@@ -846,7 +846,7 @@ else
 											            </h4>
 															<span class="tools">
 																<a data-target="#capabilities_settings" data-toggle="collapse">
-							                                        <i class="icon-chevron-down"></i>
+							                                        <i class="icon-custom-arrow-down"></i>
 							                                    </a>
 															</span>
 											        </div>
@@ -945,7 +945,7 @@ else
 														</h4>
 															<span class="tools">
 																<a data-target="#lightbox_settings" data-toggle="collapse">
-						                                            <i class="icon-chevron-down"></i>
+						                                            <i class="icon-custom-arrow-down"></i>
 						                                        </a>
 															</span>
 													</div>
@@ -1267,7 +1267,7 @@ else
 														</h4>
 															<span class="tools">
 																<a data-target="#frontend_settings" data-toggle="collapse">
-						                                            <i class="icon-chevron-down"></i>
+						                                            <i class="icon-custom-arrow-down"></i>
 						                                        </a>
 															</span>
 													</div>
@@ -1275,7 +1275,7 @@ else
 											            <div class="widget-layout-body">
 											                <div class="layout-control-group">
 											                    <label class="layout-control-label"><?php _e("Text for Back Button", gallery_bank); ?> : </label>
-											
+
 											                    <div class="layout-controls">
 											                        <input type="text" class="layout-span10" id="ux_back_button" name="ux_back_button"
 											                               value="<?php echo $back_button_text; ?>"/>
@@ -1383,7 +1383,7 @@ else
 											            </h4>
 														<span class="tools">
 															<a data-target="#pagination_settings" data-toggle="collapse">
-						                                        <i class="icon-chevron-down"></i>
+						                                        <i class="icon-custom-arrow-down"></i>
 						                                    </a>
 														</span>
 											        </div>
@@ -1434,7 +1434,7 @@ else
 											            </h4>
 														<span class="tools">
 															<a data-target="#slideshow_settings" data-toggle="collapse">
-								                                <i class="icon-chevron-down"></i>
+								                                <i class="icon-custom-arrow-down"></i>
 								                            </a>
 														</span>
 											        </div>
@@ -1486,7 +1486,7 @@ else
 											            </h4>
 														<span class="tools">
 															<a data-target="#lang_dir_settings" data-toggle="collapse">
-						                                        <i class="icon-chevron-down"></i>
+						                                        <i class="icon-custom-arrow-down"></i>
 						                                    </a>
 														</span>
 											        </div>
@@ -1513,7 +1513,7 @@ else
 				</div>
 			</div>
 		</form>
-		
+
 	    <script type="text/javascript">
 	    var settings_array = [];
 	    jQuery(document).ready(function () {
@@ -1657,7 +1657,7 @@ else
 	        var full_control = "";
 	        switch (controlId) {
 	            case "ux_full_control_to_admin":
-	
+
 	                full_control = jQuery("#ux_full_control_to_admin").prop("checked");
 	                if (full_control == true) {
 	                    jQuery("#ux_read_control_to_admin").prop("checked", "checked");
@@ -1671,10 +1671,10 @@ else
 	                    jQuery("#ux_write_control_to_admin").prop("checked", false);
 	                    jQuery("#ux_write_control_to_admin").removeAttr("disabled", "disabled");
 	                }
-	
+
 	                break;
 	            case "ux_full_control_to_editor":
-	
+
 	                full_control = jQuery("#ux_full_control_to_editor").prop("checked");
 	                if (full_control == true) {
 	                    jQuery("#ux_read_control_to_editor").prop("checked", "checked");
@@ -1688,10 +1688,10 @@ else
 	                    jQuery("#ux_write_control_to_editor").prop("checked", false);
 	                    jQuery("#ux_write_control_to_editor").removeAttr("disabled", "disabled");
 	                }
-	
+
 	                break;
 	            case "ux_full_control_to_author":
-	
+
 	                full_control = jQuery("#ux_full_control_to_author").prop("checked");
 	                if (full_control == true) {
 	                    jQuery("#ux_read_control_to_author").prop("checked", "checked");
@@ -1705,10 +1705,10 @@ else
 	                    jQuery("#ux_write_control_to_author").prop("checked", false);
 	                    jQuery("#ux_write_control_to_author").removeAttr("disabled", "disabled");
 	                }
-	
+
 	                break;
 	            case "ux_full_control_to_contributor":
-	
+
 	                full_control = jQuery("#ux_full_control_to_contributor").prop("checked");
 	                if (full_control == true) {
 	                    jQuery("#ux_read_control_to_contributor").prop("checked", "checked");
@@ -1722,10 +1722,10 @@ else
 	                    jQuery("#ux_write_control_to_contributor").prop("checked", false);
 	                    jQuery("#ux_write_control_to_contributor").removeAttr("disabled", "disabled");
 	                }
-	
+
 	                break;
 	            case "ux_full_control_to_subscriber":
-	
+
 	                full_control = jQuery("#ux_full_control_to_subscriber").prop("checked");
 	                if (full_control == true) {
 	                    jQuery("#ux_read_control_to_subscriber").prop("checked", "checked");
@@ -1739,7 +1739,7 @@ else
 	                    jQuery("#ux_write_control_to_subscriber").prop("checked", false);
 	                    jQuery("#ux_write_control_to_subscriber").removeAttr("disabled", "disabled");
 	                }
-	
+
 	                break;
 	        }
 	    }
@@ -1826,7 +1826,7 @@ else
 	        var val = "";
 	        switch (text_type) {
 	            case  "thumb_opacity":
-	
+
 	                val = jQuery("#ux_image_opacity_val").val();
 	                if (val <= 100) {
 	                    if (val > 0) {
@@ -1838,10 +1838,10 @@ else
 	                } else {
 	                    jQuery("#ux_image_opacity_val").val(100);
 	                }
-	
+
 	                break;
 	            case "thumb_border_size":
-	
+
 	                val = jQuery("#ux_image_border_val").val();
 	                if (val <= 20) {
 	                    if (val > 0) {
@@ -1853,10 +1853,10 @@ else
 	                } else {
 	                    jQuery("#ux_image_border_val").val(20);
 	                }
-	
+
 	                break;
 	            case "thumb_border_radius":
-	
+
 	                val = jQuery("#ux_image_radius_val").val();
 	                if (val <= 20) {
 	                    if (val > 0) {
@@ -1868,10 +1868,10 @@ else
 	                } else {
 	                    jQuery("#ux_image_radius_val").val(20);
 	                }
-	
+
 	                break;
 	            case "cover_opacity":
-	
+
 	                val = jQuery("#ux_cover_opacity_val").val();
 	                if (val <= 100) {
 	                    if (val > 0) {
@@ -1883,10 +1883,10 @@ else
 	                } else {
 	                    jQuery("#ux_cover_opacity_val").val(100);
 	                }
-	
+
 	                break;
 	            case "cover_border_size":
-	
+
 	                val = jQuery("#ux_cover_border_val").val();
 	                if (val <= 20) {
 	                    if (val > 0) {
@@ -1900,7 +1900,7 @@ else
 	                }
 	                break;
 	            case "cover_border_radius":
-	
+
 	                val = jQuery("#ux_cover_radius_val").val();
 	                if (val <= 20) {
 	                    if (val > 0) {
@@ -1912,10 +1912,10 @@ else
 	                } else {
 	                    jQuery("#ux_cover_radius_val").val(20);
 	                }
-	
+
 	                break;
 	            case "lightbox_opacity":
-	
+
 	                val = jQuery("#ux_lightbox_opacity_val").val();
 	                if (val > 100) {
 	                    jQuery("#ux_lightbox_opacity_val").val(100);
@@ -1926,10 +1926,10 @@ else
 	                else if (val == "") {
 	                    jQuery("#ux_lightbox_opacity_val").val(0);
 	                }
-	
+
 	                break;
 	            case "lightbox_border":
-	
+
 	                val = jQuery("#ux_lightbox_border_val").val();
 	                if (val <= 20) {
 	                    if (val > 0) {
@@ -1941,10 +1941,10 @@ else
 	                } else {
 	                    jQuery("#ux_lightbox_border_val").val(20);
 	                }
-	
+
 	                break;
 	            case "lightbox_radius":
-	
+
 	                val = jQuery("#ux_lightbox_radius_val").val();
 	                if (val <= 20) {
 	                    if (val > 0) {
@@ -1956,10 +1956,10 @@ else
 	                } else {
 	                    jQuery("#ux_lightbox_radius_val").val(20);
 	                }
-	
+
 	                break;
 	            case "slide":
-	
+
 	                val = jQuery("#ux_slide_val").val();
 	                if (val <= 15) {
 	                    if (val > 0) {
@@ -1971,18 +1971,18 @@ else
 	                } else {
 	                    jQuery("#ux_slide_val").val(15);
 	                }
-	
+
 	                break;
 	            case "albums_per_page":
-	
+
 	                val = jQuery("#ux_albums_per_page_val").val();
 	                if (val < 1) {
 	                    jQuery("#ux_albums_per_page_val").val(1);
 	                }
-	
+
 	                break;
 	            case "images_per_page":
-	
+
 	                val = jQuery("#ux_images_per_page_val").val();
 	                if (val < 1) {
 	                    jQuery("#ux_images_per_page_val").val(1);
@@ -1990,7 +1990,7 @@ else
 	                break;
 	        }
 	    }
-	
+
 	    function ux_clr_inline_overlay_color() {
 	        jQuery("#clr_inline_overlay_color").farbtastic("#ux_inline_overlay_color");
 	        jQuery("#clr_inline_overlay_color").slideDown();
@@ -2051,7 +2051,7 @@ else
 	        jQuery("#clr_filter_text_color").slideDown();
 	        jQuery("#ux_filter_text_color").focus();
 	    }
-	
+
 	    jQuery("#ux_inline_overlay_color").blur(function () {
 	        jQuery("#clr_inline_overlay_color").slideUp()
 	    });

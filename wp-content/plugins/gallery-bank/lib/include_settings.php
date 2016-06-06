@@ -93,14 +93,14 @@ $settings["subscriber_write_control"] = "0";
 $settings["language_direction"] = "inherit";
 foreach ($settings as $val => $innerKey)
 {
-    $wpdb->query
-    (
-        $wpdb->prepare
-        (
-            "INSERT INTO " . gallery_bank_settings() . " (setting_key, setting_value) VALUES(%s, %s)",
-            $val,
-            $innerKey
-        )
-    );
+	$wpdb->query
+	(
+		$wpdb->prepare
+		(
+			"INSERT INTO " . gallery_bank_settings() . " (setting_key, setting_value) VALUES(%s, %s)",
+			$val,
+			$innerKey
+		)
+	);
 }
 ?>

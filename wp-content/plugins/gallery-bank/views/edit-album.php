@@ -88,45 +88,45 @@
 		        $album_id
 		    )
 		);
-		
+
 		$album_css = $wpdb->get_results
 		(
 			"SELECT * FROM " . gallery_bank_settings()
 		);
-		if (count($album_css) != 0) 
+		if (count($album_css) != 0)
 		{
 		    $setting_keys = array();
-		    for ($flag = 0; $flag < count($album_css); $flag++) 
+		    for ($flag = 0; $flag < count($album_css); $flag++)
 		    {
 		        array_push($setting_keys, $album_css[$flag]->setting_key);
 		    }
-		
+
 		    $index = array_search("thumbnails_width", $setting_keys);
 		    $thumbnails_width = $album_css[$index]->setting_value;
-		
+
 		    $index = array_search("thumbnails_height", $setting_keys);
 		    $thumbnails_height = $album_css[$index]->setting_value;
-		
+
 		    $index = array_search("thumbnails_opacity", $setting_keys);
 		    $thumbnails_opacity = $album_css[$index]->setting_value;
-		
+
 		    $index = array_search("thumbnails_border_size", $setting_keys);
 		    $thumbnails_border_size = $album_css[$index]->setting_value;
-		
+
 		    $index = array_search("thumbnails_border_radius", $setting_keys);
 		    $thumbnails_border_radius = $album_css[$index]->setting_value;
-		
+
 		    $index = array_search("thumbnails_border_color", $setting_keys);
 		    $thumbnails_border_color = $album_css[$index]->setting_value;
-		
+
 		    $index = array_search("cover_thumbnail_width", $setting_keys);
 		    $cover_thumbnail_width = $album_css[$index]->setting_value;
-		
+
 		    $index = array_search("cover_thumbnail_height", $setting_keys);
 		    $cover_thumbnail_height = $album_css[$index]->setting_value;
-		
+
 			$video_url = plugins_url("/assets/images/video.jpg",dirname(__FILE__));
-		
+
 		    ?>
 		    <!--suppress ALL -->
 		    <style type="text/css">
@@ -282,7 +282,7 @@
 																		<?php
 																		if ($pics[$flag]->video == 1) {
 																		?>
-												
+
 																			<td>
 																				<input type="checkbox" id="ux_grp_select_items" name="ux_grp_select_items"
 																				value="<?php echo $pics[$flag]->pic_id; ?>" />
@@ -323,10 +323,10 @@
 																				data-original-title="<?php _e("Delete Video", gallery_bank) ?>"
 																				onclick="deleteImage(this);"
 																				controlId="<?php echo $pics[$flag]->pic_id; ?>">
-																					<i class="icon-trash"></i>
+																					<i class="icon-custom-trash"></i>
 																				</a>
 																			</td>
-																			
+
 																		<?php
 																		} else {
 																		?>
@@ -399,7 +399,7 @@
 										                                           data-original-title="<?php _e("Delete Image", gallery_bank) ?>"
 										                                           onclick="deleteImage(this);"
 										                                           controlId="<?php echo $pics[$flag]->pic_id; ?>">
-										                                            <i class="icon-trash"></i>
+										                                            <i class="icon-custom-trash"></i>
 										                                        </a>
 										                                    </td>
 										                                    <td style="visibility: hidden">
@@ -430,7 +430,7 @@
 			</div>
 		</form>
 		<script type="text/javascript">
-		
+
 		    jQuery(".hovertip").tooltip_tip();
 		    var url = "<?php echo plugins_url("/assets/",dirname(__FILE__)) ?>";
 		    var image_width = <?php echo $thumbnails_width; ?>;
@@ -439,7 +439,7 @@
 		    var cover_height = <?php echo $cover_thumbnail_height; ?>;
 		    var delete_array = [];
 		    var array_album_data = [];
-			
+
 		    oTable = jQuery("#data-table-edit-album").dataTable
 		    ({
 		        "bJQueryUI": false,
@@ -451,11 +451,11 @@
 		        },
 				"aaSorting": [[ 6, "asc" ]],
 				"aoColumnDefs": [{ "bSortable": false, "aTargets": [0] },{ "bSortable": false, "aTargets": [0] }]
-				
+
 		    });
 		    jQuery("#edit_album").validate
 		    ({
-		        submitHandler: function () 
+		        submitHandler: function ()
 				{
 		            jQuery("#update_album_success_message").css("display", "block");
 		            jQuery("body,html").animate
@@ -465,11 +465,11 @@
 	            	var albumid = jQuery("#ux_hidden_album_id").val();
 					jQuery.post(ajaxurl,"albumid=" + albumid + "&delete_array=" + JSON.stringify(delete_array) +"&param=delete_pic&action=add_new_album_library", function ()
 					{
-						
+
 					});
-	
+
 	            	var uxEditDescription = "";
-	
+
 		            <?php
 			    	if(class_exists("ckeditor_wordpress"))
 					{
@@ -486,15 +486,15 @@
 			            <?php
 			        }
 			        ?>
-	
+
 					var edit_album_name = encodeURIComponent(jQuery("#ux_edit_title").val());
-					jQuery.post(ajaxurl, "albumid=" + albumid + "&edit_album_name=" + edit_album_name + "&uxEditDescription=" + uxEditDescription + "&param=update_album&action=add_new_album_library", function () 
+					jQuery.post(ajaxurl, "albumid=" + albumid + "&edit_album_name=" + edit_album_name + "&uxEditDescription=" + uxEditDescription + "&param=update_album&action=add_new_album_library", function ()
 					{
-						
+
 					});
 
 					var count = 0;
-					jQuery.each(oTable.fnGetNodes(), function (index, value) 
+					jQuery.each(oTable.fnGetNodes(), function (index, value)
 					{
 	                    var controlClass = jQuery(value.cells[1]).find("img").attr("class");
 	                    var controlType = "";
@@ -506,7 +506,7 @@
 	                    var urlRedirect = "";
 	                    var picId = "";
 	                    var row_data = [];
-	
+
 	                    controlType = jQuery(value.cells[1]).find("img").attr("type");
 	                    picId = jQuery(value.cells[1]).find("img").attr("imageId");
 	                    img_gb_path = (jQuery(value.cells[1]).find("img").attr("imgpath"));
@@ -525,13 +525,13 @@
 	                    row_data.push(urlRedirect);
 	                    row_data.push(cover_width);
 	                    row_data.push(cover_height);
-	
+
 	                    array_album_data.push(row_data);
 	                });
-	                	
-	                jQuery.post(ajaxurl, "album_data="+encodeURIComponent(JSON.stringify(array_album_data))+ "&param=update_pic&action=add_new_album_library", function (data) 
+
+	                jQuery.post(ajaxurl, "album_data="+encodeURIComponent(JSON.stringify(array_album_data))+ "&param=update_pic&action=add_new_album_library", function (data)
 			        {
-	                    setTimeout(function () 
+	                    setTimeout(function ()
 			          	{
 	                        jQuery("#update_album_success_message").css("display", "none");
 	                        window.location.href = "admin.php?page=gallery_bank";
@@ -565,7 +565,7 @@
 		        silverlight_xap_url: url + "Moxie.xap",
 		        init: {
 		            FileUploaded: function (up, file) {
-		                
+
 		                var oTable = jQuery("#data-table-edit-album").dataTable();
 						var albumid = jQuery("#ux_hidden_album_id").val();
 		                var controlType = "image";
@@ -574,11 +574,11 @@
 		                jQuery.post(ajaxurl, "album_id=" + albumid + "&controlType=" + controlType + "&imagename=" + image_name +
 		                    "&img_gb_path=" + img_gb_path + "&cover_height=" + cover_height + "&cover_width=" + cover_width +
 		                    "&param=add_pic&action=add_new_album_library", function (result) {
-		                    	
+
 		                    	jQuery.post(ajaxurl, "img_path=" + file.target_name + "&img_name=" + file.name + "&image_width=" + image_width +
 				                "&image_height=" + image_height + "&picid=" + result +
 				                "&param=add_new_dynamic_row_for_image&action=add_new_album_library", function (data) {
-					                
+
 				                var col1 = jQuery("<td></td>");
 				                col1.append(jQuery.parseJSON(data)[0]);
 				                var col2 = jQuery("<td></td>");
@@ -593,12 +593,12 @@
 				                col6.append(jQuery.parseJSON(data)[5]);
 				                var col7 = jQuery("<td style=\"visibility:hidden;\"></td>");
 				                oTable.fnAddData([col1.html(), col2.html(), col3.html(), col4.html(), col5.html(), col6.html(), col7.html()]);
-				                
+
 				                select_radio();
 				                jQuery(".hovertip").tooltip_tip();
 				            });
 		                });
-		                
+
 		            },
 		            UploadComplete: function () {
 		                jQuery(".plupload_buttons").css("display", "block");
@@ -614,7 +614,7 @@
 		            var oTable = jQuery("#data-table-edit-album").dataTable();
 		                var controlId = jQuery(control).attr("controlid");
 		                delete_array.push(controlId);
-		            
+
 		            oTable.fnDeleteRow(row[0]);
 		            select_radio();
 		        }
@@ -639,7 +639,7 @@
 		    {
 		        alert("<?php _e("This feature is only available in Paid Premium Version!", gallery_bank)?>");
 		    }
-		
+
 		    function select_one_radio(control)
 		    {
 		    	var oTable = jQuery("#data-table-edit-album").dataTable();
@@ -649,7 +649,7 @@
 		    	});
 		    	jQuery(control).attr("checked","checked");
 		    }
-		    
+
 		    //This function is to select radio button of first image
 		    function select_radio() {
 		    	var oTable = jQuery("#data-table-edit-album").dataTable();
@@ -663,7 +663,7 @@
 			    if (key == 46)
 			    {
 			        return false;
-			    }    
+			    }
 			}
 		    </script>
 		<?php

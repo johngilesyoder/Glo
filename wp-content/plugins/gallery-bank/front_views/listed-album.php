@@ -26,12 +26,16 @@
 							?>
 							<img id="albumOrder_<?php echo $album[$flag]->album_id; ?>" src="<?php echo stripcslashes(plugins_url("/assets/images/album-cover.png",dirname(__FILE__))); ?>" style="height:<?php echo $cover_thumbnail_height; ?>px;"/>
 							<?php
-						} else {
+						}
+						else
+						{
 							?>
 							<img id="albumOrder_<?php echo $album[$flag]->album_id; ?>" src="<?php echo stripcslashes(GALLERY_BK_ALBUM_THUMB_URL . $albumCover->thumbnail_url); ?>"/>
 							<?php
 						}
-					} else {
+					}
+					else
+					{
 						?>
 						<img id="albumOrder_<?php echo $album[$flag]->album_id; ?>" src="<?php echo stripcslashes(plugins_url("/assets/images/album-cover.png",dirname(__FILE__))); ?>" style="height:<?php echo $cover_thumbnail_height; ?>px;"/>
 						<?php
@@ -42,12 +46,14 @@
 			</div>
 			<div class="content_holder">
 				<?php
-				if ($album[$flag]->album_name != "Untitled Album" && $img_title == "true") {
+				if ($album[$flag]->album_name != "Untitled Album" && $img_title == "true")
+				{
 				?>
 					<h5><?php echo stripcslashes($album[$flag]->album_name); ?></h5>
 					<?php
 				}
-				if ($img_desc == "true") {
+				if ($img_desc == "true")
+				{
 					$string = stripcslashes(htmlspecialchars_decode($album[$flag]->description));
 					$description = (strlen($string) > $album_desc_length) ? substr($string, 0, $album_desc_length) . "..." : $string;
 					?>
@@ -65,7 +71,8 @@
 	?>
 </div>
 <?php
-if ($album_seperator == 1) {
+if ($album_seperator == 1)
+{
 	?>
 	<div id="seperator1<?php echo $unique_id; ?>" class="separator-doubled" style="clear:both;"></div>
 	<?php

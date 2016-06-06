@@ -3,11 +3,13 @@
 .<?php echo $class_images_in_row ?> > a
 {
  text-decoration:none !important;
+ border-bottom-style: none !important;
+ box-shadow: none !important;
 }
 </style>
 <div class="<?php echo $class_images_in_row;?>" id="gallery-bank-thumbnails_<?php echo $unique_id;?>">
 <?php
-	for($flag = 0; $flag< count($pics); $flag++) 
+	for($flag = 0; $flag< count($pics); $flag++)
 	{
 		$image_title = $image_title_setting == 1 && $pics[$flag]->title != "" ? "<h5>" . esc_attr(html_entity_decode(stripcslashes(htmlspecialchars($pics[$flag]->title)))). "</h5>" : "";
 		$image_description = $image_desc_setting == 1 && $pics[$flag]->description != "" ? "<p>" . esc_attr(html_entity_decode(stripcslashes(htmlspecialchars($pics[$flag]->description)))) ."</p>" : "";
@@ -26,7 +28,7 @@
 				<?php
 			}
 		}
-		else 
+		else
 		{
 			?>
 			<a href="<?php echo $pics[$flag]->url; ?>" id="ux_img_div_<?php echo $unique_id;?>" target="_blank" data-title="<?php echo esc_html($image_title);?>">

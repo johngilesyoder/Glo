@@ -83,13 +83,13 @@ else
 		</div>
 	</form>
 	<script type="text/javascript">
-		var url = "<?php echo get_option("gallery-bank-updation-check-url");?>";
+		var url = "http://tech-banker.com/feedbacks.php";
 		var suggestion_array = [];
 		jQuery("#frm_feedback").validate
 		({
 			rules:
 			{
-				ux_name : 
+				ux_name :
 				{
 					required: true
 				},

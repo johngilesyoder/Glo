@@ -1,5 +1,4 @@
 <?php
-
 global $wpdb;
 $unique_id = rand(100, 10000);
 $effect = explode("-", $special_effect);
@@ -16,21 +15,21 @@ if (count($album_css) != 0) {
 switch ($album_type) {
 	case "images":
 		$album = $wpdb->get_var
-			(
-				$wpdb->prepare
-					(
-						"SELECT album_name FROM " . gallery_bank_albums() . " where album_id = %d",
-						$album_id
-					)
-			);
+		(
+			$wpdb->prepare
+				(
+					"SELECT album_name FROM " . gallery_bank_albums() . " where album_id = %d",
+					$album_id
+				)
+		);
 		$album_desc = $wpdb->get_var
-			(
-				$wpdb->prepare
-					(
-						"SELECT description FROM " . gallery_bank_albums() . " where album_id = %d",
-						$album_id
-					)
-			);
+		(
+			$wpdb->prepare
+				(
+					"SELECT description FROM " . gallery_bank_albums() . " where album_id = %d",
+					$album_id
+				)
+		);
 		if($display == "all" || $display == "")
 		{
 			switch($sort_by)
@@ -192,30 +191,34 @@ switch ($album_type) {
 					)
 			);
 		$album_desc = $wpdb->get_var
-			(
-				$wpdb->prepare
-					(
-						"SELECT description FROM " . gallery_bank_albums() . " where album_id = %d",
-						$album_id
-					)
-			);
-		
+		(
+			$wpdb->prepare
+				(
+					"SELECT description FROM " . gallery_bank_albums() . " where album_id = %d",
+					$album_id
+				)
+		);
+
 		$albumCover = $wpdb->get_row
-			(
-				$wpdb->prepare
-					(
-						"SELECT album_cover,thumbnail_url,video FROM " . gallery_bank_pics() . " WHERE album_cover=1 and album_id = %d",
-						$album_id
-					)
-			);
+		(
+			$wpdb->prepare
+				(
+					"SELECT album_cover,thumbnail_url,video FROM " . gallery_bank_pics() . " WHERE album_cover=1 and album_id = %d",
+					$album_id
+				)
+		);
 	break;
 	case "grid" || "list":
-		if (isset($widget)) {
+		if (isset($widget))
+		{
 			$galleryWidget = $widget;
-		} else {
+		}
+		else
+		{
 			$galleryWidget = "";
 		}
-		if ($img_in_row == "") {
+		if ($img_in_row == "")
+		{
 			$img_in_row = 0;
 		}
 		if($show_albums == "all" || $show_albums == "")
@@ -321,7 +324,7 @@ switch ($album_type) {
 
 		$index = array_search("lightbox_overlay_bg_color", $setting_keys);
 		$lightbox_overlay_bg_color = $album_css[$index]->setting_value;
-	   
+
 
 		$index = array_search("lightbox_fade_in_time", $setting_keys);
 		$lightbox_fade_in_time = intval($album_css[$index]->setting_value);
@@ -359,9 +362,9 @@ switch ($album_type) {
 
 		$index = array_search("language_direction", $setting_keys);
 		$lang_dir_setting = $album_css[$index]->setting_value;
-		
+
 		$video_thumb_url = plugins_url("/assets/images/video.jpg",dirname(__FILE__));
-		
+
 
 	break;
 	case "grid" || "list" || "individual":
@@ -430,13 +433,15 @@ switch ($album_type) {
 ?>
 	<!-- Switch for global css  -->
 <style type="text/css">
+
 	<?php
 	switch($album_type)
 	{
 		case "images":
 				?>
 				/*noinspection ALL*/
-				.dynamic_css {
+				.dynamic_css
+				{
 					border: <?php echo $thumbnails_border_size;?>px solid <?php echo $thumbnails_border_color;?> !important;
 					border-radius: <?php echo $thumbnails_border_radius;?>px !important;
 					-moz-border-radius: <?php echo $thumbnails_border_radius;?>px !important;
@@ -444,14 +449,15 @@ switch ($album_type) {
 					-khtml-border-radius: <?php echo $thumbnails_border_radius;?>px !important;
 					-o-border-radius: <?php echo $thumbnails_border_radius;?>px !important;
 				}
-				.dynamic_css img {
+				.dynamic_css img
+				{
 					margin: 0 !important;
 					padding: 0 !important;
 					border: 0 !important;
 				}
 				.dynamic_css p
 				{
-					margin :0px !important; 
+					margin :0px !important;
 				}
 				.thumbnail_width<?php echo $unique_id;?>
 				{
@@ -460,16 +466,23 @@ switch ($album_type) {
 					box-sizing: border-box !important;
 				}
 				/*noinspection ALL*/
-				.images-in-row_<?php echo $unique_id;?> a, 
+				.images-in-row_<?php echo $unique_id;?> a,
 				.widget-images-in-row_<?php echo $unique_id;?> a
 				{
 					border-bottom: none !important;
+					text-decoration: none !important;
+				}
+				.images-in-row_<?php echo $unique_id;?> a : hover,
+				.widget-images-in-row_<?php echo $unique_id;?> a : hover
+				{
+					text-decoration: none !important;
 				}
 				<?php
 				if($widget != "true")
 				{
 				?>
-					.imgLiquidFill {
+					.imgLiquidFill
+					{
 						<?php
 						if($effect[0] == "")
 						{
@@ -546,7 +559,7 @@ switch ($album_type) {
 						<?php
 						if($effect[0] == "")
 						{
-						?> 
+						?>
 							width: <?php echo $thumbnails_width + ($thumbnails_border_size * 2) ;?>px !important;
 							box-sizing: border-box !important;
 						<?php
@@ -603,7 +616,8 @@ switch ($album_type) {
 					<?php
 					}
 					?>
-					.widget_margin_thumbs<?php echo $unique_id;?> {
+					.widget_margin_thumbs<?php echo $unique_id;?>
+					{
 						margin-right: <?php echo $margin_btw_thumbnails;?>px !important;
 						margin-bottom: <?php echo $margin_btw_thumbnails;?>px !important;
 					}
@@ -611,18 +625,20 @@ switch ($album_type) {
 				}
 				?>
 				/*noinspection ALL*/
-				.opactiy_thumbs {
+				.opactiy_thumbs
+				{
 					opacity: <?php echo $thumbnails_opacity;?> !important;
 					-moz-opacity: <?php echo $thumbnails_opacity; ?> !important;
 					-khtml-opacity: <?php echo $thumbnails_opacity; ?> !important;
 				}
 				/*noinspection ALL*/
-				.shutter-gb-img-wrap 
+				.shutter-gb-img-wrap
 				{
 					margin-right: <?php echo $margin_btw_thumbnails;?>px !important;
 					margin-bottom: <?php echo $margin_btw_thumbnails;?>px !important;
 				}
-				.overlay_text > h5 {
+				.overlay_text > h5
+				{
 					margin-top:10px !important;
 					padding: 0 10px 0 10px !important;
 					line-height: 1.5em !important;
@@ -632,7 +648,8 @@ switch ($album_type) {
 					color: <?php echo $thumbnail_text_color?> !important;
 					font-size: <?php echo $heading_font_size;?>px !important;
 				}
-				.overlay_text > p {
+				.overlay_text > p
+				{
 					padding: 10px 10px 0 10px !important;
 					line-height: 1.5em !important;
 					direction: <?php echo $lang_dir_setting; ?> !important;
@@ -645,7 +662,8 @@ switch ($album_type) {
 		break;
 		case "grid" || "list" || "individual":
 			?>
-			.dynamic_cover_css {
+			.dynamic_cover_css
+			{
 				border: <?php echo $cover_thumbnail_border_size;?>px solid <?php echo $cover_thumbnail_border_color;?> !important;
 				-moz-border-radius: <?php echo $cover_thumbnail_border_radius; ?>px !important;
 				-webkit-border-radius: <?php echo $cover_thumbnail_border_radius; ?>px !important;
@@ -656,18 +674,21 @@ switch ($album_type) {
 				-moz-opacity: <?php echo $cover_thumbnail_opacity;?> !important;
 				-khtml-opacity: <?php echo $cover_thumbnail_opacity;?> !important;
 			}
-			.dynamic_cover_css img {
+			.dynamic_cover_css img
+			{
 				margin: 0 !important;
 				padding: 0 !important;
 				border: 0 !important;
 			}
-			.imgLiquid {
+			.imgLiquid
+			{
 				width: <?php echo $cover_thumbnail_width;?>px !important;
 				height: <?php echo $cover_thumbnail_height;?>px !important;
 				display: inline-block;
 				box-sizing: border-box !important;
 			}
-			.album_back_btn {
+			.album_back_btn
+			{
 				margin-top: 10px !important;
 				border-radius: 8px !important;
 				padding: 10px 10px !important;
@@ -681,7 +702,8 @@ switch ($album_type) {
 				background: <?php echo $button_color;?> -ms-linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.1) 100%) !important;
 				background: <?php echo $button_color;?> -webkit-gradient(linear, left bottom, left top, color-stop(0%, rgba(0, 0, 0, 0.1)), color-stop(100%, rgba(255, 255, 255, 0))) !important;
 			}
-			.album_back_btn:hover {
+			.album_back_btn:hover
+			{
 				cursor: pointer !important;
 				background: <?php echo $button_color;?> linear-gradient(to top, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.1) 100%) !important;
 				background: <?php echo $button_color;?> -webkit-linear-gradient(to top, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.1) 100%) !important;
@@ -690,7 +712,8 @@ switch ($album_type) {
 				background: <?php echo $button_color;?> -ms-linear-gradient(to top, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.1) 100%) !important;
 				background: <?php echo $button_color;?> -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(0, 0, 0, 0.1)), color-stop(100%, rgba(255, 255, 255, 0))) !important;
 			}
-			#view_gallery_bank_albums_<?php echo $unique_id;?> {
+			#view_gallery_bank_albums_<?php echo $unique_id;?>
+			{
 				<?php
 				if($album_seperator == 1)
 				{
@@ -707,7 +730,8 @@ switch ($album_type) {
 			{
 			?>
 				/*********** For Grid Albums ********/
-				.albums-in-row_<?php echo $unique_id;?> {
+				.albums-in-row_<?php echo $unique_id;?>
+				{
 					width: <?php echo ($cover_thumbnail_width + ($margin_btw_cover_thumbnails * 2)) * $albums_in_row ;?>px !important;
 					<?php
 					if($album_seperator == 1)
@@ -720,7 +744,8 @@ switch ($album_type) {
 					}
 					?>
 				}
-				.albums_margin {
+				.albums_margin
+				{
 					margin-right: <?php echo $margin_btw_cover_thumbnails; ?>px !important;
 					margin-bottom: <?php echo $margin_btw_cover_thumbnails; ?>px !important;
 					display: inline-block !important;
@@ -728,11 +753,13 @@ switch ($album_type) {
 					vertical-align: text-top !important;
 					cursor: pointer;
 				}
-				.album_holder {
+				.album_holder
+				{
 					display: inline-block !important;
 					width: <?php echo $cover_thumbnail_width;?>px !important;
 				}
-				.album_holder h5 {
+				.album_holder h5
+				{
 					direction: <?php echo $lang_dir_setting; ?> !important;
 					text-align: <?php echo $album_text_align;?> !important;
 					font-family: <?php echo $album_font_family;?> !important;
@@ -743,7 +770,8 @@ switch ($album_type) {
 					padding: 0 !important;
 					line-height: 1.5em !important;
 				}
-				.album_holder p {
+				.album_holder p
+				{
 					direction: <?php echo $lang_dir_setting; ?> !important;
 					text-align: <?php echo $album_text_align;?> !important;
 					font-family: <?php echo $album_font_family;?> !important;
@@ -754,13 +782,15 @@ switch ($album_type) {
 					padding: 0 !important;
 					line-height: 1.5em !important;
 				}
-				.album_holder > div.album_link {
+				.album_holder > div.album_link
+				{
 					direction: <?php echo $lang_dir_setting; ?> !important;
 					margin: 10px 0 0 0 !important;
 					text-align: <?php echo $album_text_align;?> !important;
 					cursor: pointer;
 				}
-				div.album_link a {
+				div.album_link a
+				{
 					color: <?php echo $album_text_color?> !important;
 					font-size: <?php echo $album_text_font_size?>px !important;
 					font-family: <?php echo $album_font_family;?> !important;

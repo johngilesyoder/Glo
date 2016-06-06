@@ -42,7 +42,7 @@
 														<h4>Environment</h4>
 														<span class="tools">
 															<a data-target="#server_settings" data-toggle="collapse">
-																<i class="icon-chevron-down"></i>
+																<i class="icon-custom-arrow-down"></i>
 															</a>
 														</span>
 													</div>
@@ -50,7 +50,7 @@
 														<div class="widget-layout-body">
 														    <div class="layout-control-group">
 														        <label class="layout-label-control-group">Home URL :</label>
-														
+
 														        <div class="layout-controls">
 														            <span><?php echo home_url(); ?></span>
 														        </div>
@@ -59,7 +59,7 @@
 														<div class="widget-layout-body">
 														    <div class="layout-control-group">
 														        <label class="layout-label-control-group">Site URL :</label>
-														
+
 														        <div class="layout-controls">
 														            <span><?php echo site_url(); ?></span>
 														        </div>
@@ -68,7 +68,7 @@
 														<div class="widget-layout-body">
 														    <div class="layout-control-group">
 														        <label class="layout-label-control-group">WP Version :</label>
-														
+
 														        <div class="layout-controls">
 														            <span><?php bloginfo("version"); ?></span>
 														        </div>
@@ -77,7 +77,7 @@
 														<div class="widget-layout-body">
 														    <div class="layout-control-group">
 														        <label class="layout-label-control-group">WP Multisite Enabled :</label>
-														
+
 														        <div class="layout-controls">
 														            <span><?php if (is_multisite()) echo "Yes"; else echo "No"; ?></span>
 														        </div>
@@ -96,10 +96,10 @@
 														<div class="widget-layout-body">
 														    <div class="layout-control-group">
 														        <label class="layout-label-control-group">WP Remote Post :</label>
-														
+
 														        <div class="layout-controls">
 														            <span>
-														            <?php 
+														            <?php
 																	if ( ! is_wp_error( $response ))
 																	{
 																		echo "Success";
@@ -116,7 +116,7 @@
 														<div class="widget-layout-body">
 														    <div class="layout-control-group">
 														        <label class="layout-label-control-group">Web Server Info :</label>
-														
+
 														        <div class="layout-controls">
 														            <span><?php echo esc_html($_SERVER["SERVER_SOFTWARE"]); ?></span>
 														        </div>
@@ -125,7 +125,7 @@
 														<div class="widget-layout-body">
 														    <div class="layout-control-group">
 														        <label class="layout-label-control-group">PHP Version :</label>
-														
+
 														        <div class="layout-controls">
 														            <span><?php if (function_exists("phpversion")) echo esc_html(phpversion()); ?></span>
 														        </div>
@@ -134,10 +134,10 @@
 														<div class="widget-layout-body">
 														    <div class="layout-control-group">
 														        <label class="layout-label-control-group">MySQL Version :</label>
-														
+
 														        <div class="layout-controls">
 														            <span>
-														            <?php 
+														            <?php
 														          	 global $wpdb;
 																	echo $wpdb->db_version();
 																	?>
@@ -148,7 +148,7 @@
 														<div class="widget-layout-body">
 														    <div class="layout-control-group">
 														        <label class="layout-label-control-group">WP Debug Mode :</label>
-														
+
 														        <div class="layout-controls">
 														            <span><?php if (defined("WP_DEBUG") && WP_DEBUG) echo "Yes"; else echo "No"; ?></span>
 														        </div>
@@ -157,7 +157,7 @@
 														<div class="widget-layout-body">
 														    <div class="layout-control-group">
 														        <label class="layout-label-control-group">WP Language :</label>
-														
+
 														        <div class="layout-controls">
 														            <span><?php if (defined("WPLANG") && WPLANG) echo WPLANG; else _e("Default"); ?></span>
 														        </div>
@@ -166,7 +166,7 @@
 														<div class="widget-layout-body">
 														    <div class="layout-control-group">
 														        <label class="layout-label-control-group">WP Max Upload Size :</label>
-														
+
 														        <div class="layout-controls">
 														            <span><?php echo size_format(wp_max_upload_size()); ?></span>
 														        </div>
@@ -176,7 +176,7 @@
 													    <div class="widget-layout-body">
 													        <div class="layout-control-group">
 													            <label class="layout-label-control-group">PHP Max Script Execute Time :</label>
-													
+
 													            <div class="layout-controls">
 													                <span><?php echo ini_get("max_execution_time"); ?>s</span>
 													            </div>
@@ -185,7 +185,7 @@
 													    <div class="widget-layout-body">
 													        <div class="layout-control-group">
 													            <label class="layout-label-control-group">PHP Max Input Vars :</label>
-													
+
 													            <div class="layout-controls">
 													                <span><?php echo ini_get("max_input_vars"); ?></span>
 													            </div>
@@ -194,7 +194,7 @@
 													    <div class="widget-layout-body">
 													        <div class="layout-control-group">
 													            <label class="layout-label-control-group">SUHOSIN Installed" :</label>
-													
+
 													            <div class="layout-controls">
 													                <span><?php echo extension_loaded("suhosin") ? "Yes" : "No" ?></span>
 													            </div>
@@ -376,7 +376,7 @@
 														<h4>Plugins</h4>
 														<span class="tools">
 															<a data-target="#plugin_settings" data-toggle="collapse">
-																<i class="icon-chevron-down"></i>
+																<i class="icon-custom-arrow-down"></i>
 															</a>
 														</span>
 													</div>
@@ -388,22 +388,22 @@
 																	<span>
 																		<?php
 																		$active_plugins = (array)get_option("active_plugins", array());
-						
+
 																		if (is_multisite())
 																		$active_plugins = array_merge($active_plugins, get_site_option("active_sitewide_plugins", array()));
 																		$get_plugins = array();
-						
+
 																		foreach ($active_plugins as $plugin) {
 						                                                    $plugin_data = @get_plugin_data(WP_PLUGIN_DIR . "/" . $plugin);
 						                                                    $dirname = dirname($plugin);
 						                                                    $version_string = "";
 						                                                    if (!empty($plugin_data["Name"])) {
 						                                                        $plugin_name = $plugin_data["Name"];
-						
+
 						                                                        if (!empty($plugin_data["PluginURI"])) {
 						                                                            $plugin_name = "<a href=\"" . esc_url($plugin_data["PluginURI"]) . "\" title=\"" . "Visit plugin homepage" . "\">" . $plugin_name . "</a>";
 						                                                        }
-						
+
 						                                                        if (strstr($dirname, gallery_bank)) {
 						                                                            if (false === ($version_data = get_transient($plugin . "_version_data"))) {
 						                                                                $changelog = wp_remote_get("http://dzv365zjfbd8v.cloudfront.net/changelogs/" . $dirname . "/changelog.txt");
@@ -448,16 +448,16 @@
 														<h4>Themes</h4>
 															<span class="tools">
 																<a data-target="#themes_settings" data-toggle="collapse">
-						                                            <i class="icon-chevron-down"></i>
+						                                            <i class="icon-custom-arrow-down"></i>
 						                                        </a>
 															</span>
 													</div>
-					
+
 													<div id="themes_settings" class="collapse in">
 											            <div class="widget-layout-body">
 											                <div class="layout-control-group">
 											                    <label class="layout-label-control-group">Theme Name :</label>
-											
+
 											                    <div class="layout-controls">
 											                        <span><?php echo $active_theme->Name; ?></span>
 											                    </div>
@@ -478,7 +478,7 @@
 											            <div class="widget-layout-body">
 											                <div class="layout-control-group">
 											                    <label class="layout-label-control-group">Author URL :</label>
-											
+
 											                    <div class="layout-controls">
 											                        <span><?php echo $active_theme->{"Author URI"}; ?></span>
 											                    </div>
@@ -489,13 +489,13 @@
 					                                <?php
 					                                }
 					                                ?>
-					
+
 												<div class="widget-layout">
 											        <div class="widget-layout-title">
 											            <h4>Graphic Library Settings</h4>
 														<span class="tools">
 															<a data-target="#library_settings" data-toggle="collapse">
-						                                        <i class="icon-chevron-down"></i>
+						                                        <i class="icon-custom-arrow-down"></i>
 						                                    </a>
 														</span>
 											        </div>
@@ -549,8 +549,8 @@
 		        }
 		        return o;
 		    };
-		
-		
+
+
 		    jQuery("a.system-report").click(function () {
 		        var report = "";
 		        jQuery(".layout-span6 .widget-layout").each(function () {
@@ -589,6 +589,6 @@
 		    	jQuery("a.system-report").fadeIn();
 		    })
 		</script>
-<?php 
+<?php
 	}
 ?>

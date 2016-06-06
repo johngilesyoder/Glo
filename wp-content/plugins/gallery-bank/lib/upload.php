@@ -11,7 +11,7 @@
 		case "author":
 			$user_role_permission = "publish_posts";
 		break;
-		
+
 	}
 
 if (!current_user_can($user_role_permission))
@@ -20,7 +20,7 @@ if (!current_user_can($user_role_permission))
 }
 else
 {
-	if ((wp_verify_nonce($_REQUEST["_nonce"], "manage_uploading")) && ($_REQUEST["param"] == "upload_pic")) 
+	if ((wp_verify_nonce($_REQUEST["_nonce"], "manage_uploading")) && ($_REQUEST["param"] == "upload_pic"))
 	{
 		/**
 		 * upload.php
@@ -40,7 +40,7 @@ else
 		header("Cache-Control: post-check=0, pre-check=0", false);
 		header("Pragma: no-cache");
 
-		/* 
+		/*
 		// Support CORS
 		header("Access-Control-Allow-Origin: *");
 		// other CORS headers if any...
@@ -74,7 +74,7 @@ else
 		} else {
 			$fileName = uniqid("file_");
 		}
-		
+
 		$filePath = $targetDir . DIRECTORY_SEPARATOR . $fileName;
 
 		// Chunking might be enabled
@@ -82,7 +82,7 @@ else
 		$chunks = isset($_REQUEST["chunks"]) ? intval($_REQUEST["chunks"]) : 0;
 
 
-		// Remove old temp files	
+		// Remove old temp files
 		if ($cleanupTargetDir) {
 			if (!is_dir($targetDir) || !$dir = opendir($targetDir)) {
 				die('{"jsonrpc" : "2.0", "error" : {"code": 100, "message": "Failed to open temp directory."}, "id" : "id"}');
@@ -140,7 +140,6 @@ else
 		}
 		die('{"jsonrpc" : "2.0", "result" : null, "id" : "id"}');
 		// Return Success JSON-RPC response
-		
 	}
 }
 ?>

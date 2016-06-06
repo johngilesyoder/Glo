@@ -238,7 +238,7 @@ if($album_type == "images")
 			jQuery("a[rel^=\"<?php echo $unique_id;?>prettyPhoto\"]").prettyPhoto
 			({
 				hook: "rel",
-				animation_speed: <?php echo $lightbox_fade_in_time;?>, 
+				animation_speed: <?php echo $lightbox_fade_in_time;?>,
 				slideshow: <?php echo $slide_interval * 1000; ?>,
 				autoplay_slideshow: <?php echo $autoplay;?>,
 				opacity: 0.80,
@@ -248,7 +248,7 @@ if($album_type == "images")
 				changepicturecallback: onPictureChanged
 			});
 		});
-		function onPictureChanged() 
+		function onPictureChanged()
 		{
 			var google_plus_icon = "<g:plusone data-action='share' href='"+ encodeURIComponent(location.href.replace(location.hash,'')) +"' width='160px' style='margin-left:5px; display:inline-block;'></g:plusone>";
 			jQuery(".pp_social").append(google_plus_icon);

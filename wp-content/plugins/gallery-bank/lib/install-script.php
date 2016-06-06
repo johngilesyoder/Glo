@@ -92,14 +92,14 @@ if(!function_exists("create_table_albums"))
 	function create_table_albums()
 	{
 		$sql = "CREATE TABLE " . gallery_bank_albums() . "(
-            album_id INTEGER(10) UNSIGNED NOT NULL AUTO_INCREMENT,
-            album_name VARCHAR(100),
-            author VARCHAR(100),
-            album_date DATE,
-            description TEXT ,
-            album_order INTEGER(10),
-            PRIMARY KEY (album_id)
-            ) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE utf8_general_ci";
+						album_id INTEGER(10) UNSIGNED NOT NULL AUTO_INCREMENT,
+						album_name TEXT,
+						author VARCHAR(100),
+						album_date DATE,
+						description TEXT ,
+						album_order INTEGER(10),
+						PRIMARY KEY (album_id)
+						) ENGINE=InnoDB	DEFAULT CHARSET=utf8 COLLATE utf8_general_ci";
 		dbDelta($sql);
 	}
 }
@@ -108,20 +108,20 @@ if(!function_exists("create_table_album_pics"))
 	function create_table_album_pics()
 	{
 		$sql = "CREATE TABLE " . gallery_bank_pics() . "(
-            pic_id INTEGER(10) UNSIGNED NOT NULL AUTO_INCREMENT,
-            album_id INTEGER(10) UNSIGNED NOT NULL,
-            title TEXT,
-            description TEXT,
-            thumbnail_url TEXT NOT NULL,
-            sorting_order INTEGER(20),
-            date DATE,
-            url VARCHAR(250),
-            video INTEGER(10) NOT NULL,
-            tags TEXT,
-            pic_name TEXT NOT NULL,
-            album_cover INTEGER(1) NOT NULL,
-            PRIMARY KEY(pic_id)
-            ) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE utf8_general_ci";
+						pic_id INTEGER(10) UNSIGNED NOT NULL AUTO_INCREMENT,
+						album_id INTEGER(10) UNSIGNED NOT NULL,
+						title TEXT,
+						description TEXT,
+						thumbnail_url TEXT NOT NULL,
+						sorting_order INTEGER(20),
+						date DATE,
+						url VARCHAR(250),
+						video INTEGER(10) NOT NULL,
+						tags TEXT,
+						pic_name TEXT NOT NULL,
+						album_cover INTEGER(1) NOT NULL,
+						PRIMARY KEY(pic_id)
+						) ENGINE=InnoDB	DEFAULT CHARSET=utf8 COLLATE utf8_general_ci";
 		dbDelta($sql);
 	}
 }
@@ -131,11 +131,11 @@ if(!function_exists("create_table_album_settings"))
 	{
 		global $wpdb;
 		$sql = "CREATE TABLE " . gallery_bank_settings() . "(
-            setting_id INTEGER(10) UNSIGNED NOT NULL AUTO_INCREMENT,
-            setting_key VARCHAR(100) NOT NULL,
-            setting_value TEXT NOT NULL,
-            PRIMARY KEY (setting_id)
-            ) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE utf8_general_ci";
+						setting_id INTEGER(10) UNSIGNED NOT NULL AUTO_INCREMENT,
+						setting_key VARCHAR(100) NOT NULL,
+						setting_value TEXT NOT NULL,
+						PRIMARY KEY (setting_id)
+						) ENGINE=InnoDB	DEFAULT CHARSET=utf8 COLLATE utf8_general_ci";
 		dbDelta($sql);
 
 		include (GALLERY_BK_PLUGIN_DIR . "/lib/include_settings.php");
@@ -149,158 +149,164 @@ update_option("gallery-bank-updation-check-url","http://tech-banker.com/wp-admin
 $version = get_option("gallery-bank-pro-edition");
 if($version == "")
 {
-    if (count($wpdb->get_var("SHOW TABLES LIKE '" . gallery_bank_albums() . "'")) == 0)
-    {
-        create_table_albums();
-    }
-    else
-    {
-        $albums = $wpdb->get_results
-        (
-			"Select * FROM " . gallery_bank_albums()
-        );
+		if (count($wpdb->get_var("SHOW TABLES LIKE '" . gallery_bank_albums() . "'")) == 0)
+		{
+				create_table_albums();
+		}
+		else
+		{
+				$albums = $wpdb->get_results
+				(
+					"Select * FROM " . gallery_bank_albums()
+				);
 
-        $sql = "DROP TABLE " . gallery_bank_albums();
-        $wpdb->query($sql);
+				$sql = "DROP TABLE " . gallery_bank_albums();
+				$wpdb->query($sql);
 
-        create_table_albums();
+				create_table_albums();
 
-        if(count($albums) > 0)
-        {
-            for($flag = 0; $flag < count($albums); $flag++)
-            {
-                $wpdb->query
-                (
-                    $wpdb->prepare
-                    (
-                        "INSERT INTO " . gallery_bank_albums() . "(album_id, album_name, author, album_date,
-                        description, album_order) VALUES(%d, %s, %s, %s, %s, %d)",
-                        $albums[$flag]->album_id,
-                        $albums[$flag]->album_name,
-                        $albums[$flag]->author,
-                        $albums[$flag]->album_date,
-                        $albums[$flag]->description,
-                        $albums[$flag]->album_id
-                    )
-                );
-            }
-        }
-    }
-    if (count($wpdb->get_var("SHOW TABLES LIKE '" . gallery_bank_pics() . "'")) == 0)
-    {
-        create_table_album_pics();
-    }
-    else
-    {
-        $album_pics = $wpdb->get_results
-        (
-			"Select * FROM " . gallery_bank_pics()
-        );
+				if(count($albums) > 0)
+				{
+						for($flag = 0; $flag < count($albums); $flag++)
+						{
+								$wpdb->query
+								(
+										$wpdb->prepare
+										(
+												"INSERT INTO " . gallery_bank_albums() . "(album_id, album_name, author, album_date,
+												description, album_order) VALUES(%d, %s, %s, %s, %s, %d)",
+												$albums[$flag]->album_id,
+												$albums[$flag]->album_name,
+												$albums[$flag]->author,
+												$albums[$flag]->album_date,
+												$albums[$flag]->description,
+												$albums[$flag]->album_id
+										)
+								);
+						}
+				}
+		}
+		if (count($wpdb->get_var("SHOW TABLES LIKE '" . gallery_bank_pics() . "'")) == 0)
+		{
+				create_table_album_pics();
+		}
+		else
+		{
+				$album_pics = $wpdb->get_results
+				(
+					"Select * FROM " . gallery_bank_pics()
+				);
 
-        $sql = "DROP TABLE " . gallery_bank_pics();
-        $wpdb->query($sql);
+				$sql = "DROP TABLE " . gallery_bank_pics();
+				$wpdb->query($sql);
 
-        create_table_album_pics();
-        
-        if(count($album_pics) > 0)
-        {
-            $album_id = 0;
-            for($flag = 0; $flag < count($album_pics); $flag++)
-            {
-				if($album_pics[$flag]->video == 1)
-                {
-                    $wpdb->query
-                    (
-                        $wpdb->prepare
-                        (
-                            "INSERT INTO " . gallery_bank_pics() . "(pic_id, album_id, title, description, thumbnail_url,
-                            sorting_order, date, url, video, tags, pic_name, album_cover) VALUES(%d, %d, %s, %s, %s, %d, %s,
-                            %s, %d, %s, %s, %d)",
-                            $album_pics[$flag]->pic_id,
-                            $album_pics[$flag]->album_id,
-                            $album_pics[$flag]->title,
-                            $album_pics[$flag]->description,
-                            $album_pics[$flag]->thumbnail_url,
-                            $album_pics[$flag]->sorting_order,
-                            $album_pics[$flag]->date,
-                            $album_pics[$flag]->url,
-                            isset($album_pics[$flag]->video) ? $album_pics[$flag]->video : 0,
-                            isset($album_pics[$flag]->tags) ? $album_pics[$flag]->tags : "" ,
-                            isset($album_pics[$flag]->pic_path) ?  $album_pics[$flag]->pic_path : "",
-                           0
-                        )
-                    );
-                }
-                else
-                {
-                    $file_path = $album_pics[$flag]->pic_path;
-					
-					$file_name_exct = explode("/", $album_pics[$flag]->pic_path);
-                    $file_name = $file_name_exct[count($file_name_exct) - 1];
-					$src = str_replace(site_url("/"), "", $file_path);
-                    $destination = GALLERY_MAIN_UPLOAD_DIR.$file_name;
+				create_table_album_pics();
 
-                    if (PHP_VERSION > 5)
-                    {
-                        copy(ABSPATH.$src, $destination);
-                    }
-                    else
-                    {
-                        $content = file_get_contents(ABSPATH.$src);
-                        $fp = fopen($destination, "w");
-                        fwrite($fp, $content);
-                        fclose($fp);
-                    }
-                    if(file_exists($destination))
-                    {
-                        process_gallery_image_upload($file_name, 160, 120);
-                    }
+				if(count($album_pics) > 0)
+				{
+						$album_id = 0;
+						for($flag = 0; $flag < count($album_pics); $flag++)
+						{
+							if($album_pics[$flag]->video == 1)
+							{
+									$wpdb->query
+									(
+											$wpdb->prepare
+											(
+													"INSERT INTO " . gallery_bank_pics() . "(pic_id, album_id, title, description, thumbnail_url,
+													sorting_order, date, url, video, tags, pic_name, album_cover) VALUES(%d, %d, %s, %s, %s, %d, %s,
+													%s, %d, %s, %s, %d)",
+													$album_pics[$flag]->pic_id,
+													$album_pics[$flag]->album_id,
+													$album_pics[$flag]->title,
+													$album_pics[$flag]->description,
+													$album_pics[$flag]->thumbnail_url,
+													$album_pics[$flag]->sorting_order,
+													$album_pics[$flag]->date,
+													$album_pics[$flag]->url,
+													isset($album_pics[$flag]->video) ? $album_pics[$flag]->video : 0,
+													isset($album_pics[$flag]->tags) ? $album_pics[$flag]->tags : "" ,
+													isset($album_pics[$flag]->pic_path) ?	$album_pics[$flag]->pic_path : "",
+												 0
+											)
+									);
+							}
+							else
+							{
+									$file_path = $album_pics[$flag]->pic_path;
+									$file_name_exct = explode("/", $album_pics[$flag]->pic_path);
+									$file_name = $file_name_exct[count($file_name_exct) - 1];
+									$src = str_replace(site_url("/"), "", $file_path);
+									$destination = GALLERY_MAIN_UPLOAD_DIR.$file_name;
 
-                    $wpdb->query
-                    (
-                        $wpdb->prepare
-                        (
-                            "INSERT INTO " . gallery_bank_pics() . "(pic_id, album_id, title, description, thumbnail_url,
-                    sorting_order, date, url, video, tags, pic_name, album_cover) VALUES(%d, %d, %s, %s, %s, %d, %s,
-                    %s, %d, %s, %s, %d)",
-                            $album_pics[$flag]->pic_id,
-                            $album_pics[$flag]->album_id,
-                            $album_pics[$flag]->title,
-                            $album_pics[$flag]->description,
-                            $file_name,
-                            $album_pics[$flag]->sorting_order,
-                            $album_pics[$flag]->date,
-                            $album_pics[$flag]->url,
-                            $album_pics[$flag]->video,
-                            isset($album_pics[$flag]->tags) ? $album_pics[$flag]->tags : "" ,
-                            $file_name,
-                            $album_id == $album_pics[$flag]->album_id ? 0 : 1
-                        )
-                    );
-                    if($album_id != $album_pics[$flag]->album_id)
-                    {
-                        process_gallery_album_upload($file_name, 160, 120);
-                    }
-                    $album_id = $album_pics[$flag]->album_id;
-                }
-            }
-        }
-    }
-    if (count($wpdb->get_var("SHOW TABLES LIKE '" . gallery_bank_settings() . "'")) == 0)
-    {
-        create_table_album_settings();
-    }
-    else
-    {
-        $sql = "DROP TABLE " . gallery_bank_settings();
-        $wpdb->query($sql);
+									if (PHP_VERSION > 5)
+									{
+											copy(ABSPATH.$src, $destination);
+									}
+									else
+									{
+											$content = file_get_contents(ABSPATH.$src);
+											$fp = fopen($destination, "w");
+											fwrite($fp, $content);
+											fclose($fp);
+									}
+									if(file_exists($destination))
+									{
+											process_gallery_image_upload($file_name, 160, 120);
+									}
 
-        create_table_album_settings();
-    }
+									$wpdb->query
+									(
+										$wpdb->prepare
+										(
+											"INSERT INTO " . gallery_bank_pics() . "(pic_id, album_id, title, description, thumbnail_url,
+											sorting_order, date, url, video, tags, pic_name, album_cover) VALUES(%d, %d, %s, %s, %s, %d, %s,
+											%s, %d, %s, %s, %d)",
+											$album_pics[$flag]->pic_id,
+											$album_pics[$flag]->album_id,
+											$album_pics[$flag]->title,
+											$album_pics[$flag]->description,
+											$file_name,
+											$album_pics[$flag]->sorting_order,
+											$album_pics[$flag]->date,
+											$album_pics[$flag]->url,
+											$album_pics[$flag]->video,
+											isset($album_pics[$flag]->tags) ? $album_pics[$flag]->tags : "" ,
+											$file_name,
+											$album_id == $album_pics[$flag]->album_id ? 0 : 1
+										)
+									);
+									if($album_id != $album_pics[$flag]->album_id)
+									{
+											process_gallery_album_upload($file_name, 160, 120);
+									}
+									$album_id = $album_pics[$flag]->album_id;
+							}
+						}
+				}
+		}
+		if (count($wpdb->get_var("SHOW TABLES LIKE '" . gallery_bank_settings() . "'")) == 0)
+		{
+				create_table_album_settings();
+		}
+		else
+		{
+				$sql = "DROP TABLE " . gallery_bank_settings();
+				$wpdb->query($sql);
+
+				create_table_album_settings();
+		}
 	 update_option("gallery-bank-pro-edition", "3.1");
 }
-else if($version == "3.0")
+else
 {
+	if(count($wpdb->get_var("SHOW TABLES LIKE '" . gallery_bank_albums() . "'")) != 0)
+	{
+		$wpdb->query
+		(
+			"ALTER TABLE " . gallery_bank_albums() . " MODIFY album_name TEXT"
+		);
+	}
 	update_option("gallery-bank-pro-edition", "3.1");
 }
 

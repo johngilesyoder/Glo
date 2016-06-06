@@ -28,7 +28,7 @@ if(!function_exists("check_server_configuration"))
 
 		$free_memory = $server_memory_limit - memory_get_usage( true );
 		$image_pixels = gallery_get_minisize() * gallery_get_minisize() * 3 / 4;
-			
+
 		$bytes_per_pixel = $server_memory_limit / ( 1024 * 1024 );
 		$factor_result = "6.00" - "0.58" * ( $bytes_per_pixel / 104 );
 
@@ -43,7 +43,7 @@ if(!function_exists("check_server_configuration"))
 		}
 		else
 		{
-				
+
 			$max_x = sqrt($max_image_pixel / 12) * 4;
 			$max_y = sqrt($max_image_pixel / 12) * 3;
 			if($con)
@@ -112,7 +112,7 @@ if(!function_exists("gallery_get_minisize"))
 					<a class="button button-primary button-hero" target="_blank" href="http://vimeo.com/92378296">
 						<?php _e("Watch Gallery Video!", gallery_bank); ?>
 					</a>
-					<p>or, 
+					<p>or,
 						<a target="_blank" href="http://tech-banker.com/products/wp-gallery-bank/knowledge-base/">
 							<?php _e("read documentation here", gallery_bank); ?>
 						</a>
@@ -197,7 +197,7 @@ switch($_REQUEST["page"])
 		if ( ! function_exists( "imagecreatefromjpeg" ) ) {
 			_e( "There is a serious misconfiguration in your servers PHP config. Function imagecreatefromjpeg() does not exist. You will encounter problems when uploading photos and not be able to generate thumbnail images. Ask your hosting provider to add GD support with a minimal version 1.8.", gallery_bank );
 		}
-		
+
 		$max_upload_files = ini_get( "max_file_uploads" );
 		$max_files_upload = $max_upload_files;
 		if ( $max_upload_files < "1" ) {
@@ -228,7 +228,7 @@ switch($_REQUEST["page"])
 		if ( ! function_exists( "imagecreatefromjpeg" ) ) {
 			_e( "There is a serious misconfiguration in your servers PHP config. Function imagecreatefromjpeg() does not exist. You will encounter problems when uploading photos and not be able to generate thumbnail images. Ask your hosting provider to add GD support with a minimal version 1.8.", gallery_bank );
 		}
-		
+
 		$max_upload_files = ini_get( "max_file_uploads" );
 		$max_files_upload = $max_upload_files;
 		if ( $max_upload_files < "1" ) {
@@ -261,7 +261,7 @@ switch($_REQUEST["page"])
 ?>
 <ul class="breadcrumb" style="margin-top: 10px;">
 	<li>
-		<i class="icon-home"></i>
+		<i class="icon-custom-home"></i>
 		<a href="admin.php?page=gallery_bank"><?php _e("Gallery Bank", gallery_bank); ?></a>
 		<span class="divider">/</span>
 		<a href="#"><?php _e($page, gallery_bank); ?></a>
@@ -269,7 +269,7 @@ switch($_REQUEST["page"])
 </ul>
 
 <?php
-switch ($gb_role) 
+switch ($gb_role)
 {
 	case "administrator":
 		?>
@@ -318,7 +318,7 @@ if($_REQUEST["page"] != "gallery_bank_feature_request")
 	?>
 	<div class="custom-message green" style="display: block;margin-top:30px">
 		<div style="padding: 4px 0;">
-			<p style="font:12px/1.0em Arial !important;font-weight:bold;">If you don't find any features you were looking for in this Plugin, 
+			<p style="font:12px/1.0em Arial !important;font-weight:bold;">If you don't find any features you were looking for in this Plugin,
 				please write us <a target="_self" href="admin.php?page=gallery_bank_feature_request">here</a> and we shall try to implement this for you as soon as possible! We are looking forward for your valuable <a target="_self" href="admin.php?page=gallery_bank_feature_request">Feedback</a></p>
 		</div>
 	</div>
@@ -362,7 +362,7 @@ if (!(is_dir(GALLERY_MAIN_THUMB_DIR)))
 }
 function is_dir_empty($dir)
 {
-	if (!is_readable($dir)) return NULL; 
+	if (!is_readable($dir)) return NULL;
 	$handle = opendir($dir);
 	while (false !== ($entry = readdir($handle))) {
 		if ($entry != "." && $entry != "..") {

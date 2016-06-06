@@ -35,7 +35,7 @@
 					move_uploaded_file($temp_image_path, $uploaded_image_path);
 					$type = explode(".", $image);
 					$thumbnail_image_path = GALLERY_MAIN_THUMB_DIR . preg_replace('{\\.[^\\.]+$}', '.'.$type[1], $temp_image_name);
-			
+
 					$result = generating_gallery_thumbnail($uploaded_image_path, $thumbnail_image_path, $width, $height);
 					return $result ? array($uploaded_image_path, $thumbnail_image_path) : false;
 				}
@@ -54,7 +54,7 @@
 					move_uploaded_file($temp_image_path, $uploaded_image_path);
 					$type = explode(".", $album_image);
 					$thumbnail_image_path = GALLERY_MAIN_ALB_THUMB_DIR . preg_replace("{\\.[^\\.]+$}", ".".$type[1], $temp_image_name);
-			
+
 					$result = generating_gallery_thumbnail($uploaded_image_path, $thumbnail_image_path, $width, $height);
 					return $result ? array($uploaded_image_path, $thumbnail_image_path) : false;
 				}
@@ -67,7 +67,7 @@
 					list($source_image_width, $source_image_height, $source_image_type) = getimagesize($source_image_path);
 					$source_gd_image = false;
 					switch ($source_image_type) {
-			
+
 						case IMAGETYPE_GIF:
 							$source_gd_image = imagecreatefromgif($source_image_path);
 							break;
@@ -88,9 +88,9 @@
 					} else if ($source_image_height > $source_image_width) {
 						(int)$real_height = $imageWidth / $source_aspect_ratio;
 						(int)$real_width = $imageWidth;
-			
+
 					} else {
-			
+
 						(int)$real_height = $imageHeight > $imageWidth ? $imageHeight : $imageWidth;
 						(int)$real_width = $imageWidth > $imageHeight ? $imageWidth : $imageHeight;
 					}
@@ -98,7 +98,7 @@
 					$bg_color = imagecolorallocate($thumbnail_gd_image, 255, 255, 255);
 					imagefilledrectangle($thumbnail_gd_image, 0, 0, $real_width, $real_height, $bg_color);
 					imagecopyresampled($thumbnail_gd_image, $source_gd_image, 0, 0, 0, 0, $real_width, $real_height, $source_image_width, $source_image_height);
-			
+
 					imagejpeg($thumbnail_gd_image, $thumbnail_image_path, 100);
 					imagedestroy($source_gd_image);
 					imagedestroy($thumbnail_gd_image);
@@ -135,7 +135,7 @@
 				);
 				$cover_pic_id = 0;
 				$images_array = array("coffee.jpg","hunter.jpg","ice-cream.jpg","like.jpg","pawns.jpg","wallpaper.jpg");
-				
+
 				foreach ($images_array as $image)
 				{
 					$src_image = GALLERY_BK_PLUGIN_DIR."images/".$image;
@@ -155,7 +155,7 @@
 					{
 						uploading_gallery_image($image, 160, 120);
 					}
-					
+
 					$wpdb->query
 					(
 						$wpdb->prepare
@@ -192,12 +192,12 @@
 			}
 			update_option("gallery-bank-demo", "1");
 		}
-		
+
 		$last_album_id = $wpdb->get_var
 		(
 			"SELECT album_id FROM " .gallery_bank_albums(). " order by album_id desc limit 1"
 		);
-		
+
 		$album = $wpdb->get_results
 		(
 			"SELECT * FROM ".gallery_bank_albums()." order by album_order asc "
@@ -215,26 +215,26 @@
 			}
 			$index = array_search("cover_thumbnail_width", $setting_keys);
 			$cover_thumbnail_width = $album_css[$index]->setting_value;
-			
+
 			$index = array_search("cover_thumbnail_height", $setting_keys);
 			$cover_thumbnail_height = $album_css[$index]->setting_value;
-			
+
 			$index = array_search("cover_thumbnail_opacity", $setting_keys);
 			$cover_thumbnail_opacity = $album_css[$index]->setting_value;
-			
+
 			$index = array_search("cover_thumbnail_border_size", $setting_keys);
 			$cover_thumbnail_border_size = $album_css[$index]->setting_value;
-			
+
 			$index = array_search("cover_thumbnail_border_radius", $setting_keys);
 			$cover_thumbnail_border_radius = $album_css[$index]->setting_value;
-			
+
 			$index = array_search("cover_thumbnail_border_color", $setting_keys);
 			$cover_thumbnail_border_color = $album_css[$index]->setting_value;
 		}
-		
+
 	?>
 	<!--suppress ALL -->
-	
+
 	        <style type="text/css">
 		.dynamic_cover_css{
 			border:<?php echo $cover_thumbnail_border_size;?>px solid <?php echo $cover_thumbnail_border_color;?> ;
@@ -262,24 +262,24 @@
 	        background-color: #ffffff;
 	        padding-left: 16px;
 	    }
-	
+
 	    div.pp_default .pp_content_container .pp_right {
 	        background-color: #ffffff;
 	        padding-right: 13px;
 	    }
-	
+
 	    div.pp_default .pp_bottom .pp_middle {
 	        background-color: #ffffff;
 	    }
-	
+
 	    div.pp_default .pp_content, div.light_rounded .pp_content {
 	        background-color: #ffffff;
 	    }
-	
+
 	    .pp_details {
 	        background-color: #ffffff;
 	    }
-	
+
 	    .ppt {
 	        display: none !important;
 	    }
@@ -314,8 +314,8 @@
 										<?php
 									}
 									?>
-									
-												
+
+
 									<a class="btn btn-danger" href="#" onclick="delete_all_albums();"><?php _e("Delete All Albums", gallery_bank);?></a>
 									<a class="btn btn-danger" href="#" onclick="purge_all_images();"><?php _e("Purge Images & Albums", gallery_bank);?></a>
 									<a class="btn btn-danger" href="#" onclick="restore_factory_settings();"><?php _e("Restore Factory Settings", gallery_bank);?></a>
@@ -375,15 +375,15 @@
 																						}
 																						else
 																						{
-																							?> 
+																							?>
 																							<img src="<?php echo stripcslashes(GALLERY_BK_ALBUM_THUMB_URL.$albumCover->thumbnail_url); ?>"   />
 																							<?php
 																						}
 																					}
-																					else 
+																					else
 																					{
-																						?> 
-																						<img src="<?php echo stripcslashes(plugins_url("/assets/images/album-cover.png",dirname(__FILE__))); ?>"   />	
+																						?>
+																						<img src="<?php echo stripcslashes(plugins_url("/assets/images/album-cover.png",dirname(__FILE__))); ?>"   />
 																						<?php
 																					}
 																					?>
@@ -400,22 +400,22 @@
 																			<ul class="layout-table-controls">
 																				<li>
 																					<a href="admin.php?page=save_album&album_id=<?php echo $album[$flag]->album_id;?>" class="btn hovertip" data-original-title="<?php _e( "Edit Album", gallery_bank ); ?>">
-																						<i class="icon-pencil" ></i>
+																						<i class="icon-custom-pencil" ></i>
 																					</a>
 																				</li>
 																				<li>
 																					<a href="admin.php?page=images_sorting&album_id=<?php echo $album[$flag]->album_id;?>&row=3" class="btn hovertip" data-original-title="<?php _e( "Re-Order Images", gallery_bank ); ?>">
-																						<i class="icon-th"></i>
+																						<i class="icon-custom-grid"></i>
 																					</a>
 																				</li>
 																				<li>
 																					<a href="admin.php?page=album_preview&album_id=<?php echo $album[$flag]->album_id;?>" class="btn hovertip" data-original-title="<?php _e( "Preview Album", gallery_bank ); ?>">
-																						<i class="icon-eye-open"></i>
+																						<i class="icon-custom-eye"></i>
 																					</a>
 																				</li>
 																				<li>
 																					<a class="btn hovertip "  style="cursor: pointer;" data-original-title="<?php _e( "Delete Album", gallery_bank)?>" onclick="delete_album(<?php echo $album[$flag]->album_id;?>);" >
-																						<i class="icon-trash"></i>
+																						<i class="icon-custom-trash"></i>
 																					</a>
 																				</li>
 																			</ul>
@@ -441,7 +441,7 @@
 
 	<script type="text/javascript">
 		jQuery(".hovertip").tooltip_tip();
-		jQuery(document).ready(function() 
+		jQuery(document).ready(function()
 		{
 			jQuery(".imgLiquidFill").imgLiquid({fill:true});
 			var oTable = jQuery("#data-table-album").dataTable
@@ -450,7 +450,7 @@
 				"bAutoWidth": true,
 				"sPaginationType": "full_numbers",
 				"sDom": '<"datatable-header"fl>t<"datatable-footer"ip>',
-				"oLanguage": 
+				"oLanguage":
 				{
 					"sLengthMenu": "<span>Show entries:</span> _MENU_"
 				},
@@ -459,16 +459,16 @@
 			});
 			jQuery("a[rel^=\"prettyPhoto\"]").prettyPhoto
 			({
-				animation_speed: 1000, 
-				slideshow: 4000, 
+				animation_speed: 1000,
+				slideshow: 4000,
 				autoplay_slideshow: false,
-				opacity: 0.80, 
+				opacity: 0.80,
 				show_title: false,
 				allow_resize: true
 			});
 		});
-	
-		function delete_album(album_id) 
+
+		function delete_album(album_id)
 		{
 			var r = confirm("<?php _e( "Are you sure you want to delete this Album?", gallery_bank ); ?>");
 			if(r == true)
@@ -494,6 +494,6 @@
 			alert("<?php _e( "This feature is only available in Paid Premium Version!", gallery_bank ); ?>");
 		}
 	</script>
-	<?php 
+	<?php
 	}
 	?>

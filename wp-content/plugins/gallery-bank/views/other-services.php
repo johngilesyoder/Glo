@@ -354,7 +354,7 @@ else
 																					</div>
 																					<div class="plugin-card-bottom_settings">
 																						<div class="vers column-rating">
-																							
+
 																						</div>
 																						<div class="column-downloaded">
 																							<strong><?php _e("Cost of this Service is 799 Pounds.", tech_bank); ?></strong><br/>
@@ -907,7 +907,7 @@ else
 																					</div>
 																					<div class="plugin-card-bottom_settings">
 																						<div class="vers column-rating">
-																							
+
 																						</div>
 																						<div class="column-downloaded">
 																							<strong><?php _e("Cost of this Service is 499 Pounds.", tech_bank); ?></strong><br/>
@@ -938,7 +938,7 @@ else
 																					</div>
 																					<div class="plugin-card-bottom_settings">
 																						<div class="vers column-rating">
-																							
+
 																						</div>
 																						<div class="column-downloaded">
 																							<strong><?php _e("Cost of this Service is 499 Pounds.", tech_bank); ?></strong><br/>
@@ -969,7 +969,7 @@ else
 																					</div>
 																					<div class="plugin-card-bottom_settings">
 																						<div class="vers column-rating">
-																							
+
 																						</div>
 																						<div class="column-downloaded">
 																							<strong><?php _e("Cost of this Service is 499 Pounds.", tech_bank); ?></strong><br/>
@@ -983,7 +983,7 @@ else
 																	<div id="ecommerce" class="framework_tab">
 																			<div class="wp-list-table  plugin-install">
 																			<div id="the-list">
-																				
+
 																				<div class="service-div-settings">
 																					<div class="service-div-settings-top">
 																						<div class="service-div-inner-content">
@@ -1178,8 +1178,8 @@ else
 																						</div>
 																					</div>
 																				</div>
-																				
-																				
+
+
 																				<div class="service-div-settings">
 																					<div class="service-div-settings-top">
 																						<div class="service-div-inner-content">
@@ -1274,6 +1274,6 @@ else
 			e.preventDefault();
 		});
 	</script>
-<?php 
+<?php
 }
 ?>

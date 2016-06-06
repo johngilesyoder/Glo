@@ -37,9 +37,15 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="/">
-              <img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo.png" alt="Site logo"/>
-            </a>
+            <?php if (is_front_page()): ?>  
+              <h1 class="navbar-brand">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo.png" alt="Site logo"/>
+              </h1>
+            <?php else: ?>
+              <a class="navbar-brand" href="/">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo.png" alt="Site logo"/>
+              </a>
+            <?php endif; ?>
           </div>
 
           <!-- Collect the nav links, forms, and other content for toggling -->
