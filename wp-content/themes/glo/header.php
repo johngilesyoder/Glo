@@ -1,5 +1,5 @@
 <!doctype html>
-<html class="no-js" {{ language_attributes() }}>
+<html class="no-js" <?php language_attributes(); ?>>
 <head <?php do_action( 'add_head_attributes' ); ?>>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
