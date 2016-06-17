@@ -1,56 +1,31 @@
-<?php
-/**
- * The template for displaying 404 pages (not found).
- *
- * @package glo
- */
+<!doctype html>
+<html class="no-js" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" <?php language_attributes(); ?>>
+<head <?php do_action( 'add_head_attributes' ); ?>>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title><?php echo wp_title('|', true, 'right'); ?></title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <?php gravity_form_enqueue_scripts( 1, true ); ?>
+  <?php echo wp_head(); ?>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+  <!-- Typekit -->
+  <script src="//use.typekit.net/cmt2uhr.js"></script>
+  <script>try{Typekit.load({ async: true });}catch(e){}</script>
+</head>
 
-get_header(); ?>
-
-	<div id="primary" class="content-area">
-		<main id="main" class="site-main" role="main">
-
-			<section class="error-404 not-found">
-				<header class="page-header">
-					<h1 class="page-title"><?php esc_html_e( 'Oops! That page can&rsquo;t be found.', 'glo' ); ?></h1>
-				</header><!-- .page-header -->
-
-				<div class="page-content">
-					<p><?php esc_html_e( 'It looks like nothing was found at this location. Maybe try one of the links below or a search?', 'glo' ); ?></p>
-
-					<?php get_search_form(); ?>
-
-					<?php the_widget( 'WP_Widget_Recent_Posts' ); ?>
-
-					<?php if ( glo_categorized_blog() ) : // Only show the widget if site has multiple categories. ?>
-					<div class="widget widget_categories">
-						<h2 class="widget-title"><?php esc_html_e( 'Most Used Categories', 'glo' ); ?></h2>
-						<ul>
-						<?php
-							wp_list_categories( array(
-								'orderby'    => 'count',
-								'order'      => 'DESC',
-								'show_count' => 1,
-								'title_li'   => '',
-								'number'     => 10,
-							) );
-						?>
-						</ul>
-					</div><!-- .widget -->
-					<?php endif; ?>
-
-					<?php
-						/* translators: %1$s: smiley */
-						$archive_content = '<p>' . sprintf( esc_html__( 'Try looking in the monthly archives. %1$s', 'glo' ), convert_smilies( ':)' ) ) . '</p>';
-						the_widget( 'WP_Widget_Archives', 'dropdown=1', "after_title=</h2>$archive_content" );
-					?>
-
-					<?php the_widget( 'WP_Widget_Tag_Cloud' ); ?>
-
-				</div><!-- .page-content -->
-			</section><!-- .error-404 -->
-
-		</main><!-- #main -->
-	</div><!-- #primary -->
-
-<?php get_footer(); ?>
+<body <?php body_class( $class ); ?>> 
+	<div class="container">
+		<div class="error-message">
+			<h1>404</h1>
+			<h2>Page not found :(</h2>
+			<p>Unfortunately, we were unable to find that page or it does not exist.<br />Please <a href="/">return</a> to the home page.</p>
+		</div>
+		<div class="site-logo-wrapper">
+			<!-- ==== Site Logo ==== -->
+			<div class="site-logo">
+				<a href="/" class="glo-logo"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo.png" alt="Site logo"/></a>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
