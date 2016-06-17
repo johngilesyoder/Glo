@@ -18,8 +18,8 @@ wp-content/cache/*
 wp-content/cache/supercache/*
 wp-content/themes/*
 /wp-content/themes/*
-!wp-content/themes/hatch/
-!/wp-content/themes/hatch/
+!wp-content/themes/glo/
+!/wp-content/themes/glo/
 wp-content/plugins/*
 wp-content/plugins/*
 /wp-content/plugins/*
