@@ -21,9 +21,9 @@ wp-content/themes/*
 !wp-content/themes/glo/
 !/wp-content/themes/glo/
 wp-content/plugins/*
-wp-content/plugins/*
+wp-content/plugins/
 /wp-content/plugins/*
-/wp-content/plugins/*
+/wp-content/plugins/
 
 # wpengine specific
 .smushit-status
