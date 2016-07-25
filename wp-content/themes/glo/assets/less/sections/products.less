@@ -63,12 +63,14 @@
     cursor: pointer;
   }
 
-  figure img {
+  figure .product-img {
     position: relative;
     display: block;
     min-height: 100%;
     max-width: 100%;
     opacity: 0.6;
+    background-size: cover;
+    background-position: 50% 50%;
   }
 
   figure figcaption {
@@ -133,7 +135,7 @@
     background: #000;
   }
 
-  figure.effect-sarah img {
+  figure.effect-sarah .product-img {
     max-width: none;
     width: -webkit-calc(100% + 20px);
     width: calc(100% + 20px);
@@ -145,7 +147,7 @@
     backface-visibility: hidden;
   }
 
-  figure.effect-sarah:hover img {
+  figure.effect-sarah:hover .product-img {
     opacity: 0.4;
     -webkit-transform: translate3d(0,0,0);
     transform: translate3d(0,0,0);

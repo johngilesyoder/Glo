@@ -46,7 +46,7 @@
 						<?php while ( have_posts() ) : the_post(); ?>
 								<div class="col-md-6">
 									<figure class="product-block effect-sarah">
-										<img src="<?php the_post_thumbnail_url( full ); ?>" alt="<?php the_title(); ?>"/>
+										<div class="product-img" style="background-image:url('<?php the_post_thumbnail_url( full ); ?>')"></div>
 										<figcaption>
 											<h2><?php the_title(); ?></h2>
 											<p>

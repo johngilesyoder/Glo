@@ -8180,12 +8180,14 @@ fieldset[disabled] .product-quote .quote-btn.active {
   text-align: center;
   cursor: pointer;
 }
-.tax-product-line figure img {
+.tax-product-line figure .product-img {
   position: relative;
   display: block;
   min-height: 100%;
   max-width: 100%;
   opacity: 0.6;
+  background-size: cover;
+  background-position: 50% 50%;
 }
 .tax-product-line figure figcaption {
   padding: 120px 60px;
@@ -8230,7 +8232,7 @@ fieldset[disabled] .product-quote .quote-btn.active {
 .tax-product-line figure.effect-sarah {
   background: #000;
 }
-.tax-product-line figure.effect-sarah img {
+.tax-product-line figure.effect-sarah .product-img {
   max-width: none;
   width: -webkit-calc(120%);
   width: calc(120%);
@@ -8241,7 +8243,7 @@ fieldset[disabled] .product-quote .quote-btn.active {
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
 }
-.tax-product-line figure.effect-sarah:hover img {
+.tax-product-line figure.effect-sarah:hover .product-img {
   opacity: 0.4;
   -webkit-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0);
