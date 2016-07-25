@@ -24,7 +24,7 @@ else
 	} else {
 	    $album_in_row = 3;
 	}
-	
+
 	if (isset($_REQUEST["order_id"])) {
 	    switch (esc_attr($_REQUEST["order_id"])) {
 	        case "unsort":
@@ -70,42 +70,42 @@ else
 			"SELECT * FROM " . gallery_bank_albums() . " order by album_order asc "
 		);
 	}
-	
+
 	$album_css = $wpdb->get_results
 	(
 		"SELECT * FROM " . gallery_bank_settings()
 	);
 if(isset($album))
 {
-	if (count($album_css) != 0) 
+	if (count($album_css) != 0)
 	{
 	    $setting_keys = array();
-	    for ($flag = 0; $flag < count($album_css); $flag++) 
+	    for ($flag = 0; $flag < count($album_css); $flag++)
 	    {
 	        array_push($setting_keys, $album_css[$flag]->setting_key);
 	    }
 	    $index = array_search("cover_thumbnail_width", $setting_keys);
 	    $cover_thumbnail_width = $album_css[$index]->setting_value;
-	
+
 	    $index = array_search("cover_thumbnail_height", $setting_keys);
 	    $cover_thumbnail_height = $album_css[$index]->setting_value;
-	
+
 	    $index = array_search("cover_thumbnail_opacity", $setting_keys);
 	    $cover_thumbnail_opacity = $album_css[$index]->setting_value;
-	
+
 	    $index = array_search("cover_thumbnail_border_size", $setting_keys);
 	    $cover_thumbnail_border_size = $album_css[$index]->setting_value;
 	    $new_cover_width = $cover_thumbnail_width + ($cover_thumbnail_border_size * 4);
-	
+
 	    $index = array_search("cover_thumbnail_border_radius", $setting_keys);
 	    $cover_thumbnail_border_radius = $album_css[$index]->setting_value;
-	
+
 	    $index = array_search("cover_thumbnail_border_color", $setting_keys);
 	    $cover_thumbnail_border_color = $album_css[$index]->setting_value;
-	
+
 	    $index = array_search("margin_btw_cover_thumbnails", $setting_keys);
 	    $margin_btw_cover_thumbnails = $album_css[$index]->setting_value;
-	
+
 	    ?>
 	    <!--suppress ALL -->
 	    <style type="text/css">
@@ -122,7 +122,7 @@ if(isset($album))
 	            margin-right: <?php echo $margin_btw_cover_thumbnails; ?>px;
 	            margin-bottom: <?php echo $margin_btw_cover_thumbnails; ?>px;
 	        }
-	
+
 	        .layout-controls > a#<?php echo $_REQUEST["order_id"];?>
 	        {
 	        	color:#000000;font-weight:bold;
@@ -133,7 +133,7 @@ if(isset($album))
 	            cursor: move;
 	            display: inline-block;
 	        }
-	
+
 	        .sort {
 	            padding: 6px;
 	            clear: both;
@@ -208,7 +208,7 @@ if(isset($album))
 				                                    <div id="sort_album" class="sort">
 				                                        <?php
 				                                        for ($flag = 0; $flag < count($album); $flag++) {
-				
+
 				                                            $albumCover = $wpdb->get_row
 				                                                (
 				                                                    $wpdb->prepare
@@ -257,7 +257,7 @@ if(isset($album))
 			</div>
 		</div>
 	</form>
-<?php 
+<?php
 }
 ?>
 	<script type="text/javascript">
@@ -272,13 +272,13 @@ if(isset($album))
 	    });
 	    function show_premium_message()
 	    {
-	    	alert("<?php _e( "This feature is only available in Paid Premium Version!", gallery_bank ); ?>");
+	    	alert("<?php _e( "This feature is only available in Premium Editions!", gallery_bank ); ?>");
 	    }
 	    function select_albums_in_row() {
 	        var row = jQuery("#ux_ddl_albumRow").val();
 	        window.location.href = "<?php echo site_url();?>/wp-admin/admin.php?page=gallery_album_sorting&row=" + row;
 	    }
 	</script>
-<?php 
+<?php
 }
 ?>

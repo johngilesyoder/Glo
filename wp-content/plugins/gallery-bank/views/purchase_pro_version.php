@@ -1,4 +1,4 @@
-<?php 
+<?php
 switch($gb_role)
 {
 	case "administrator":
@@ -64,7 +64,7 @@ else
 														class="css3_grid_vertical_align_table"><span
 															class="css3_grid_vertical_align"><span><span
 																	class="css3_hidden_caption">Multisite Compatibility</span><span
-																	class="css3_grid_tooltip"><span>Allows you to use this Plugin with network of sites / Multisites WordPress. 
+																	class="css3_grid_tooltip"><span>Allows you to use this Plugin with network of sites / Multisites WordPress.
 																	But you need to have separate license for each domain. </span>Multisite Compatibility</span></span></span></span></li>
 													<li
 														class="css3_grid_row_3 row_style_4 css3_grid_row_3_responsive"><span
@@ -206,7 +206,7 @@ else
 															class="css3_grid_vertical_align"><span><span
 																	class="css3_hidden_caption">Filmstrip Gallery Format</span><span
 																	class="css3_grid_tooltip"><span>Cool slide-film style
-																			galleries – great for displaying non-cropped thumbnails
+																			galleries ï¿½ great for displaying non-cropped thumbnails
 																			in clean grids.</span>Filmstrip Gallery Format</span></span></span></span></li>
 													<li
 														class="css3_grid_row_21 row_style_4 css3_grid_row_21_responsive"><span
@@ -644,7 +644,7 @@ else
 													<li
 														class="css3_grid_row_40 footer_row css3_grid_row_40_responsive"><span
 														class="css3_grid_vertical_align_table"><span
-															class="css3_grid_vertical_align"><a target="_blank" 
+															class="css3_grid_vertical_align"><a target="_blank"
 																href="https://wordpress.org/plugins/gallery-bank/"
 																class="sign_up sign_up_orange radius3">Download!</a></span></span></li>
 												</ul>
@@ -663,7 +663,7 @@ else
 																class="css3_grid_tooltip"><span>You just need to pay for
 																		once for life time.</span>
 																<h1 class="col1">
-																		&pound;<span>17</span>
+																		$<span>26</span>
 																	</h1>
 																	<h3 class="col1">one time</h3></span></span></span></li>
 													<li
@@ -934,7 +934,7 @@ else
 													<li
 														class="css3_grid_row_40 footer_row css3_grid_row_40_responsive"><span
 														class="css3_grid_vertical_align_table"><span
-															class="css3_grid_vertical_align"><a target="_blank" 
+															class="css3_grid_vertical_align"><a target="_blank"
 																href="http://tech-banker.com/shop/wp-gallery-bank/gallery-bank-eco-edition/"
 																class="sign_up sign_up_orange radius3">Order Now!</a></span></span></li>
 												</ul>
@@ -953,7 +953,7 @@ else
 																class="css3_grid_tooltip"><span>You just need to pay for
 																		once for life time.</span>
 																<h1 class="col1">
-																		&pound;<span>22</span>
+																		$<span>33</span>
 																	</h1>
 																	<h3 class="col1">one time</h3></span></span></span></li>
 													<li
@@ -1243,7 +1243,7 @@ else
 																class="css3_grid_tooltip"><span>You just need to pay for
 																		once for life time.</span>
 																<h1 class="col1">
-																		&pound;<span>66</span>
+																		$<span>99</span>
 																	</h1>
 																	<h3 class="col1">one time</h3></span></span></span></li>
 													<li
@@ -1514,7 +1514,7 @@ else
 													<li
 														class="css3_grid_row_40 footer_row css3_grid_row_40_responsive"><span
 														class="css3_grid_vertical_align_table"><span
-															class="css3_grid_vertical_align"><a target="_blank" 
+															class="css3_grid_vertical_align"><a target="_blank"
 																href="http://tech-banker.com/shop/wp-gallery-bank/gallery-bank-developer-edition/"
 																class="sign_up sign_up_orange radius3">Order Now!</a></span></span></li>
 												</ul>
@@ -1533,7 +1533,7 @@ else
 																class="css3_grid_tooltip"><span>You just need to pay for
 																		once for life time.</span>
 																<h1 class="col1">
-																		&pound;<span>577</span>
+																		$<span>866</span>
 																	</h1>
 																	<h3 class="col1">one time</h3></span></span></span></li>
 													<li
@@ -1804,7 +1804,7 @@ else
 													<li
 														class="css3_grid_row_40 footer_row css3_grid_row_40_responsive"><span
 														class="css3_grid_vertical_align_table"><span
-															class="css3_grid_vertical_align"><a target="_blank" 
+															class="css3_grid_vertical_align"><a target="_blank"
 																href="http://tech-banker.com/shop/wp-gallery-bank/gallery-bank-extended-edition/"
 																class="sign_up sign_up_orange radius3">Order Now!</a></span></span></li>
 												</ul>

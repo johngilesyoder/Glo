@@ -159,7 +159,7 @@
 														        <label class="layout-label-control-group">WP Language :</label>
 
 														        <div class="layout-controls">
-														            <span><?php if (defined("WPLANG") && WPLANG) echo WPLANG; else _e("Default"); ?></span>
+														            <span><?php echo get_locale(); ?></span>
 														        </div>
 														    </div>
 														</div>

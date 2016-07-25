@@ -1,243 +1,229 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Gallery Bank\n"
-"POT-Creation-Date: 2015-02-11 11:52+0530\n"
+"POT-Creation-Date: 2016-07-19 18:11+0530\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
-"Language-Team: \n"
+"Language-Team: Tech-Banker <support@tech-banker.com>\n"
 "Language: nb\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.7.1\n"
+"X-Generator: Poedit 1.7.4\n"
 "X-Poedit-KeywordsList: __;_e\n"
-"X-Poedit-Basepath: C:\\xampp\\htdocs\\Development\\wp-content\\plugins"
-"\\gallery-bank\\\n"
+"X-Poedit-Basepath: C:\\xampp\\htdocs\\wordpress1\\wp-content\\plugins"
+"\\gallery-bank\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Poedit-SearchPath-0: .\n"
 
-#: front_views/gallery-bank-shortcode.php:4
-msgid "Insert Gallery Bank Shortcode"
-msgstr "Sett inn Gallery Bank Shortcode "
-
-#: front_views/gallery-bank-shortcode.php:6
-msgid "Select an album below to add it to your post or page."
-msgstr "Velg et album under for å legge til ditt innlegg eller side."
-
-#: front_views/gallery-bank-shortcode.php:11
+#: front_views/gallery-bank-shortcode.php:7
 msgid "Gallery Type"
 msgstr "Type galleri"
 
-#: front_views/gallery-bank-shortcode.php:13
+#: front_views/gallery-bank-shortcode.php:9
 msgid "Albums with Images"
 msgstr "Album med bilder"
 
-#: front_views/gallery-bank-shortcode.php:15
+#: front_views/gallery-bank-shortcode.php:10
 msgid "Only Images"
 msgstr "Bare bilder"
 
-#: front_views/gallery-bank-shortcode.php:18
+#: front_views/gallery-bank-shortcode.php:14
 msgid "Album Format"
 msgstr "Format på album"
 
-#: front_views/gallery-bank-shortcode.php:20
-msgid "Select Album Format"
-msgstr "Velg format på album"
+#: front_views/gallery-bank-shortcode.php:22
+msgid "Choose Type"
+msgstr "Velg type"
 
-#: front_views/gallery-bank-shortcode.php:27
-msgid "Select Album"
+#: front_views/gallery-bank-shortcode.php:30
+msgid "Choose Albums"
 msgstr "Velg album"
 
-#: front_views/gallery-bank-shortcode.php:29
-msgid "Select an Album"
-msgstr "Velg et album"
+#: front_views/gallery-bank-shortcode.php:47
+msgid "Choose Album"
+msgstr "Vennligst velg"
 
-#: front_views/gallery-bank-shortcode.php:63
+#: front_views/gallery-bank-shortcode.php:82
 msgid "Gallery Format"
 msgstr "Format på galleriet"
 
-#: front_views/gallery-bank-shortcode.php:65
-msgid "Select Gallery Format "
-msgstr "Velg format på galleriet"
+#: front_views/gallery-bank-shortcode.php:92
+msgid "Text Format"
+msgstr "Tekstformat"
 
-#: front_views/gallery-bank-shortcode.php:74 views/album-preview.php:47
+#: front_views/gallery-bank-shortcode.php:102 views/album-sorting.php:190
+msgid "Albums in Row"
+msgstr "Album i raden"
+
+#: front_views/gallery-bank-shortcode.php:106 views/album-preview.php:47
 #: views/images-sorting.php:240
 msgid "Images in Row"
 msgstr "Bilder i raden"
 
-#: front_views/gallery-bank-shortcode.php:79
-msgid "Image Width"
-msgstr "Bildebredde"
-
-#: front_views/gallery-bank-shortcode.php:86 views/album-sorting.php:190
-msgid "Albums in Row"
-msgstr "Album i raden"
-
-#: front_views/gallery-bank-shortcode.php:91
-msgid "Text Format"
-msgstr "Tekstformat"
-
-#: front_views/gallery-bank-shortcode.php:93
-msgid "Select Format "
-msgstr "Velg format"
-
-#: front_views/gallery-bank-shortcode.php:100
-msgid "Special Effects"
-msgstr "Spesialeffekter"
-
-#: front_views/gallery-bank-shortcode.php:122
+#: front_views/gallery-bank-shortcode.php:111
 msgid "Animation Effects"
 msgstr "Animasjonseffekter"
 
-#: front_views/gallery-bank-shortcode.php:175
+#: front_views/gallery-bank-shortcode.php:116
+msgid "Special Effects"
+msgstr "Spesialeffekter"
+
+#: front_views/gallery-bank-shortcode.php:127
+msgid "Display Images"
+msgstr "Rydd i bilder og album"
+
+#: front_views/gallery-bank-shortcode.php:133
+msgid "Sort By"
+msgstr "Sorter etter"
+
+#: front_views/gallery-bank-shortcode.php:145
+msgid "No. of Images"
+msgstr "Bilder i raden"
+
+#: front_views/gallery-bank-shortcode.php:149
 msgid "Show Responsive Gallery"
 msgstr "Vis responsivt galleri"
 
-#: front_views/gallery-bank-shortcode.php:179
+#: front_views/gallery-bank-shortcode.php:151
 msgid "Show Album Title"
 msgstr "Vis albumtittel"
 
-#: front_views/gallery-bank-shortcode.php:184
+#: front_views/gallery-bank-shortcode.php:156
 msgid "Insert Album"
 msgstr "Sett inn album"
 
-#: front_views/gallery-bank-shortcode.php:187
+#: front_views/gallery-bank-shortcode.php:157
 msgid "Cancel"
 msgstr "Avbryt"
 
-#: front_views/gallery-bank-shortcode.php:499
-msgid "Please select an Album"
-msgstr "Vennligst velg et Album"
+#: front_views/gallery-bank-shortcode.php:337
+msgid "Enter number of images you want to display."
+msgstr "Angi antall bilder du vil vise."
 
-#: front_views/gallery-bank-shortcode.php:503
-msgid "Please select an Album Format"
-msgstr "Vennligst velg et albumformat"
-
-#: front_views/gallery-bank-shortcode.php:507
-msgid "Please select a Gallery Images Format"
-msgstr "Vennligst velg et galleri bildeformat"
-
-#: front_views/gallery-bank-shortcode.php:511
-msgid "Please select a Text Format for the Gallery"
-msgstr "Vennligst velg et tekstformat for galleriet"
-
-#: gallery-bank.php:118 gallery-bank.php:188 gallery-bank.php:258
+#: gallery-bank.php:122 gallery-bank.php:198 gallery-bank.php:276
 msgid "<img src=\""
 msgstr "<img src=\" "
 
-#: gallery-bank.php:120 gallery-bank.php:190 gallery-bank.php:260
+#: gallery-bank.php:124 gallery-bank.php:200 gallery-bank.php:278
 msgid "/wp-admin/admin.php?page=gallery_bank"
 msgstr "/wp-admin/admin.php?page=gallery_bank "
 
-#: gallery-bank.php:127 gallery-bank.php:197 gallery-bank.php:267
-#: lib/gallery-bank-class.php:22 lib/gallery-bank-class.php:38
-#: lib/gallery-bank-class.php:54 views/header.php:156 views/header.php:170
-#: views/header.php:184
+#: gallery-bank.php:131 gallery-bank.php:207 gallery-bank.php:285
+#: lib/gallery-bank-class.php:23 lib/gallery-bank-class.php:40
+#: lib/gallery-bank-class.php:57 views/header.php:277 views/header.php:291
+#: views/header.php:305
 msgid "Dashboard"
 msgstr "Skrivebord"
 
-#: gallery-bank.php:133 gallery-bank.php:203 gallery-bank.php:273
-#: lib/gallery-bank-class.php:23 lib/gallery-bank-class.php:39
-#: lib/gallery-bank-class.php:55 views/automatic-plugin-update.php:27
-#: views/automatic-plugin-update.php:31
-msgid "Plugin Updates"
-msgstr ""
-
-#: gallery-bank.php:140 gallery-bank.php:210 gallery-bank.php:280
-#: lib/gallery-bank-class.php:24 lib/gallery-bank-class.php:40
-#: lib/gallery-bank-class.php:56 views/dashboard.php:154 views/header.php:157
-#: views/header.php:171 views/header.php:185
+#: gallery-bank.php:138 gallery-bank.php:214 gallery-bank.php:292
+#: lib/gallery-bank-class.php:24 lib/gallery-bank-class.php:41
+#: lib/gallery-bank-class.php:58 views/dashboard.php:338 views/header.php:278
+#: views/header.php:292 views/header.php:306
 msgid "Short-Codes"
 msgstr "Kort-Koder"
 
-#: gallery-bank.php:147 gallery-bank.php:217 gallery-bank.php:287
-#: lib/gallery-bank-class.php:25 lib/gallery-bank-class.php:41
-#: lib/gallery-bank-class.php:57 views/header.php:158 views/header.php:172
-#: views/header.php:186
+#: gallery-bank.php:145 gallery-bank.php:221 gallery-bank.php:299
+#: lib/gallery-bank-class.php:25 lib/gallery-bank-class.php:42
+#: lib/gallery-bank-class.php:59 views/header.php:279 views/header.php:293
+#: views/header.php:307
 msgid "Album Sorting"
 msgstr "Sortering av album"
 
-#: gallery-bank.php:154 gallery-bank.php:224 gallery-bank.php:294
-#: lib/gallery-bank-class.php:26 lib/gallery-bank-class.php:42
-#: lib/gallery-bank-class.php:58 views/header.php:159 views/header.php:173
-#: views/header.php:187 views/settings.php:276
+#: gallery-bank.php:152 gallery-bank.php:228 gallery-bank.php:306
+#: lib/gallery-bank-class.php:26 lib/gallery-bank-class.php:43
+#: lib/gallery-bank-class.php:60 views/header.php:280 views/header.php:294
+#: views/header.php:308 views/settings.php:276
 msgid "Global Settings"
 msgstr "Hovedinnstillinger"
 
-#: gallery-bank.php:161 gallery-bank.php:231 gallery-bank.php:301
-#: lib/gallery-bank-class.php:27 lib/gallery-bank-class.php:43
-#: lib/gallery-bank-class.php:59 views/gallery-bank-system-report.php:29
-#: views/header.php:160 views/header.php:174
+#: gallery-bank.php:159 gallery-bank.php:235 gallery-bank.php:313
+#: lib/gallery-bank-class.php:27 lib/gallery-bank-class.php:44
+#: lib/gallery-bank-class.php:61 views/automatic-plugin-update.php:27
+#: views/automatic-plugin-update.php:31
+msgid "Plugin Updates"
+msgstr "Utvidelsesoppdateringer"
+
+#: gallery-bank.php:165 gallery-bank.php:242 gallery-bank.php:320
+#: lib/gallery-bank-class.php:28 lib/gallery-bank-class.php:45
+#: lib/gallery-bank-class.php:62 views/gallery-feedback.php:33
+msgid "Feature Requests"
+msgstr "Feature Requests"
+
+#: gallery-bank.php:171 gallery-bank.php:249 gallery-bank.php:327
+#: lib/gallery-bank-class.php:29 lib/gallery-bank-class.php:46
+#: lib/gallery-bank-class.php:63 views/gallery-bank-system-report.php:29
+#: views/header.php:281 views/header.php:295
 msgid "System Status"
 msgstr "Status på systemet"
 
-#: gallery-bank.php:168 gallery-bank.php:238 gallery-bank.php:308
-#: lib/gallery-bank-class.php:28 lib/gallery-bank-class.php:44
-#: lib/gallery-bank-class.php:60 views/header.php:81 views/header.php:161
-#: views/header.php:175 views/header.php:188
+#: gallery-bank.php:178 gallery-bank.php:256 gallery-bank.php:334
+#: lib/gallery-bank-class.php:30 lib/gallery-bank-class.php:47
+#: lib/gallery-bank-class.php:64 views/header.php:173 views/header.php:282
+#: views/header.php:296 views/header.php:309
 msgid "Recommendations"
 msgstr "anbefalinger"
 
-#: gallery-bank.php:175 gallery-bank.php:245 gallery-bank.php:315
-#: lib/gallery-bank-class.php:29 lib/gallery-bank-class.php:45
-#: lib/gallery-bank-class.php:61 views/header.php:162 views/header.php:176
-#: views/header.php:189 views/purchase_pro_version.php:28
+#: gallery-bank.php:185 gallery-bank.php:263 gallery-bank.php:341
+#: lib/gallery-bank-class.php:31 lib/gallery-bank-class.php:48
+#: lib/gallery-bank-class.php:65 views/header.php:283 views/header.php:297
+#: views/header.php:310 views/purchase_pro_version.php:28
 msgid "Premium Editions"
 msgstr "filmkanaler via utgavene"
 
-#: gallery-bank.php:182 gallery-bank.php:252 gallery-bank.php:322
-#: lib/gallery-bank-class.php:30 lib/gallery-bank-class.php:46
-#: lib/gallery-bank-class.php:62 views/header.php:86 views/header.php:163
-#: views/header.php:177 views/header.php:190
+#: gallery-bank.php:192 gallery-bank.php:270 gallery-bank.php:348
+#: lib/gallery-bank-class.php:32 lib/gallery-bank-class.php:49
+#: lib/gallery-bank-class.php:66 views/header.php:178 views/header.php:284
+#: views/header.php:298 views/header.php:311
 msgid "Our Other Services"
 msgstr "Våre andre tjenester"
 
-#: gallery-bank.php:332
+#: gallery-bank.php:361
 msgid "View Gallery Bank Documentation"
 msgstr "Vis Gallery Bank Dokumentasjon"
 
-#: gallery-bank.php:332
+#: gallery-bank.php:361
 msgid "Docs"
 msgstr "Dokumenter"
 
-#: gallery-bank.php:333
+#: gallery-bank.php:362
 msgid "View Gallery Bank Premium Editions"
 msgstr "Vis Galleri Bank filmkanaler via utgavene"
 
-#: gallery-bank.php:333
+#: gallery-bank.php:362
 msgid "Go for Premium!"
 msgstr "Gå for filmkanaler via!"
 
-#: lib/add-new-album-class.php:44 views/edit-album.php:346
-#: views/edit-album.php:353
+#: lib/add-new-album-class.php:143 views/edit-album.php:354
+#: views/edit-album.php:361
 msgid " Set as Album Cover"
 msgstr "Sett som for forsidebilde på albumet"
 
-#: lib/add-new-album-class.php:47 views/edit-album.php:294
-#: views/edit-album.php:359
+#: lib/add-new-album-class.php:145 views/edit-album.php:302
+#: views/edit-album.php:367
 msgid "Enter your Title"
 msgstr "Skriv inn tittel"
 
-#: lib/add-new-album-class.php:48 views/edit-album.php:299
-#: views/edit-album.php:364
+#: lib/add-new-album-class.php:146 views/edit-album.php:307
+#: views/edit-album.php:372
 msgid "Enter your Description "
 msgstr "Skriv inn beskrivelse"
 
-#: lib/add-new-album-class.php:50 views/edit-album.php:305
-#: views/edit-album.php:370
+#: lib/add-new-album-class.php:148 views/edit-album.php:313
+#: views/edit-album.php:378
 msgid "Enter your Tags"
 msgstr "Skriv inn emneord"
 
-#: lib/add-new-album-class.php:54 views/edit-album.php:391
+#: lib/add-new-album-class.php:152 views/edit-album.php:399
 msgid "Delete Image"
 msgstr "Slett bilde"
 
-#: lib/gallery-bank-class.php:21 lib/gallery-bank-class.php:37
-#: lib/gallery-bank-class.php:53 views/header.php:144
+#: lib/gallery-bank-class.php:22 lib/gallery-bank-class.php:39
+#: lib/gallery-bank-class.php:56 views/header.php:265
 msgid "Gallery Bank"
 msgstr "Galleribank"
 
-#: lib/gallery-bank-class.php:420
+#: lib/gallery-bank-class.php:495
 msgid "Add Gallery using Gallery Bank"
 msgstr "Legg til galleri med Galleribank"
 
@@ -246,9 +232,10 @@ msgid "Album Preview"
 msgstr "Forhåndsvisning album"
 
 #: views/album-preview.php:34 views/album-sorting.php:158
-#: views/edit-album.php:160 views/edit-album.php:415
-#: views/images-sorting.php:202 views/purchase_pro_version.php:32
-#: views/settings.php:279 views/shortcode.php:32
+#: views/edit-album.php:160 views/edit-album.php:423
+#: views/gallery-feedback.php:36 views/images-sorting.php:202
+#: views/purchase_pro_version.php:32 views/settings.php:279
+#: views/shortcode.php:32
 msgid "Back to Albums"
 msgstr "Tilbake til album"
 
@@ -269,10 +256,10 @@ msgstr "Oppdater rekkefølgen"
 msgid "Sorting Order has been updated."
 msgstr "Rekkefølgen har blitt oppdatert"
 
-#: views/album-sorting.php:275 views/dashboard.php:302 views/dashboard.php:306
-#: views/dashboard.php:310 views/edit-album.php:609 views/edit-album.php:625
+#: views/album-sorting.php:275 views/dashboard.php:486 views/dashboard.php:490
+#: views/dashboard.php:494 views/edit-album.php:624 views/edit-album.php:640
 #: views/images-sorting.php:308
-msgid "This feature is only available in Paid Premium Version!"
+msgid "This feature is only available in Premium Editions!"
 msgstr "Denne funksjonen er bare tilgjengelig i betalt Premie versjon!"
 
 #: views/automatic-plugin-update.php:34 views/settings.php:752
@@ -293,63 +280,82 @@ msgstr "Aktiver"
 msgid "Disable"
 msgstr "Deaktiver"
 
-#: views/dashboard.php:118
-msgid "Gallery Bank Dashboard"
+#: views/dashboard.php:289 views/edit-album.php:202
+#, php-format
+msgid ""
+"<b>Notice:</b> Your server allows you to upload <b>%s</b> files of maximum "
+"total <b>%s</b> bytes and allows <b>%s</b> seconds to complete."
 msgstr ""
 
-#: views/dashboard.php:129
+#: views/dashboard.php:290 views/edit-album.php:203
+msgid ""
+"<br />If your request exceeds these limitations, it will fail, probably "
+"without an errormessage."
+msgstr ""
+
+#: views/dashboard.php:291 views/edit-album.php:204
+msgid ""
+"<br />Additionally your hosting provider may have set other limitations on "
+"uploading files."
+msgstr ""
+
+#: views/dashboard.php:302
+msgid "Gallery Bank Dashboard"
+msgstr "Gallery Bank Kort-Koder"
+
+#: views/dashboard.php:313
 msgid "Add New Album"
 msgstr "Legg til nytt album"
 
-#: views/dashboard.php:135
+#: views/dashboard.php:319
 msgid "Delete All Albums"
 msgstr "Slett alle album"
 
-#: views/dashboard.php:136
+#: views/dashboard.php:320
 msgid "Purge Images & Albums"
 msgstr "Rydd i bilder og album"
 
-#: views/dashboard.php:137
+#: views/dashboard.php:321
 msgid "Restore Factory Settings"
 msgstr "Tilbakestill til fabrikkinnstillinger"
 
-#: views/dashboard.php:144
+#: views/dashboard.php:328
 msgid "Existing Albums Overview"
 msgstr "Eksisterende album Oversikt"
 
-#: views/dashboard.php:150 views/edit-album.php:253
+#: views/dashboard.php:334 views/edit-album.php:261
 msgid "Thumbnail"
 msgstr "Miniatyrbilder"
 
-#: views/dashboard.php:151
+#: views/dashboard.php:335
 msgid "Title"
 msgstr "Tittel"
 
-#: views/dashboard.php:152
+#: views/dashboard.php:336
 msgid "Total Images"
 msgstr "Antall bilder"
 
-#: views/dashboard.php:153
+#: views/dashboard.php:337
 msgid "Date"
 msgstr "Dato"
 
-#: views/dashboard.php:218
+#: views/dashboard.php:402
 msgid "Edit Album"
 msgstr "Rediger album"
 
-#: views/dashboard.php:223 views/images-sorting.php:198
+#: views/dashboard.php:407 views/images-sorting.php:198
 msgid "Re-Order Images"
 msgstr "Endre rekkefølgen på bildene"
 
-#: views/dashboard.php:228
+#: views/dashboard.php:412
 msgid "Preview Album"
 msgstr "Forhåndsvis album"
 
-#: views/dashboard.php:233
+#: views/dashboard.php:417
 msgid "Delete Album"
 msgstr "Slett album"
 
-#: views/dashboard.php:289
+#: views/dashboard.php:473
 msgid "Are you sure you want to delete this Album?"
 msgstr "Er du sikker på at du vil slette dette albumet?"
 
@@ -357,7 +363,7 @@ msgstr "Er du sikker på at du vil slette dette albumet?"
 msgid "Album"
 msgstr "Album"
 
-#: views/edit-album.php:161 views/edit-album.php:414
+#: views/edit-album.php:161 views/edit-album.php:422
 msgid "Save Album"
 msgstr "Lagre album"
 
@@ -381,62 +387,62 @@ msgstr "Skriv inn albumtittel"
 msgid "Description"
 msgstr "Beskrivelse"
 
-#: views/edit-album.php:204
+#: views/edit-album.php:212
 msgid "Upload Images"
 msgstr "Last opp bilde"
 
-#: views/edit-album.php:207
+#: views/edit-album.php:215
 msgid "Your browser doesn\"t have Flash, Silverlight or HTML5 support."
 msgstr "Din nettleser har ikke Flash, Silverlight eller støtter HTML5."
 
-#: views/edit-album.php:214
+#: views/edit-album.php:222
 msgid "Upload Videos"
 msgstr "Last opp video"
 
-#: views/edit-album.php:215 views/edit-album.php:260 views/settings.php:288
+#: views/edit-album.php:223 views/edit-album.php:268 views/settings.php:288
 #: views/settings.php:504 views/settings.php:734 views/settings.php:845
 #: views/settings.php:944 views/settings.php:1266 views/settings.php:1382
 #: views/settings.php:1433 views/settings.php:1485
-msgid " (Available in Premium Versions)"
-msgstr "(Tilgjengelig i Premie versjoner)"
+msgid " (Available in Premium Editions)"
+msgstr "(Tilgjengelig i Premium-utgaver)"
 
-#: views/edit-album.php:220
+#: views/edit-album.php:228
 msgid "Video Url"
 msgstr "Video URL"
 
-#: views/edit-album.php:224
+#: views/edit-album.php:232
 msgid "Enter your Video Url"
 msgstr "Skriv inn video URL"
 
-#: views/edit-album.php:230
+#: views/edit-album.php:238
 msgid "Upload Video"
 msgstr "Last opp video"
 
-#: views/edit-album.php:241
+#: views/edit-album.php:249
 msgid "Your Gallery Bank Album"
 msgstr "Ditt galleribank album"
 
-#: views/edit-album.php:250
+#: views/edit-album.php:258
 msgid "Delete"
 msgstr "Slett"
 
-#: views/edit-album.php:256
+#: views/edit-album.php:264
 msgid "Title & Description"
 msgstr "Tittel og beskrivelse"
 
-#: views/edit-album.php:259
+#: views/edit-album.php:267
 msgid "Tags (comma separated list)"
 msgstr "Emneord (kommaseparert liste)"
 
-#: views/edit-album.php:263
+#: views/edit-album.php:271
 msgid "Url to Redirect on click of an Image"
 msgstr "URL det skal videresendes til når det klikkes på bildet"
 
-#: views/edit-album.php:315
+#: views/edit-album.php:323
 msgid "Delete Video"
 msgstr "Slett video"
 
-#: views/edit-album.php:596
+#: views/edit-album.php:611
 msgid "Are you sure you want to delete this Image?"
 msgstr "Er du sikker på at du vil slette bildet?"
 
@@ -448,61 +454,109 @@ msgstr "Hent systemrapport"
 msgid "Close System Report"
 msgstr "Lukk systemrapport"
 
-#: views/gallery-bank-system-report.php:162
-msgid "Default"
-msgstr "Standard"
+#: views/gallery-feedback.php:40
+msgid "Email has been sent successfully."
+msgstr "Email har blitt sendt."
 
-#: views/header.php:18
+#: views/gallery-feedback.php:47 views/gallery-feedback.php:63
+msgid "Feature Requests / Suggestions"
+msgstr "Skriv inn dine funksjonsforespørsler / Forslag"
+
+#: views/gallery-feedback.php:51
+msgid "Name"
+msgstr "Skriv inn emneord"
+
+#: views/gallery-feedback.php:53
+msgid "Enter your Name"
+msgstr "Skriv inn emneord"
+
+#: views/gallery-feedback.php:57
+msgid "Email Id"
+msgstr "Skriv inn beskrivelse"
+
+#: views/gallery-feedback.php:59
+msgid "Enter your Email Address"
+msgstr "Skriv inn beskrivelse"
+
+#: views/gallery-feedback.php:65
+msgid "Enter your Feature Requests / Suggestions"
+msgstr "Skriv inn dine funksjonsforespørsler / Forslag"
+
+#: views/gallery-feedback.php:70
+msgid "Send"
+msgstr "Sende"
+
+#: views/header.php:51
+#, php-format
+msgid ""
+"Based on your server memory limit you should not upload images larger then "
+"<strong>%d x %d (%2.1f MP)</strong>"
+msgstr ""
+
+#: views/header.php:110
 msgid "Get Started"
 msgstr "få i gang"
 
-#: views/header.php:21
+#: views/header.php:113
 msgid "Watch Gallery Video!"
 msgstr "Klokke Galleri videoen!"
 
-#: views/header.php:25
+#: views/header.php:117
 msgid "read documentation here"
 msgstr "lese dokumentasjon her"
 
-#: views/header.php:30
+#: views/header.php:122
 msgid "Go Premium"
 msgstr "Gå filmkanaler via"
 
-#: views/header.php:34
+#: views/header.php:126
 msgid "Features"
 msgstr "funksjoner"
 
-#: views/header.php:39
+#: views/header.php:131
 msgid "Online Demos"
 msgstr "pålogget demoer"
 
-#: views/header.php:44
-msgid "Premium Pricing Plans"
+#: views/header.php:136
+msgid "Pricing Plans"
 msgstr "filmkanaler via priser planer"
 
-#: views/header.php:51
+#: views/header.php:143
 msgid "Knowledge Base"
 msgstr "kunnskapsbase"
 
-#: views/header.php:56
+#: views/header.php:148
 msgid "Support Forum"
 msgstr "støtteforumet"
 
-#: views/header.php:61
+#: views/header.php:153
 msgid "FAQ's"
 msgstr "Vanlige spørsmål"
 
-#: views/header.php:66
-msgid "Detailed Features"
-msgstr "Detaljerte funksjoner"
+#: views/header.php:158
+msgid "Renew Premium Support"
+msgstr "filmkanaler via utgavene"
 
-#: views/header.php:72
+#: views/header.php:164
 msgid "More Actions"
 msgstr "Flere handlinger"
 
-#: views/header.php:76
+#: views/header.php:168
 msgid "Plugin Customization"
 msgstr "programtillegg Tilpasning"
+
+#: views/header.php:198 views/header.php:229
+msgid ""
+"There is a serious misconfiguration in your servers PHP config. Function "
+"imagecreatefromjpeg() does not exist. You will encounter problems when "
+"uploading photos and not be able to generate thumbnail images. Ask your "
+"hosting provider to add GD support with a minimal version 1.8."
+msgstr ""
+
+#: views/header.php:204 views/header.php:209 views/header.php:235
+#: views/header.php:240
+msgid "unknown"
+msgstr ""
 
 #: views/purchase_pro_version.php:37
 msgid "WP Gallery Bank is an one time Investment. Its Worth it!"
@@ -751,12 +805,69 @@ msgid "Language Direction"
 msgstr "Retning på skriften"
 
 #: views/settings.php:1653
-msgid "This Feature is only available in Paid Premium Version!"
-msgstr "Denne funksjonen er kun tilgjengelig i betalt Premie versjon!"
+msgid "These features are only available in Premium Editions!"
+msgstr "Disse funksjonene er bare tilgjengelig i Premium-utgavene!"
 
 #: views/shortcode.php:28
 msgid "Gallery Bank Short-Codes"
 msgstr "Gallery Bank Kort-Koder"
+
+#~ msgid " (Available only in Premium Editions)"
+#~ msgstr "filmkanaler via utgavene"
+
+#~ msgid "Insert Gallery Bank Shortcode"
+#~ msgstr "Sett inn Gallery Bank Shortcode "
+
+#~ msgid "Select an album below to add it to your post or page."
+#~ msgstr "Velg et album under for å legge til ditt innlegg eller side."
+
+#~ msgid "Select Album Format"
+#~ msgstr "Velg format på album"
+
+#~ msgid "Select Album"
+#~ msgstr "Velg album"
+
+#~ msgid "Select an Album"
+#~ msgstr "Velg et album"
+
+#~ msgid "Select Gallery Format "
+#~ msgstr "Velg format på galleriet"
+
+#~ msgid "Image Width"
+#~ msgstr "Bildebredde"
+
+#~ msgid "Select Format "
+#~ msgstr "Velg format"
+
+#~ msgid "Please select an Album"
+#~ msgstr "Vennligst velg et Album"
+
+#~ msgid "Please select an Album Format"
+#~ msgstr "Vennligst velg et albumformat"
+
+#~ msgid "Please select a Gallery Images Format"
+#~ msgstr "Vennligst velg et galleri bildeformat"
+
+#~ msgid "Please select a Text Format for the Gallery"
+#~ msgstr "Vennligst velg et tekstformat for galleriet"
+
+#~ msgid "This feature is only available in Paid Premium Version!"
+#~ msgstr "Denne funksjonen er bare tilgjengelig i betalt Premie versjon!"
+
+#~ msgid " (Available in Premium Versions)"
+#~ msgstr "(Tilgjengelig i Premie versjoner)"
+
+#~ msgid "Default"
+#~ msgstr "Standard"
+
+#~ msgid "Premium Pricing Plans"
+#~ msgstr "filmkanaler via priser planer"
+
+#~ msgid "Detailed Features"
+#~ msgstr "Detaljerte funksjoner"
+
+#~ msgid "This Feature is only available in Paid Premium Version!"
+#~ msgstr "Denne funksjonen er kun tilgjengelig i betalt Premie versjon!"
 
 #~ msgid "Purchase Pro Version"
 #~ msgstr "Kjøpe Pro-versjon"

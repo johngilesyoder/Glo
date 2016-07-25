@@ -67,7 +67,7 @@ else
 																						<div class="service-div-inner-content">
 																							<div class="name column-name">
 																								<h3>
-																									<?php _e("WordPress Theme Installation & Demo Setup ( + Logo + Plugins + Optimization + Security)", tech_bank); ?>
+																									<?php _e("WordPress Theme Installation & Demo Setup (Logo + Plugins + Optimization + Security)", tech_bank); ?>
 																								</h3>
 																							</div>
 																							<div class="desc column-description">
@@ -89,7 +89,7 @@ else
 																					</div>
 																					<div class="plugin-card-bottom_settings">
 																						<div class="column-downloaded">
-																							<strong><?php _e("Cost of this Service is 49 Pounds.", tech_bank); ?></strong><br/>
+																							<strong><?php _e("Cost of this Service is 74 US Dollars.", tech_bank); ?></strong><br/>
 																							<span><?php _e("The Time Frame would be 2 Business Days and upto 5 Revisions.", tech_bank); ?></span>
 																						</div>
 																					</div>
@@ -112,7 +112,7 @@ else
 																								<li>
 																									<a class="plugin-div-button btn btn-success" href="http://tech-banker.com/contact-us/" target="_blank"><?php _e("Send Enquiry", tech_bank); ?>
 																									</a>
-																									<a class="plugin-div-button btn btn-danger" href="http://tech-banker.com/shop/wordpress/wordpress-migration-transfer-service-backup-restore/" target="_blank"><?php _e("Read More", tech_bank); ?>
+																									<a class="plugin-div-button btn btn-danger" href="http://tech-banker.com/shop/wordpress/wordpress-website-migration-backup-and-restore/" target="_blank"><?php _e("Read More", tech_bank); ?>
 																									</a>
 																								</li>
 																							</ul>
@@ -120,7 +120,7 @@ else
 																					</div>
 																					<div class="plugin-card-bottom_settings">
 																						<div class="column-downloaded">
-																							<strong><?php _e("Cost of this Service is 49 Pounds.", tech_bank); ?></strong><br/>
+																							<strong><?php _e("Cost of this Service is 74 US Dollars.", tech_bank); ?></strong><br/>
 																							<span><?php _e("The Time Frame would be 1 Business Day.", tech_bank); ?></span>
 																						</div>
 																					</div>
@@ -150,7 +150,7 @@ else
 																					</div>
 																					<div class="plugin-card-bottom_settings">
 																						<div class="column-downloaded">
-																							<strong><?php _e("Cost of this Service is 49 Pounds.", tech_bank); ?></strong><br/>
+																							<strong><?php _e("Cost of this Service is 74 US Dollars.", tech_bank); ?></strong><br/>
 																							<span><?php _e("The Time Frame would be 2 Business Days.", tech_bank); ?></span>
 																						</div>
 																					</div>
@@ -182,7 +182,7 @@ else
 																					</div>
 																					<div class="plugin-card-bottom_settings">
 																						<div class="column-downloaded">
-																							<strong><?php _e("Cost of this Service is 499 Pounds.", tech_bank); ?></strong><br/>
+																							<strong><?php _e("Cost of this Service is 749 US Dollars.", tech_bank); ?></strong><br/>
 																							<span><?php _e("The Time Frame would be 10 Business Days and upto 5 revisions.", tech_bank); ?></span>
 																						</div>
 																					</div>
@@ -212,7 +212,7 @@ else
 																					</div>
 																					<div class="plugin-card-bottom_settings">
 																						<div class="column-downloaded">
-																							<strong><?php _e("Cost of this Service is 799 Pounds.", tech_bank); ?></strong><br/>
+																							<strong><?php _e("Cost of this Service is 1,199 US Dollars.", tech_bank); ?></strong><br/>
 																							<span><?php _e("The Time Frame would be 10 Business Days and upto 5 revisions.", tech_bank); ?></span>
 																						</div>
 																					</div>
@@ -240,7 +240,7 @@ else
 																					</div>
 																					<div class="plugin-card-bottom_settings">
 																						<div class="column-downloaded">
-																							<strong><?php _e("Cost of this Service is 99 Pounds.", tech_bank); ?></strong><br/>
+																							<strong><?php _e("Cost of this Service is 149 US Dollars.", tech_bank); ?></strong><br/>
 																							<span><?php _e("The Time Frame would be 10 Business Days and upto 5 revisions.", tech_bank); ?></span>
 																						</div>
 																					</div>
@@ -268,7 +268,7 @@ else
 																					</div>
 																					<div class="plugin-card-bottom_settings">
 																						<div class="column-downloaded">
-																							<strong><?php _e("Cost of this Service is 499 Pounds.", tech_bank); ?></strong><br/>
+																							<strong><?php _e("Cost of this Service is 749 US Dollars.", tech_bank); ?></strong><br/>
 																							<span><?php _e("The Time Frame would be 10 Business Days and upto 5 revisions.", tech_bank); ?></span>
 																						</div>
 																					</div>
@@ -296,7 +296,7 @@ else
 																					</div>
 																					<div class="plugin-card-bottom_settings">
 																						<div class="column-downloaded">
-																							<strong><?php _e("Cost of this Service is 799 Pounds.", tech_bank); ?></strong><br/>
+																							<strong><?php _e("Cost of this Service is 1,199 US Dollars.", tech_bank); ?></strong><br/>
 																							<span><?php _e("The Time Frame would be 10 Business Days and upto 5 revisions.", tech_bank); ?></span>
 																						</div>
 																					</div>
@@ -324,7 +324,7 @@ else
 																					</div>
 																					<div class="plugin-card-bottom_settings">
 																						<div class="column-downloaded">
-																							<strong><?php _e("Cost of this Service is 499 Pounds.", tech_bank); ?></strong><br/>
+																							<strong><?php _e("Cost of this Service is 749 US Dollars.", tech_bank); ?></strong><br/>
 																							<span><?php _e("The Time Frame would be 10 Business Days and 5 Revisions.", tech_bank); ?></span>
 																						</div>
 																					</div>
@@ -357,7 +357,7 @@ else
 
 																						</div>
 																						<div class="column-downloaded">
-																							<strong><?php _e("Cost of this Service is 799 Pounds.", tech_bank); ?></strong><br/>
+																							<strong><?php _e("Cost of this Service is 1,199 US Dollars.", tech_bank); ?></strong><br/>
 																							<span><?php _e("The Time Frame would be 10 Business Days and upto 5 revisions.", tech_bank); ?></span>
 																						</div>
 																					</div>
@@ -391,7 +391,7 @@ else
 																					</div>
 																					<div class="plugin-card-bottom_settings">
 																						<div class="column-downloaded">
-																							<strong><?php _e("Cost of this Service is 399 Pounds.", tech_bank); ?></strong><br/>
+																							<strong><?php _e("Cost of this Service is 599 US Dollars.", tech_bank); ?></strong><br/>
 																							<span><?php _e("The Time Frame would be 10 Business Days and upto 5 Revisions.", tech_bank); ?></span>
 																						</div>
 																					</div>
@@ -419,7 +419,7 @@ else
 																					</div>
 																					<div class="plugin-card-bottom_settings">
 																						<div class="column-downloaded">
-																							<strong><?php _e("Cost of this Service is 399 Pounds.", tech_bank); ?></strong><br/>
+																							<strong><?php _e("Cost of this Service is 599 US Dollars.", tech_bank); ?></strong><br/>
 																							<span><?php _e("The Time Frame would be 10 Business Days and 5 Revisions.", tech_bank); ?></span>
 																						</div>
 																					</div>
@@ -440,14 +440,14 @@ else
 																							<ul class="plugin-action-buttons-custom">
 																								<li>
 																									<a class="plugin-div-button btn btn-success" href="http://tech-banker.com/contact-us/" target="_blank"><?php _e("Send Enquiry", tech_bank); ?></a>
-																									<a class="plugin-div-button btn btn-danger" href="http://tech-banker.com/shop/design-and-graphics/photo-customization/" target="_blank"><?php _e("Order Now", tech_bank); ?></a>
+																									<a class="plugin-div-button btn btn-danger" href="http://tech-banker.com/shop/design-and-graphics/photo-customization/" target="_blank"><?php _e("Read More", tech_bank); ?></a>
 																								</li>
 																							</ul>
 																						</div>
 																					</div>
 																					<div class="plugin-card-bottom_settings">
 																						<div class="column-downloaded">
-																							<strong><?php _e("Cost of this Service is 399 Pounds.", tech_bank); ?></strong><br/>
+																							<strong><?php _e("Cost of this Service is 599 US Dollars.", tech_bank); ?></strong><br/>
 																							<span><?php _e("The Time Frame would be 5 Business Days and 3 revisions.", tech_bank); ?></span>
 																						</div>
 																					</div>
@@ -475,7 +475,7 @@ else
 																					</div>
 																					<div class="plugin-card-bottom_settings">
 																						<div class="column-downloaded">
-																							<strong><?php _e("Cost of this Service is 499 Pounds.", tech_bank); ?></strong><br/>
+																							<strong><?php _e("Cost of this Service is 749 US Dollars.", tech_bank); ?></strong><br/>
 																							<span><?php _e("The Time Frame would be 7 Business Days and upto 5 revisions.", tech_bank); ?></span>
 																						</div>
 																					</div>
@@ -503,7 +503,7 @@ else
 																					</div>
 																					<div class="plugin-card-bottom_settings">
 																						<div class="column-downloaded">
-																							<strong><?php _e("Cost of this Service is 499 Pounds.", tech_bank); ?></strong><br/>
+																							<strong><?php _e("Cost of this Service is 749 US Dollars.", tech_bank); ?></strong><br/>
 																							<span><?php _e("The Time Frame would be 8 Business Days and upto 5 revisions.", tech_bank); ?></span>
 																						</div>
 																					</div>
@@ -531,7 +531,7 @@ else
 																					</div>
 																					<div class="plugin-card-bottom_settings">
 																						<div class="column-downloaded">
-																							<strong><?php _e("Cost of this Service is 499 Pounds.", tech_bank); ?></strong><br/>
+																							<strong><?php _e("Cost of this Service is 749 US Dollars.", tech_bank); ?></strong><br/>
 																							<span><?php _e("The Time Frame would be 8 Business Days and upto 5 revisions.", tech_bank); ?></span>
 																						</div>
 																					</div>
@@ -559,7 +559,7 @@ else
 																					</div>
 																					<div class="plugin-card-bottom_settings">
 																						<div class="column-downloaded">
-																							<strong><?php _e("Cost of this Service is 499 Pounds.", tech_bank); ?></strong><br/>
+																							<strong><?php _e("Cost of this Service is 749 US Dollars.", tech_bank); ?></strong><br/>
 																							<span><?php _e("The Time Frame would be 8 Business Days and upto 5 revisions.", tech_bank); ?></span>
 																						</div>
 																					</div>
@@ -580,14 +580,14 @@ else
 																							<ul class="plugin-action-buttons-custom">
 																								<li>
 																									<a class="plugin-div-button btn btn-success" href="http://tech-banker.com/contact-us/" target="_blank"><?php _e("Send Enquiry", tech_bank); ?></a>
-																									<a class="plugin-div-button btn btn-danger" href="http://tech-banker.com/shop/design-and-graphics/banner-design-customization/" target="_blank"><?php _e("Order Now", tech_bank); ?></a>
+																									<a class="plugin-div-button btn btn-danger" href="http://tech-banker.com/shop/design-and-graphics/banner-design-customization/" target="_blank"><?php _e("Read More", tech_bank); ?></a>
 																								</li>
 																							</ul>
 																						</div>
 																					</div>
 																					<div class="plugin-card-bottom_settings">
 																						<div class="column-downloaded">
-																							<strong><?php _e("Cost of this Service is 499 Pounds.", tech_bank); ?></strong><br/>
+																							<strong><?php _e("Cost of this Service is 749 US Dollars.", tech_bank); ?></strong><br/>
 																							<span><?php _e("The Time Frame would be 8 Business Days and upto 5 revisions.", tech_bank); ?></span>
 																						</div>
 																					</div>
@@ -625,7 +625,7 @@ else
 																					</div>
 																					<div class="plugin-card-bottom_settings">
 																						<div class="column-downloaded">
-																							<strong><?php _e("Cost of this Service is 799 Pounds.", tech_bank); ?></strong><br/>
+																							<strong><?php _e("Cost of this Service is 1,199 US Dollars.", tech_bank); ?></strong><br/>
 																							<span><?php _e("The Time Frame would be 10 Business Days and upto 5 revisions.", tech_bank); ?></span>
 																						</div>
 																					</div>
@@ -657,7 +657,7 @@ else
 																					</div>
 																					<div class="plugin-card-bottom_settings">
 																						<div class="column-downloaded">
-																							<strong><?php _e("Cost of this Service is 499 Pounds.", tech_bank); ?></strong><br/>
+																							<strong><?php _e("Cost of this Service is 749 US Dollars.", tech_bank); ?></strong><br/>
 																							<span><?php _e("The Time Frame would be 10 Business Days and upto 5 revisions.", tech_bank); ?></span>
 																						</div>
 																					</div>
@@ -689,7 +689,7 @@ else
 																					</div>
 																					<div class="plugin-card-bottom_settings">
 																						<div class="column-downloaded">
-																							<strong><?php _e("Cost of this Service is 799 Pounds.", tech_bank); ?></strong><br/>
+																							<strong><?php _e("Cost of this Service is 1,199 US Dollars.", tech_bank); ?></strong><br/>
 																							<span><?php _e("The Time Frame would be 10 Business Days and upto 5 revisions.", tech_bank); ?></span>
 																						</div>
 																					</div>
@@ -721,7 +721,7 @@ else
 																					</div>
 																					<div class="plugin-card-bottom_settings">
 																						<div class="column-downloaded">
-																							<strong><?php _e("Cost of this Service is 799 Pounds.", tech_bank); ?></strong><br/>
+																							<strong><?php _e("Cost of this Service is 1,199 US Dollars.", tech_bank); ?></strong><br/>
 																							<span><?php _e("The Time Frame would be 10 Business Days and upto 5 revisions.", tech_bank); ?></span>
 																						</div>
 																					</div>
@@ -753,7 +753,7 @@ else
 																					</div>
 																					<div class="plugin-card-bottom_settings">
 																						<div class="column-downloaded">
-																							<strong><?php _e("Cost of this Service is 499 Pounds.", tech_bank); ?></strong><br/>
+																							<strong><?php _e("Cost of this Service is 749 US Dollars.", tech_bank); ?></strong><br/>
 																							<span><?php _e("The Time Frame would be 10 Business Days and upto 5 revisions.", tech_bank); ?></span>
 																						</div>
 																					</div>
@@ -785,7 +785,7 @@ else
 																					</div>
 																					<div class="plugin-card-bottom_settings">
 																						<div class="column-downloaded">
-																							<strong><?php _e("Cost of this Service is 299 Pounds.", tech_bank); ?></strong><br/>
+																							<strong><?php _e("Cost of this Service is 449 US Dollars.", tech_bank); ?></strong><br/>
 																							<span><?php _e("The Time Frame would be 10 Business Days and upto 5 revisions.", tech_bank); ?></span>
 																						</div>
 																					</div>
@@ -815,7 +815,7 @@ else
 																					</div>
 																					<div class="plugin-card-bottom_settings">
 																						<div class="column-downloaded">
-																							<strong><?php _e("Cost of this Service is 1999 Pounds.", tech_bank); ?></strong><br/>
+																							<strong><?php _e("Cost of this Service is 2,999 US Dollars.", tech_bank); ?></strong><br/>
 																							<span><?php _e("The Time Frame would be 30 Business Days and upto 10 revisions.", tech_bank); ?></span>
 																						</div>
 																					</div>
@@ -845,7 +845,7 @@ else
 																					</div>
 																					<div class="plugin-card-bottom_settings">
 																						<div class="column-downloaded">
-																							<strong><?php _e("Cost of this Service is 1999 Pounds.", tech_bank); ?></strong><br/>
+																							<strong><?php _e("Cost of this Service is 2,999 US Dollars.", tech_bank); ?></strong><br/>
 																							<span><?php _e("The Time Frame would be 30 Business Days and upto 10 revisions.", tech_bank); ?></span>
 																						</div>
 																					</div>
@@ -879,7 +879,7 @@ else
 																					</div>
 																					<div class="plugin-card-bottom_settings">
 																						<div class="column-downloaded">
-																							<strong><?php _e("Cost of this Service is 499 Pounds.", tech_bank); ?></strong><br/>
+																							<strong><?php _e("Cost of this Service is 749 US Dollars.", tech_bank); ?></strong><br/>
 																							<span><?php _e("The Time Frame would be 5 Business Days and upto 3 Revisions.", tech_bank); ?></span>
 																						</div>
 																					</div>
@@ -910,7 +910,7 @@ else
 
 																						</div>
 																						<div class="column-downloaded">
-																							<strong><?php _e("Cost of this Service is 499 Pounds.", tech_bank); ?></strong><br/>
+																							<strong><?php _e("Cost of this Service is 749 US Dollars.", tech_bank); ?></strong><br/>
 																							<span><?php _e("The Time Frame would be 5 Business Days and 3 revisions.", tech_bank); ?></span>
 																						</div>
 																					</div>
@@ -941,7 +941,7 @@ else
 
 																						</div>
 																						<div class="column-downloaded">
-																							<strong><?php _e("Cost of this Service is 499 Pounds.", tech_bank); ?></strong><br/>
+																							<strong><?php _e("Cost of this Service is 749 US Dollars.", tech_bank); ?></strong><br/>
 																							<span><?php _e("The Time Frame would be 8 Business Days and upto 5 Revisions.", tech_bank); ?></span>
 																						</div>
 																					</div>
@@ -972,7 +972,7 @@ else
 
 																						</div>
 																						<div class="column-downloaded">
-																							<strong><?php _e("Cost of this Service is 499 Pounds.", tech_bank); ?></strong><br/>
+																							<strong><?php _e("Cost of this Service is 749 US Dollars.", tech_bank); ?></strong><br/>
 																							<span><?php _e("The Time Frame would be 8 Business Days and upto 5 revisions.", tech_bank); ?></span>
 																						</div>
 																					</div>
@@ -989,7 +989,7 @@ else
 																						<div class="service-div-inner-content">
 																							<div class="name column-name">
 																								<h3>
-																									<?php _e("WooCommerce Service Addition (+Theme Installation + Theme Customization + Payment Gateway Setup)", tech_bank); ?>
+																									<?php _e("WooCommerce Service Addition (Theme Installation + Theme Customization + Payment Gateway Setup)", tech_bank); ?>
 																								</h3>
 																							</div>
 																							<div class="desc column-description">
@@ -1011,7 +1011,7 @@ else
 																					</div>
 																					<div class="plugin-card-bottom_settings">
 																						<div class="column-downloaded">
-																							<strong><?php _e("Cost of this Service is 99 Pounds.", tech_bank); ?></strong><br/>
+																							<strong><?php _e("Cost of this Service is 149 US Dollars.", tech_bank); ?></strong><br/>
 																							<span><?php _e("The Time Frame would be 2 Business Days and upto 5 revisions.", tech_bank); ?></span>
 																						</div>
 																					</div>
@@ -1043,7 +1043,7 @@ else
 																					</div>
 																					<div class="plugin-card-bottom_settings">
 																						<div class="column-downloaded">
-																							<strong><?php _e("Cost of this Service is 799 Pounds.", tech_bank); ?></strong><br/>
+																							<strong><?php _e("Cost of this Service is 1,199 US Dollars.", tech_bank); ?></strong><br/>
 																							<span><?php _e("The Time Frame would be 10 Business Days and upto 5 revisions.", tech_bank); ?></span>
 																						</div>
 																					</div>
@@ -1077,7 +1077,7 @@ else
 																						<div class="vers column-rating">
 																						</div>
 																						<div class="column-downloaded">
-																							<strong><?php _e("Cost of this Service is 499 Pounds.", tech_bank); ?></strong><br/>
+																							<strong><?php _e("Cost of this Service is 749 US Dollars.", tech_bank); ?></strong><br/>
 																							<span><?php _e("The Time Frame would be 10 Business Days and upto 5 revisions.", tech_bank); ?></span>
 																						</div>
 																					</div>
@@ -1109,7 +1109,7 @@ else
 																					</div>
 																					<div class="plugin-card-bottom_settings">
 																						<div class="column-downloaded">
-																							<strong><?php _e("Cost of this Service is 799 Pounds.", tech_bank); ?></strong><br/>
+																							<strong><?php _e("Cost of this Service is 1,199 US Dollars.", tech_bank); ?></strong><br/>
 																							<span><?php _e("The Time Frame would be 10 Business Days and upto 5 revisions.", tech_bank); ?></span>
 																						</div>
 																					</div>
@@ -1141,7 +1141,7 @@ else
 																					</div>
 																					<div class="plugin-card-bottom_settings">
 																						<div class="column-downloaded">
-																							<strong><?php _e("Cost of this Service is 499 Pounds.", tech_bank); ?></strong><br/>
+																							<strong><?php _e("Cost of this Service is 749 US Dollars.", tech_bank); ?></strong><br/>
 																							<span><?php _e("The Time Frame would be 8 Business Days and upto 4 revisions.", tech_bank); ?></span>
 																						</div>
 																					</div>
@@ -1173,7 +1173,7 @@ else
 																					</div>
 																					<div class="plugin-card-bottom_settings">
 																						<div class="column-downloaded">
-																							<strong><?php _e("Cost of this Service is 299 Pounds.", tech_bank); ?></strong><br/>
+																							<strong><?php _e("Cost of this Service is 449 US Dollars.", tech_bank); ?></strong><br/>
 																							<span><?php _e("The Time Frame would be 5 Business Days and upto 3 revisions.", tech_bank); ?></span>
 																						</div>
 																					</div>
@@ -1207,7 +1207,7 @@ else
 																					</div>
 																					<div class="plugin-card-bottom_settings">
 																						<div class="column-downloaded">
-																							<strong><?php _e("Cost of this Service is 399 Pounds.", tech_bank); ?></strong><br/>
+																							<strong><?php _e("Cost of this Service is 599 US Dollars.", tech_bank); ?></strong><br/>
 																							<span><?php _e("The Time Frame would be 5 Business Days and upto 3 revisions.", tech_bank); ?></span>
 																						</div>
 																					</div>
@@ -1239,7 +1239,7 @@ else
 																					</div>
 																					<div class="plugin-card-bottom_settings">
 																						<div class="column-downloaded">
-																							<strong><?php _e("Cost of this Service is 799 Pounds.", tech_bank); ?></strong><br/>
+																							<strong><?php _e("Cost of this Service is 1,199 US Dollars.", tech_bank); ?></strong><br/>
 																							<span><?php _e("The Time Frame would be 10 Business Days and upto 5 Revisions.", tech_bank); ?></span>
 																						</div>
 																					</div>

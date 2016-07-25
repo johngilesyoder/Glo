@@ -133,7 +133,7 @@ if(!function_exists("gallery_get_minisize"))
 					</li>
 					<li>
 						<a href="http://tech-banker.com/products/wp-gallery-bank/pricing/" target="_blank" class="welcome-icon">
-							<?php _e("Premium Pricing Plans", gallery_bank); ?>
+							<?php _e("Pricing Plans", gallery_bank); ?>
 						</a>
 					</li>
 				</ul>
@@ -154,8 +154,8 @@ if(!function_exists("gallery_get_minisize"))
 						</a>
 					</li>
 					<li>
-						<a href="http://tech-banker.com/products/wp-gallery-bank/" target="_blank" class="welcome-icon">
-							<?php _e("Detailed Features", gallery_bank); ?>
+						<a href="http://tech-banker.com/products/renew-premium-support-wp-gallery-bank/" target="_blank" class="welcome-icon">
+							<?php _e("Renew Premium Support", gallery_bank); ?>
 						</a>
 					</li>
 				</ul>
@@ -221,7 +221,7 @@ switch($_REQUEST["page"])
 		$page = "System Status";
 	break;
 	case "gallery_bank_purchase":
-		$page = "Purchase Pro Version";
+		$page = "Purchase Pro Edition";
 	break;
 	case "save_album":
 		$page = "Album";

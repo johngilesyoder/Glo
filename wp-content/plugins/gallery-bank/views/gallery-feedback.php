@@ -37,7 +37,7 @@ else
 									<div class="separator-doubled"></div>
 									<div id="email_success_message" class="custom-message green" style="display: none;">
 										<span>
-											<strong><?php _e("Email has beens send successfully.", gallery_bank); ?></strong>
+											<strong><?php _e("Email has been sent successfully.", gallery_bank); ?></strong>
 										</span>
 									</div>
 									<div class="fluid-layout">

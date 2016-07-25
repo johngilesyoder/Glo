@@ -7428,19 +7428,14 @@ fieldset[disabled] .product-quote .quote-btn.active {
   text-align: right;
   text-transform: uppercase;
 }
+.site-header .topbar .topbar-request-quote p {
+  margin: 0;
+}
 .site-header .topbar .topbar-request-quote .btn-quote {
   margin-left: 15px;
   font-weight: 600;
   padding: 2px 15px;
   font-size: 14px;
-}
-.site-header #navwrap.sticky {
-  height: 102px;
-}
-.site-header #navbar.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
 }
 .site-header .navbar-brand {
   padding: 12.5px 15px;

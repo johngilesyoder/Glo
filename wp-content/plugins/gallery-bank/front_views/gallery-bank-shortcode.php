@@ -83,9 +83,9 @@
 			<select id="ux_gallery_format" class="layout-span3" onchange="select_images_in_row();">
 				<option value="thumbnail">Thumbnail Gallery</option>
 				<option value="masonry">Masonry Gallery</option>
-				<option value="filmstrip" disabled="disabled" style="color: #FF0000;">Filmstrip Gallery (Available only in Premium Versions)</option>
-				<option value="blog" disabled="disabled" style="color: #FF0000;">Blog Style Gallery (Available only in Premium Versions)</option>
-				<option id="slide_show" disabled="disabled" value="slideshow" style="color: #FF0000;">Slideshow Gallery (Available only in Premium Versions)</option>
+				<option value="filmstrip" disabled="disabled" style="color: #FF0000;">Filmstrip Gallery (Available in Premium Editions)</option>
+				<option value="blog" disabled="disabled" style="color: #FF0000;">Blog Style Gallery (Available in Premium Editions)</option>
+				<option id="slide_show" disabled="disabled" value="slideshow" style="color: #FF0000;">Slideshow Gallery (Available in Premium Editions)</option>
 
 			</select>
 			<div id="gb_gallery_format" style="display: inline-block; margin-left: 10px;">
@@ -121,7 +121,7 @@
 		</div>
 		<div class="layout-control-group">
 			<label class="custom-layout-label"></label>
-			<i class="widget_premium_feature">(Available only in Premium Versions)</i>
+			<i class="widget_premium_feature">(Available in Premium Editions)</i>
 		</div>
 		<div class="layout-control-group">
 			<label class="custom-layout-label"><?php _e("Display Images", gallery_bank); ?> : </label>

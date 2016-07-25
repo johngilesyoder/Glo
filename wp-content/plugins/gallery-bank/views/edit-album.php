@@ -144,7 +144,7 @@
 		    </style>
 		<div class="custom-message red" style="display: block;margin-top:30px">
 			<span>
-				<strong>You will be only allowed to add 3 galleries. Kindly purchase Premium Version for full access.</strong>
+				<strong>You will be only allowed to add 3 galleries. Kindly purchase Premium Editions for full access.</strong>
 			</span>
 		</div>
 		<form id="edit_album" class="layout-form">
@@ -220,7 +220,7 @@
 									            <div class="widget-layout">
 									                <div class="widget-layout-title">
 									                    <h4><?php _e("Upload Videos", gallery_bank); ?>
-									                    	<i class="widget_premium_feature"><?php _e(" (Available in Premium Versions)", gallery_bank); ?></i>
+									                    	<i class="widget_premium_feature"><?php _e(" (Available in Premium Editions)", gallery_bank); ?></i>
 									                    </h4>
 									                </div>
 									                <div class="widget-layout-body" id="edit_video_uploader">
@@ -265,7 +265,7 @@
 										                            </th>
 										                            <th style="width:20%">
 										                                <?php _e("Tags (comma separated list)", gallery_bank); ?>
-										                                <i class="widget_premium_feature"><?php _e(" (Available in Premium Versions)", gallery_bank); ?></i>
+										                                <i class="widget_premium_feature"><?php _e(" (Available in Premium Editions)", gallery_bank); ?></i>
 										                            </th>
 										                            <th style="width:25%">
 										                                <?php _e("Url to Redirect on click of an Image", gallery_bank); ?>
@@ -621,7 +621,7 @@
 		    }
 		    function insertVideoToDataTable()
 		    {
-		       alert("<?php _e( "This feature is only available in Paid Premium Version!", gallery_bank ); ?>");
+		       alert("<?php _e( "This feature is only available in Premium Editions!", gallery_bank ); ?>");
 		    }
 		    jQuery("#grp_select_items").click(function () {
 		        var oTable = jQuery("#data-table-edit-album").dataTable();
@@ -637,7 +637,7 @@
 		    });
 		    function deleteSelectedImages()
 		    {
-		        alert("<?php _e("This feature is only available in Paid Premium Version!", gallery_bank)?>");
+		        alert("<?php _e("This feature is only available in Premium Editions!", gallery_bank)?>");
 		    }
 
 		    function select_one_radio(control)

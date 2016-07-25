@@ -483,15 +483,15 @@
 		}
 		function delete_all_albums()
 		{
-			alert("<?php _e( "This feature is only available in Paid Premium Version!", gallery_bank ); ?>");
+			alert("<?php _e( "This feature is only available in Premium Editions!", gallery_bank ); ?>");
 		}
 		function restore_factory_settings()
 		{
-			alert("<?php _e( "This feature is only available in Paid Premium Version!", gallery_bank ); ?>");
+			alert("<?php _e( "This feature is only available in Premium Editions!", gallery_bank ); ?>");
 		}
 		function purge_all_images()
 		{
-			alert("<?php _e( "This feature is only available in Paid Premium Version!", gallery_bank ); ?>");
+			alert("<?php _e( "This feature is only available in Premium Editions!", gallery_bank ); ?>");
 		}
 	</script>
 	<?php

@@ -285,7 +285,7 @@ else
 													<div class="widget-layout-title">
 														<h4>
 															<?php _e("Thumbnail Settings", gallery_bank); ?>
-															<i class="widget_premium_feature"><?php _e(" (Available in Premium Versions)", gallery_bank); ?></i>
+															<i class="widget_premium_feature"><?php _e(" (Available in Premium Editions)", gallery_bank); ?></i>
 														</h4>
 														<span class="tools">
 															<a data-target="#thumbnail_settings" data-toggle="collapse">
@@ -501,7 +501,7 @@ else
 												<div class="widget-layout">
 													<div class="widget-layout-title">
 														<h4><?php _e("Album Cover Settings", gallery_bank); ?>
-															<i class="widget_premium_feature"><?php _e(" (Available in Premium Versions)", gallery_bank); ?></i>
+															<i class="widget_premium_feature"><?php _e(" (Available in Premium Editions)", gallery_bank); ?></i>
 														</h4>
 														<span class="tools">
 															<a data-target="#album_cover_settings" data-toggle="collapse">
@@ -731,7 +731,7 @@ else
 						    					<div class="widget-layout">
 						        					<div class="widget-layout-title">
 						           						 <h4><?php _e("Filter Settings", gallery_bank); ?>
-						           						 	<i class="widget_premium_feature"><?php _e(" (Available in Premium Versions)", gallery_bank); ?></i>
+						           						 	<i class="widget_premium_feature"><?php _e(" (Available in Premium Editions)", gallery_bank); ?></i>
 						           						 </h4>
 														<span class="tools">
 															<a data-target="#filter_settings" data-toggle="collapse">
@@ -842,7 +842,7 @@ else
 						    					<div class="widget-layout">
 											        <div class="widget-layout-title">
 											            <h4><?php _e("Roles & Capabilities", gallery_bank); ?>
-											            	<i class="widget_premium_feature"><?php _e(" (Available in Premium Versions)", gallery_bank); ?></i>
+											            	<i class="widget_premium_feature"><?php _e(" (Available in Premium Editions)", gallery_bank); ?></i>
 											            </h4>
 															<span class="tools">
 																<a data-target="#capabilities_settings" data-toggle="collapse">
@@ -941,7 +941,7 @@ else
 												<div class="widget-layout">
 													<div class="widget-layout-title">
 														<h4><?php _e("Lightbox Settings", gallery_bank); ?>
-															<i class="widget_premium_feature"><?php _e(" (Available in Premium Versions)", gallery_bank); ?></i>
+															<i class="widget_premium_feature"><?php _e(" (Available in Premium Editions)", gallery_bank); ?></i>
 														</h4>
 															<span class="tools">
 																<a data-target="#lightbox_settings" data-toggle="collapse">
@@ -1263,7 +1263,7 @@ else
 						    					<div class="widget-layout">
 													<div class="widget-layout-title">
 														<h4><?php _e("Front - End Layout Settings", gallery_bank); ?>
-															<i class="widget_premium_feature"><?php _e(" (Available in Premium Versions)", gallery_bank); ?></i>
+															<i class="widget_premium_feature"><?php _e(" (Available in Premium Editions)", gallery_bank); ?></i>
 														</h4>
 															<span class="tools">
 																<a data-target="#frontend_settings" data-toggle="collapse">
@@ -1379,7 +1379,7 @@ else
 						    					<div class="widget-layout">
 											        <div class="widget-layout-title">
 											            <h4><?php _e("Pagination Settings for Images", gallery_bank); ?>
-											            	<i class="widget_premium_feature"><?php _e(" (Available in Premium Versions)", gallery_bank); ?></i>
+											            	<i class="widget_premium_feature"><?php _e(" (Available in Premium Editions)", gallery_bank); ?></i>
 											            </h4>
 														<span class="tools">
 															<a data-target="#pagination_settings" data-toggle="collapse">
@@ -1430,7 +1430,7 @@ else
 						    					<div class="widget-layout">
 											        <div class="widget-layout-title">
 											            <h4><?php _e("Slide Show Settings", gallery_bank); ?>
-											            	<i class="widget_premium_feature"><?php _e(" (Available in Premium Versions)", gallery_bank); ?></i>
+											            	<i class="widget_premium_feature"><?php _e(" (Available in Premium Editions)", gallery_bank); ?></i>
 											            </h4>
 														<span class="tools">
 															<a data-target="#slideshow_settings" data-toggle="collapse">
@@ -1482,7 +1482,7 @@ else
 						    					<div class="widget-layout">
 											        <div class="widget-layout-title">
 											            <h4><?php _e("Language Direction Settings", gallery_bank); ?>
-											            	<i class="widget_premium_feature"><?php _e(" (Available in Premium Versions)", gallery_bank); ?></i>
+											            	<i class="widget_premium_feature"><?php _e(" (Available in Premium Editions)", gallery_bank); ?></i>
 											            </h4>
 														<span class="tools">
 															<a data-target="#lang_dir_settings" data-toggle="collapse">
@@ -1650,7 +1650,7 @@ else
 		});
 		function show_premium_message()
 	    {
-	    	alert("<?php _e( "This Feature is only available in Paid Premium Version!", gallery_bank ); ?>");
+	    	alert("<?php _e( "These features are only available in Premium Editions!", gallery_bank ); ?>");
 	    }
 	    function disable_admin_checkbox(control) {
 	        var controlId = jQuery(control).attr("id");

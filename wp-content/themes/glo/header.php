@@ -13,7 +13,7 @@
   <script>try{Typekit.load({ async: true });}catch(e){}</script>
 </head>
 
-<body <?php body_class( $class ); ?>> 
+<body <?php body_class( $class ); ?>>
 
   <header class="site-header">
 
@@ -26,36 +26,32 @@
         </div>
       </div>
     </div>
-    <div id="navwrap" class="">
-      <nav id="navbar" class="navbar navbar-default">
-        <div class="container">
-          <!-- Brand and toggle get grouped for better mobile display -->
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-            <?php if (is_front_page()): ?>  
-              <h1 class="navbar-brand">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo.png" alt="Site logo"/>
-              </h1>
-            <?php else: ?>
-              <a class="navbar-brand" href="/">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo.png" alt="Site logo"/>
-              </a>
-            <?php endif; ?>
-          </div>
+    <nav class="navbar navbar-default">
+      <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <?php if (is_front_page()): ?>
+            <h1 class="navbar-brand">
+              <img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo.png" alt="Site logo"/>
+            </h1>
+          <?php else: ?>
+            <a class="navbar-brand" href="/">
+              <img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo.png" alt="Site logo"/>
+            </a>
+          <?php endif; ?>
+        </div>
 
-          <!-- Collect the nav links, forms, and other content for toggling -->
-          <div class="collapse navbar-collapse" id="navbar-collapse">
-            <?php primary_nav(); ?>
-          </div><!-- /.navbar-collapse -->
-        </div><!-- /.container-fluid -->
-      </nav>
-    </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="navbar-collapse">
+          <?php primary_nav(); ?>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
 
   </header>
-
-  
