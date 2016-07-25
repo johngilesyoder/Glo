@@ -21,15 +21,22 @@
 					);
 					?>
 					<ul>
-					    <?php wp_list_categories( $list_child_terms_args ); ?>
+					  <?php wp_list_categories( $list_child_terms_args ); ?>
 					</ul>
 
 					<?php
-					$children = get_term_children($termId, $taxonomyName);
+					$term = get_queried_object();
 
-					if( empty( $children ) ) {
-					    //do something here
-							echo "DOES NOT HAVE CHILDREN";
+					$children = get_terms( $term->taxonomy, array(
+					'parent'    => $term->term_id,
+					'hide_empty' => false
+					) );
+					print_r($children); // uncomment to examine for debugging
+					if($children) { // get_terms will return false if tax does not exist or term wasn't found.
+					    // term has children
+							echo "HAS CHILDREN";
+					} else {
+						echo "NO CHILDREN";
 					}
 					?>
 
