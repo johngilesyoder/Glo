@@ -8266,7 +8266,7 @@ fieldset[disabled] .product-quote .quote-btn.active {
   left: 0;
   width: 100%;
   height: 3px;
-  background: #fff;
+  background: #ee7522;
   content: '';
   -webkit-transition: -webkit-transform 0.35s;
   transition: transform 0.35s;
