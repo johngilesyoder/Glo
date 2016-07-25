@@ -44,7 +44,7 @@
 							<div class="row">
 						<?php /* Start the Loop */ ?>
 						<?php while ( have_posts() ) : the_post(); ?>
-								<div class="col-md-4">
+								<div class="col-md-6">
 									<figure class="product-block effect-sarah">
 										<img src="<?php the_post_thumbnail_url( full ); ?>" alt="<?php the_title(); ?>"/>
 										<figcaption>
