@@ -254,7 +254,7 @@ function primary_nav()
 }
 
 
-function get_menu_by_location( $location ) 
+function get_menu_by_location( $location )
 {
     if( empty($location) ) return false;
     $locations = get_nav_menu_locations();
@@ -267,21 +267,21 @@ function footer_links_1() {
     $location = 'footer-links-1';
     get_menu_by_location( $location );
     $menu_obj = get_menu_by_location( $location );
-    wp_nav_menu( array('theme_location' => $location, 'items_wrap'=> '<h3 class="links-header">'.esc_html($menu_obj->name).'</h3><ul id=\"%1$s\" class=\"%2$s\">%3$s</ul>') ); 
+    wp_nav_menu( array('theme_location' => $location, 'items_wrap'=> '<h3 class="links-header">'.esc_html($menu_obj->name).'</h3><ul id=\"%1$s\" class=\"%2$s\">%3$s</ul>') );
 }
 
 function footer_links_2() {
     $location = 'footer-links-2';
     get_menu_by_location( $location );
     $menu_obj = get_menu_by_location( $location );
-    wp_nav_menu( array('theme_location' => $location, 'items_wrap'=> '<h3 class="links-header">'.esc_html($menu_obj->name).'</h3><ul id=\"%1$s\" class=\"%2$s\">%3$s</ul>') ); 
+    wp_nav_menu( array('theme_location' => $location, 'items_wrap'=> '<h3 class="links-header">'.esc_html($menu_obj->name).'</h3><ul id=\"%1$s\" class=\"%2$s\">%3$s</ul>') );
 }
 
 function footer_links_3() {
     $location = 'footer-links-3';
     get_menu_by_location( $location );
     $menu_obj = get_menu_by_location( $location );
-    wp_nav_menu( array('theme_location' => $location, 'items_wrap'=> '<h3 class="links-header">'.esc_html($menu_obj->name).'</h3><ul id=\"%1$s\" class=\"%2$s\">%3$s</ul>') ); 
+    wp_nav_menu( array('theme_location' => $location, 'items_wrap'=> '<h3 class="links-header">'.esc_html($menu_obj->name).'</h3><ul id=\"%1$s\" class=\"%2$s\">%3$s</ul>') );
 }
 
 
@@ -316,7 +316,7 @@ function html5blank_conditional_scripts()
 
         wp_register_script('home', get_template_directory_uri() . '/assets/js/sections/home.js', array(), null, true ); // Home scripts
         wp_enqueue_script('home'); // Enqueue it!
-    
+
     }
 }
 
@@ -567,6 +567,16 @@ function html5_shortcode_demo($atts, $content = null)
 function html5_shortcode_demo_2($atts, $content = null) // Demo Heading H2 shortcode, allows for nesting within above element. Fully expandable.
 {
     return '<h2>' . $content . '</h2>';
+}
+
+
+function get_product_excerpt($count){
+  $permalink = get_permalink($post->ID);
+  $excerpt = get_the_content();
+  $excerpt = strip_tags($excerpt);
+  $excerpt = substr($excerpt, 0, $count);
+  $excerpt = $excerpt.'... <a href="'.$permalink.'">more</a>';
+  return $excerpt;
 }
 
 

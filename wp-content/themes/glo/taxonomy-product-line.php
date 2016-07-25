@@ -41,17 +41,21 @@
 						<?php endif; ?>
 
 						<?php if ( have_posts() ) : ?>
-
+							<div class="row">
 						<?php /* Start the Loop */ ?>
 						<?php while ( have_posts() ) : the_post(); ?>
-
-							<div class="product">
-				        <div class="product-description">
-				          <div class="product-excerpt">
-				            <?php the_excerpt(); ?>
-				          </div>
-				          <a class="btn btn-primary" href="<?php the_permalink(); ?>">View <?php the_title(); ?> &nbsp;&rarr;</a>
-				        </div>
+								<div class="col-md-4">
+									<figure class="product-block effect-sarah">
+										<img src="<?php the_post_thumbnail_url( full ); ?>" alt="<?php the_title(); ?>"/>
+										<figcaption>
+											<h2><?php the_title(); ?></h2>
+											<p>
+												<span class="view-more">Find out more &rarr;</span>
+											</p>
+											<a href="<?php the_permalink(); ?>">View more</a>
+										</figcaption>
+									</figure>
+								</div>
 				      </div>
 
 						<?php endwhile; ?>
