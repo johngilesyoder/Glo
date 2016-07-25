@@ -9,8 +9,13 @@
 	      <h2><?php single_term_title(); ?></h2>
 	    </div>
 	    <div class="container">
-				<?php
-					// the taxonomy archive term page's term id
+				<div class="row">
+					<?php
+					$term = get_queried_object();
+					$children = get_terms( $term->taxonomy, array(
+					'parent'    => $term->term_id,
+					'hide_empty' => false
+					) );
 					$queried_object = get_queried_object();
 					$term_id = $queried_object->term_id;
 
@@ -20,49 +25,42 @@
 					    'child_of' => $term_id // show only child terms of the current page's
 					);
 					?>
-					<ul>
-					  <?php wp_list_categories( $list_child_terms_args ); ?>
-					</ul>
+						<?php if($children) : ?>
+						<div class="col-md-3">
+							<ul>
+							  <?php wp_list_categories( $list_child_terms_args ); ?>
+							</ul>
+						</div>
+						<div class="col-md-9">
+						<?php else : ?>
+						<div class="col-md-12">
+						<?php endif; ?>
 
-					<?php
-					$term = get_queried_object();
+						<?php if ( have_posts() ) : ?>
 
-					$children = get_terms( $term->taxonomy, array(
-					'parent'    => $term->term_id,
-					'hide_empty' => false
-					) );
-					//print_r($children); // uncomment to examine for debugging
-					if($children) { // get_terms will return false if tax does not exist or term wasn't found.
-					    // term has children
-							echo "HAS CHILDREN";
-					} else {
-						echo "NO CHILDREN";
-					}
-					?>
+						<?php /* Start the Loop */ ?>
+						<?php while ( have_posts() ) : the_post(); ?>
 
-				<?php if ( have_posts() ) : ?>
+							<div class="product">
+				        <div class="product-description">
+				          <div class="product-excerpt">
+				            <?php the_excerpt(); ?>
+				          </div>
+				          <a class="btn btn-primary" href="<?php the_permalink(); ?>">View <?php the_title(); ?> &nbsp;&rarr;</a>
+				        </div>
+				      </div>
 
-				<?php /* Start the Loop */ ?>
-				<?php while ( have_posts() ) : the_post(); ?>
+						<?php endwhile; ?>
 
-					<div class="product">
-		        <div class="product-description">
-		          <div class="product-excerpt">
-		            <?php the_excerpt(); ?>
-		          </div>
-		          <a class="btn btn-primary" href="<?php the_permalink(); ?>">View <?php the_title(); ?> &nbsp;&rarr;</a>
-		        </div>
-		      </div>
+						<?php the_posts_navigation(); ?>
 
-				<?php endwhile; ?>
+					<?php else : ?>
 
-				<?php the_posts_navigation(); ?>
+						<?php get_template_part( 'template-parts/content', 'none' ); ?>
 
-			<?php else : ?>
-
-				<?php get_template_part( 'template-parts/content', 'none' ); ?>
-
-			<?php endif; ?>
+					<?php endif; ?>
+					</div>
+				</div>
 			</div>
 		</div>
 	</main>
