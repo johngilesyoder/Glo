@@ -56,7 +56,6 @@
 										</figcaption>
 									</figure>
 								</div>
-				      </div>
 
 						<?php endwhile; ?>
 
@@ -67,6 +66,7 @@
 						<?php get_template_part( 'template-parts/content', 'none' ); ?>
 
 					<?php endif; ?>
+						</div>
 					</div>
 				</div>
 			</div>
