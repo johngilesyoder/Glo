@@ -9,6 +9,21 @@
 	      <h2><?php single_term_title(); ?></h2>
 	    </div>
 	    <div class="container">
+				<?php
+					// the taxonomy archive term page's term id
+					$queried_object = get_queried_object();
+					$term_id = $queried_object->term_id;
+
+					$list_child_terms_args = array(
+					    'taxonomy' => 'product-line',
+					    'use_desc_for_title' => 0, // best practice: don't use title attributes ever
+					    'child_of' => $term_id // show only child terms of the current page's
+					);
+					?>
+					<ul>
+					    <?php wp_list_categories( $list_child_terms_args ); ?>
+					</ul>
+
 
 				<?php if ( have_posts() ) : ?>
 
