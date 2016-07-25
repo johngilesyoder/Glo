@@ -28,10 +28,12 @@
 					?>
 						<?php if($children) : ?>
 						<div class="col-md-3">
-							<h4>Dig Deeper</h4>
-							<ul>
-							  <?php wp_list_categories( $list_child_terms_args ); ?>
-							</ul>
+							<div class="subcategories">
+								<h4>Dig Deeper</h4>
+								<ul>
+								  <?php wp_list_categories( $list_child_terms_args ); ?>
+								</ul>
+							</div>
 						</div>
 						<div class="col-md-9">
 						<?php else : ?>
