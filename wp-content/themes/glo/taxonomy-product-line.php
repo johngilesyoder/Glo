@@ -9,6 +9,12 @@
 	      <h2><?php single_term_title(); ?></h2>
 	    </div>
 	    <div class="container">
+
+				<?php
+					$term =	$wp_query->queried_object;
+					echo '<p class="product-line-description">'.$term->description.'</p>';
+				?>
+
 				<div class="row">
 					<?php
 					$term = get_queried_object();

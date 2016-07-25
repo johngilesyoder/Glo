@@ -8171,6 +8171,9 @@ fieldset[disabled] .product-quote .quote-btn.active {
   border-bottom: 2px solid #ee7522;
   content: '';
 }
+.tax-product-line .product-line-description {
+  margin: 0 0 30px;
+}
 .tax-product-line figure {
   position: relative;
   overflow: hidden;
