@@ -22,11 +22,13 @@
 					$list_child_terms_args = array(
 					    'taxonomy' => 'product-line',
 					    'use_desc_for_title' => 0, // best practice: don't use title attributes ever
-					    'child_of' => $term_id // show only child terms of the current page's
-					);
+					    'child_of' => $term_id, // show only child terms of the current page's
+							'title_li' => ''
+ 					);
 					?>
 						<?php if($children) : ?>
 						<div class="col-md-3">
+							<h4>Dig Deeper</h4>
 							<ul>
 							  <?php wp_list_categories( $list_child_terms_args ); ?>
 							</ul>
