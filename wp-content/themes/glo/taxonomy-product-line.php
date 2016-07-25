@@ -24,6 +24,14 @@
 					    <?php wp_list_categories( $list_child_terms_args ); ?>
 					</ul>
 
+					<?php
+					$children = get_term_children($termId, $taxonomyName);
+
+					if( empty( $children ) ) {
+					    //do something here
+							echo "DOES NOT HAVE CHILDREN";
+					}
+					?>
 
 				<?php if ( have_posts() ) : ?>
 
