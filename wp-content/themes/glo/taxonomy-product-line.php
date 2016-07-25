@@ -31,7 +31,7 @@
 					'parent'    => $term->term_id,
 					'hide_empty' => false
 					) );
-					print_r($children); // uncomment to examine for debugging
+					//print_r($children); // uncomment to examine for debugging
 					if($children) { // get_terms will return false if tax does not exist or term wasn't found.
 					    // term has children
 							echo "HAS CHILDREN";
