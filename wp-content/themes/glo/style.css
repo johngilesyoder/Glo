@@ -8301,6 +8301,7 @@ fieldset[disabled] .product-quote .quote-btn.active {
 }
 .tax-product-line .subcategories {
   padding: 15px;
+  margin: 0 0 30px;
   background: #fcf9f6;
 }
 .tax-product-line .subcategories h4 {
@@ -8329,9 +8330,6 @@ fieldset[disabled] .product-quote .quote-btn.active {
   }
   .page-template-page-products .product-line-hero {
     height: 350px;
-  }
-  .page-template-page-products .product-excerpt h2 {
-    font-size: 28px;
   }
 }
 .single-product .product-top {

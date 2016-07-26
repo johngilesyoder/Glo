@@ -2442,24 +2442,35 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/product\/curtain-wall.jpg": {
+	"\/images\/product\/curtain-wall-windows.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 1.13961e+06,
-		"inputAbbreviatedPath": "\/images\/product\/curtain-wall.jpg",
-		"outputAbbreviatedPath": "\/images\/product\/curtain-wall.jpg",
+		"inputAbbreviatedPath": "\/images\/product\/curtain-wall-windows.jpg",
+		"outputAbbreviatedPath": "\/images\/product\/curtain-wall-windows.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/product\/decorative-entry-door.jpg": {
+	"\/images\/product\/decorative-entry-doors-types.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 902991,
-		"inputAbbreviatedPath": "\/images\/product\/decorative-entry-door.jpg",
-		"outputAbbreviatedPath": "\/images\/product\/decorative-entry-door.jpg",
+		"inputAbbreviatedPath": "\/images\/product\/decorative-entry-doors-types.jpg",
+		"outputAbbreviatedPath": "\/images\/product\/decorative-entry-doors-types.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/product\/decorative-entry-doors.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 902991,
+		"inputAbbreviatedPath": "\/images\/product\/decorative-entry-doors.jpg",
+		"outputAbbreviatedPath": "\/images\/product\/decorative-entry-doors.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

@@ -50,7 +50,7 @@
 							<div class="row">
 						<?php /* Start the Loop */ ?>
 						<?php while ( have_posts() ) : the_post(); ?>
-								<div class="col-md-6">
+								<div class="col-sm-6">
 									<figure class="product-block effect-sarah">
 										<div class="product-img" style="background-image:url('<?php the_post_thumbnail_url( full ); ?>')"></div>
 										<figcaption>

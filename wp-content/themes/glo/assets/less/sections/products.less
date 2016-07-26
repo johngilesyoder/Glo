@@ -216,6 +216,7 @@
 
   .subcategories {
     padding: 15px;
+    margin: 0 0 30px;
     background: #fcf9f6;
     h4 {
       font-weight: 300;
@@ -251,7 +252,14 @@
 @media (min-width: 992px) and (max-width: 1199px) {}
 
 // Tablet to desktop
-@media (min-width: 768px) and (max-width: 991px) {}
+@media (min-width: 768px) and (max-width: 991px) {
+
+  .page-template-page-products {
+    .product-block {
+
+    }
+  }
+}
 
 // Up to tablet
 @media (max-width: 767px) {
@@ -263,10 +271,8 @@
     .product-line-hero {
       height: 350px;
     }
-    .product-excerpt {
-      h2 {
-        font-size: 28px;
-      }
+    .product-block {
+
     }
   }
 
