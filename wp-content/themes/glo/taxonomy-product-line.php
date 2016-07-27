@@ -32,17 +32,15 @@
 							</div>
 						</div>
 						<div class="col-md-9">
-							<?php
-global $wp_query;
-query_posts(
-   array_merge(
-      $wp_query->query,
-      array('orderby' => 'title')
-   )
-);
-?>
-						<?php
 
+						<?php
+							global $wp_query;
+							query_posts(
+								 array_merge(
+										$wp_query->query,
+										array('orderby' => 'title','order' => 'ASC')
+								 )
+							);
 							if ( have_posts() ) :
 						?>
 							<div class="row">
