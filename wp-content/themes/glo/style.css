@@ -8305,9 +8305,13 @@ fieldset[disabled] .product-quote .quote-btn.active {
   background: #fcf9f6;
 }
 .tax-product-line .subcategories h4 {
-  font-weight: 300;
-  margin: 0 0 30px;
-  font-size: 24px;
+  font-weight: 700;
+  margin: -15px -15px 30px;
+  font-size: 18px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  padding: 25px;
+  background: rgba(238, 117, 34, 0.07);
 }
 .tax-product-line .subcategories ul {
   padding: 0 0 0 10px;
@@ -8334,6 +8338,7 @@ fieldset[disabled] .product-quote .quote-btn.active {
 }
 .tax-product-line .subcategories ul li ul li a {
   font-weight: 400;
+  text-transform: none;
 }
 @media (max-width: 767px) {
   .page-template-page-products .product-line {
