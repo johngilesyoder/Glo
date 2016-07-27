@@ -32,9 +32,13 @@
 							</div>
 						</div>
 						<div class="col-md-9">
-						<?php if ( have_posts() ) : ?>
+
+						<?php
+							$paged = ( get_query_var( 'paged' ) ) ? get_query_var( 'paged' ) : 1;
+							query_posts($query_string . '&post_type=product-line&posts_per_page=1&orderby=title&order=asc&paged='.$paged);
+							if ( have_posts() ) :
+						?>
 							<div class="row">
-						<?php /* Start the Loop */ ?>
 						<?php while ( have_posts() ) : the_post(); ?>
 								<div class="col-sm-6">
 									<figure class="product-block effect-sarah">
