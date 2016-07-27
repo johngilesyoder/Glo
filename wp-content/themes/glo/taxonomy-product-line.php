@@ -32,10 +32,17 @@
 							</div>
 						</div>
 						<div class="col-md-9">
-
+							<?php
+global $wp_query;
+query_posts(
+   array_merge(
+      $wp_query->query,
+      array('orderby' => 'title')
+   )
+);
+?>
 						<?php
-							$paged = ( get_query_var( 'paged' ) ) ? get_query_var( 'paged' ) : 1;
-							query_posts($query_string . '&post_type=product-line&posts_per_page=1&orderby=title&order=asc&paged='.$paged);
+
 							if ( have_posts() ) :
 						?>
 							<div class="row">
