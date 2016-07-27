@@ -8332,6 +8332,9 @@ fieldset[disabled] .product-quote .quote-btn.active {
 .tax-product-line .subcategories ul li ul {
   margin: 10px 0;
 }
+.tax-product-line .subcategories ul li ul li a {
+  font-weight: 400;
+}
 @media (max-width: 767px) {
   .page-template-page-products .product-line {
     margin-bottom: 0;
