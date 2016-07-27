@@ -1,5 +1,17 @@
 <?php get_header(); ?>
-<?php $term = get_term_by( 'slug', get_query_var( 'term' ), get_query_var( 'taxonomy' ) ); ?>
+<?php
+	$term = get_term_by( 'slug', get_query_var( 'term' ), get_query_var( 'taxonomy' ) );
+	$term1 =	$wp_query->queried_object;
+	$term2 = get_term_by( 'slug', get_query_var( 'term' ), get_query_var( 'taxonomy' ) );
+
+	// GET CATEGORY ROOT NAME
+	$term_id = get_queried_object()->term_id; //Get ID of current term
+	$ancestors = get_ancestors( $term_id, 'product-line' ); // Get a list of ancestors
+	$ancestors = array_reverse($ancestors); //Reverse the array to put the top level ancestor first
+	$ancestors[0] ? $top_term_id = $ancestors[0] : $top_term_id = $term_id; //Check if there is an ancestor, else use id of current term
+	$term3 = get_term( $top_term_id, 'product-line' ); //Get the term
+
+?>
 
 	<main class="page-wrapper">
 
@@ -9,43 +21,17 @@
 	      <h2><?php single_term_title(); ?></h2>
 	    </div>
 	    <div class="container">
-
-				<?php
-					$term =	$wp_query->queried_object;
-					echo '<p class="product-line-description">'.$term->description.'</p>';
-				?>
-
+				<?php echo '<p class="product-line-description">'.$term1->description.'</p>'; ?>
 				<div class="row">
-					<?php
-					$term = get_queried_object();
-					$children = get_terms( $term->taxonomy, array(
-					'parent'    => $term->term_id,
-					'hide_empty' => false
-					) );
-					$queried_object = get_queried_object();
-					$term_id = $queried_object->term_id;
-
-					$list_child_terms_args = array(
-					    'taxonomy' => 'product-line',
-					    'use_desc_for_title' => 0, // best practice: don't use title attributes ever
-					    'child_of' => $term_id, // show only child terms of the current page's
-							'title_li' => ''
- 					);
-					?>
-						<?php if($children) : ?>
 						<div class="col-md-3">
 							<div class="subcategories">
-								<h4>Dig Deeper</h4>
+								<h4><?php echo $term3->name; ?></h4>
 								<ul>
-								  <?php wp_list_categories( $list_child_terms_args ); ?>
+								  <?php wp_list_categories('child_of='.$term3->term_id.'&title_li=&taxonomy=product-line&hide_empty=0'); ?>
 								</ul>
 							</div>
 						</div>
 						<div class="col-md-9">
-						<?php else : ?>
-						<div class="col-md-12">
-						<?php endif; ?>
-
 						<?php if ( have_posts() ) : ?>
 							<div class="row">
 						<?php /* Start the Loop */ ?>

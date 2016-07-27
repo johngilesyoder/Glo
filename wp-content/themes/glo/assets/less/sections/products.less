@@ -230,11 +230,19 @@
       li {
         margin: 0 0 15px;
         line-height: 1em;
+        &.current-cat > a {
+          color: @text-color;
+          cursor: default;
+          text-decoration: none;
+        }
         a {
           font-weight: 700;
           text-transform: uppercase;
           font-size: 13px;
           line-height: 1em;
+        }
+        ul {
+          margin: 10px 0;
         }
       }
     }
