@@ -23,7 +23,7 @@ get_header(); ?>
 					<?php echo $about_you; ?>
 				</div>
 			</div>
-			<a href="/window-types" class="home-block home-block-img home-products">
+			<a href="/product-lines/windows/window-types" class="home-block home-block-img home-products">
 				<div class="block-img" style="background-image: url('<?php echo get_template_directory_uri(); ?>/images/1.jpg');"></div>
 				<h2 class="home-block-title">Window Types <i></i></h2>
 			</a>
