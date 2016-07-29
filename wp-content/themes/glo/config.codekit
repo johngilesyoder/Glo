@@ -2574,6 +2574,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/product\/folding-doors.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7.25407e+06,
+		"inputAbbreviatedPath": "\/images\/product\/folding-doors.jpg",
+		"outputAbbreviatedPath": "\/images\/product\/folding-doors.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/product\/french-doors.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -2596,13 +2607,24 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/product\/sliding-door.jpg": {
+	"\/images\/product\/sliding-doors.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 856830,
-		"inputAbbreviatedPath": "\/images\/product\/sliding-door.jpg",
-		"outputAbbreviatedPath": "\/images\/product\/sliding-door.jpg",
+		"inputAbbreviatedPath": "\/images\/product\/sliding-doors.jpg",
+		"outputAbbreviatedPath": "\/images\/product\/sliding-doors.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/product\/sliding-windows.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7.07814e+06,
+		"inputAbbreviatedPath": "\/images\/product\/sliding-windows.jpg",
+		"outputAbbreviatedPath": "\/images\/product\/sliding-windows.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -2647,6 +2669,17 @@
 		"initialSize": 941346,
 		"inputAbbreviatedPath": "\/images\/product\/triple-pane-doors.jpg",
 		"outputAbbreviatedPath": "\/images\/product\/triple-pane-doors.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/product\/triple-pane-passive-house-doors.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.34815e+06,
+		"inputAbbreviatedPath": "\/images\/product\/triple-pane-passive-house-doors.jpg",
+		"outputAbbreviatedPath": "\/images\/product\/triple-pane-passive-house-doors.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
