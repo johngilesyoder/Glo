@@ -126,7 +126,7 @@ get_header(); ?>
 
 				<?php if ( get_post_meta($post_id, 'wpcf-window-styles', true) != '' ) : ?>
 
-	  	    <div id="door-styles" class="tab-pane fade">
+	  	    <div id="window-styles" class="tab-pane fade">
 	  	      <img src="<?php windowStyles(); ?>">
 	  	    </div>
 
