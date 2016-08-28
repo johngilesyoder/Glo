@@ -4536,22 +4536,22 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   border-color: #eeeeee;
 }
 .navbar-default .navbar-brand {
-  color: #777;
+  color: #333;
 }
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
-  color: #5e5e5e;
+  color: #1a1a1a;
   background-color: transparent;
 }
 .navbar-default .navbar-text {
   color: #777;
 }
 .navbar-default .navbar-nav > li > a {
-  color: #777;
+  color: #333;
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-  color: #333;
+  color: #000;
   background-color: transparent;
 }
 .navbar-default .navbar-nav > .active > a,
@@ -4588,11 +4588,11 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 @media (max-width: 1199px) {
   .navbar-default .navbar-nav .open .dropdown-menu > li > a {
-    color: #777;
+    color: #333;
   }
   .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
   .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
-    color: #333;
+    color: #000;
     background-color: transparent;
   }
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
@@ -4609,17 +4609,17 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   }
 }
 .navbar-default .navbar-link {
-  color: #777;
-}
-.navbar-default .navbar-link:hover {
   color: #333;
 }
+.navbar-default .navbar-link:hover {
+  color: #000;
+}
 .navbar-default .btn-link {
-  color: #777;
+  color: #333;
 }
 .navbar-default .btn-link:hover,
 .navbar-default .btn-link:focus {
-  color: #333;
+  color: #000;
 }
 .navbar-default .btn-link[disabled]:hover,
 fieldset[disabled] .navbar-default .btn-link:hover,
@@ -7450,7 +7450,7 @@ fieldset[disabled] .product-quote .quote-btn.active {
 }
 .site-header .navbar-nav > li > a {
   font-weight: 700;
-  font-size: 14px;
+  font-size: 16px;
 }
 .site-header .navbar-nav > li ul li a {
   font-size: 14px;
@@ -8330,7 +8330,7 @@ fieldset[disabled] .product-quote .quote-btn.active {
 .tax-product-line .subcategories ul li a {
   font-weight: 700;
   text-transform: uppercase;
-  font-size: 13px;
+  font-size: 16px;
   line-height: 1em;
 }
 .tax-product-line .subcategories ul li ul {
@@ -8339,6 +8339,7 @@ fieldset[disabled] .product-quote .quote-btn.active {
 .tax-product-line .subcategories ul li ul li a {
   font-weight: 400;
   text-transform: none;
+  font-size: 14px;
 }
 @media (max-width: 767px) {
   .page-template-page-products .product-line {

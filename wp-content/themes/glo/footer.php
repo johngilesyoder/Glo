@@ -23,7 +23,7 @@
 								<a href="https://www.facebook.com/glowindows" class="social-link" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/facebook.svg"></a>
 						    <a href="https://twitter.com/GloWindows" class="social-link" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/twitter.svg"></a>
 						    <a href="https://www.pinterest.com/GloWindows/" class="social-link" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/pinterest.svg"></a>
-						    <a href="#" class="social-link" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/googleplus.svg"></a>
+						    <a href="https://plus.google.com/b/114099422635558267853/114099422635558267853/posts/p/pub" class="social-link" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/googleplus.svg"></a>
 						    <a href="http://www.houzz.com/pro/glowindows/glo-european-windows" class="social-link" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/houzz.svg"></a>
 					    </div>
 					    <p><strong>Glo Windows</strong><br>1001 S 4th Street W, Suite 1<br>Missoula, Montana 59801</p>

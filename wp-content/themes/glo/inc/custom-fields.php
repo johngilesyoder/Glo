@@ -57,6 +57,10 @@ function doorStyles() {
 	get_custom_field('wpcf-door-styles', TRUE);
 }
 
+function windowStyles() {
+	get_custom_field('wpcf-window-styles', TRUE);
+}
+
 function aboutYou() {
 	get_custom_field('wpcf-about-you-home', TRUE);
 }
