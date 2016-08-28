@@ -10,7 +10,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
   <!-- Typekit -->
   <script src="//use.typekit.net/cmt2uhr.js"></script>
-  <script>try{Typekit.load({ async: true });}catch(e){}</script>
+  <script>try{Typekit.load({ async: false });}catch(e){}</script>
 </head>
 
 <body <?php body_class( $class ); ?>>
