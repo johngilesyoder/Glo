@@ -31,17 +31,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/assets\/img\/callout-products.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 890984,
-		"inputAbbreviatedPath": "\/assets\/img\/callout-products.jpg",
-		"outputAbbreviatedPath": "\/assets\/img\/callout-products.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/assets\/img\/callout-projects.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
