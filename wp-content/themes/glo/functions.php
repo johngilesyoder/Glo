@@ -303,7 +303,7 @@ function html5blank_header_scripts()
         wp_register_script( 'bootstrap', 'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js', array(), null, false );
         wp_enqueue_script('bootstrap'); // Enqueue it!
 
-        wp_register_script( 'flickity', 'https://npmcdn.com/flickity@1.2/dist/flickity.pkgd.min.js', array(), null, false );
+        wp_register_script( 'flickity', 'https://unpkg.com/flickity@1.2/dist/flickity.pkgd.min.js', array(), null, false );
         wp_enqueue_script('flickity'); // Enqueue it!
 
     }
