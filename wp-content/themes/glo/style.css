@@ -7341,6 +7341,7 @@ img {
   font-weight: 700;
   text-transform: uppercase;
   padding: 12px 30px;
+  display: inline-block;
 }
 .product-quote .quote-btn:focus,
 .dwg-form .quote-btn:focus,
@@ -7459,6 +7460,10 @@ fieldset[disabled] .dwg-form .quote-btn.active {
     margin-bottom: 30px;
     padding: 15px;
   }
+  .product-quote .quote-btn,
+  .dwg-form .quote-btn {
+    font-size: 18px;
+  }
 }
 @media (max-width: 480px) {
   .product-quote,
@@ -7471,6 +7476,7 @@ fieldset[disabled] .dwg-form .quote-btn.active {
   .dwg-form .quote-btn {
     display: block;
     width: 100%;
+    font-size: 16px;
   }
 }
 .site-header {
