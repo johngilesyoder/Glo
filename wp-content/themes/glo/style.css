@@ -8414,6 +8414,89 @@ fieldset[disabled] .product-quote .quote-btn.active {
 .single-product .product-image {
   text-align: center;
 }
+.single-product .gform_wrapper .gfield {
+  margin-bottom: 15px;
+}
+.single-product .gform_wrapper .gfield input[type="text"],
+.single-product .gform_wrapper .gfield input[type="phone"],
+.single-product .gform_wrapper .gfield input[type="email"],
+.single-product .gform_wrapper .gfield input[type="password"] {
+  display: block;
+  width: 100%;
+  height: 39px;
+  padding: 6px 12px;
+  font-size: 18px;
+  line-height: 1.42857143;
+  color: #555555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  -webkit-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+  -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+  transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+.single-product .gform_wrapper .gfield input[type="text"]:focus,
+.single-product .gform_wrapper .gfield input[type="phone"]:focus,
+.single-product .gform_wrapper .gfield input[type="email"]:focus,
+.single-product .gform_wrapper .gfield input[type="password"]:focus {
+  border-color: #66afe9;
+  outline: 0;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, 0.6);
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, 0.6);
+}
+.single-product .gform_wrapper .gfield input[type="text"]::-moz-placeholder,
+.single-product .gform_wrapper .gfield input[type="phone"]::-moz-placeholder,
+.single-product .gform_wrapper .gfield input[type="email"]::-moz-placeholder,
+.single-product .gform_wrapper .gfield input[type="password"]::-moz-placeholder {
+  color: #999;
+  opacity: 1;
+}
+.single-product .gform_wrapper .gfield input[type="text"]:-ms-input-placeholder,
+.single-product .gform_wrapper .gfield input[type="phone"]:-ms-input-placeholder,
+.single-product .gform_wrapper .gfield input[type="email"]:-ms-input-placeholder,
+.single-product .gform_wrapper .gfield input[type="password"]:-ms-input-placeholder {
+  color: #999;
+}
+.single-product .gform_wrapper .gfield input[type="text"]::-webkit-input-placeholder,
+.single-product .gform_wrapper .gfield input[type="phone"]::-webkit-input-placeholder,
+.single-product .gform_wrapper .gfield input[type="email"]::-webkit-input-placeholder,
+.single-product .gform_wrapper .gfield input[type="password"]::-webkit-input-placeholder {
+  color: #999;
+}
+.single-product .gform_wrapper .gfield input[type="text"][disabled],
+.single-product .gform_wrapper .gfield input[type="phone"][disabled],
+.single-product .gform_wrapper .gfield input[type="email"][disabled],
+.single-product .gform_wrapper .gfield input[type="password"][disabled],
+.single-product .gform_wrapper .gfield input[type="text"][readonly],
+.single-product .gform_wrapper .gfield input[type="phone"][readonly],
+.single-product .gform_wrapper .gfield input[type="email"][readonly],
+.single-product .gform_wrapper .gfield input[type="password"][readonly],
+fieldset[disabled] .single-product .gform_wrapper .gfield input[type="text"],
+fieldset[disabled] .single-product .gform_wrapper .gfield input[type="phone"],
+fieldset[disabled] .single-product .gform_wrapper .gfield input[type="email"],
+fieldset[disabled] .single-product .gform_wrapper .gfield input[type="password"] {
+  background-color: #eeeeee;
+  opacity: 1;
+}
+.single-product .gform_wrapper .gfield input[type="text"][disabled],
+.single-product .gform_wrapper .gfield input[type="phone"][disabled],
+.single-product .gform_wrapper .gfield input[type="email"][disabled],
+.single-product .gform_wrapper .gfield input[type="password"][disabled],
+fieldset[disabled] .single-product .gform_wrapper .gfield input[type="text"],
+fieldset[disabled] .single-product .gform_wrapper .gfield input[type="phone"],
+fieldset[disabled] .single-product .gform_wrapper .gfield input[type="email"],
+fieldset[disabled] .single-product .gform_wrapper .gfield input[type="password"] {
+  cursor: not-allowed;
+}
+textarea.single-product .gform_wrapper .gfield input[type="text"],
+textarea.single-product .gform_wrapper .gfield input[type="phone"],
+textarea.single-product .gform_wrapper .gfield input[type="email"],
+textarea.single-product .gform_wrapper .gfield input[type="password"] {
+  height: auto;
+}
 .single-product .page-content ul {
   padding-left: 0;
   list-style: none;
@@ -8421,12 +8504,6 @@ fieldset[disabled] .product-quote .quote-btn.active {
 .single-product .page-content ul li {
   margin-right: 8px;
   display: inline-block;
-}
-.single-product .page-content ul li:after {
-  content: ',';
-}
-.single-product .page-content ul li:last-child:after {
-  content: '';
 }
 .single-product .nav-tabs {
   margin-bottom: 30px;
