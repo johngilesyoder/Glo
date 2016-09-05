@@ -7402,6 +7402,122 @@ fieldset[disabled] .product-quote .quote-btn.active {
   color: #ee7522;
   background-color: #fff;
 }
+.product-quote,
+.dwg-form {
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 30px;
+  padding: 30px;
+  background: #fdebdf;
+}
+.product-quote .quote-btn,
+.dwg-form .quote-btn {
+  color: #fff;
+  background-color: #ee7522;
+  border-color: #e56812;
+  font-size: 21px;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 12px 30px;
+}
+.product-quote .quote-btn:focus,
+.dwg-form .quote-btn:focus,
+.product-quote .quote-btn.focus,
+.dwg-form .quote-btn.focus {
+  color: #fff;
+  background-color: #cd5d10;
+  border-color: #6f3208;
+}
+.product-quote .quote-btn:hover,
+.dwg-form .quote-btn:hover {
+  color: #fff;
+  background-color: #cd5d10;
+  border-color: #ac4e0d;
+}
+.product-quote .quote-btn:active,
+.dwg-form .quote-btn:active,
+.product-quote .quote-btn.active,
+.dwg-form .quote-btn.active,
+.open > .dropdown-toggle.product-quote .quote-btn,
+.open > .dropdown-toggle.dwg-form .quote-btn {
+  color: #fff;
+  background-color: #cd5d10;
+  border-color: #ac4e0d;
+}
+.product-quote .quote-btn:active:hover,
+.dwg-form .quote-btn:active:hover,
+.product-quote .quote-btn.active:hover,
+.dwg-form .quote-btn.active:hover,
+.open > .dropdown-toggle.product-quote .quote-btn:hover,
+.open > .dropdown-toggle.dwg-form .quote-btn:hover,
+.product-quote .quote-btn:active:focus,
+.dwg-form .quote-btn:active:focus,
+.product-quote .quote-btn.active:focus,
+.dwg-form .quote-btn.active:focus,
+.open > .dropdown-toggle.product-quote .quote-btn:focus,
+.open > .dropdown-toggle.dwg-form .quote-btn:focus,
+.product-quote .quote-btn:active.focus,
+.dwg-form .quote-btn:active.focus,
+.product-quote .quote-btn.active.focus,
+.dwg-form .quote-btn.active.focus,
+.open > .dropdown-toggle.product-quote .quote-btn.focus,
+.open > .dropdown-toggle.dwg-form .quote-btn.focus {
+  color: #fff;
+  background-color: #ac4e0d;
+  border-color: #6f3208;
+}
+.product-quote .quote-btn:active,
+.dwg-form .quote-btn:active,
+.product-quote .quote-btn.active,
+.dwg-form .quote-btn.active,
+.open > .dropdown-toggle.product-quote .quote-btn,
+.open > .dropdown-toggle.dwg-form .quote-btn {
+  background-image: none;
+}
+.product-quote .quote-btn.disabled,
+.dwg-form .quote-btn.disabled,
+.product-quote .quote-btn[disabled],
+.dwg-form .quote-btn[disabled],
+fieldset[disabled] .product-quote .quote-btn,
+fieldset[disabled] .dwg-form .quote-btn,
+.product-quote .quote-btn.disabled:hover,
+.dwg-form .quote-btn.disabled:hover,
+.product-quote .quote-btn[disabled]:hover,
+.dwg-form .quote-btn[disabled]:hover,
+fieldset[disabled] .product-quote .quote-btn:hover,
+fieldset[disabled] .dwg-form .quote-btn:hover,
+.product-quote .quote-btn.disabled:focus,
+.dwg-form .quote-btn.disabled:focus,
+.product-quote .quote-btn[disabled]:focus,
+.dwg-form .quote-btn[disabled]:focus,
+fieldset[disabled] .product-quote .quote-btn:focus,
+fieldset[disabled] .dwg-form .quote-btn:focus,
+.product-quote .quote-btn.disabled.focus,
+.dwg-form .quote-btn.disabled.focus,
+.product-quote .quote-btn[disabled].focus,
+.dwg-form .quote-btn[disabled].focus,
+fieldset[disabled] .product-quote .quote-btn.focus,
+fieldset[disabled] .dwg-form .quote-btn.focus,
+.product-quote .quote-btn.disabled:active,
+.dwg-form .quote-btn.disabled:active,
+.product-quote .quote-btn[disabled]:active,
+.dwg-form .quote-btn[disabled]:active,
+fieldset[disabled] .product-quote .quote-btn:active,
+fieldset[disabled] .dwg-form .quote-btn:active,
+.product-quote .quote-btn.disabled.active,
+.dwg-form .quote-btn.disabled.active,
+.product-quote .quote-btn[disabled].active,
+.dwg-form .quote-btn[disabled].active,
+fieldset[disabled] .product-quote .quote-btn.active,
+fieldset[disabled] .dwg-form .quote-btn.active {
+  background-color: #ee7522;
+  border-color: #e56812;
+}
+.product-quote .quote-btn .badge,
+.dwg-form .quote-btn .badge {
+  color: #ee7522;
+  background-color: #fff;
+}
 @media (min-width: 768px) and (max-width: 991px) {
   .container-fluid {
     padding: 0 15px;
@@ -8414,94 +8530,11 @@ fieldset[disabled] .product-quote .quote-btn.active {
 .single-product .product-image {
   text-align: center;
 }
-.single-product .gform_wrapper .gfield {
-  margin-bottom: 15px;
-}
-.single-product .gform_wrapper .gfield input[type="text"],
-.single-product .gform_wrapper .gfield input[type="tel"],
-.single-product .gform_wrapper .gfield input[type="email"],
-.single-product .gform_wrapper .gfield input[type="password"] {
-  display: block;
-  width: 100%;
-  height: 39px;
-  padding: 6px 12px;
-  font-size: 18px;
-  line-height: 1.42857143;
-  color: #555555;
-  background-color: #fff;
-  background-image: none;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
-  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
-  -webkit-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
-  -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
-  transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
-}
-.single-product .gform_wrapper .gfield input[type="text"]:focus,
-.single-product .gform_wrapper .gfield input[type="tel"]:focus,
-.single-product .gform_wrapper .gfield input[type="email"]:focus,
-.single-product .gform_wrapper .gfield input[type="password"]:focus {
-  border-color: #66afe9;
-  outline: 0;
-  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, 0.6);
-  box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, 0.6);
-}
-.single-product .gform_wrapper .gfield input[type="text"]::-moz-placeholder,
-.single-product .gform_wrapper .gfield input[type="tel"]::-moz-placeholder,
-.single-product .gform_wrapper .gfield input[type="email"]::-moz-placeholder,
-.single-product .gform_wrapper .gfield input[type="password"]::-moz-placeholder {
-  color: #999;
-  opacity: 1;
-}
-.single-product .gform_wrapper .gfield input[type="text"]:-ms-input-placeholder,
-.single-product .gform_wrapper .gfield input[type="tel"]:-ms-input-placeholder,
-.single-product .gform_wrapper .gfield input[type="email"]:-ms-input-placeholder,
-.single-product .gform_wrapper .gfield input[type="password"]:-ms-input-placeholder {
-  color: #999;
-}
-.single-product .gform_wrapper .gfield input[type="text"]::-webkit-input-placeholder,
-.single-product .gform_wrapper .gfield input[type="tel"]::-webkit-input-placeholder,
-.single-product .gform_wrapper .gfield input[type="email"]::-webkit-input-placeholder,
-.single-product .gform_wrapper .gfield input[type="password"]::-webkit-input-placeholder {
-  color: #999;
-}
-.single-product .gform_wrapper .gfield input[type="text"][disabled],
-.single-product .gform_wrapper .gfield input[type="tel"][disabled],
-.single-product .gform_wrapper .gfield input[type="email"][disabled],
-.single-product .gform_wrapper .gfield input[type="password"][disabled],
-.single-product .gform_wrapper .gfield input[type="text"][readonly],
-.single-product .gform_wrapper .gfield input[type="tel"][readonly],
-.single-product .gform_wrapper .gfield input[type="email"][readonly],
-.single-product .gform_wrapper .gfield input[type="password"][readonly],
-fieldset[disabled] .single-product .gform_wrapper .gfield input[type="text"],
-fieldset[disabled] .single-product .gform_wrapper .gfield input[type="tel"],
-fieldset[disabled] .single-product .gform_wrapper .gfield input[type="email"],
-fieldset[disabled] .single-product .gform_wrapper .gfield input[type="password"] {
-  background-color: #eeeeee;
-  opacity: 1;
-}
-.single-product .gform_wrapper .gfield input[type="text"][disabled],
-.single-product .gform_wrapper .gfield input[type="tel"][disabled],
-.single-product .gform_wrapper .gfield input[type="email"][disabled],
-.single-product .gform_wrapper .gfield input[type="password"][disabled],
-fieldset[disabled] .single-product .gform_wrapper .gfield input[type="text"],
-fieldset[disabled] .single-product .gform_wrapper .gfield input[type="tel"],
-fieldset[disabled] .single-product .gform_wrapper .gfield input[type="email"],
-fieldset[disabled] .single-product .gform_wrapper .gfield input[type="password"] {
-  cursor: not-allowed;
-}
-textarea.single-product .gform_wrapper .gfield input[type="text"],
-textarea.single-product .gform_wrapper .gfield input[type="tel"],
-textarea.single-product .gform_wrapper .gfield input[type="email"],
-textarea.single-product .gform_wrapper .gfield input[type="password"] {
-  height: auto;
-}
-.single-product .page-content ul:not(.gform_fields) {
+.single-product .page-content ul {
   padding-left: 0;
   list-style: none;
 }
-.single-product .page-content ul:not(.gform_fields) li {
+.single-product .page-content ul li {
   margin-right: 8px;
   display: inline-block;
 }
