@@ -8497,11 +8497,11 @@ textarea.single-product .gform_wrapper .gfield input[type="email"],
 textarea.single-product .gform_wrapper .gfield input[type="password"] {
   height: auto;
 }
-.single-product .page-content ul {
+.single-product .page-content ul:not(.gform_fields) {
   padding-left: 0;
   list-style: none;
 }
-.single-product .page-content ul li {
+.single-product .page-content ul:not(.gform_fields) li {
   margin-right: 8px;
   display: inline-block;
 }
