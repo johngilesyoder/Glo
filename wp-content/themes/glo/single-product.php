@@ -52,6 +52,9 @@ get_header(); ?>
 		<div class="product-quote">
 			<a href="#" class="switch quote-btn" data-toggle="modal" data-target="#quoteModal">Request A Quote</a>
 		</div>
+		<div class="dwg-form">
+			<a href="#" class="switch quote-btn" data-toggle="modal" data-target="#dwgModal">Request DWG file</a>
+		</div>
 
 		<section class="product-tabs">
 			<!-- Nav tabs -->
@@ -163,5 +166,21 @@ get_header(); ?>
 
 	</div>
 </main>
+
+<!-- DWG MODAL -->
+<div class="modal fade" id="dwgModal">
+	<div class="modal-dialog" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+				<h4 class="modal-title" id="myModalLabel">Request DWG File</h4>
+			</div>
+			<div class="modal-body">
+				<p>We enjoy dialoguing with our customers. Please fill out the form below to receive the DWG file(s) and we will follow up with you the next business day.</p>
+				<?php echo do_shortcode( '[gravityform id="2" title="false" description="false" ajax="true"]' ); ?>
+			</div>
+		</div>
+	</div>
+</div>
 
 <?php get_footer(); ?>
