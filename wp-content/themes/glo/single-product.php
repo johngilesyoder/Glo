@@ -32,6 +32,18 @@ get_header(); ?>
 
 <main class="page-wrapper">
 	<div class="container">
+		<div class="row">
+			<div class="col-md-6">
+				<div class="product-quote">
+					<a href="#" class="switch quote-btn" data-toggle="modal" data-target="#quoteModal">Request A Quote</a>
+				</div>
+			</div>
+			<div class="col-md-6">
+				<div class="dwg-form">
+					<a href="#" class="switch quote-btn" data-toggle="modal" data-target="#dwgModal">Request DWG file</a>
+				</div>
+			</div>
+		</div>
 		<div class="row product-top content" data-target="product-top">
 			<div class="col-md-3 col-md-offset-1 product-image">
 				<img src="<?php imageOne();?>"/>
@@ -48,18 +60,6 @@ get_header(); ?>
 		</div>
 		<div class="page-content">
 			<?php the_content(); ?>
-		</div>
-		<div class="row">
-			<div class="col-md-6">
-				<div class="product-quote">
-					<a href="#" class="switch quote-btn" data-toggle="modal" data-target="#quoteModal">Request A Quote</a>
-				</div>
-			</div>
-			<div class="col-md-6">
-				<div class="dwg-form">
-					<a href="#" class="switch quote-btn" data-toggle="modal" data-target="#dwgModal">Request DWG file</a>
-				</div>
-			</div>
 		</div>
 
 		<section class="product-tabs">
