@@ -41,22 +41,6 @@
 			</div>
 		</footer>
 
-
-		<!-- QUOTE MODAL -->
-		<div class="modal fade" id="quoteModal">
-		  <div class="modal-dialog" role="document">
-		    <div class="modal-content">
-		      <div class="modal-header">
-		        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-		        <h4 class="modal-title" id="myModalLabel">Request a quote</h4>
-		      </div>
-		      <div class="modal-body">
-		        <?php echo do_shortcode( '[gravityform id="1" name="Request A Quote"]' ); ?>
-		      </div>
-		    </div>
-		  </div>
-		</div>
-
 		<?php wp_footer(); ?>
 
 		<!-- SCRIPTS -->

@@ -21,7 +21,7 @@
       <div class="container">
         <div class="row">
           <div class="topbar-request-quote col-md-offset-6 col-md-6">
-            <p>(406) 721-2741<a href="#" class="btn btn-primary btn-quote" data-toggle="modal" data-target="#quoteModal">Request A Quote</a></p>
+            <p>(406) 721-2741<a href="/request-a-quote" class="btn btn-primary btn-quote">Request A Quote</a></p>
           </div>
         </div>
       </div>

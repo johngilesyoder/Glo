@@ -182,7 +182,7 @@ get_header(); ?>
 				<h4 class="modal-title" id="myModalLabel">Request DWG File</h4>
 			</div>
 			<div class="modal-body">
-				<p>We enjoy dialoguing with our customers. Please fill out the form below to receive the DWG file(s) and we will follow up with you the next business day.</p>
+				<p>We enjoy dialoguing with our customers. Please fill out the form below to request the DWG file(s) and we will follow up with you the next business day.</p>
 				<?php echo do_shortcode( '[gravityform id="2" title="false" description="false" ajax="true"]' ); ?>
 			</div>
 		</div>
