@@ -7444,10 +7444,33 @@ fieldset[disabled] .dwg-form .quote-btn.active {
   .container-fluid {
     padding: 0 15px;
   }
+  .product-quote,
+  .dwg-form {
+    margin-bottom: 30px;
+    padding: 15px;
+  }
 }
 @media (max-width: 767px) {
   .container-fluid {
     padding: 0 15px;
+  }
+  .product-quote,
+  .dwg-form {
+    margin-bottom: 30px;
+    padding: 15px;
+  }
+}
+@media (max-width: 480px) {
+  .product-quote,
+  .dwg-form {
+    background: transparent;
+    padding: 0;
+    margin-bottom: 15px;
+  }
+  .product-quote .quote-btn,
+  .dwg-form .quote-btn {
+    display: block;
+    width: 100%;
   }
 }
 .site-header {

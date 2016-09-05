@@ -35,7 +35,7 @@ get_header(); ?>
 		<div class="row">
 			<div class="col-md-6">
 				<div class="product-quote">
-					<a href="#" class="switch quote-btn" data-toggle="modal" data-target="#quoteModal">Request A Quote</a>
+					<a href="/request-a-quote" class="switch quote-btn">Request A Quote</a>
 				</div>
 			</div>
 			<div class="col-md-6">
