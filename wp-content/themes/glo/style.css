@@ -7405,8 +7405,8 @@ fieldset[disabled] .product-quote .quote-btn.active {
 .product-quote,
 .dwg-form {
   text-align: center;
-  margin-top: 60px;
-  margin-bottom: 30px;
+  margin-top: 30px;
+  margin-bottom: 60px;
   padding: 30px;
   background: #fdebdf;
 }
