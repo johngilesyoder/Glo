@@ -75,6 +75,14 @@
   .gform_wrapper {
     font-size: 14px;
     max-width: 100%;
+    input[type="text"],
+    input[type="email"],
+    input[type="tel"],
+    input[type="pass"],
+    select,
+    textarea {
+      .form-control();
+    }
     .ginput_complex {
       label {
         font-weight: 400;

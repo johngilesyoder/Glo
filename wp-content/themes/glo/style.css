@@ -7664,6 +7664,108 @@ fieldset[disabled] .dwg-form .quote-btn.active {
   font-size: 14px;
   max-width: 100%;
 }
+.page-content .gform_wrapper input[type="text"],
+.page-content .gform_wrapper input[type="email"],
+.page-content .gform_wrapper input[type="tel"],
+.page-content .gform_wrapper input[type="pass"],
+.page-content .gform_wrapper select,
+.page-content .gform_wrapper textarea {
+  display: block;
+  width: 100%;
+  height: 39px;
+  padding: 6px 12px;
+  font-size: 18px;
+  line-height: 1.42857143;
+  color: #555555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  -webkit-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+  -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+  transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+.page-content .gform_wrapper input[type="text"]:focus,
+.page-content .gform_wrapper input[type="email"]:focus,
+.page-content .gform_wrapper input[type="tel"]:focus,
+.page-content .gform_wrapper input[type="pass"]:focus,
+.page-content .gform_wrapper select:focus,
+.page-content .gform_wrapper textarea:focus {
+  border-color: #66afe9;
+  outline: 0;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, 0.6);
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, 0.6);
+}
+.page-content .gform_wrapper input[type="text"]::-moz-placeholder,
+.page-content .gform_wrapper input[type="email"]::-moz-placeholder,
+.page-content .gform_wrapper input[type="tel"]::-moz-placeholder,
+.page-content .gform_wrapper input[type="pass"]::-moz-placeholder,
+.page-content .gform_wrapper select::-moz-placeholder,
+.page-content .gform_wrapper textarea::-moz-placeholder {
+  color: #999;
+  opacity: 1;
+}
+.page-content .gform_wrapper input[type="text"]:-ms-input-placeholder,
+.page-content .gform_wrapper input[type="email"]:-ms-input-placeholder,
+.page-content .gform_wrapper input[type="tel"]:-ms-input-placeholder,
+.page-content .gform_wrapper input[type="pass"]:-ms-input-placeholder,
+.page-content .gform_wrapper select:-ms-input-placeholder,
+.page-content .gform_wrapper textarea:-ms-input-placeholder {
+  color: #999;
+}
+.page-content .gform_wrapper input[type="text"]::-webkit-input-placeholder,
+.page-content .gform_wrapper input[type="email"]::-webkit-input-placeholder,
+.page-content .gform_wrapper input[type="tel"]::-webkit-input-placeholder,
+.page-content .gform_wrapper input[type="pass"]::-webkit-input-placeholder,
+.page-content .gform_wrapper select::-webkit-input-placeholder,
+.page-content .gform_wrapper textarea::-webkit-input-placeholder {
+  color: #999;
+}
+.page-content .gform_wrapper input[type="text"][disabled],
+.page-content .gform_wrapper input[type="email"][disabled],
+.page-content .gform_wrapper input[type="tel"][disabled],
+.page-content .gform_wrapper input[type="pass"][disabled],
+.page-content .gform_wrapper select[disabled],
+.page-content .gform_wrapper textarea[disabled],
+.page-content .gform_wrapper input[type="text"][readonly],
+.page-content .gform_wrapper input[type="email"][readonly],
+.page-content .gform_wrapper input[type="tel"][readonly],
+.page-content .gform_wrapper input[type="pass"][readonly],
+.page-content .gform_wrapper select[readonly],
+.page-content .gform_wrapper textarea[readonly],
+fieldset[disabled] .page-content .gform_wrapper input[type="text"],
+fieldset[disabled] .page-content .gform_wrapper input[type="email"],
+fieldset[disabled] .page-content .gform_wrapper input[type="tel"],
+fieldset[disabled] .page-content .gform_wrapper input[type="pass"],
+fieldset[disabled] .page-content .gform_wrapper select,
+fieldset[disabled] .page-content .gform_wrapper textarea {
+  background-color: #eeeeee;
+  opacity: 1;
+}
+.page-content .gform_wrapper input[type="text"][disabled],
+.page-content .gform_wrapper input[type="email"][disabled],
+.page-content .gform_wrapper input[type="tel"][disabled],
+.page-content .gform_wrapper input[type="pass"][disabled],
+.page-content .gform_wrapper select[disabled],
+.page-content .gform_wrapper textarea[disabled],
+fieldset[disabled] .page-content .gform_wrapper input[type="text"],
+fieldset[disabled] .page-content .gform_wrapper input[type="email"],
+fieldset[disabled] .page-content .gform_wrapper input[type="tel"],
+fieldset[disabled] .page-content .gform_wrapper input[type="pass"],
+fieldset[disabled] .page-content .gform_wrapper select,
+fieldset[disabled] .page-content .gform_wrapper textarea {
+  cursor: not-allowed;
+}
+textarea.page-content .gform_wrapper input[type="text"],
+textarea.page-content .gform_wrapper input[type="email"],
+textarea.page-content .gform_wrapper input[type="tel"],
+textarea.page-content .gform_wrapper input[type="pass"],
+textarea.page-content .gform_wrapper select,
+textarea.page-content .gform_wrapper textarea {
+  height: auto;
+}
 .page-content .gform_wrapper .ginput_complex label {
   font-weight: 400;
 }
