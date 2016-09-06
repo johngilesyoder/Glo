@@ -29,7 +29,8 @@
 					    <p><strong>Glo Windows</strong><br>1001 S 4th Street W, Suite 1<br>Missoula, Montana 59801</p>
 					    <p>
 					    	<a href="mailto:hello@glowindows.com">hello@glowindows.com</a><br>
-					    	(406) 721-2741
+					    	(406) 721-2741<br>
+								<a href="/contact-us">Contact Us</a>
 					    </p>
 							<?php dynamic_sidebar( 'footer-4' ); ?>
 						</div>
