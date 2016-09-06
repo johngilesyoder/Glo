@@ -7664,7 +7664,7 @@ fieldset[disabled] .dwg-form .quote-btn.active {
   font-size: 14px;
   max-width: 100%;
 }
-.page-content .gform_wrapper input[type="text"],
+.page-content .gform_wrapper input[type="text"]:not(#recaptcha_response_field),
 .page-content .gform_wrapper input[type="email"],
 .page-content .gform_wrapper input[type="tel"],
 .page-content .gform_wrapper input[type="pass"],
@@ -7687,7 +7687,7 @@ fieldset[disabled] .dwg-form .quote-btn.active {
   -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
   transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
 }
-.page-content .gform_wrapper input[type="text"]:focus,
+.page-content .gform_wrapper input[type="text"]:not(#recaptcha_response_field):focus,
 .page-content .gform_wrapper input[type="email"]:focus,
 .page-content .gform_wrapper input[type="tel"]:focus,
 .page-content .gform_wrapper input[type="pass"]:focus,
@@ -7698,7 +7698,7 @@ fieldset[disabled] .dwg-form .quote-btn.active {
   -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, 0.6);
   box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, 0.6);
 }
-.page-content .gform_wrapper input[type="text"]::-moz-placeholder,
+.page-content .gform_wrapper input[type="text"]:not(#recaptcha_response_field)::-moz-placeholder,
 .page-content .gform_wrapper input[type="email"]::-moz-placeholder,
 .page-content .gform_wrapper input[type="tel"]::-moz-placeholder,
 .page-content .gform_wrapper input[type="pass"]::-moz-placeholder,
@@ -7707,7 +7707,7 @@ fieldset[disabled] .dwg-form .quote-btn.active {
   color: #999;
   opacity: 1;
 }
-.page-content .gform_wrapper input[type="text"]:-ms-input-placeholder,
+.page-content .gform_wrapper input[type="text"]:not(#recaptcha_response_field):-ms-input-placeholder,
 .page-content .gform_wrapper input[type="email"]:-ms-input-placeholder,
 .page-content .gform_wrapper input[type="tel"]:-ms-input-placeholder,
 .page-content .gform_wrapper input[type="pass"]:-ms-input-placeholder,
@@ -7715,7 +7715,7 @@ fieldset[disabled] .dwg-form .quote-btn.active {
 .page-content .gform_wrapper textarea:-ms-input-placeholder {
   color: #999;
 }
-.page-content .gform_wrapper input[type="text"]::-webkit-input-placeholder,
+.page-content .gform_wrapper input[type="text"]:not(#recaptcha_response_field)::-webkit-input-placeholder,
 .page-content .gform_wrapper input[type="email"]::-webkit-input-placeholder,
 .page-content .gform_wrapper input[type="tel"]::-webkit-input-placeholder,
 .page-content .gform_wrapper input[type="pass"]::-webkit-input-placeholder,
@@ -7723,19 +7723,19 @@ fieldset[disabled] .dwg-form .quote-btn.active {
 .page-content .gform_wrapper textarea::-webkit-input-placeholder {
   color: #999;
 }
-.page-content .gform_wrapper input[type="text"][disabled],
+.page-content .gform_wrapper input[type="text"]:not(#recaptcha_response_field)[disabled],
 .page-content .gform_wrapper input[type="email"][disabled],
 .page-content .gform_wrapper input[type="tel"][disabled],
 .page-content .gform_wrapper input[type="pass"][disabled],
 .page-content .gform_wrapper select[disabled],
 .page-content .gform_wrapper textarea[disabled],
-.page-content .gform_wrapper input[type="text"][readonly],
+.page-content .gform_wrapper input[type="text"]:not(#recaptcha_response_field)[readonly],
 .page-content .gform_wrapper input[type="email"][readonly],
 .page-content .gform_wrapper input[type="tel"][readonly],
 .page-content .gform_wrapper input[type="pass"][readonly],
 .page-content .gform_wrapper select[readonly],
 .page-content .gform_wrapper textarea[readonly],
-fieldset[disabled] .page-content .gform_wrapper input[type="text"],
+fieldset[disabled] .page-content .gform_wrapper input[type="text"]:not(#recaptcha_response_field),
 fieldset[disabled] .page-content .gform_wrapper input[type="email"],
 fieldset[disabled] .page-content .gform_wrapper input[type="tel"],
 fieldset[disabled] .page-content .gform_wrapper input[type="pass"],
@@ -7744,13 +7744,13 @@ fieldset[disabled] .page-content .gform_wrapper textarea {
   background-color: #eeeeee;
   opacity: 1;
 }
-.page-content .gform_wrapper input[type="text"][disabled],
+.page-content .gform_wrapper input[type="text"]:not(#recaptcha_response_field)[disabled],
 .page-content .gform_wrapper input[type="email"][disabled],
 .page-content .gform_wrapper input[type="tel"][disabled],
 .page-content .gform_wrapper input[type="pass"][disabled],
 .page-content .gform_wrapper select[disabled],
 .page-content .gform_wrapper textarea[disabled],
-fieldset[disabled] .page-content .gform_wrapper input[type="text"],
+fieldset[disabled] .page-content .gform_wrapper input[type="text"]:not(#recaptcha_response_field),
 fieldset[disabled] .page-content .gform_wrapper input[type="email"],
 fieldset[disabled] .page-content .gform_wrapper input[type="tel"],
 fieldset[disabled] .page-content .gform_wrapper input[type="pass"],
@@ -7758,7 +7758,7 @@ fieldset[disabled] .page-content .gform_wrapper select,
 fieldset[disabled] .page-content .gform_wrapper textarea {
   cursor: not-allowed;
 }
-textarea.page-content .gform_wrapper input[type="text"],
+textarea.page-content .gform_wrapper input[type="text"]:not(#recaptcha_response_field),
 textarea.page-content .gform_wrapper input[type="email"],
 textarea.page-content .gform_wrapper input[type="tel"],
 textarea.page-content .gform_wrapper input[type="pass"],
