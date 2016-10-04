@@ -37,6 +37,11 @@ function doorHandles() {
 	get_custom_field('wpcf-door-handles', TRUE);
 }
 
+function obscureGlass() {
+	get_custom_field('wpcf-obscure-glass', TRUE);
+}
+
+
 function details() {
 	get_custom_field('wpcf-details', TRUE);
 }

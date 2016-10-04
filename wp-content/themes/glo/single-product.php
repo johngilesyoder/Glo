@@ -104,6 +104,10 @@ get_header(); ?>
 		  	<li><a href="#door-handles" data-toggle="tab">Door Handles</a></li>
 			<?php } ?>
 
+			<?php if ( get_post_meta($post_id, 'wpcf-obscure-glass', true) != '' ) { ?>
+		  	<li><a href="#obscure-glass" data-toggle="tab">Obscure Glass</a></li>
+			<?php } ?>
+
 			<li><a href="#specs" data-toggle="tab">Specs</a></li>
 
 	    </ul>
@@ -156,6 +160,12 @@ get_header(); ?>
 				<?php if ( get_post_meta($post_id, 'wpcf-door-handles', true) != '' ) { ?>
 		    <div id="door-handles" class="tab-pane fade">
 		      <img src="<?php doorHandles(); ?>">
+		    </div>
+				<?php } ?>
+
+				<?php if ( get_post_meta($post_id, 'wpcf-obscure-glass', true) != '' ) { ?>
+		    <div id="obscure-glass" class="tab-pane fade">
+		      <img src="<?php obscureGlass(); ?>">
 		    </div>
 				<?php } ?>
 
