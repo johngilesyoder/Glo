@@ -52,6 +52,7 @@ get_header(); ?>
 				<img src="<?php imageTwo();?>"/>
 			</div>
 			<div class="col-md-3 col-md-offset-1 product-meta">
+				<span class="product-name-badge"><?php get_custom_field('wpcf-product-name-badge', TRUE); ?></span>
 				<div class="rvalue">
 					<p>R-VALUE:</p>
 					<span><?php rvalue(); ?></span>
