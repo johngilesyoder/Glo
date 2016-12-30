@@ -2618,6 +2618,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/product\/french-windows.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 679090,
+		"inputAbbreviatedPath": "\/images\/product\/french-windows.jpg",
+		"outputAbbreviatedPath": "\/images\/product\/french-windows.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/product\/lift-and-slide-doors.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -2625,6 +2636,17 @@
 		"initialSize": 301040,
 		"inputAbbreviatedPath": "\/images\/product\/lift-and-slide-doors.jpg",
 		"outputAbbreviatedPath": "\/images\/product\/lift-and-slide-doors.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/product\/postless-corner-door.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 9.34612e+06,
+		"inputAbbreviatedPath": "\/images\/product\/postless-corner-door.jpg",
+		"outputAbbreviatedPath": "\/images\/product\/postless-corner-door.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
