@@ -5,50 +5,92 @@
   margin-bottom: 50px;
   z-index: 100;
   position: relative;
-  .topbar {
-    background: #333;
-    color: #fff;
-    height: 45px;
-    line-height: 45px;
-    font-size: 14px;
-    .topbar-request-quote {
-      text-align: right;
-      text-transform: uppercase;
-      p {
-        margin: 0;
-      }
-      .btn-quote {
-        margin-left: 15px;
-        font-weight: 600;
-        padding: 2px 15px;
-        font-size: 14px;
-      }
-    }
-  }
-
   .navbar-brand {
     padding: 12.5px 15px;
-    margin: 0;
+    margin: 0 @grid-gutter-width 0 0;
     img {
-      height: 75px;
+      height: 57px;
     }
   }
-  .navbar-nav {
-    text-transform: uppercase;
-    font-weight: 600;
-    & > li {
-      & > a {
-        font-weight: 700;
-        font-size: 16px;
+  .navbar-quote {
+    position: absolute;
+    right: 30px;
+    .btn-request-quote {
+      border: 1px solid @link-color;
+      text-transform: uppercase;
+      font-size: 14px;
+      font-weight: 700;
+      letter-spacing: 2px;
+      padding: 14px 20px;
+      margin: 15px 0;
+      background-color: #fff;
+      transition: background-color 150ms, color 150ms;
+      &:hover {
+        background-color: @link-color;
+        color: #fff;
+        &:focus {
+          color: #fff;
+        }
       }
-      ul {
-        li {
-          a {
-            font-size: 14px;
+      &:focus {
+        color: @link-color;
+      }
+    }
+  }
+  .navbar-default {
+    border: 0;
+    .navbar-nav {
+      & > li {
+        position: static;
+        & > a {
+          font-weight: 700;
+          font-size: 14px;
+          letter-spacing: 2px;
+          display: block;
+          padding-left: 25px;
+          padding-right: 25px;
+          border-left: 1px solid transparent;
+          border-right: 1px solid transparent;
+          text-transform: uppercase;
+          font-weight: 600;
+          i {
+            &:before {
+              font-size: 16px;
+              content: '\f2f9';
+            }
+          }
+        }
+      }
+      & > .open {
+        & > a {
+          border-color: @border-color;
+          background-color: #fff;
+          i {
+            &:before {
+              font-size: 16px;
+              content: '\f2fc';
+            }
+          }
+          &:after {
+            content: '';
+            background: #fff;
+            height: 2px;
+            width: 100%;
+            display: block;
+            position: absolute;
+            top: 79px;
+            left: 0;
+            z-index: 2001;
           }
         }
       }
     }
+  }
+}
+
+.menu-open {
+  .site-header {
+    z-index: 2000;
   }
 }
 
@@ -82,11 +124,6 @@
 @media (max-width: 480px) {
 
   .site-header {
-    .topbar {
-      .topbar-request-quote {
-        text-align: center;
-      }
-    }
     .navbar-collapse {
       background: #fff;
     }

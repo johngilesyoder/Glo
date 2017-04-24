@@ -22,17 +22,6 @@ function glo_setup() {
 	 */
 	load_theme_textdomain( 'glo', get_template_directory() . '/languages' );
 
-	// Add default posts and comments RSS feed links to head.
-	add_theme_support( 'automatic-feed-links' );
-
-	/*
-	 * Let WordPress manage the document title.
-	 * By adding theme support, we declare that this theme does not use a
-	 * hard-coded <title> tag in the document head, and expect WordPress to
-	 * provide it for us.
-	 */
-	add_theme_support( 'title-tag' );
-
 	/*
 	 * Enable support for Post Thumbnails on posts and pages.
 	 *
@@ -57,38 +46,10 @@ function glo_setup() {
 		'caption',
 	) );
 
-	/*
-	 * Enable support for Post Formats.
-	 * See http://codex.wordpress.org/Post_Formats
-	 */
-	add_theme_support( 'post-formats', array(
-		'aside',
-		'image',
-		'video',
-		'quote',
-		'link',
-	) );
-
-	// Set up the WordPress core custom background feature.
-	add_theme_support( 'custom-background', apply_filters( 'glo_custom_background_args', array(
-		'default-color' => 'ffffff',
-		'default-image' => '',
-	) ) );
 }
 endif; // glo_setup
 add_action( 'after_setup_theme', 'glo_setup' );
 
-/**
- * Set the content width in pixels, based on the theme's design and stylesheet.
- *
- * Priority 0 to make it available to lower priority callbacks.
- *
- * @global int $content_width
- */
-function glo_content_width() {
-	$GLOBALS['content_width'] = apply_filters( 'glo_content_width', 640 );
-}
-add_action( 'after_setup_theme', 'glo_content_width', 0 );
 
 /**
  * Register widget area.
@@ -147,45 +108,6 @@ function glo_widgets_init() {
 	) );
 }
 add_action( 'widgets_init', 'glo_widgets_init' );
-
-/**
- * Enqueue scripts and styles.
- */
-function glo_scripts() {
-	wp_enqueue_style( 'glo-style', get_stylesheet_uri() );
-
-	wp_enqueue_script( 'glo-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20130115', true );
-
-	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
-		wp_enqueue_script( 'comment-reply' );
-	}
-}
-add_action( 'wp_enqueue_scripts', 'glo_scripts' );
-
-/**
- * Implement the Custom Header feature.
- */
-require get_template_directory() . '/inc/custom-header.php';
-
-/**
- * Custom template tags for this theme.
- */
-require get_template_directory() . '/inc/template-tags.php';
-
-/**
- * Custom functions that act independently of the theme templates.
- */
-require get_template_directory() . '/inc/extras.php';
-
-/**
- * Customizer additions.
- */
-require get_template_directory() . '/inc/customizer.php';
-
-/**
- * Load Jetpack compatibility file.
- */
-require get_template_directory() . '/inc/jetpack.php';
 
 /**
  * Load shortcodes file.
@@ -323,8 +245,10 @@ function html5blank_conditional_scripts()
 // Load HTML5 Blank styles
 function html5blank_styles()
 {
-    wp_register_style('style', get_template_directory_uri() . '/style.css', array(), null, true ); // Stylesheet
-    wp_enqueue_style('style'); // Enqueue it!
+
+		wp_enqueue_style( 'glo-style', get_stylesheet_uri() );
+		wp_enqueue_style( 'glo-icons', 'https://i.icomoon.io/public/f173fca63f/Glo/style.css' );
+
 }
 
 // Load HTML5 Blank conditional styles
