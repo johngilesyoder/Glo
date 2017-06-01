@@ -9513,6 +9513,9 @@ fieldset[disabled] .page-content .gform_wrapper .gform_button.active {
 .single-product .product-tabs .nav-tabs > li .nav-tabs > li.active > a:focus {
   border-bottom-color: transparent;
 }
+.single-product .product-tabs .tab-content img {
+  max-width: 100%;
+}
 .single-product .product-tabs #specs ul {
   list-style-type: none;
   margin: 0;
