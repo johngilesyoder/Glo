@@ -714,6 +714,15 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"\/assets\/js\/lib\/bootstrap.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/js\/lib\/min\/bootstrap.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"\/assets\/js\/lib\/conditionizr-4.3.0.min.js": {
 		"ft": 64,
 		"mi": 1,
@@ -732,6 +741,15 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"\/assets\/js\/lib\/flickity-imagesloaded.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/js\/lib\/min\/flickity-imagesloaded-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"\/assets\/js\/lib\/flickity.pkgd.min.js": {
 		"ft": 64,
 		"mi": 1,
@@ -746,6 +764,15 @@
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/assets\/js\/lib\/min\/modernizr-2.7.1.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/assets\/js\/lib\/modernizr-3.5.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/js\/lib\/min\/modernizr-3.5-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -2021,23 +2048,6 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/assets\/less\/css\/_index.css",
-		"oF": 0,
-		"oS": 0,
-		"rU": 0,
-		"sI": 0,
-		"sM": 0,
-		"sU": 0
-		},
-	"\/assets\/less\/components\/flickity.less": {
-		"aP": 0,
-		"bl": 0,
-		"dJ": 0,
-		"ft": 1,
-		"ie": 1,
-		"iI": 0,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/assets\/less\/css\/flickity.css",
 		"oF": 0,
 		"oS": 0,
 		"rU": 0,

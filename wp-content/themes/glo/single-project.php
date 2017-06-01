@@ -15,14 +15,15 @@ function gallery_shortcode_lo($attr) {
 }
 
 ?>
+<?php while ( have_posts() ) : the_post(); ?>
 
 <!-- PROJECT GALLERY -->
 <div class="project-carousel gallery is-hidden">
 	<?php
 		// helper function to return first regex match
 		function get_match( $regex, $content ) {
-		    preg_match($regex, $content, $matches);
-		    return $matches[1];
+				preg_match($regex, $content, $matches);
+				return $matches[1];
 		}
 		// Extract the shortcode arguments from the $page or $post
 		$shortcode_args = shortcode_parse_atts(get_match('/\[gallery\s(.*)\]/isU', $post->post_content));
@@ -40,8 +41,8 @@ function gallery_shortcode_lo($attr) {
 
 <main class="page-wrapper">
 	<div class="container-fluid">
+
 		<div class="page-content">
-		<?php while ( have_posts() ) : the_post(); ?>
 
 			<a href="/projects" class="back-link">&larr; Back to Projects</a>
 
@@ -88,33 +89,33 @@ function gallery_shortcode_lo($attr) {
 					</aside>
 				</div>
 			</div>
-
-		<?php endwhile; // End of the loop. ?>
 		</div>
 	</div>
 </main>
 
+<?php endwhile; // End of the loop. ?>
+
 <script>
 
-		// show
-		var $carousel = jQuery('.gallery').removeClass('is-hidden');
-		// trigger redraw for transition
-		$carousel[0].offsetHeight;
-		// init Flickity
-		$carousel.flickity({
-			// options
-		  cellAlign: 'center',
-		  contain: true,
-			initialIndex: 0,
-			wrapAround: true,
-			imagesLoaded: true,
-			pageDots: false,
-			setGallerySize: false,
-			lazyLoad: 2
-		});
+	// show
+	var $carousel = jQuery('.gallery').removeClass('is-hidden');
+	// trigger redraw for transition
+	$carousel[0].offsetHeight;
+	// init Flickity
+	$carousel.flickity({
+		// options
+		cellAlign: 'center',
+		contain: true,
+		initialIndex: 0,
+		wrapAround: true,
+		imagesLoaded: true,
+		pageDots: false,
+		setGallerySize: false,
+		lazyLoad: 2
+	});
 
-		$carousel.addClass('flickity-loaded');
+	$carousel.addClass('flickity-loaded');
 
-	</script>
+</script>
 
 <?php get_footer(); ?>

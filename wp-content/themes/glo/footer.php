@@ -61,19 +61,6 @@
 
 		<!-- SCRIPTS -->
 		<script async defer src="//assets.pinterest.com/js/pinit.js"></script>
-		<script>
-		  jQuery(document).ready(function() {
-		    jQuery('.gallery').flickity({
-		      // options
-		      wrapAround: true,
-		      autoPlay: true,
-		      imagesLoaded: true,
-		      percentPosition: true,
-		      cellSelector: '.gallery-item',
-		      setGallerySize: false
-		    });
-		  });
-		</script>
 
   </body>
 </html>
