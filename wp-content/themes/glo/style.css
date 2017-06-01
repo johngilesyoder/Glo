@@ -7428,7 +7428,7 @@ http://flickity.metafizzy.co
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 0 0 60px;
+  margin: -50px 0 60px;
 }
 .hero-title .hero-bg {
   background-size: cover;
@@ -8791,10 +8791,6 @@ fieldset[disabled] .page-content .gform_wrapper .gform_button.active {
     margin-bottom: 30px;
   }
 }
-.page-template-page-home .site-header,
-.page-template-page-home .navbar {
-  margin: 0;
-}
 .home-hero {
   height: calc(100vh - 120px);
   background: #282828;
@@ -8954,15 +8950,11 @@ fieldset[disabled] .page-content .gform_wrapper .gform_button.active {
   padding: 10px 70px;
   font-size: 14px;
 }
-.page-template-page-about .site-header,
-.page-template-page-about .navbar {
-  margin: 0;
-}
 .page-template-page-about .page-wrapper {
   margin: 0;
 }
 .page-template-page-about .hero-title {
-  margin: 0;
+  margin-bottom: 0;
 }
 .page-template-page-about .tile-story {
   display: flex;
@@ -9059,10 +9051,6 @@ fieldset[disabled] .page-content .gform_wrapper .gform_button.active {
 .press-link img {
   height: 100%;
   transition: 200ms opacity;
-}
-.page-template-page-professionals .site-header,
-.page-template-page-professionals .navbar {
-  margin: 0;
 }
 .professional-tile {
   background: #F5F5F5;
@@ -9250,10 +9238,6 @@ fieldset[disabled] .page-content .gform_wrapper .gform_button.active {
     height: auto;
   }
 }
-.single-project .site-header,
-.single-project .navbar {
-  margin: 0;
-}
 .single-project .back-link {
   font-size: 12px;
   text-transform: uppercase;
@@ -9418,10 +9402,6 @@ fieldset[disabled] .page-content .gform_wrapper .gform_button.active {
   height: 34px;
   overflow: hidden;
   border: 1px solid #ccc;
-}
-.single-product .site-header,
-.single-product .navbar {
-  margin: 0;
 }
 .single-product .hero-title {
   height: 550px;

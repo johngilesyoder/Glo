@@ -20,16 +20,22 @@ get_header(); ?>
 
 		<?php $thumb = wp_get_attachment_url( get_post_thumbnail_id($post->ID) ); ?>
 
-		<div class="page-hero">
-			<div class="page-hero-img" style="background-image: url('<?php echo $thumb; ?>');"></div>
-			<h1><?php the_title(); ?></h1>
-		</div>
+		<section class="hero-title">
+		  <div class="hero-bg" style="background-image:url('<?php echo $thumb; ?>')"></div>
+		  <div class="hero-content">
+		    <h1><?php the_title(); ?></h1>
+		  </div>
+		</section>
 
 	<?php else : ?>
 
 		<div class="page-title">
 			<div class="container-fluid">
-				<h1><?php the_title(); ?></h1>
+				<div class="row">
+					<div class="col-md-8 col-md-offset-2">
+						<h1><?php the_title(); ?></h1>
+					</div>
+				</div>
 			</div>
 		</div>
 
@@ -38,7 +44,7 @@ get_header(); ?>
 	<main class="page-wrapper">
 		<div class="container-fluid">
 			<div class="row">
-				<div class="col-md-8">
+				<div class="col-md-8 col-md-offset-2">
 					<div class="page-content" data-target="content">
 
 						<?php get_template_part( 'template-parts/content', 'page' ); ?>
