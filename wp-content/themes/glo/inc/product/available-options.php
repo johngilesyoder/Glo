@@ -40,7 +40,7 @@
         <?php endif; ?>
         <?php if( get_field('obscure_glass') ): ?>
           <div class="tab-pane fade" id="obscure-glass">
-            <?php the_field('obscure-glass'); ?>
+            <?php the_field('obscure_glass'); ?>
           </div>
         <?php endif; ?>
         <?php if( get_field('styles') ): ?>
