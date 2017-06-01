@@ -9201,7 +9201,7 @@ fieldset[disabled] .page-content .gform_wrapper .gform_button.active {
 }
 .single-product .hero-title {
   height: 550px;
-  margin: 0 0 90px;
+  margin-bottom: 90px;
 }
 .single-product .hero-title .hero-content {
   flex-flow: column;
