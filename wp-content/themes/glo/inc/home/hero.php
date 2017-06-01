@@ -1,16 +1,18 @@
-<section class="home-hero" style="background-image:url('<?php echo get_template_directory_uri(); ?>/assets/img/hero-bg.jpg')">
+<?php $hero_image = get_field('hero_background_image'); ?>
+
+<section class="home-hero" style="background-image:url('<?php echo $hero_image['url']; ?>')">
   <div class="hero-gradient">
     <div class="hero-content">
-      <p>The value of our windows is timeless.</p>
-      <h2>Elegant, efficient, durable.</h2>
-      <a href="#" class="btn btn-primary">Learn more</a>
+      <p><?php the_field('hero_subtext'); ?></p>
+      <h2><?php the_field('hero_primary_statement'); ?></h2>
+      <a href="<?php the_field('hero_button_link'); ?>" class="btn btn-primary"><?php the_field('hero_button_text'); ?></a>
     </div>
     <blockquote class="hero-testimonial">
       <p>
-        &ldquo;The quality, air-tightness, and high performance are evident in the installed product!&rdquo;
+        &ldquo;<?php the_field('hero_testimonial_quote'); ?>&rdquo;
       </p>
       <footer>
-        <cite>Lindsey Bluth, Homeowner (Northwest Montana)</cite>
+        <cite><?php the_field('hero_testimonial_author'); ?>, <?php the_field('hero_testimonial_author_title'); ?> (<?php the_field('hero_testimonial_author_location'); ?>)</cite>
       </footer>
     </blockquote>
   </div>

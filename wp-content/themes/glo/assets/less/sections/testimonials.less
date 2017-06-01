@@ -3,20 +3,21 @@
 
 
 .testimonial {
-  background: lighten(tan, 29%);
+  background: @grey-bg;
   padding: 30px;
   margin-bottom: 30px;
-  border-left-color: lighten(tan, 15%);
+  border-left-color: @orange;
   p {
     font-family: @font-family-serif;
-    font-style: italic;
     font-size: 18px;
     line-height: 1.5em;
+    color: @headings-color;
+    font-weight: 300;
   }
   footer {
     cite {
       font-style: normal;
-      font-weight: 700;
+      font-weight: 400;
     }
   }
 }

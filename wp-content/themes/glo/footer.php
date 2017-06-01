@@ -23,12 +23,12 @@
 						</div>
 						<div class="col-md-2 col-md-offset-1">
 							<div class="footer-column">
-								<?php dynamic_sidebar( 'footer-1' ); ?>
+								<?php footer_links_1(); ?>
 							</div>
 						</div>
 						<div class="col-md-2">
 							<div class="footer-column">
-								<?php dynamic_sidebar( 'footer-2' ); ?>
+								<?php footer_links_2(); ?>
 							</div>
 						</div>
 						<div class="col-md-3 col-md-offset-1">
@@ -46,7 +46,7 @@
 							    <a href="https://plus.google.com/b/114099422635558267853/114099422635558267853/posts/p/pub" class="social-link" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/googleplus.svg"></a>
 							    <a href="http://www.houzz.com/pro/glowindows/glo-european-windows" class="social-link" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/houzz.svg"></a>
 						    </div>
-								<a href="#" class="btn btn-dealer btn-outline">Dealer Portal</a>
+								<a href="/dealer-portal" class="btn btn-dealer btn-outline">Dealer Portal</a>
 							</div>
 						</div>
 					</div>

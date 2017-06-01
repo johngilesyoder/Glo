@@ -3,10 +3,14 @@
  * Template Name: About
  */
 
+$hero_background = get_field('hero_background');
+$about_you_photo = get_field('about_you_photo');
+$about_us_photo = get_field('about_us_photo');
+
 get_header(); ?>
 
 <section class="hero-title">
-  <div class="hero-bg" style="background-image:url('<?php echo get_template_directory_uri(); ?>/assets/img/fake/about-hero.jpg')"></div>
+  <div class="hero-bg" style="background-image:url('<?php echo $hero_background['url']; ?>')"></div>
   <div class="hero-content">
     <h1><?php the_title(); ?></h1>
   </div>
@@ -15,14 +19,13 @@ get_header(); ?>
 <main class="page-wrapper">
 	<section class="about-you tile-story">
 		<div class="tile-img">
-	    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/fake/about-you-tile.jpg">
+	    <img src="<?php echo $about_you_photo['url']; ?>">
 	  </div>
 	  <div class="story-section">
 	    <header>
 	      <h2 class="story-section-title">About You</h2>
 	      <p class="story-section-summary">
-	        You are informed and have energy efficiency goals in mind for your home or building. You want a company that is pushing industry standards forward with future generations in mind.<br>
-					You want a team of people who are consistent and follow through on their commitments to achieve your design and performance goals. Disregarding conventional standards, your search has led you here and we are excited to learn about your project!
+	        <?php the_field('about_you_copy'); ?>
 	      </p>
 	    </header>
 	  </div>
@@ -33,12 +36,12 @@ get_header(); ?>
 	    <header>
 	      <h2 class="story-section-title">About Us</h2>
 	      <p class="story-section-summary">
-	        Glo European Windows is a Missoula, Montana, based team of professionals dedicated to improving the performance of building envelopes through high-performance window design and installation.  As a division of Energetechs, our staff has a combined total of over 100 years in the green building field.  Our foundation ranges from general construction, super insulation and air sealing of high performance buildings, building science, energy modeling and passive house design.  Supplying energy efficient windows and doors became a natural transition in providing a quality product for you and your building envelope.
+	        <?php the_field('about_us_copy'); ?>
 	      </p>
 	    </header>
 	  </div>
 		<div class="tile-img">
-	    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/about-us-tile.jpg">
+	    <img src="<?php echo $about_us_photo['url']; ?>">
 	  </div>
   </section>
 

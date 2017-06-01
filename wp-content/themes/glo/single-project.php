@@ -55,26 +55,36 @@ function gallery_shortcode_lo($attr) {
 				</div>
 				<div class="col-md-4">
 					<aside class="project-details">
-						<div class="single-detail">
-							<span class="detail-type">Building Category</span>
-							<span class="detail-value">Living</span>
-						</div>
-						<div class="single-detail">
-							<span class="detail-type">Series</span>
-							<span class="detail-value">A4 Aluminum Windows, D1 Decorative Door</span>
-						</div>
-						<div class="single-detail">
-							<span class="detail-type">Location</span>
-							<span class="detail-value">Whitefish, Montana</span>
-						</div>
-						<div class="single-detail">
-							<span class="detail-type">Completion</span>
-							<span class="detail-value">2014</span>
-						</div>
-						<div class="single-detail">
-							<span class="detail-type">Project Team</span>
-							<span class="detail-value">Miller Architects, Ltd</span>
-						</div>
+						<?php if ( get_field('building_category') ) : ?>
+							<div class="single-detail">
+								<span class="detail-type">Building Category</span>
+								<span class="detail-value"><?php the_field('building_category'); ?></span>
+							</div>
+						<?php endif; ?>
+						<?php if ( get_field('series') ) : ?>
+							<div class="single-detail">
+								<span class="detail-type">Series</span>
+								<span class="detail-value"><?php the_field('series'); ?></span>
+							</div>
+						<?php endif; ?>
+						<?php if ( get_field('location') ) : ?>
+							<div class="single-detail">
+								<span class="detail-type">Location</span>
+								<span class="detail-value"><?php the_field('location'); ?></span>
+							</div>
+						<?php endif; ?>
+						<?php if ( get_field('completion_year') ) : ?>
+							<div class="single-detail">
+								<span class="detail-type">Completion</span>
+								<span class="detail-value"><?php the_field('completion_year'); ?></span>
+							</div>
+						<?php endif; ?>
+						<?php if ( get_field('project_teams') ) : ?>
+							<div class="single-detail">
+								<span class="detail-type">Project Team</span>
+								<span class="detail-value"><?php the_field('project_teams'); ?></span>
+							</div>
+						<?php endif; ?>
 					</aside>
 				</div>
 			</div>

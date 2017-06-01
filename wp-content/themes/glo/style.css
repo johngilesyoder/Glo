@@ -8954,6 +8954,10 @@ fieldset[disabled] .page-content .gform_wrapper .gform_button.active {
   padding: 10px 70px;
   font-size: 14px;
 }
+.page-template-page-about .site-header,
+.page-template-page-about .navbar {
+  margin: 0;
+}
 .page-template-page-about .page-wrapper {
   margin: 0;
 }
@@ -9022,20 +9026,21 @@ fieldset[disabled] .page-content .gform_wrapper .gform_button.active {
   }
 }
 .testimonial {
-  background: #fcf9f6;
+  background: #F5F5F5;
   padding: 30px;
   margin-bottom: 30px;
-  border-left-color: #e8d8c3;
+  border-left-color: #F55F36;
 }
 .testimonial p {
   font-family: 'Tiempos Headline', Georgia, "Times New Roman", Times, serif;
-  font-style: italic;
   font-size: 18px;
   line-height: 1.5em;
+  color: #282828;
+  font-weight: 300;
 }
 .testimonial footer cite {
   font-style: normal;
-  font-weight: 700;
+  font-weight: 400;
 }
 @media (max-width: 767px) {
   .testimonial {
@@ -9244,6 +9249,10 @@ fieldset[disabled] .page-content .gform_wrapper .gform_button.active {
   .project-post .post-title {
     height: auto;
   }
+}
+.single-project .site-header,
+.single-project .navbar {
+  margin: 0;
 }
 .single-project .back-link {
   font-size: 12px;

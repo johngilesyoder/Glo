@@ -66,47 +66,8 @@ function glo_widgets_init() {
 		'before_title'  => '<h1 class="widget-title">',
 		'after_title'   => '</h1>',
 	) );
-
-	register_sidebar( array(
-		'name'          => esc_html__( 'Footer 1', 'glo' ),
-		'id'            => 'footer-1',
-		'description'   => '',
-		'before_widget' => '',
-		'after_widget'  => '',
-		'before_title'  => '<h3 class="footer-widget-title">',
-		'after_title'   => '</h3>',
-	) );
-
-	register_sidebar( array(
-		'name'          => esc_html__( 'Footer 2', 'glo' ),
-		'id'            => 'footer-2',
-		'description'   => '',
-		'before_widget' => '',
-		'after_widget'  => '',
-		'before_title'  => '<h3 class="footer-widget-title">',
-		'after_title'   => '</h3>',
-	) );
-
-	register_sidebar( array(
-		'name'          => esc_html__( 'Footer 3', 'glo' ),
-		'id'            => 'footer-3',
-		'description'   => '',
-		'before_widget' => '',
-		'after_widget'  => '',
-		'before_title'  => '<h3 class="footer-widget-title">',
-		'after_title'   => '</h3>',
-	) );
-
-	register_sidebar( array(
-		'name'          => esc_html__( 'Footer 4', 'glo' ),
-		'id'            => 'footer-4',
-		'description'   => '',
-		'before_widget' => '',
-		'after_widget'  => '',
-		'before_title'  => '<h3 class="footer-widget-title">',
-		'after_title'   => '</h3>',
-	) );
 }
+
 add_action( 'widgets_init', 'glo_widgets_init' );
 
 /**
@@ -199,13 +160,6 @@ function footer_links_2() {
     wp_nav_menu( array('theme_location' => $location, 'items_wrap'=> '<h3 class="links-header">'.esc_html($menu_obj->name).'</h3><ul id=\"%1$s\" class=\"%2$s\">%3$s</ul>') );
 }
 
-function footer_links_3() {
-    $location = 'footer-links-3';
-    get_menu_by_location( $location );
-    $menu_obj = get_menu_by_location( $location );
-    wp_nav_menu( array('theme_location' => $location, 'items_wrap'=> '<h3 class="links-header">'.esc_html($menu_obj->name).'</h3><ul id=\"%1$s\" class=\"%2$s\">%3$s</ul>') );
-}
-
 
 
 // Load HTML5 Blank scripts (header.php)
@@ -271,7 +225,6 @@ function register_html5_menu()
         'header-menu' => __('Header Menu', 'primary'),
         'footer-links-1' => __('Footer Links 1', 'footer-links-one'),
         'footer-links-2' => __('Footer Links 2', 'footer-links-two'),
-        'footer-links-3' => __('Footer Links 3', 'footer-links-three')
     ));
 }
 
@@ -948,6 +901,10 @@ $CT_TAX_META_PRODUCT -> init();
 
 }
 
+if( function_exists('acf_add_options_page') ) {
 
+	acf_add_options_page();
+
+}
 
 ?>
