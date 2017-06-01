@@ -8360,6 +8360,7 @@ fieldset[disabled] .dwg-form .quote-btn.active {
 .page-content .gform_wrapper {
   font-size: 14px;
   max-width: 100%;
+  color: #282828;
 }
 .page-content .gform_wrapper input[type="text"]:not(#recaptcha_response_field),
 .page-content .gform_wrapper input[type="email"],
