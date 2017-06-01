@@ -1,0 +1,33 @@
+.footer-callout-quote {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  p {
+    font-size: 24px;
+    font-weight: 400;
+    margin: 0 0 30px;
+  }
+  .btn-outline {
+    border: 1px solid @link-color;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    padding: 14px 20px;
+    margin: 15px 0;
+    background-color: transparent;
+    transition: background-color 150ms, color 150ms;
+    &:hover {
+      background-color: @link-color;
+      color: #fff;
+      &:focus {
+        color: #fff;
+      }
+    }
+    &:focus {
+      color: @link-color;
+    }
+  }
+}

@@ -1,0 +1,55 @@
+.product-result {
+  display: flex;
+  background: @grey-bg;
+  margin: 0 0 30px;
+  text-decoration: none;
+  align-items: center;
+  text-decoration: none;
+  transition: background 150ms;
+  &:hover,
+  &:focus {
+    text-decoration: none;
+  }
+  &:hover {
+    background: darken(@grey-bg, 3%);
+  }
+  .series-image {
+    width: 24%;
+    align-self: stretch;
+    background-size: cover;
+    background-position: center;
+  }
+  .series-id {
+    font-size: 50px;
+    color: @headings-color;
+    width: 16%;
+    text-align: center;
+  }
+  .series-text {
+    width: 60%;
+    padding: 50px 30px 50px 0;
+  }
+  .series-title {
+    margin: 0 0 15px;
+    font-size: 21px;
+    font-weight: 400;
+    color: @link-color;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    &:after {
+      content: '\f2fb';
+      display: inline-block;
+      font: normal normal normal 21px/1 'Material-Design-Iconic-Font';
+      text-rendering: auto;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      margin-left: 10px;
+    }
+  }
+  .series-description {
+    font-size: 16px;
+    letter-spacing: .2px;
+    color: @headings-color;
+    margin: 0;
+  }
+}

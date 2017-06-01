@@ -6,6 +6,11 @@
 
 		// DOM ready, take it away
 
+		// Init popovers
+		$(function () {
+		  $('[data-toggle="popover"]').popover()
+		});
+
 		// Quick-access series toggle in topbar
 		$("#series-toggle").on( "click", function() {
 		  $("#series-toggle").hide();

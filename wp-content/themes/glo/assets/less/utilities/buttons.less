@@ -1,6 +1,32 @@
 // buttons.less
 // -----------------------------------------------------------------
 
+.btn {
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 14px;
+  border: 0;
+}
+.btn-text {
+  box-shadow: none;
+  padding: 0;
+  &:active {
+    box-shadow: none;
+  }
+  &:hover {
+    color: @link-hover-color;
+    &:focus {
+      color: @link-hover-color;
+      box-shadow: none;
+    }
+  }
+  &:focus {
+    color: @link-color;
+    box-shadow: none;
+  }
+}
+
 .btn-strip {
   padding: 0;
   border: 0;

@@ -1,0 +1,30 @@
+.single-product {
+  .key-features {
+    padding: 0 @grid-gutter-width;
+    h3 {
+      font-size: 21px;
+      font-weight: bold;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      margin: 0 0 20px;
+    }
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      color: @headings-color;
+      li {
+        margin: 0 0 15px;
+        position: relative;
+        padding-left: 30px;
+        &:before {
+          content: '●';
+          color: #D8D8D8;
+          position: absolute;
+          left: 0;
+          top: 0;
+        }
+      }
+    }
+  }
+}

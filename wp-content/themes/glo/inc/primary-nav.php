@@ -37,7 +37,7 @@
             <?php get_template_part( 'inc/menus/doors' ); ?>
           </div>
         </li>
-        <li><a href="#"><span>Showcase</a></li>
+        <li><a href="/projects"><span>Portfolio</a></li>
         <li class="menu-dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"><span>Learn <i class="zmdi"></i></span></a>
           <div class="dropdown-menu">
@@ -45,7 +45,7 @@
           </div>
         </li>
         <li><a href="#"><span>Service</span></a></li>
-        <li><a href="#"><span>Blog</span></a></li>
+        <li><a href="/blog"><span>Blog</span></a></li>
       </ul>
 
     </div><!-- /.navbar-collapse -->

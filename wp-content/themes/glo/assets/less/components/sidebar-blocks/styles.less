@@ -1,0 +1,45 @@
+.sidebar-block-styles {
+  margin: 0 0 60px;
+  h3 {
+    font-size: 21px;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin: 0 0 20px;
+    letter-spacing: 1px;
+  }
+  .the-styles {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+  }
+  .single-style {
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+    margin: 0 0 15px;
+    background: @grey-bg;
+    padding: 30px 15px;
+    width: calc(~'50% - 7.5px');
+    transition: background 150ms;
+    &:hover {
+      background: darken(@grey-bg, 3%);
+    }
+    img {
+      height: 75px;
+      width: auto;
+    }
+    .style-title {
+      font-size: 12px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      font-weight: 700;
+      text-align: center;
+      display: block;
+      margin-top: 15px;
+    }
+  }
+}

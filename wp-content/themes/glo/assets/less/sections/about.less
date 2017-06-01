@@ -2,29 +2,65 @@
 // -----------------------------------------------------------------
 
 .page-template-page-about {
-  .about-block {
-    height: 400px;
-    margin-bottom: 30px;
-    text-align: center;
+  .page-wrapper {
+    margin: 0;
   }
-  .block-text {
-    .vertical-center-parent();
-    p {
-      line-height: 1.5em;
-      width: 70%;
-      margin: 0 auto;
-      .vertical-center();
+  .hero-title {
+    margin: 0;
+  }
+  .tile-story {
+    display: flex;
+    height: 600px;
+    & > * {
+      width: 50%;
+    }
+    .tile-img {
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: 50% 50%;
+      }
+    }
+    .story-section {
+      display: flex;
+      align-items: center;
+      header {
+        text-align: left;
+        padding: 130px;
+        margin: 0;
+        .story-section-summary {
+          font-size: 16px;
+        }
+      }
     }
   }
-  .block-img {
-    background-size: cover;
-    background-repeat: no-repeat;
+
+  .available-anywhere {
+    background: @dark-grey;
+    color: #ccc;
+    .story-section-title {
+      color: #fff;
+    }
+    .america-outline {
+      margin: 0 0 60px;
+    }
+    h3 {
+      color: #999;
+      font-weight: 700;
+      font-size: 12px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      margin: 0 0 30px;
+    }
+    address {
+      strong {
+        display: block;
+        color: #fff;
+      }
+    }
   }
-  .section-title {
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    padding: 0 0 15px;
-  }
+
 }
 
 

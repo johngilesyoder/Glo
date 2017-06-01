@@ -1,24 +1,45 @@
 // professionals.less
 // -----------------------------------------------------------------
 
-
-.professionals-links {
-  .list-unstyled();
-  margin: 0;
-  li {
-    margin-bottom: 15px;
-    &:last-child {
-      margin-bottom: 0;
+.page-template-page-professionals {
+  .site-header,
+  .navbar {
+    margin: 0;
+  }
+}
+.professional-tile {
+  background: @grey-bg;
+  color: @text-color;
+  text-decoration: none;
+  display: flex;
+  margin-bottom: 30px;
+  transition: background 150ms;
+  .tile-content {
+    padding: 30px;
+    font-size: 16px;
+    color: @headings-color;
+    width: 75%;
+  }
+  &:hover {
+    text-decoration: none;
+    color: @text-color;
+    background: darken(@grey-bg, 5%);
+    h3 {
+      color: @link-hover-color;
     }
-    a {
-      font-size: 21px;
-      background: lighten(tan, 29%);
-      display: block;
-      padding: 30px;
-      i {
-        margin-right: 15px;
-      }
-    }
+  }
+  .tile-img {
+    background-size: cover;
+    background-position: 50% 50%;
+    width: 25%;
+  }
+  h3 {
+    color: @link-color;
+    font-size: 21px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: normal;
+    margin-top: 0;
   }
 }
 

@@ -2,132 +2,10 @@
 // -----------------------------------------------------------------
 
 .page-template-page-home {
-  .home-block {
-    position: relative;
-    text-align: center;
-    margin-bottom: 30px;
-    text-decoration: none;
-    .vertical-center-parent();
-    .home-block-title {
-      position: relative;
-      font-size: 18px;
-      letter-spacing: 2px;
-      margin: 0;
-      text-transform: uppercase;
-      a {
-        color: #333;
-        text-decoration: none;
-        i {
-          display: inline-block;
-          position: relative;
-          top: 2px;
-          height: 16px;
-          width: 9px;
-          margin-left: 10px;
-          background-image: url('assets/img/icon-chevron-right-black.svg');
-          background-size: 9px;
-          background-repeat: no-repeat;
-        }
-      }
-      &:after {
-        display: block;
-        position: absolute;
-        width: 15%;
-        margin: auto;
-        left: 0;
-        right: 0;
-        bottom: -20px;
-        border-bottom: 2px solid @brand-primary;
-        content: '';
-      }
-    }
+  .site-header,
+  .navbar {
+    margin: 0;
   }
-  .home-block-img {
-    .vertical-center-parent();
-    display: block;
-    background: #000;
-    &:hover {
-      .block-img {
-        opacity: .4;
-      }
-      .home-block-title {
-        transform: translateY(0);
-      }
-    }
-    .block-img {
-      position: absolute; 
-      height: 100%;
-      width: 100%;
-      opacity: .9;
-      transition: opacity .35s;
-      background-size: cover;
-      background-repeat: no-repeat;
-    }
-    .home-block-title {
-      margin: 0;
-      color: #fff;
-      text-shadow: 0 1px 30px #000;
-      word-spacing: -0.15em;
-      font-weight: 600;
-      transition: transform 0.35s;
-      .vertical-center();
-      i {
-        display: inline-block;
-        position: relative;
-        top: 2px;
-        height: 16px;
-        width: 9px;
-        margin-left: 10px;
-        background-image: url('assets/img/icon-chevron-right-white.svg');
-        background-size: 9px;
-        background-repeat: no-repeat;
-      }
-      &:after {
-        border-bottom: 3px solid @brand-primary;
-      }
-    }
-  }
-  .home-block-text {
-    .home-block-content {
-      width: 75%;
-      margin: 0 auto;
-      .vertical-center();
-      .home-block-title {
-        margin: 0 auto 80px;
-      }
-      p {
-        font-size: 18px;
-        line-height: 27px;
-      }
-    }
-  }
-}
-.home-about-you {
-  height: 402.5px;
-}
-.home-products {
-  height: 402.5px;
-}
-.home-projects {
-  height: 835px;
-}
-.home-passive-house {
-  height: 460px;
-}
-.home-about-us {
-  height: 460px;
-}
-.home-blog {
-  height: 490px;
-}
-.home-professionals {
-  height: 490px;
-}
-
-.homepage-info {
-  margin-bottom: 60px;
-  margin-top: 30px;
-  font-size: 16px;
 }
 
 // Media Queries
@@ -143,49 +21,7 @@
 @media (min-width: 768px) and (max-width: 991px) {}
 
 // Up to tablet
-@media (max-width: 767px) {
-
-  .page-template-page-home {
-    .home-block-img {
-      &:hover {
-        .block-img {
-          opacity: .8;
-        }
-      }
-      .block-img {
-        opacity: .8;
-      }
-    }
-    .home-about-you,
-    .home-about-us {
-      padding: 30px 0;
-      height: auto;
-      .home-block-content {
-        position: static;
-        transform: none;
-      }
-    }
-  }
-
-  .home-products,
-  .home-projects,
-  .home-passive-house,
-  .home-blog,
-  .home-professionals {
-    height: 490px;
-  }
-
-}
+@media (max-width: 767px) {}
 
 // Up to landscape phone
-@media (max-width: 480px) {
-
-  .home-products,
-  .home-projects,
-  .home-passive-house,
-  .home-blog,
-  .home-professionals {
-    height: 400px;
-  }
-
-}
+@media (max-width: 480px) {}

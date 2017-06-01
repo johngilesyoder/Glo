@@ -4,19 +4,26 @@
     <div id="series-list" class="series-list">
       <p>Series:</p>
       <ul>
-        <li><a href="#">A5</a></li>
-        <li><a href="#">A7</a></li>
-        <li><a href="#">A8</a></li>
-        <li><a href="#">PW</a></li>
-        <li><a href="#">W5</a></li>
-        <li><a href="#">W7</a></li>
-        <li><a href="#">D1</a></li>
+        <?php
+          // your taxonomy name
+          $tax = 'series';
+          // get the terms of taxonomy
+          $terms = get_terms( $tax, [
+          'hide_empty' => false, // do not hide empty terms
+          ]);
+          // loop through all terms
+          foreach( $terms as $term ) {
+        ?>
+          <li><a href="<?php echo get_term_link($term); ?>"><?php echo $term->name; ?></a></li>
+        <?php
+          }
+        ?>
       </ul>
     </div>
   </div>
   <div class="topbar-links">
     <ul>
-      <li><a href="#">For Professionals</a></li>
+      <li><a href="/dealers">Dealer Portal</a></li>
       <li><a href="/contact-us">Contact Us</a></li>
       <li class="phone-number"><a href="tel:+14067212741">(406) 721-2741</a></li>
     </ul>

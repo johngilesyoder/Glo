@@ -1,3 +1,19 @@
+		<!-- Request a quote -->
+		<?php if(
+			is_post_type_archive( 'project' ) ||
+			is_singular( 'project' ) ||
+			is_page_template( 'page-about.php') ||
+			is_singular( 'product') ||
+			is_page_template( 'page-calculator.php' ) ) : ?>
+
+			<?php get_template_part( 'inc/footer-callouts/glo-advantage' ); ?>
+
+		<?php else : ?>
+
+			<?php get_template_part( 'inc/footer-callouts/request-quote' ); ?>
+
+		<?php endif; ?>
+
 		<footer class="site-footer">
 			<div class="footer-main">
 				<div class="container-fluid">
@@ -44,7 +60,7 @@
 		<?php wp_footer(); ?>
 
 		<!-- SCRIPTS -->
-
+		<script async defer src="//assets.pinterest.com/js/pinit.js"></script>
 		<script>
 		  jQuery(document).ready(function() {
 		    jQuery('.gallery').flickity({
