@@ -1,0 +1,42 @@
+.single-product {
+  .r-value {
+    border-left: 1px solid @border-color;
+    border-right: 1px solid @border-color;
+    padding: 0 @grid-gutter-width;
+    .r-value-wrapper {
+      height: 275px;
+      width: 275px;
+      border-radius: 50%;
+      background: @grey-bg;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-flow: column;
+      position: relative;
+      text-align: center;
+      margin: 0 auto;
+      .btn-r-value-info {
+        position: absolute;
+        bottom: 16px;
+        right: 16px;
+        font-size: 50px;
+        color: #B3B3B3;
+      }
+      .r-value-title {
+        font-size: 30px;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        line-height: 1;
+        margin: 0;
+      }
+      .r-value-value {
+        font-size: 90px;
+        font-weight: 700;
+        color: @orange;
+        line-height: 1;
+        text-transform: uppercase;
+      }
+    }
+  }
+}

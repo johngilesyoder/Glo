@@ -1,0 +1,1 @@
+!function($,i,a){$(function(){"use strict";$("#available-options .nav-tabs li:first-child").addClass("active"),$("#available-options .tab-content > div:first-child").addClass("active in")})}(jQuery,this);

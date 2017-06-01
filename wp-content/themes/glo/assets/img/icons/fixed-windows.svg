@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="75px" height="75px" viewBox="0 0 75 75" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 7</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Home" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Menu-(products)" transform="translate(-131.000000, -157.000000)" fill-rule="nonzero" fill="#000000">
+            <g id="NAV-MENU" transform="translate(0.000000, 119.000000)">
+                <g id="TYPES" transform="translate(96.000000, 38.000000)">
+                    <g id="Group-8" transform="translate(16.000000, 0.000000)">
+                        <g id="Group-9">
+                            <g id="Group-7" transform="translate(19.000000, 0.000000)">
+                                <path d="M2,2 L2,73 L73,73 L73,2 L2,2 Z M0,0 L75,0 L75,75 L0,75 L0,0 Z" id="Rectangle"></path>
+                                <path d="M6.13207547,68.8679245 L68.8679245,68.8679245 L68.8679245,6.13207547 L6.13207547,6.13207547 L6.13207547,68.8679245 Z M5.13207547,5.13207547 L69.8679245,5.13207547 L69.8679245,69.8679245 L5.13207547,69.8679245 L5.13207547,5.13207547 Z" id="Rectangle"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

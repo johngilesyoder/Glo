@@ -5,24 +5,49 @@
 .page-template-page-calculator {
   .calculator {
     margin: 0 0 80px;
+    background: @grey-bg;
+    color: @dark-grey;
   }
-  #calculator p {
-    font-size: 30px;
+  .calculator p {
+    font-size: 36px;
     text-align: center;
     line-height: 1.5em;
+    margin: 0;
+    padding: 40px 30px;
   }
-
+  .calculator h1 {
+    background: #DCDCDC;
+    margin: 0;
+    padding: 40px 30px;
+    text-align: center;
+    line-height: 1.5em;
+    strong {
+      font-size: 36px;
+      font-weight: 700;
+      margin: 0 0 10px;
+      display: block;
+    }
+    span {
+      font-size: 76px;
+      color: @orange;
+    }
+  }
   select {
-     width: auto;
-     margin: 0 10px;
-     vertical-align: middle;
-     display: inline-block;
+    font-size: 36px;
+    height: 60px;
+    width: 200px;
+    padding: 5px 10px;
+    margin: 0 10px;
+    vertical-align: middle;
+    display: inline-block;
    }
 
    input {
+     font-size: 36px;
+     height: 60px;
      width: 120px;
-     color: @brand-primary;
      display: inline-block;
+     text-align: center;
      margin-left: 10px;
      margin-bottom: 0;
      vertical-align: middle;
@@ -40,47 +65,7 @@
      border: 1px solid #ccc;
    }
    .callouts {
-     .callout {
-       display: block;
-       .clearfix();
-       background: #fcf9f6;
-       color: @text-color;
-       transition: 150ms background;
-       &:hover {
-         background: #f9f2ec;
-         .callout-link {
-           text-decoration: underline;
-           color: @link-hover-color;
-         }
-       }
-       .callout-img {
-         width: 25%;
-         height: 150px;
-         float: left;
-         background-size: cover;
-         background-position: 50% 50%;
-       }
-       .callout-content {
-         border-top: 5px solid #e8d8c3;
-         width: 75%;
-         height: 150px;
-         float: left;
-         padding: 30px;
-         h4 {
-           font-weight: 600;
-           font-size: 16px;
-           text-transform: none;
-           margin: 0 0 15px;
-         }
-         .callout-link {
-           font-size: 14px;
-           text-transform: uppercase;
-           letter-spacing: .5px;
-           font-weight: 700;
-           color: @link-color;
-         }
-       }
-     }
+
    }
  }
 

@@ -22,17 +22,6 @@ function glo_setup() {
 	 */
 	load_theme_textdomain( 'glo', get_template_directory() . '/languages' );
 
-	// Add default posts and comments RSS feed links to head.
-	add_theme_support( 'automatic-feed-links' );
-
-	/*
-	 * Let WordPress manage the document title.
-	 * By adding theme support, we declare that this theme does not use a
-	 * hard-coded <title> tag in the document head, and expect WordPress to
-	 * provide it for us.
-	 */
-	add_theme_support( 'title-tag' );
-
 	/*
 	 * Enable support for Post Thumbnails on posts and pages.
 	 *
@@ -57,38 +46,10 @@ function glo_setup() {
 		'caption',
 	) );
 
-	/*
-	 * Enable support for Post Formats.
-	 * See http://codex.wordpress.org/Post_Formats
-	 */
-	add_theme_support( 'post-formats', array(
-		'aside',
-		'image',
-		'video',
-		'quote',
-		'link',
-	) );
-
-	// Set up the WordPress core custom background feature.
-	add_theme_support( 'custom-background', apply_filters( 'glo_custom_background_args', array(
-		'default-color' => 'ffffff',
-		'default-image' => '',
-	) ) );
 }
 endif; // glo_setup
 add_action( 'after_setup_theme', 'glo_setup' );
 
-/**
- * Set the content width in pixels, based on the theme's design and stylesheet.
- *
- * Priority 0 to make it available to lower priority callbacks.
- *
- * @global int $content_width
- */
-function glo_content_width() {
-	$GLOBALS['content_width'] = apply_filters( 'glo_content_width', 640 );
-}
-add_action( 'after_setup_theme', 'glo_content_width', 0 );
 
 /**
  * Register widget area.
@@ -105,87 +66,9 @@ function glo_widgets_init() {
 		'before_title'  => '<h1 class="widget-title">',
 		'after_title'   => '</h1>',
 	) );
-
-	register_sidebar( array(
-		'name'          => esc_html__( 'Footer 1', 'glo' ),
-		'id'            => 'footer-1',
-		'description'   => '',
-		'before_widget' => '',
-		'after_widget'  => '',
-		'before_title'  => '<h3 class="footer-widget-title">',
-		'after_title'   => '</h3>',
-	) );
-
-	register_sidebar( array(
-		'name'          => esc_html__( 'Footer 2', 'glo' ),
-		'id'            => 'footer-2',
-		'description'   => '',
-		'before_widget' => '',
-		'after_widget'  => '',
-		'before_title'  => '<h3 class="footer-widget-title">',
-		'after_title'   => '</h3>',
-	) );
-
-	register_sidebar( array(
-		'name'          => esc_html__( 'Footer 3', 'glo' ),
-		'id'            => 'footer-3',
-		'description'   => '',
-		'before_widget' => '',
-		'after_widget'  => '',
-		'before_title'  => '<h3 class="footer-widget-title">',
-		'after_title'   => '</h3>',
-	) );
-
-	register_sidebar( array(
-		'name'          => esc_html__( 'Footer 4', 'glo' ),
-		'id'            => 'footer-4',
-		'description'   => '',
-		'before_widget' => '',
-		'after_widget'  => '',
-		'before_title'  => '<h3 class="footer-widget-title">',
-		'after_title'   => '</h3>',
-	) );
 }
+
 add_action( 'widgets_init', 'glo_widgets_init' );
-
-/**
- * Enqueue scripts and styles.
- */
-function glo_scripts() {
-	wp_enqueue_style( 'glo-style', get_stylesheet_uri() );
-
-	wp_enqueue_script( 'glo-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20130115', true );
-
-	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
-		wp_enqueue_script( 'comment-reply' );
-	}
-}
-add_action( 'wp_enqueue_scripts', 'glo_scripts' );
-
-/**
- * Implement the Custom Header feature.
- */
-require get_template_directory() . '/inc/custom-header.php';
-
-/**
- * Custom template tags for this theme.
- */
-require get_template_directory() . '/inc/template-tags.php';
-
-/**
- * Custom functions that act independently of the theme templates.
- */
-require get_template_directory() . '/inc/extras.php';
-
-/**
- * Customizer additions.
- */
-require get_template_directory() . '/inc/customizer.php';
-
-/**
- * Load Jetpack compatibility file.
- */
-require get_template_directory() . '/inc/jetpack.php';
 
 /**
  * Load shortcodes file.
@@ -277,13 +160,6 @@ function footer_links_2() {
     wp_nav_menu( array('theme_location' => $location, 'items_wrap'=> '<h3 class="links-header">'.esc_html($menu_obj->name).'</h3><ul id=\"%1$s\" class=\"%2$s\">%3$s</ul>') );
 }
 
-function footer_links_3() {
-    $location = 'footer-links-3';
-    get_menu_by_location( $location );
-    $menu_obj = get_menu_by_location( $location );
-    wp_nav_menu( array('theme_location' => $location, 'items_wrap'=> '<h3 class="links-header">'.esc_html($menu_obj->name).'</h3><ul id=\"%1$s\" class=\"%2$s\">%3$s</ul>') );
-}
-
 
 
 // Load HTML5 Blank scripts (header.php)
@@ -303,7 +179,7 @@ function html5blank_header_scripts()
         wp_register_script( 'bootstrap', 'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js', array(), null, false );
         wp_enqueue_script('bootstrap'); // Enqueue it!
 
-        wp_register_script( 'flickity', 'https://unpkg.com/flickity@1.2/dist/flickity.pkgd.min.js', array(), null, false );
+        wp_register_script( 'flickity', 'https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js', array(), null, false );
         wp_enqueue_script('flickity'); // Enqueue it!
 
     }
@@ -318,13 +194,22 @@ function html5blank_conditional_scripts()
         wp_enqueue_script('home'); // Enqueue it!
 
     }
+
+		if (is_singular('product')) {
+
+			wp_register_script('product', get_template_directory_uri() . '/assets/js/sections/product.js', array(), null, true ); // Home scripts
+			wp_enqueue_script('product'); // Enqueue it!
+
+  }
 }
 
 // Load HTML5 Blank styles
 function html5blank_styles()
 {
-    wp_register_style('style', get_template_directory_uri() . '/style.css', array(), null, true ); // Stylesheet
-    wp_enqueue_style('style'); // Enqueue it!
+
+		wp_enqueue_style( 'glo-style', get_stylesheet_uri() );
+		wp_enqueue_style( 'glo-icons', 'https://i.icomoon.io/public/f173fca63f/Glo/style.css' );
+
 }
 
 // Load HTML5 Blank conditional styles
@@ -340,7 +225,6 @@ function register_html5_menu()
         'header-menu' => __('Header Menu', 'primary'),
         'footer-links-1' => __('Footer Links 1', 'footer-links-one'),
         'footer-links-2' => __('Footer Links 2', 'footer-links-two'),
-        'footer-links-3' => __('Footer Links 3', 'footer-links-three')
     ));
 }
 
@@ -579,6 +463,448 @@ function get_product_excerpt($count){
   return $excerpt;
 }
 
+/**
+ * Add Feature image to Frame Material Taxonomy
+ **/
+if ( ! class_exists( 'CT_TAX_META_MATERIAL' ) ) {
 
+class CT_TAX_META_MATERIAL {
+
+  public function __construct() {
+    //
+  }
+
+ /*
+  * Initialize the class and start calling our hooks and filters
+  * @since 1.0.0
+ */
+ public function init() {
+   add_action( 'frame-material_add_form_fields', array ( $this, 'add_category_image' ), 10, 2 );
+   add_action( 'created_frame-material', array ( $this, 'save_category_image' ), 10, 2 );
+   add_action( 'frame-material_edit_form_fields', array ( $this, 'update_category_image' ), 10, 2 );
+   add_action( 'edited_frame-material', array ( $this, 'updated_category_image' ), 10, 2 );
+   add_action( 'admin_footer', array ( $this, 'add_script' ) );
+ }
+
+ /*
+  * Add a form field in the new category page
+  * @since 1.0.0
+ */
+ public function add_category_image ( $taxonomy ) { ?>
+   <div class="form-field term-group">
+     <label for="category-image-id"><?php _e('Featured Image', 'full'); ?></label>
+     <input type="hidden" id="category-image-id" name="category-image-id" class="custom_media_url" value="">
+     <div id="category-image-wrapper"></div>
+     <p>
+       <input type="button" class="button button-secondary ct_tax_media_button" id="ct_tax_media_button" name="ct_tax_media_button" value="<?php _e( 'Add Image', 'hero-theme' ); ?>" />
+       <input type="button" class="button button-secondary ct_tax_media_remove" id="ct_tax_media_remove" name="ct_tax_media_remove" value="<?php _e( 'Remove Image', 'hero-theme' ); ?>" />
+    </p>
+   </div>
+ <?php
+ }
+
+ /*
+  * Save the form field
+  * @since 1.0.0
+ */
+ public function save_category_image ( $term_id, $tt_id ) {
+   if( isset( $_POST['category-image-id'] ) && '' !== $_POST['category-image-id'] ){
+     $image = $_POST['category-image-id'];
+     add_term_meta( $term_id, 'category-image-id', $image, true );
+   }
+ }
+
+ /*
+  * Edit the form field
+  * @since 1.0.0
+ */
+ public function update_category_image ( $term, $taxonomy ) { ?>
+   <tr class="form-field term-group-wrap">
+     <th scope="row">
+       <label for="category-image-id"><?php _e( 'Featured Image', 'full' ); ?></label>
+     </th>
+     <td>
+       <?php $image_id = get_term_meta ( $term -> term_id, 'category-image-id', true ); ?>
+       <input type="hidden" id="category-image-id" name="category-image-id" value="<?php echo $image_id; ?>">
+       <div id="category-image-wrapper">
+         <?php if ( $image_id ) { ?>
+           <?php echo wp_get_attachment_image ( $image_id, 'thumbnail' ); ?>
+         <?php } ?>
+       </div>
+       <p>
+         <input type="button" class="button button-secondary ct_tax_media_button" id="ct_tax_media_button" name="ct_tax_media_button" value="<?php _e( 'Add Image', 'hero-theme' ); ?>" />
+         <input type="button" class="button button-secondary ct_tax_media_remove" id="ct_tax_media_remove" name="ct_tax_media_remove" value="<?php _e( 'Remove Image', 'hero-theme' ); ?>" />
+       </p>
+     </td>
+   </tr>
+ <?php
+ }
+
+/*
+ * Update the form field value
+ * @since 1.0.0
+ */
+ public function updated_category_image ( $term_id, $tt_id ) {
+   if( isset( $_POST['category-image-id'] ) && '' !== $_POST['category-image-id'] ){
+     $image = $_POST['category-image-id'];
+     update_term_meta ( $term_id, 'category-image-id', $image );
+   } else {
+     update_term_meta ( $term_id, 'category-image-id', '' );
+   }
+ }
+
+/*
+ * Add script
+ * @since 1.0.0
+ */
+ public function add_script() { ?>
+   <script>
+     jQuery(document).ready( function($) {
+       function ct_media_upload(button_class) {
+         var _custom_media = true,
+         _orig_send_attachment = wp.media.editor.send.attachment;
+         $('body').on('click', button_class, function(e) {
+           var button_id = '#'+$(this).attr('id');
+           var send_attachment_bkp = wp.media.editor.send.attachment;
+           var button = $(button_id);
+           _custom_media = true;
+           wp.media.editor.send.attachment = function(props, attachment){
+             if ( _custom_media ) {
+               $('#category-image-id').val(attachment.id);
+               $('#category-image-wrapper').html('<img class="custom_media_image" src="" style="margin:0;padding:0;max-height:100px;float:none;" />');
+               $('#category-image-wrapper .custom_media_image').attr('src',attachment.sizes.thumbnail.url).css('display','block');
+             } else {
+               return _orig_send_attachment.apply( button_id, [props, attachment] );
+             }
+            }
+         wp.media.editor.open(button);
+         return false;
+       });
+     }
+     ct_media_upload('.ct_tax_media_button.button');
+     $('body').on('click','.ct_tax_media_remove',function(){
+       $('#category-image-id').val('');
+       $('#category-image-wrapper').html('<img class="custom_media_image" src="" style="margin:0;padding:0;max-height:100px;float:none;" />');
+     });
+     // Thanks: http://stackoverflow.com/questions/15281995/wordpress-create-category-ajax-response
+     $(document).ajaxComplete(function(event, xhr, settings) {
+       var queryStringArr = settings.data.split('&');
+       if( $.inArray('action=add-tag', queryStringArr) !== -1 ){
+         var xml = xhr.responseXML;
+         $response = $(xml).find('term_id').text();
+         if($response!=""){
+           // Clear the thumb image
+           $('#category-image-wrapper').html('');
+         }
+       }
+     });
+   });
+ </script>
+ <?php }
+
+  }
+
+$CT_TAX_META_MATERIAL = new CT_TAX_META_MATERIAL();
+$CT_TAX_META_MATERIAL -> init();
+
+}
+
+/**
+ * Add Feature image to Window Style Taxonomy
+ **/
+if ( ! class_exists( 'CT_TAX_META_STYLE' ) ) {
+
+class CT_TAX_META_STYLE {
+
+  public function __construct() {
+    //
+  }
+
+ /*
+  * Initialize the class and start calling our hooks and filters
+  * @since 1.0.0
+ */
+ public function init() {
+   add_action( 'window-style_add_form_fields', array ( $this, 'add_windowstyle_image' ), 10, 2 );
+   add_action( 'created_window-style', array ( $this, 'save_windowstyle_image' ), 10, 2 );
+   add_action( 'window-style_edit_form_fields', array ( $this, 'update_windowstyle_image' ), 10, 2 );
+   add_action( 'edited_window-style', array ( $this, 'updated_windowstyle_image' ), 10, 2 );
+   add_action( 'admin_footer', array ( $this, 'add_script' ) );
+ }
+
+ /*
+  * Add a form field in the new category page
+  * @since 1.0.0
+ */
+ public function add_windowstyle_image ( $taxonomy ) { ?>
+   <div class="form-field term-group">
+     <label for="category-image-id"><?php _e('Featured Image', 'full'); ?></label>
+     <input type="hidden" id="category-image-id" name="category-image-id" class="custom_media_url" value="">
+     <div id="category-image-wrapper"></div>
+     <p>
+       <input type="button" class="button button-secondary ct_tax_media_button" id="ct_tax_media_button" name="ct_tax_media_button" value="<?php _e( 'Add Image', 'hero-theme' ); ?>" />
+       <input type="button" class="button button-secondary ct_tax_media_remove" id="ct_tax_media_remove" name="ct_tax_media_remove" value="<?php _e( 'Remove Image', 'hero-theme' ); ?>" />
+    </p>
+   </div>
+ <?php
+ }
+
+ /*
+  * Save the form field
+  * @since 1.0.0
+ */
+ public function save_windowstyle_image ( $term_id, $tt_id ) {
+   if( isset( $_POST['category-image-id'] ) && '' !== $_POST['category-image-id'] ){
+     $image = $_POST['category-image-id'];
+     add_term_meta( $term_id, 'category-image-id', $image, true );
+   }
+ }
+
+ /*
+  * Edit the form field
+  * @since 1.0.0
+ */
+ public function update_windowstyle_image ( $term, $taxonomy ) { ?>
+   <tr class="form-field term-group-wrap">
+     <th scope="row">
+       <label for="category-image-id"><?php _e( 'Featured Image', 'full' ); ?></label>
+     </th>
+     <td>
+       <?php $image_id = get_term_meta ( $term -> term_id, 'category-image-id', true ); ?>
+       <input type="hidden" id="category-image-id" name="category-image-id" value="<?php echo $image_id; ?>">
+       <div id="category-image-wrapper">
+         <?php if ( $image_id ) { ?>
+           <?php echo wp_get_attachment_image ( $image_id, 'thumbnail' ); ?>
+         <?php } ?>
+       </div>
+       <p>
+         <input type="button" class="button button-secondary ct_tax_media_button" id="ct_tax_media_button" name="ct_tax_media_button" value="<?php _e( 'Add Image', 'hero-theme' ); ?>" />
+         <input type="button" class="button button-secondary ct_tax_media_remove" id="ct_tax_media_remove" name="ct_tax_media_remove" value="<?php _e( 'Remove Image', 'hero-theme' ); ?>" />
+       </p>
+     </td>
+   </tr>
+ <?php
+ }
+
+/*
+ * Update the form field value
+ * @since 1.0.0
+ */
+ public function updated_windowstyle_image ( $term_id, $tt_id ) {
+   if( isset( $_POST['category-image-id'] ) && '' !== $_POST['category-image-id'] ){
+     $image = $_POST['category-image-id'];
+     update_term_meta ( $term_id, 'category-image-id', $image );
+   } else {
+     update_term_meta ( $term_id, 'category-image-id', '' );
+   }
+ }
+
+/*
+ * Add script
+ * @since 1.0.0
+ */
+ public function add_script() { ?>
+   <script>
+     jQuery(document).ready( function($) {
+       function ct_media_upload(button_class) {
+         var _custom_media = true,
+         _orig_send_attachment = wp.media.editor.send.attachment;
+         $('body').on('click', button_class, function(e) {
+           var button_id = '#'+$(this).attr('id');
+           var send_attachment_bkp = wp.media.editor.send.attachment;
+           var button = $(button_id);
+           _custom_media = true;
+           wp.media.editor.send.attachment = function(props, attachment){
+             if ( _custom_media ) {
+               $('#category-image-id').val(attachment.id);
+               $('#category-image-wrapper').html('<img class="custom_media_image" src="" style="margin:0;padding:0;max-height:100px;float:none;" />');
+               $('#category-image-wrapper .custom_media_image').attr('src',attachment.sizes.thumbnail.url).css('display','block');
+             } else {
+               return _orig_send_attachment.apply( button_id, [props, attachment] );
+             }
+            }
+         wp.media.editor.open(button);
+         return false;
+       });
+     }
+     ct_media_upload('.ct_tax_media_button.button');
+     $('body').on('click','.ct_tax_media_remove',function(){
+       $('#category-image-id').val('');
+       $('#category-image-wrapper').html('<img class="custom_media_image" src="" style="margin:0;padding:0;max-height:100px;float:none;" />');
+     });
+     // Thanks: http://stackoverflow.com/questions/15281995/wordpress-create-category-ajax-response
+     $(document).ajaxComplete(function(event, xhr, settings) {
+       var queryStringArr = settings.data.split('&');
+       if( $.inArray('action=add-tag', queryStringArr) !== -1 ){
+         var xml = xhr.responseXML;
+         $response = $(xml).find('term_id').text();
+         if($response!=""){
+           // Clear the thumb image
+           $('#category-image-wrapper').html('');
+         }
+       }
+     });
+   });
+ </script>
+ <?php }
+
+  }
+
+$CT_TAX_META_STYLE = new CT_TAX_META_STYLE();
+$CT_TAX_META_STYLE -> init();
+
+}
+
+/**
+ * Add Feature image to Window Style Taxonomy
+ **/
+if ( ! class_exists( 'CT_TAX_META_PRODUCT' ) ) {
+
+class CT_TAX_META_PRODUCT {
+
+  public function __construct() {
+    //
+  }
+
+ /*
+  * Initialize the class and start calling our hooks and filters
+  * @since 1.0.0
+ */
+ public function init() {
+   add_action( 'product-line_add_form_fields', array ( $this, 'add_productline_image' ), 10, 2 );
+   add_action( 'created_product-line', array ( $this, 'save_productline_image' ), 10, 2 );
+   add_action( 'product-line_edit_form_fields', array ( $this, 'update_productline_image' ), 10, 2 );
+   add_action( 'edited_product-line', array ( $this, 'updated_productline_image' ), 10, 2 );
+   add_action( 'admin_footer', array ( $this, 'add_script' ) );
+ }
+
+ /*
+  * Add a form field in the new category page
+  * @since 1.0.0
+ */
+ public function add_productline_image ( $taxonomy ) { ?>
+   <div class="form-field term-group">
+     <label for="category-image-id"><?php _e('Featured Image', 'full'); ?></label>
+     <input type="hidden" id="category-image-id" name="category-image-id" class="custom_media_url" value="">
+     <div id="category-image-wrapper"></div>
+     <p>
+       <input type="button" class="button button-secondary ct_tax_media_button" id="ct_tax_media_button" name="ct_tax_media_button" value="<?php _e( 'Add Image', 'hero-theme' ); ?>" />
+       <input type="button" class="button button-secondary ct_tax_media_remove" id="ct_tax_media_remove" name="ct_tax_media_remove" value="<?php _e( 'Remove Image', 'hero-theme' ); ?>" />
+    </p>
+   </div>
+ <?php
+ }
+
+ /*
+  * Save the form field
+  * @since 1.0.0
+ */
+ public function save_productline_image ( $term_id, $tt_id ) {
+   if( isset( $_POST['category-image-id'] ) && '' !== $_POST['category-image-id'] ){
+     $image = $_POST['category-image-id'];
+     add_term_meta( $term_id, 'category-image-id', $image, true );
+   }
+ }
+
+ /*
+  * Edit the form field
+  * @since 1.0.0
+ */
+ public function update_productline_image ( $term, $taxonomy ) { ?>
+   <tr class="form-field term-group-wrap">
+     <th scope="row">
+       <label for="category-image-id"><?php _e( 'Featured Image', 'full' ); ?></label>
+     </th>
+     <td>
+       <?php $image_id = get_term_meta ( $term -> term_id, 'category-image-id', true ); ?>
+       <input type="hidden" id="category-image-id" name="category-image-id" value="<?php echo $image_id; ?>">
+       <div id="category-image-wrapper">
+         <?php if ( $image_id ) { ?>
+           <?php echo wp_get_attachment_image ( $image_id, 'thumbnail' ); ?>
+         <?php } ?>
+       </div>
+       <p>
+         <input type="button" class="button button-secondary ct_tax_media_button" id="ct_tax_media_button" name="ct_tax_media_button" value="<?php _e( 'Add Image', 'hero-theme' ); ?>" />
+         <input type="button" class="button button-secondary ct_tax_media_remove" id="ct_tax_media_remove" name="ct_tax_media_remove" value="<?php _e( 'Remove Image', 'hero-theme' ); ?>" />
+       </p>
+     </td>
+   </tr>
+ <?php
+ }
+
+/*
+ * Update the form field value
+ * @since 1.0.0
+ */
+ public function updated_productline_image ( $term_id, $tt_id ) {
+   if( isset( $_POST['category-image-id'] ) && '' !== $_POST['category-image-id'] ){
+     $image = $_POST['category-image-id'];
+     update_term_meta ( $term_id, 'category-image-id', $image );
+   } else {
+     update_term_meta ( $term_id, 'category-image-id', '' );
+   }
+ }
+
+/*
+ * Add script
+ * @since 1.0.0
+ */
+ public function add_script() { ?>
+   <script>
+     jQuery(document).ready( function($) {
+       function ct_media_upload(button_class) {
+         var _custom_media = true,
+         _orig_send_attachment = wp.media.editor.send.attachment;
+         $('body').on('click', button_class, function(e) {
+           var button_id = '#'+$(this).attr('id');
+           var send_attachment_bkp = wp.media.editor.send.attachment;
+           var button = $(button_id);
+           _custom_media = true;
+           wp.media.editor.send.attachment = function(props, attachment){
+             if ( _custom_media ) {
+               $('#category-image-id').val(attachment.id);
+               $('#category-image-wrapper').html('<img class="custom_media_image" src="" style="margin:0;padding:0;max-height:100px;float:none;" />');
+               $('#category-image-wrapper .custom_media_image').attr('src',attachment.sizes.thumbnail.url).css('display','block');
+             } else {
+               return _orig_send_attachment.apply( button_id, [props, attachment] );
+             }
+            }
+         wp.media.editor.open(button);
+         return false;
+       });
+     }
+     ct_media_upload('.ct_tax_media_button.button');
+     $('body').on('click','.ct_tax_media_remove',function(){
+       $('#category-image-id').val('');
+       $('#category-image-wrapper').html('<img class="custom_media_image" src="" style="margin:0;padding:0;max-height:100px;float:none;" />');
+     });
+     // Thanks: http://stackoverflow.com/questions/15281995/wordpress-create-category-ajax-response
+     $(document).ajaxComplete(function(event, xhr, settings) {
+       var queryStringArr = settings.data.split('&');
+       if( $.inArray('action=add-tag', queryStringArr) !== -1 ){
+         var xml = xhr.responseXML;
+         $response = $(xml).find('term_id').text();
+         if($response!=""){
+           // Clear the thumb image
+           $('#category-image-wrapper').html('');
+         }
+       }
+     });
+   });
+ </script>
+ <?php }
+
+  }
+
+$CT_TAX_META_PRODUCT = new CT_TAX_META_PRODUCT();
+$CT_TAX_META_PRODUCT -> init();
+
+}
+
+if( function_exists('acf_add_options_page') ) {
+
+	acf_add_options_page();
+
+}
 
 ?>

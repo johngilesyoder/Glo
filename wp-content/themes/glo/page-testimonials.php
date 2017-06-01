@@ -6,47 +6,50 @@
 get_header(); ?>
 
 <div class="page-title">
-	<div class="container">
+	<div class="container-fluid">
 		<h1><?php the_title(); ?></h1>
 	</div>
 </div>
 
 <main class="page-wrapper">
-	<div class="container">
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-md-8 col-md-offset-2">
+				<?php
 
-	<?php
+					$args = array(
+						'post_type' => 'testimonial',
+					);
 
-		$args = array(
-			'post_type' => 'testimonial',
-		);
+					// The Query
+					$the_query = new WP_Query( $args );
 
-		// The Query
-		$the_query = new WP_Query( $args );
+					// The Loop
+					if ( $the_query->have_posts() ) {
+						while ( $the_query->have_posts() ) {
+							$the_query->the_post();
 
-		// The Loop
-		if ( $the_query->have_posts() ) {
-			while ( $the_query->have_posts() ) {
-				$the_query->the_post();
+						?>
 
-			?>
+							<blockquote class="testimonial">
 
-				<blockquote class="testimonial">
+								<?php the_content(); ?>
 
-					<?php the_content(); ?>
+								<footer><cite><?php the_title(); ?></cite></footer>
+							</blockquote>
 
-					<footer><cite><?php the_title(); ?></cite></footer>
-				</blockquote>
+						<?php
 
-			<?php
-				
-			}
-		} else {
-			// no posts found
-		}
-		/* Restore original Post Data */
-		wp_reset_postdata();
+						}
+					} else {
+						// no posts found
+					}
+					/* Restore original Post Data */
+					wp_reset_postdata();
 
-	?>
+				?>
+			</div>
+		</div>
 	</div>
 </main>
 

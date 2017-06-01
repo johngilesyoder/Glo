@@ -6,13 +6,25 @@
 get_header(); ?>
 
 <div class="page-title">
-	<div class="container">
+	<div class="container-fluid">
 		<h1><?php the_title(); ?></h1>
 	</div>
 </div>
 
+<div class="page-summary">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-8">
+        <div class="page-content">
+          <?php the_content(); ?>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
 <main class="page-wrapper">
-	<div class="container">
+	<div class="container-fluid">
 		<div class="row">
 		<?php
 		global $wp_query;
@@ -32,7 +44,7 @@ get_header(); ?>
 
 		<?php endwhile; ?>
 
- 		<?php the_posts_pagination( ); ?> 
+ 		<?php the_posts_pagination( ); ?>
 		</div>
 	</div>
 </main>

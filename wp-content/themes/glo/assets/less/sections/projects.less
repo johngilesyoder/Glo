@@ -3,51 +3,70 @@
 
 
 .project-post {
-  margin-bottom: 60px;
+  margin-bottom: 30px;
   display: block;
   text-decoration: none;
+  position: relative;
   &:hover {
     text-decoration: none;
+    .project-name {
+      opacity: 1;
+      .project-title {
+        transform: translateY(0);
+      }
+    }
     .view-more {
       text-decoration: underline;
     }
   }
   &.no-img {
-    .post-image {
-      background: lighten(tan, 29%);
-      position: relative;
-      .vertical-center-parent();
-      text-align: center;
+    .project-image {
+      background: @grey-bg;
+      display: flex;
+      align-items: center;
+      justify-content: center;
       &:after {
         content: 'Under Construction';
-        .vertical-center();
         text-transform: uppercase;
         font-weight: 600;
         letter-spacing: 2px;
-        color: lighten(tan, 17%);
+        color: #ccc;
       }
     }
   }
-  .post-image {
+  .project-image {
     background-size: cover;
     background-position: 50% 50%;
-    height: 180px;
+    height: 300px;
     margin-bottom: 15px;
+    display: block;
   }
-  .post-title {
-    font-size: 18px;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    font-weight: 400;
-    height: 38px;
-    color: #333;
-    line-height: 1.25em;
-  }
-  .view-more {
-
+  .project-name {
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: rgba(0,0,0,.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: opacity 150ms;
+    padding: 30px;
+    .project-title {
+      font-size: 18px;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      font-weight: 400;
+      height: 38px;
+      color: #fff;
+      line-height: 1.25em;
+      transform: translateY(100%);
+      transition: transform 150ms;
+    }
   }
 }
-
 
 // Media Queries
 // --------------------------------------------------

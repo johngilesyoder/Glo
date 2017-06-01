@@ -14,20 +14,20 @@
 get_header(); ?>
 
 <div class="page-title">
-	<div class="container">
+	<div class="container-fluid">
 		<h1>Blog</h1>
 	</div>
 </div>
 
-<main class="page-wrapper">
-	<div class="container">
+<main class="page-wrapper blog-posts">
+	<div class="container-fluid">
 		<div class="row">
 		<?php if ( have_posts() ) : ?>
 
 			<?php
 			// Start the loop.
 			while ( have_posts() ) : the_post();
-				
+
 				/*
 				 * Include the Post-Format-specific template for the content.
 				 * If you want to override this in a child theme, then include a file
@@ -41,7 +41,7 @@ get_header(); ?>
 
 		</div>
 
-		<?php 
+		<?php
 		// Previous/next page navigation.
 		the_posts_pagination( array(
 			'prev_text'          => __( 'Previous page' ),
@@ -51,7 +51,7 @@ get_header(); ?>
 
 	// If no content, include the "No posts found" template.
 	else :
-		
+
 
 	endif;
 	?>

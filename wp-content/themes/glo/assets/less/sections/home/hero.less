@@ -1,0 +1,57 @@
+.home-hero {
+  height: calc(~"100vh - 120px");
+  background: @dark-grey;
+  color: #fff;
+  position: relative;
+  background-size: cover;
+  background-position: 50% 50%;
+  .hero-gradient {
+    height: 100%;
+    width: 100%;
+    #gradient > .horizontal(rgba(0,0,0,.3), rgba(0,0,0,.1));
+  }
+  .hero-content {
+    width: 680px;
+    position: absolute;
+    left: 10%;
+    top: 25%;
+    p {
+      font-size: 14px;
+      font-weight: 700;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+    }
+    h2 {
+      font-size: 70px;
+      font-weight: 500;
+      margin: 0 0 30px;
+      color: #fff;
+    }
+    .btn-primary {
+      padding: 19px 70px;
+      font-size: 14px;
+    }
+  }
+  .hero-testimonial {
+    background: rgba(0,0,0,.5);
+    border: 0;
+    margin: 0;
+    padding: 30px 15px;
+    position: absolute;
+    bottom: 0;
+    right: 10%;
+    text-align: center;
+    width: 460px;
+    p {
+      font-size: 16px;
+      font-family: @font-family-serif;
+    }
+    footer {
+      color: #E6E6E6;
+      font-size: 16px;
+      cite {
+        font-style: normal;
+      }
+    }
+  }
+}

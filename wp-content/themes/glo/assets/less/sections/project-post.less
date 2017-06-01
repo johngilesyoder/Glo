@@ -3,6 +3,14 @@
 
 
 .single-project {
+  .back-link {
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin: 0 0 15px;
+    display: inline-block;
+  }
   .post-title {
     font-size: 42px;
     text-transform: uppercase;
@@ -12,6 +20,97 @@
     line-height: 1.25em;
     margin-bottom: 30px;
     margin-top: 0;
+  }
+  .page-content {
+    p {
+      color: @headings-color;
+      font-size: 16px;
+    }
+  }
+  .project-details {
+    background: @grey-bg;
+    padding: 30px;
+    .single-detail {
+      display: flex;
+      margin: 0 0 30px;
+      &:last-child {
+        margin: 0;
+      }
+      span {
+        flex-basis: 50%;
+      }
+      .detail-type {
+        font-size: 12px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        color: #999;
+        font-weight: 600;
+      }
+      .detail-value {
+        font-size: 16px;
+        color: @headings-color;
+        font-size: 16px;
+      }
+    }
+  }
+  .gallery {
+    margin: 0 0 50px;
+    height: 600px;
+    opacity: 0;
+    -webkit-transition: opacity .5s 1s;
+    transition: opacity .5s 1s;
+    &.is-hidden {
+      display: none;
+    }
+    &.flickity-enabled {
+      opacity: 1;
+    }
+    div.is-selected {
+      img {
+        opacity: 1;
+      }
+      &:hover {
+        span {
+          opacity: 1;
+        }
+      }
+    }
+    span {
+      position: absolute;
+      top: 15px;
+      left: 20px;
+      opacity: 0;
+      transition: opacity 150ms;
+    }
+    img {
+      margin: 0 4px;
+      height: 600px;
+      width: auto;
+      opacity: .25;
+      transition: opacity 150ms;
+    }
+    .flickity-prev-next-button {
+      width: 60px;
+      height: 60px;
+      border-radius: 0;
+    }
+    .flickity-prev-next-button:hover {
+
+    }
+    /* arrow color */
+    .flickity-prev-next-button .arrow {
+      fill: rgba(0,0,0,.5);
+    }
+    .flickity-prev-next-button.no-svg {
+      color: white;
+    }
+    /* position outside */
+    .flickity-prev-next-button.previous {
+      left: -0px;
+    }
+    .flickity-prev-next-button.next {
+      right: -0px;
+    }
   }
 }
 

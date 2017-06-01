@@ -3,15 +3,41 @@
 
 
 .single-product {
-  .product-top {
-    margin-bottom: 60px;
-  }
-  .product-image {
-    text-align: center;
-    img {
+  .hero-title {
+    height: 550px;
+    margin: 0 0 90px;
+    .hero-content {
+      flex-flow: column;
+    }
+    .series-name {
+      text-transform: uppercase;
+      font-weight: 700;
+      font-size: 84px;
+      display: block;
+    }
+    h1 {
 
     }
+    .btn-quote {
+      padding: 19px 70px;
+      font-size: 14px;
+      margin-top: 60px;
+    }
   }
+
+  .product-top {
+    display: flex;
+    margin: 0 0 90px;
+    & > * {
+      width: 33.333%;
+      padding: 0 30px;
+    }
+  }
+
+  .product-middle {
+    margin: 0 0 80px;
+  }
+
   .product-meta {
     text-align: center;
     .product-name-badge {
@@ -34,36 +60,28 @@
       li {
         margin-right: 8px;
         display: inline-block;
-        // &:after {
-        //   content: ',';
-        // }
-        // &:last-child {
-        //   &:after {
-        //     content: '';
-        //   }
-        // }
         a {
 
         }
       }
     }
   }
-  .nav-tabs {
-    margin-bottom: 30px;
-    li {
-      a {
-        font-weight: 700;
-        font-size: 14px;
-        text-transform: uppercase;
-        letter-spacing: 2px;
-      }
-    }
-  }
-  .tab-content {
-    li {
-      margin-bottom: 10px;
-    }
-  }
+  // .nav-tabs {
+  //   margin-bottom: 30px;
+  //   li {
+  //     a {
+  //       font-weight: 700;
+  //       font-size: 14px;
+  //       text-transform: uppercase;
+  //       letter-spacing: 2px;
+  //     }
+  //   }
+  // }
+  // .tab-content {
+  //   li {
+  //     margin-bottom: 10px;
+  //   }
+  // }
 }
 
 
