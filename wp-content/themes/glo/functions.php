@@ -207,8 +207,14 @@ function html5blank_conditional_scripts()
 function html5blank_styles()
 {
 
-		wp_enqueue_style( 'glo-style', get_stylesheet_uri() );
-		wp_enqueue_style( 'glo-icons', 'https://i.icomoon.io/public/f173fca63f/Glo/style.css' );
+		wp_register_style( 'glo-style', get_stylesheet_uri() );
+		wp_enqueue_style( 'glo-style' );
+		
+		wp_register_style( 'glo-icons', 'https://i.icomoon.io/public/f173fca63f/Glo/style.css' );
+		wp_enqueue_style( 'glo-icons' );
+
+		wp_register_style('webfont', 'https://cloud.typography.com/7104796/7438372/css/fonts.css', array(), null, true ); // Home scripts
+		wp_enqueue_style('webfont'); // Enqueue it!
 
 }
 
