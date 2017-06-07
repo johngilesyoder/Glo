@@ -1083,7 +1083,7 @@ html {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 body {
-  font-family: "Gotham SSm A", "Gotham SSm B", "Gotham HTF", "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 18px;
   line-height: 1.42857143;
   color: #848484;
@@ -6019,7 +6019,7 @@ button.close {
   position: absolute;
   z-index: 1070;
   display: block;
-  font-family: "Gotham SSm A", "Gotham SSm B", "Gotham HTF", "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   letter-spacing: normal;
@@ -6137,7 +6137,7 @@ button.close {
   display: none;
   max-width: 276px;
   padding: 1px;
-  font-family: "Gotham SSm A", "Gotham SSm B", "Gotham HTF", "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   letter-spacing: normal;
@@ -8634,11 +8634,12 @@ fieldset[disabled] .page-content .gform_wrapper .gform_button.active {
   bottom: 0;
   right: 10%;
   text-align: center;
-  width: 460px;
+  width: 480px;
 }
 .home-hero .hero-testimonial p {
   font-size: 16px;
-  font-family: 'Tiempos Headline', Georgia, "Times New Roman", Times, serif;
+  font-family: "Mercury SSm A", "Mercury SSm B", Georgia, "Times New Roman", Times, serif;
+  font-weight: 500;
 }
 .home-hero .hero-testimonial footer {
   color: #E6E6E6;
@@ -8819,7 +8820,7 @@ fieldset[disabled] .page-content .gform_wrapper .gform_button.active {
   border-left-color: #F55F36;
 }
 .testimonial p {
-  font-family: 'Tiempos Headline', Georgia, "Times New Roman", Times, serif;
+  font-family: "Mercury SSm A", "Mercury SSm B", Georgia, "Times New Roman", Times, serif;
   font-size: 18px;
   line-height: 1.5em;
   color: #282828;
