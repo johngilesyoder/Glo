@@ -1,5 +1,4 @@
 <?php
-
   $terms_materials = apply_filters( 'taxonomy-images-get-terms', '', array(
     'taxonomy'       => 'frame-material',
     'having_images'  => false,
@@ -17,7 +16,6 @@
         'hide_empty'     => false
       )
     ) );
-
   } elseif (has_term( 'doors', 'product-line' )) {
     $terms_styles = apply_filters( 'taxonomy-images-get-terms', '', array(
       'taxonomy'       => 'door-style',
