@@ -234,11 +234,33 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/assets\/img\/icon-entry-doors.png": {
+		"ft": 32768,
+		"iS": 2371,
+		"oA": 0,
+		"oAP": "\/assets\/img\/icon-entry-doors.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/assets\/img\/icon-fixed.png": {
 		"ft": 32768,
 		"iS": 1066,
 		"oA": 0,
 		"oAP": "\/assets\/img\/icon-fixed.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/img\/icon-french-doors.png": {
+		"ft": 32768,
+		"iS": 4032,
+		"oA": 0,
+		"oAP": "\/assets\/img\/icon-french-doors.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -261,6 +283,50 @@
 		"iS": 4485,
 		"oA": 0,
 		"oAP": "\/assets\/img\/icon-inward-opening.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/img\/icon-lift-slide-doors.png": {
+		"ft": 32768,
+		"iS": 1446,
+		"oA": 0,
+		"oAP": "\/assets\/img\/icon-lift-slide-doors.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/img\/icon-pivot-doors.png": {
+		"ft": 32768,
+		"iS": 3852,
+		"oA": 0,
+		"oAP": "\/assets\/img\/icon-pivot-doors.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/img\/icon-postless-corner-doors.png": {
+		"ft": 32768,
+		"iS": 8214,
+		"oA": 0,
+		"oAP": "\/assets\/img\/icon-postless-corner-doors.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/img\/icon-sliding-doors.png": {
+		"ft": 32768,
+		"iS": 1297,
+		"oA": 0,
+		"oAP": "\/assets\/img\/icon-sliding-doors.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -522,6 +588,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/assets\/img\/material-aluminum-doors.png": {
+		"ft": 32768,
+		"iS": 165922,
+		"oA": 0,
+		"oAP": "\/assets\/img\/material-aluminum-doors.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/assets\/img\/material-aluminum.png": {
 		"ft": 32768,
 		"iS": 188614,
@@ -530,6 +607,17 @@
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/img\/material-wood-aluminum-doors.png": {
+		"ft": 32768,
+		"iS": 114497,
+		"oA": 0,
+		"oAP": "\/assets\/img\/material-wood-aluminum-doors.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},

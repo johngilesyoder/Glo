@@ -35,19 +35,34 @@
 		});
 
 		// Setup toggle buttons for primary nav submenus
-		$('#toggle-styles').on('click', function(e) {
+		$('#toggle-window-styles').on('click', function(e) {
 		  e.preventDefault();
-			$( "#by-material" ).removeClass( 'is--visible' );
-			$( "#by-style" ).addClass( 'is--visible' );
+			$( "#by-window-material" ).removeClass( 'is--visible' );
+			$( "#by-window-style" ).addClass( 'is--visible' );
 			$(this).addClass('is--current');
-			$('#toggle-materials').removeClass('is--current');
+			$('#toggle-window-materials').removeClass('is--current');
 		});
-		$('#toggle-materials').on('click', function(e) {
+		$('#toggle-window-materials').on('click', function(e) {
 		  e.preventDefault();
-			$( "#by-style" ).removeClass( 'is--visible' );
-			$( "#by-material" ).addClass( 'is--visible' );
+			$( "#by-window-style" ).removeClass( 'is--visible' );
+			$( "#by-window-material" ).addClass( 'is--visible' );
 			$(this).addClass('is--current');
-			$('#toggle-styles').removeClass('is--current');
+			$('#toggle-window-styles').removeClass('is--current');
+		});
+
+		$('#toggle-door-styles').on('click', function(e) {
+		  e.preventDefault();
+			$( "#by-door-material" ).removeClass( 'is--visible' );
+			$( "#by-door-style" ).addClass( 'is--visible' );
+			$(this).addClass('is--current');
+			$('#toggle-door-materials').removeClass('is--current');
+		});
+		$('#toggle-door-materials').on('click', function(e) {
+		  e.preventDefault();
+			$( "#by-door-style" ).removeClass( 'is--visible' );
+			$( "#by-door-material" ).addClass( 'is--visible' );
+			$(this).addClass('is--current');
+			$('#toggle-door-styles').removeClass('is--current');
 		});
 
 	});

@@ -7384,12 +7384,16 @@ fieldset[disabled] .modal-content .gform_wrapper .gform_button.active {
   left: 50%;
   margin-left: -20px;
 }
-#by-style,
-#by-material {
+#by-window-style,
+#by-window-material,
+#by-door-style,
+#by-door-material {
   display: none;
 }
-#by-style.is--visible,
-#by-material.is--visible {
+#by-window-style.is--visible,
+#by-window-material.is--visible,
+#by-door-style.is--visible,
+#by-door-material.is--visible {
   display: block;
 }
 .footer-callout {
