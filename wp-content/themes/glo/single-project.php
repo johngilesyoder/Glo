@@ -86,6 +86,12 @@ function gallery_shortcode_lo($attr) {
 								<span class="detail-value"><?php the_field('project_teams'); ?></span>
 							</div>
 						<?php endif; ?>
+						<?php if ( get_field('photography') ) : ?>
+							<div class="single-detail">
+								<span class="detail-type">Photography</span>
+								<span class="detail-value"><?php the_field('photography'); ?></span>
+							</div>
+						<?php endif; ?>
 					</aside>
 				</div>
 			</div>
