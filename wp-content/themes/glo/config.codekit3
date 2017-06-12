@@ -4027,6 +4027,12 @@
 		"oF": 0,
 		"oS": 0
 		},
+	"\/taxonomy-door-style.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/taxonomy-door-style.php",
+		"oF": 0
+		},
 	"\/taxonomy-frame-material.php": {
 		"ft": 8192,
 		"oA": 2,
