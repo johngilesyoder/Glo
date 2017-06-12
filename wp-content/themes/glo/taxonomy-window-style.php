@@ -51,7 +51,7 @@
 				<div class="col-md-4">
 					<aside class="sidebar-product-line">
 						<?php get_template_part( 'inc/sidebar-blocks/request-quote' ); ?>
-						<?php get_template_part( 'inc/sidebar-blocks/additional-styles' ); ?>
+						<?php get_template_part( 'inc/sidebar-blocks/additional-window-styles' ); ?>
 					</aside>
 				</div>
 			</div>

@@ -3816,16 +3816,22 @@
 		"oAP": "\/inc\/shortcodes.php",
 		"oF": 0
 		},
+	"\/inc\/sidebar-blocks\/additional-door-styles.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/inc\/sidebar-blocks\/additional-door-styles.php",
+		"oF": 0
+		},
 	"\/inc\/sidebar-blocks\/additional-materials.php": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/inc\/sidebar-blocks\/additional-materials.php",
 		"oF": 0
 		},
-	"\/inc\/sidebar-blocks\/additional-styles.php": {
+	"\/inc\/sidebar-blocks\/additional-window-styles.php": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/inc\/sidebar-blocks\/additional-styles.php",
+		"oAP": "\/inc\/sidebar-blocks\/additional-window-styles.php",
 		"oF": 0
 		},
 	"\/inc\/sidebar-blocks\/materials.php": {

@@ -1,4 +1,5 @@
 <?php
+
   $terms_materials = apply_filters( 'taxonomy-images-get-terms', '', array(
     'taxonomy'       => 'frame-material',
     'having_images'  => false,
@@ -7,14 +8,26 @@
       'hide_empty'     => false
     )
   ) );
-  $terms_styles = apply_filters( 'taxonomy-images-get-terms', '', array(
-    'taxonomy'       => 'window-style',
-    'having_images'  => false,
-    'term_args'      => array(
+  if (has_term( 'windows', 'product-line' )) {
+    $terms_styles = apply_filters( 'taxonomy-images-get-terms', '', array(
       'taxonomy'       => 'window-style',
-      'hide_empty'     => false
-    )
-  ) );
+      'having_images'  => false,
+      'term_args'      => array(
+        'taxonomy'       => 'window-style',
+        'hide_empty'     => false
+      )
+    ) );
+
+  } elseif (has_term( 'doors', 'product-line' )) {
+    $terms_styles = apply_filters( 'taxonomy-images-get-terms', '', array(
+      'taxonomy'       => 'door-style',
+      'having_images'  => false,
+      'term_args'      => array(
+        'taxonomy'       => 'door-style',
+        'hide_empty'     => false
+      )
+    ) );
+  }
 ?>
 
 <div class="available-styles">
