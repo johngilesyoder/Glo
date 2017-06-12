@@ -7221,7 +7221,7 @@ fieldset[disabled] .modal-content .gform_wrapper .gform_button.active {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: -50px 0 60px;
+  margin: 0 0 60px;
 }
 .hero-title .hero-bg {
   background-size: cover;
