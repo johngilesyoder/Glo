@@ -52,25 +52,31 @@ get_header(); ?>
 			</header>
 			<div class="row">
 				<div class="col-md-6 col-md-offset-3">
-					<img class="america-outline" class="america-map" src="<?php echo get_template_directory_uri(); ?>/assets/img/usa-outline.svg">
+					<div class="america-outline">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/usa-outline.svg">
+          </div>
 					<div class="headquarters">
 						<h3>Headquarters</h3>
 						<div class="row">
 							<div class="col-md-6">
-								<address>
-									<strong>Glo European Windows</strong>
-									+1 (406) 721-2741<br>
-									1001 S 4th Street W, Suite 1<br>
-									Missoula, Montana 59801
-								</address>
+                <div class="address-wrapper">
+  								<address>
+  									<strong>Glo European Windows</strong>
+  									+1 (406) 721-2741<br>
+  									1001 S 4th Street W, Suite 1<br>
+  									Missoula, Montana 59801
+  								</address>
+                </div>
 							</div>
 							<div class="col-md-6">
-								<address>
-									<strong>European Finishes</strong>
-									+1 (543) 767-3701<br>
-									234 Dougal St.<br>
-									Seattle, Washington 87334
-								</address>
+                <div class="address-wrapper">
+  								<address>
+  									<strong>European Finishes</strong>
+  									+1 (543) 767-3701<br>
+  									234 Dougal St.<br>
+  									Seattle, Washington 87334
+  								</address>
+                </div>
 							</div>
 						</div>
 					</div>
