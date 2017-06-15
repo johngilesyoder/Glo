@@ -56,10 +56,10 @@ get_header(); ?>
             <img src="<?php echo get_template_directory_uri(); ?>/assets/img/usa-outline.svg">
           </div>
 					<div class="headquarters">
-						<h3>Headquarters</h3>
 						<div class="row">
 							<div class="col-md-6">
                 <div class="address-wrapper">
+                  <h3>Headquarters</h3>
   								<address>
   									<strong>Glo European Windows</strong>
   									+1 (406) 721-2741<br>
@@ -69,6 +69,7 @@ get_header(); ?>
                 </div>
 							</div>
 							<div class="col-md-6">
+                <h3> </h3>
                 <div class="address-wrapper">
   								<address>
   									<strong>European Finishes</strong>
