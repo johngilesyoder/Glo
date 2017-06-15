@@ -19,7 +19,7 @@
 				<div class="container-fluid">
 					<div class="row">
 						<div class="col-md-1 col-md-offset-1">
-							<img class="footer-logo" src="<?php echo get_template_directory_uri(); ?>/assets/img/logo-white.png" alt="Glo Windows">
+							<a href="/"><img class="footer-logo" src="<?php echo get_template_directory_uri(); ?>/assets/img/logo-white.png" alt="Glo Windows"></a>
 						</div>
 						<div class="col-md-2 col-md-offset-1">
 							<div class="footer-column">
