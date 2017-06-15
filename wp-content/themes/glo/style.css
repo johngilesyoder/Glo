@@ -8803,6 +8803,8 @@ fieldset[disabled] .page-content .gform_wrapper .gform_button.active {
 .page-template-page-about .available-anywhere .address-wrapper {
   display: flex;
   justify-content: center;
+  flex-flow: column;
+  align-items: center;
 }
 .page-template-page-about .available-anywhere address strong {
   display: block;

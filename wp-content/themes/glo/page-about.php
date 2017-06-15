@@ -59,8 +59,8 @@ get_header(); ?>
 						<div class="row">
 							<div class="col-md-6">
                 <div class="address-wrapper">
-                  <h3>Headquarters</h3>
   								<address>
+                    <h3>Headquarters</h3>
   									<strong>Glo European Windows</strong>
   									+1 (406) 721-2741<br>
   									1001 S 4th Street W, Suite 1<br>
@@ -69,9 +69,9 @@ get_header(); ?>
                 </div>
 							</div>
 							<div class="col-md-6">
-                <h3> </h3>
                 <div class="address-wrapper">
   								<address>
+                    <h3 style="color: #282828;">Headquarters</h3>
   									<strong>European Finishes</strong>
   									+1 (543) 767-3701<br>
   									234 Dougal St.<br>
