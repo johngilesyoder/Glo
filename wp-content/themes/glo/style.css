@@ -8791,6 +8791,7 @@ fieldset[disabled] .page-content .gform_wrapper .gform_button.active {
 .page-template-page-about .available-anywhere .america-outline {
   display: flex;
   justify-content: center;
+  margin: 0 0 30px;
 }
 .page-template-page-about .available-anywhere h3 {
   color: #999;
