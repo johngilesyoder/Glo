@@ -8002,7 +8002,9 @@ fieldset[disabled] .dwg-form .quote-btn.active {
   text-transform: uppercase;
 }
 .site-footer .footer-logo {
-  max-width: 100%;
+  display: block;
+}
+.site-footer .footer-logo img {
   height: 57px;
 }
 .site-footer .footer-contact {
@@ -8057,14 +8059,43 @@ fieldset[disabled] .dwg-form .quote-btn.active {
   text-align: center;
   padding-bottom: 15px;
 }
+@media (min-width: 992px) and (max-width: 1199px) {
+  .site-footer .footer-logo {
+    margin: 0 0 30px;
+  }
+}
 @media (min-width: 768px) and (max-width: 991px) {
-  .site-footer .footer-column {
-    margin-bottom: 30px;
+  .site-footer .footer-logo {
+    margin: 0 0 30px;
   }
 }
 @media (max-width: 767px) {
+  .site-footer .footer-main {
+    padding: 60px 0 30px;
+  }
+  .site-footer .footer-logo {
+    margin: 0 0 60px;
+  }
   .site-footer .footer-column {
-    margin-bottom: 30px;
+    margin: 0 0 60px;
+  }
+  .site-footer .btn-dealer {
+    margin: 0 0 30px;
+  }
+}
+@media (max-width: 480px) {
+  .site-footer .footer-main {
+    padding: 40px 0 20px;
+  }
+  .site-footer .footer-logo {
+    margin: 0 0 30px;
+  }
+  .site-footer .col-xs-6 {
+    width: 100%;
+  }
+  .site-footer .footer-column {
+    margin: 0 0 30px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
   }
 }
 .page-title {

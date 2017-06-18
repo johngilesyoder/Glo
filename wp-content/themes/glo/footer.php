@@ -18,20 +18,20 @@
 			<div class="footer-main">
 				<div class="container-fluid">
 					<div class="row">
-						<div class="col-md-1 col-md-offset-1">
-							<a href="/"><img class="footer-logo" src="<?php echo get_template_directory_uri(); ?>/assets/img/logo-white.png" alt="Glo Windows"></a>
+						<div class="col-md-12 col-lg-1 col-lg-offset-1">
+							<a href="/" class="footer-logo"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo-white.png" alt="Glo Windows"></a>
 						</div>
-						<div class="col-md-2 col-md-offset-1">
+						<div class="col-xs-6 col-sm-4 col-md-4 col-lg-2 col-lg-offset-1">
 							<div class="footer-column">
 								<?php footer_links_1(); ?>
 							</div>
 						</div>
-						<div class="col-md-2">
+						<div class="col-xs-6 col-sm-4 col-md-4 col-lg-2">
 							<div class="footer-column">
 								<?php footer_links_2(); ?>
 							</div>
 						</div>
-						<div class="col-md-3 col-md-offset-1">
+						<div class="col-xs-12 col-sm-4 col-md-4 col-lg-3">
 							<div class="footer-column">
 								<h3>Keep Up With News &amp; Offerings</h3>
 						    <p class="footer-contact">
