@@ -18,7 +18,9 @@
         <?php foreach ( (array) $terms_door_styles as $term ) { ?>
           <li class="menu-item">
             <a href="<?php echo esc_url( get_term_link( $term, $term->taxonomy ) ) ?>">
-              <?php echo wp_get_attachment_image( $term->image_id, 'full', "", ["class" => "img-window-style"] ) ?>
+              <div class="img-wrapper">
+                <?php echo wp_get_attachment_image( $term->image_id, 'full', "", ["class" => "img-window-style"] ) ?>
+              </div>
               <span class="item-title"><?php echo $term->name; ?></span>
             </a>
           </li>
@@ -45,7 +47,7 @@
     </div>
 
     <div class="menu-toggle">
-      <button id="toggle-door-styles" class="btn-toggle is--current"><span>By</span> Window Style</button>
+      <button id="toggle-door-styles" class="btn-toggle is--current"><span>By</span> Door Style</button>
       <button id="toggle-door-materials" class="btn-toggle"><span>By</span> Frame Material</button>
     </div>
   </div>

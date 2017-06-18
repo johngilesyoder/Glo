@@ -27,7 +27,9 @@
         <?php foreach ( (array) $terms_window_styles as $term ) { ?>
           <li class="menu-item">
             <a href="<?php echo esc_url( get_term_link( $term, $term->taxonomy ) ) ?>">
-              <?php echo wp_get_attachment_image( $term->image_id, 'full', "", ["class" => "img-window-style"] ) ?>
+              <div class="img-wrapper">
+                <?php echo wp_get_attachment_image( $term->image_id, 'full', "", ["class" => "img-window-style"] ) ?>
+              </div>
               <span class="item-title"><?php echo $term->name; ?></span>
             </a>
           </li>
@@ -42,7 +44,9 @@
         <?php foreach ( (array) $terms_materials as $term ) { ?>
           <li class="menu-item">
             <a href="<?php echo esc_url( get_term_link( $term, $term->taxonomy ) ) ?>">
-              <?php echo wp_get_attachment_image( $term->image_id ) ?>
+              <div class="img-wrapper">
+                <?php echo wp_get_attachment_image( $term->image_id ) ?>
+              </div>
               <span class="item-title"><?php echo $term->name; ?> Windows</span>
             </a>
           </li>

@@ -2,12 +2,6 @@
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
       <?php if (is_front_page()): ?>
         <h1 class="navbar-brand">
           <img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo.png" alt="Site logo"/>
@@ -17,9 +11,18 @@
           <img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo.png" alt="Site logo"/>
         </a>
       <?php endif; ?>
+      <div class="navbar-call">
+        <a href="tel:+14067212741">(406) 721-2741</a>
+      </div>
       <div class="navbar-quote">
         <a href="/request-a-quote" class="btn btn-request-quote">Request a quote</a>
       </div>
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
@@ -46,6 +49,8 @@
         </li>
         <li><a href="#"><span>Service</span></a></li>
         <li><a href="/blog"><span>Blog</span></a></li>
+        <li class="dealers-link"><a href="/dealers"><span>Dealer Portal</span></a></li>
+        <li class="contact-link"><a href="/contact-us"><span>Contact Us</span></a></li>
       </ul>
 
     </div><!-- /.navbar-collapse -->

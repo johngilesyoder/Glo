@@ -5,12 +5,24 @@
   margin-bottom: 50px;
   z-index: 100;
   position: relative;
+  .dealers-link,
+  .contact-link {
+    display: none;
+  }
   .navbar-brand {
     padding: 12.5px 15px;
     margin: 0 @grid-gutter-width 0 0;
     img {
       height: 57px;
     }
+  }
+  .navbar-toggle {
+    .icon-bar {
+      width: 26px;
+    }
+  }
+  .navbar-call {
+    display: none;
   }
   .navbar-quote {
     position: absolute;
@@ -98,22 +110,178 @@
 // --------------------------------------------------
 
 // Large desktop and up
+@media (min-width: 1200px) and (max-width: 1329px) {
+
+  .site-header {
+    .navbar-default {
+      .navbar-nav {
+        & > li {
+          a {
+            padding-left: 15px;
+            padding-right: 15px;
+          }
+        }
+      }
+    }
+  }
+
+}
+
+// Large desktop and up
 @media (min-width: 1200px) {}
 
 // Desktop to large desktop
-@media (min-width: 992px) and (max-width: 1199px) {}
+@media (min-width: 992px) and (max-width: 1199px) {
+
+  .site-header {
+    .navbar-header {
+      display: flex;
+      align-items: center;
+    }
+    .dealers-link,
+    .contact-link {
+      display: block;
+    }
+    .navbar-brand,
+    .navbar-toggle {
+      float: none;
+    }
+    .navbar-toggle {
+      border-color: @orange;
+      margin-top: 8px;
+      margin-bottom: 8px;
+      padding: 17px 18px;
+      margin-left: 15px;
+    }
+    .navbar-brand {
+      margin-right: auto;
+    }
+    .navbar-quote {
+      position: static;
+    }
+    .navbar-default {
+      .navbar-nav {
+        & > li {
+          & > a {
+            padding-left: 15px;
+            padding-right: 15px;
+          }
+        }
+        & > .open {
+          & > a {
+            border-color: transparent;
+            &:after {
+              display: none;
+            }
+          }
+        }
+      }
+    }
+  }
+
+}
 
 // Tablet to desktop
-@media (min-width: 768px) and (max-width: 991px) {}
+@media (min-width: 768px) and (max-width: 991px) {
+
+  .site-header {
+    margin-bottom: 30px;
+    .navbar-header {
+      display: flex;
+      align-items: center;
+    }
+    .navbar-brand,
+    .navbar-toggle {
+      float: none;
+    }
+    .navbar-toggle {
+      border-color: @orange;
+      margin-top: 8px;
+      margin-bottom: 8px;
+      padding: 17px 18px;
+      margin-left: 15px;
+    }
+    .navbar-brand {
+      margin-right: auto;
+    }
+    .navbar-quote {
+      position: static;
+    }
+    .navbar-default {
+      .navbar-nav {
+        & > li {
+          & > a {
+            padding-left: 15px;
+            padding-right: 15px;
+          }
+        }
+        & > .open {
+          & > a {
+            border-color: transparent;
+            &:after {
+              display: none;
+            }
+          }
+        }
+      }
+    }
+  }
+
+}
 
 // Up to tablet
 @media (max-width: 767px) {
 
   .site-header {
     margin-bottom: 30px;
-    .navbar-collapse {
-      &.in {
-        //max-height: 354px !important;
+    .navbar {
+      min-height: 60px;
+    }
+    .navbar-header {
+      display: flex;
+      align-items: center;
+    }
+    .navbar-brand,
+    .navbar-toggle {
+      float: none;
+    }
+    .navbar-toggle {
+      margin-left: 30px;
+      margin-top: 13px;
+      margin-bottom: 13px;
+    }
+    .navbar-brand {
+      margin-right: auto;
+      height: 60px;
+      padding: 11.5px 15px;
+      img {
+        height: 37px;
+      }
+    }
+    .btn-request-quote {
+      display: none;
+    }
+    .navbar-call {
+      display: block;
+      font-weight: 600;
+      font-size: 16px;
+    }
+    .navbar-default {
+      .navbar-nav {
+        & > li {
+          & > a {
+            padding-left: 15px;
+            padding-right: 15px;
+          }
+        }
+        & > .open {
+          & > a {
+            border-color: transparent;
+            &:after {
+              display: none;
+            }
+          }
+        }
       }
     }
   }
@@ -124,6 +292,26 @@
 @media (max-width: 480px) {
 
   .site-header {
+    .navbar {
+      min-height: 50px;
+    }
+    .navbar-brand {
+      height: 50px;
+      padding: 6.5px 15px;
+      img {
+        height: 37px;
+      }
+    }
+    .navbar-toggle {
+      margin-top: 8px;
+      margin-bottom: 8px;
+      margin-left: 15px;
+    }
+    .navbar-call {
+      font-size: 13px;
+      letter-spacing: 0;
+      //font-weight: 400;
+    }
     .navbar-collapse {
       background: #fff;
     }
