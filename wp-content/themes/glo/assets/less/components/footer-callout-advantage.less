@@ -10,6 +10,7 @@
       font-size: 21px;
       font-weight: 700;
       margin: 0 0 20px;
+      height: 46px;
     }
     .advantage-illustration {
       background: @dark-grey;
@@ -33,6 +34,93 @@
       text-transform: uppercase;
       letter-spacing: 1px;
       padding: 0;
+      white-space: normal;
+      text-align: left;
     }
   }
+}
+
+
+// Media Queries
+// --------------------------------------------------
+
+// Large desktop and up
+@media (min-width: 1200px) {}
+
+// Desktop to large desktop
+@media (min-width: 992px) and (max-width: 1199px) {}
+
+// Tablet to desktop
+@media (min-width: 768px) and (max-width: 991px) {
+
+  .footer-callout-advantage {
+    padding-bottom: 30px;
+    .callout-title {
+      margin: 0 0 60px;
+    }
+    .advantage {
+      margin: 0 0 30px;
+      h4 {
+        height: auto;
+      }
+      .advantage-description {
+        margin: 0 0 5px;
+      }
+    }
+  }
+
+}
+
+// Up to tablet
+@media (max-width: 767px) {
+
+  .footer-callout-advantage {
+    padding-bottom: 10px;
+    .callout-title {
+      font-size: 30px;
+      margin: 0 0 40px;
+    }
+    .advantage {
+      margin: 0 0 30px;
+      display: flex;
+      flex-flow: row wrap;
+      h4 {
+        height: auto;
+        width: 100%;
+        font-size: 18px;
+      }
+      .advantage-illustration {
+        width: 33%;
+        i {
+          font-size: 60px;
+        }
+      }
+      .advantage-description {
+        margin: 0 0 5px;
+        width: 66%;
+        padding-left: 15px;
+      }
+    }
+  }
+
+}
+
+// Up to landscape phone
+@media (max-width: 480px) {
+
+  .footer-callout-advantage {
+    padding-bottom: 0;
+    .callout-title {
+      margin: 0 0 30px;
+      font-size: 24px;
+    }
+    .advantage {
+      .advantage-illustration {
+        i {
+          font-size: 40px;
+        }
+      }
+    }
+  }
+
 }

@@ -7623,6 +7623,21 @@ fieldset[disabled] .modal-content .gform_wrapper .gform_button.active {
   background: #F5F5F5;
   color: #282828;
 }
+@media (min-width: 768px) and (max-width: 991px) {
+  .footer-callout {
+    padding: 60px 0;
+  }
+}
+@media (max-width: 767px) {
+  .footer-callout {
+    padding: 40px 0;
+  }
+}
+@media (max-width: 480px) {
+  .footer-callout {
+    padding: 30px 0;
+  }
+}
 .footer-callout-quote {
   display: flex;
   flex-direction: column;
@@ -7656,6 +7671,20 @@ fieldset[disabled] .modal-content .gform_wrapper .gform_button.active {
 .footer-callout-quote .btn-outline:focus {
   color: #F55F36;
 }
+@media (max-width: 767px) {
+  .footer-callout-quote p {
+    font-size: 21px;
+    margin: 0 0 15px;
+  }
+  .footer-callout-quote p br {
+    display: none;
+  }
+}
+@media (max-width: 480px) {
+  .footer-callout-quote .btn-outline {
+    width: 100%;
+  }
+}
 .footer-callout-advantage .callout-title {
   font-size: 36px;
   font-weight: 400;
@@ -7666,6 +7695,7 @@ fieldset[disabled] .modal-content .gform_wrapper .gform_button.active {
   font-size: 21px;
   font-weight: 700;
   margin: 0 0 20px;
+  height: 46px;
 }
 .footer-callout-advantage .advantage .advantage-illustration {
   background: #282828;
@@ -7689,6 +7719,67 @@ fieldset[disabled] .modal-content .gform_wrapper .gform_button.active {
   text-transform: uppercase;
   letter-spacing: 1px;
   padding: 0;
+  white-space: normal;
+  text-align: left;
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .footer-callout-advantage {
+    padding-bottom: 30px;
+  }
+  .footer-callout-advantage .callout-title {
+    margin: 0 0 60px;
+  }
+  .footer-callout-advantage .advantage {
+    margin: 0 0 30px;
+  }
+  .footer-callout-advantage .advantage h4 {
+    height: auto;
+  }
+  .footer-callout-advantage .advantage .advantage-description {
+    margin: 0 0 5px;
+  }
+}
+@media (max-width: 767px) {
+  .footer-callout-advantage {
+    padding-bottom: 10px;
+  }
+  .footer-callout-advantage .callout-title {
+    font-size: 30px;
+    margin: 0 0 40px;
+  }
+  .footer-callout-advantage .advantage {
+    margin: 0 0 30px;
+    display: flex;
+    flex-flow: row wrap;
+  }
+  .footer-callout-advantage .advantage h4 {
+    height: auto;
+    width: 100%;
+    font-size: 18px;
+  }
+  .footer-callout-advantage .advantage .advantage-illustration {
+    width: 33%;
+  }
+  .footer-callout-advantage .advantage .advantage-illustration i {
+    font-size: 60px;
+  }
+  .footer-callout-advantage .advantage .advantage-description {
+    margin: 0 0 5px;
+    width: 66%;
+    padding-left: 15px;
+  }
+}
+@media (max-width: 480px) {
+  .footer-callout-advantage {
+    padding-bottom: 0;
+  }
+  .footer-callout-advantage .callout-title {
+    margin: 0 0 30px;
+    font-size: 24px;
+  }
+  .footer-callout-advantage .advantage .advantage-illustration i {
+    font-size: 40px;
+  }
 }
 .story-section {
   padding: 80px 0;
@@ -7718,6 +7809,51 @@ fieldset[disabled] .modal-content .gform_wrapper .gform_button.active {
 }
 .story-section header .story-section-actions .btn-text {
   padding: 0;
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .story-section {
+    padding: 60px 0;
+  }
+  .story-section header {
+    margin: 40px;
+  }
+  .story-section header .story-section-title {
+    font-size: 30px;
+  }
+  .story-section header .story-section-summary {
+    font-size: 18px;
+  }
+}
+@media (max-width: 767px) {
+  .story-section {
+    padding: 40px 0;
+  }
+  .story-section header {
+    margin: 30px;
+  }
+  .story-section header .story-section-title {
+    font-size: 24px;
+  }
+  .story-section header .story-section-summary {
+    font-size: 18px;
+  }
+}
+@media (max-width: 480px) {
+  .story-section {
+    padding: 30px 0;
+  }
+  .story-section header {
+    margin: 0 0 30px;
+  }
+  .story-section header .story-section-title {
+    margin: 0 0 15px;
+  }
+  .story-section header .story-section-summary {
+    font-size: 18px;
+  }
+  .story-section header .story-section-actions {
+    margin-top: 15px;
+  }
 }
 .product-result {
   display: flex;
@@ -7888,37 +8024,6 @@ fieldset[disabled] .modal-content .gform_wrapper .gform_button.active {
   -webkit-transform-style: preserve-3d;
   -moz-transform-style: preserve-3d;
   transform-style: preserve-3d;
-}
-.product-circle {
-  display: block;
-  background-color: #6b6b6b;
-  border-radius: 50%;
-  border: 1px solid #6b6b6b;
-  color: white;
-  height: 105px;
-  width: 105px;
-  padding: 0 3px 0 3px;
-  line-height: 106px;
-  font-size: 40px;
-  text-align: center;
-  margin: auto;
-  margin-top: 10px;
-  transition: .3s linear all;
-}
-.rvalue {
-  text-align: center;
-  border-top: 1px solid #ccc;
-  padding-top: 20px;
-  margin-top: 20px;
-}
-.rvalue p {
-  font-weight: 600;
-  margin: 0;
-}
-.rvalue span {
-  font-size: 60px;
-  font-weight: 600;
-  color: #ee7624;
 }
 .product-quote,
 .dwg-form {

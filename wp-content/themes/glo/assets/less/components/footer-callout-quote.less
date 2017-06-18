@@ -31,3 +31,42 @@
     }
   }
 }
+
+
+// Media Queries
+// --------------------------------------------------
+
+// Large desktop and up
+@media (min-width: 1200px) {}
+
+// Desktop to large desktop
+@media (min-width: 992px) and (max-width: 1199px) {}
+
+// Tablet to desktop
+@media (min-width: 768px) and (max-width: 991px) {}
+
+// Up to tablet
+@media (max-width: 767px) {
+
+  .footer-callout-quote {
+    p {
+      font-size: 21px;
+      margin: 0 0 15px;
+      br {
+        display: none;
+      }
+    }
+  }
+
+}
+
+// Up to landscape phone
+@media (max-width: 480px) {
+
+  .footer-callout-quote {
+    .btn-outline {
+      width: 100%;
+    }
+  }
+
+}
