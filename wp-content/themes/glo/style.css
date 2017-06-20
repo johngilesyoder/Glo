@@ -7221,7 +7221,7 @@ fieldset[disabled] .modal-content .gform_wrapper .gform_button.active {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 0 0 60px;
+  margin: -50px 0 60px;
 }
 .hero-title .hero-bg {
   background-size: cover;
@@ -7248,13 +7248,24 @@ fieldset[disabled] .modal-content .gform_wrapper .gform_button.active {
   margin: 0;
   letter-spacing: -0.5px;
 }
+@media (min-width: 768px) and (max-width: 991px) {
+  .hero-title {
+    margin-top: -30px;
+    margin-bottom: 60px;
+  }
+}
 @media (max-width: 767px) {
+  .hero-title {
+    margin-top: -30px;
+    margin-bottom: 40px;
+  }
   .hero-title .hero-content h1 {
     font-size: 50px;
   }
 }
 @media (max-width: 480px) {
   .hero-title {
+    margin-bottom: 30px;
     height: 320px;
   }
   .hero-title .hero-content h1 {
@@ -8999,6 +9010,20 @@ fieldset[disabled] .page-content .gform_wrapper .gform_button.active {
   }
   .page-wrapper {
     margin: 0 0 30px;
+  }
+  .page-content .alignnone {
+    margin: 0 auto 30px;
+    display: block;
+  }
+  .page-content .alignleft {
+    float: none;
+    margin: 0 auto 30px;
+    display: block;
+  }
+  .page-content .alignright {
+    float: none;
+    margin: 0 auto 30px;
+    display: block;
   }
 }
 .topbar {
