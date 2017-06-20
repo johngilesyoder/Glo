@@ -127,18 +127,30 @@
 @media (min-width: 992px) and (max-width: 1199px) {}
 
 // Tablet to desktop
-@media (min-width: 768px) and (max-width: 991px) {}
+@media (min-width: 768px) and (max-width: 991px) {
+
+  .page-title {
+    h1 {
+      font-size: 30px;
+    }
+  }
+  .page-summary {
+    margin: 0 0 30px;
+  }
+
+}
 
 // Up to tablet
 @media (max-width: 767px) {
 
   .page-title {
-    padding: 15px 0;
-    margin-top: -30px;
     margin-bottom: 30px;
     h1 {
       font-size: 24px;
     }
+  }
+  .page-wrapper {
+    margin: 0 0 40px;
   }
   .page-hero {
     height: 350px;
@@ -155,8 +167,20 @@
       font-size: 24px;
     }
   }
+  .page-summary {
+    margin: 0 0 10px;
+  }
 
 }
 
 // Up to landscape phone
-@media (max-width: 480px) {}
+@media (max-width: 480px) {
+
+  .page-summary {
+    margin: 0;
+  }
+  .page-wrapper {
+    margin: 0 0 30px;
+  }
+
+}

@@ -2,6 +2,12 @@
 // -----------------------------------------------------------------
 
 .page-template-page-about {
+  .site-header {
+    margin: 0;
+    .navbar {
+      margin: 0;
+    }
+  }
   .page-wrapper {
     margin: 0;
   }
@@ -46,6 +52,9 @@
       display: flex;
       justify-content: center;
       margin: 0 0 30px;
+      img {
+        max-width: 100%;
+      }
     }
     h3 {
       color: #999;
@@ -79,25 +88,88 @@
 @media (min-width: 1200px) {}
 
 // Desktop to large desktop
-@media (min-width: 992px) and (max-width: 1199px) {}
+@media (min-width: 992px) and (max-width: 1199px) {
+
+  .page-template-page-about {
+    .tile-story {
+      .story-section {
+        header {
+          padding: 80px;
+        }
+      }
+    }
+  }
+
+}
 
 // Tablet to desktop
-@media (min-width: 768px) and (max-width: 991px) {}
+@media (min-width: 768px) and (max-width: 991px) {
+
+  .page-template-page-about {
+    .tile-story {
+      height: 500px;
+      .story-section {
+        padding: 0;
+        header {
+          padding: 30px;
+        }
+      }
+    }
+    .available-anywhere {
+      .america-outline {
+        margin: 0 0 60px;
+        display: block;
+        text-align: center;
+      }
+      .address-wrapper.last-one address {
+        margin: 0;
+        h3 {
+          display: none;
+        }
+      }
+    }
+  }
+
+}
 
 // Up to tablet
 @media (max-width: 767px) {
 
   .page-template-page-about {
-    .about-block {
-      height: 300px;
-    }
-    .block-text {
+    .tile-story {
       height: auto;
-      p {
-        transform: none;
-        position: static;
+      flex-flow: column;
+      .tile-img {
         width: 100%;
-        text-align: left;
+        height: 320px;
+      }
+      .story-section {
+        width: 100%;
+        padding: 0;
+        header {
+          padding: 40px 15px;
+        }
+      }
+    }
+    .about-you {
+      .tile-img {
+        order: 1;
+      }
+      .story-section {
+        order: 0;
+      }
+    }
+    .available-anywhere {
+      .america-outline {
+        margin: 0 0 40px;
+        display: block;
+        text-align: center;
+      }
+      .address-wrapper.last-one address {
+        margin: 0;
+        h3 {
+          display: none;
+        }
       }
     }
   }
@@ -105,4 +177,21 @@
 }
 
 // Up to landscape phone
-@media (max-width: 480px) {}
+@media (max-width: 480px) {
+
+  .page-template-page-about {
+    .tile-story {
+      .story-section {
+        header {
+          padding: 30px 15px;
+        }
+      }
+    }
+    .available-anywhere {
+      .america-outline {
+        margin: 0 0 30px;
+      }
+    }
+  }
+
+}

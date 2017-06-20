@@ -7248,6 +7248,19 @@ fieldset[disabled] .modal-content .gform_wrapper .gform_button.active {
   margin: 0;
   letter-spacing: -0.5px;
 }
+@media (max-width: 767px) {
+  .hero-title .hero-content h1 {
+    font-size: 50px;
+  }
+}
+@media (max-width: 480px) {
+  .hero-title {
+    height: 320px;
+  }
+  .hero-title .hero-content h1 {
+    font-size: 36px;
+  }
+}
 .menu-marketing-block {
   padding: 30px;
   text-align: center;
@@ -7815,7 +7828,7 @@ fieldset[disabled] .modal-content .gform_wrapper .gform_button.active {
     padding: 60px 0;
   }
   .story-section header {
-    margin: 40px;
+    margin: 0 0 40px;
   }
   .story-section header .story-section-title {
     font-size: 30px;
@@ -7829,7 +7842,7 @@ fieldset[disabled] .modal-content .gform_wrapper .gform_button.active {
     padding: 40px 0;
   }
   .story-section header {
-    margin: 30px;
+    margin: 0 0 30px;
     text-align: left;
   }
   .story-section header .story-section-title {
@@ -8945,14 +8958,23 @@ fieldset[disabled] .page-content .gform_wrapper .gform_button.active {
   color: #F55F36;
   background-color: #fff;
 }
+@media (min-width: 768px) and (max-width: 991px) {
+  .page-title h1 {
+    font-size: 30px;
+  }
+  .page-summary {
+    margin: 0 0 30px;
+  }
+}
 @media (max-width: 767px) {
   .page-title {
-    padding: 15px 0;
-    margin-top: -30px;
     margin-bottom: 30px;
   }
   .page-title h1 {
     font-size: 24px;
+  }
+  .page-wrapper {
+    margin: 0 0 40px;
   }
   .page-hero {
     height: 350px;
@@ -8966,6 +8988,17 @@ fieldset[disabled] .page-content .gform_wrapper .gform_button.active {
   }
   .page-content h2 {
     font-size: 24px;
+  }
+  .page-summary {
+    margin: 0 0 10px;
+  }
+}
+@media (max-width: 480px) {
+  .page-summary {
+    margin: 0;
+  }
+  .page-wrapper {
+    margin: 0 0 30px;
   }
 }
 .topbar {
@@ -9484,6 +9517,12 @@ fieldset[disabled] .page-content .gform_wrapper .gform_button.active {
     width: 100%;
   }
 }
+.page-template-page-about .site-header {
+  margin: 0;
+}
+.page-template-page-about .site-header .navbar {
+  margin: 0;
+}
 .page-template-page-about .page-wrapper {
   margin: 0;
 }
@@ -9527,6 +9566,9 @@ fieldset[disabled] .page-content .gform_wrapper .gform_button.active {
   justify-content: center;
   margin: 0 0 30px;
 }
+.page-template-page-about .available-anywhere .america-outline img {
+  max-width: 100%;
+}
 .page-template-page-about .available-anywhere h3 {
   color: #999;
   font-weight: 700;
@@ -9545,18 +9587,73 @@ fieldset[disabled] .page-content .gform_wrapper .gform_button.active {
   display: block;
   color: #fff;
 }
+@media (min-width: 992px) and (max-width: 1199px) {
+  .page-template-page-about .tile-story .story-section header {
+    padding: 80px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .page-template-page-about .tile-story {
+    height: 500px;
+  }
+  .page-template-page-about .tile-story .story-section {
+    padding: 0;
+  }
+  .page-template-page-about .tile-story .story-section header {
+    padding: 30px;
+  }
+  .page-template-page-about .available-anywhere .america-outline {
+    margin: 0 0 60px;
+    display: block;
+    text-align: center;
+  }
+  .page-template-page-about .available-anywhere .address-wrapper.last-one address {
+    margin: 0;
+  }
+  .page-template-page-about .available-anywhere .address-wrapper.last-one address h3 {
+    display: none;
+  }
+}
 @media (max-width: 767px) {
-  .page-template-page-about .about-block {
-    height: 300px;
-  }
-  .page-template-page-about .block-text {
+  .page-template-page-about .tile-story {
     height: auto;
+    flex-flow: column;
   }
-  .page-template-page-about .block-text p {
-    transform: none;
-    position: static;
+  .page-template-page-about .tile-story .tile-img {
     width: 100%;
-    text-align: left;
+    height: 320px;
+  }
+  .page-template-page-about .tile-story .story-section {
+    width: 100%;
+    padding: 0;
+  }
+  .page-template-page-about .tile-story .story-section header {
+    padding: 40px 15px;
+  }
+  .page-template-page-about .about-you .tile-img {
+    order: 1;
+  }
+  .page-template-page-about .about-you .story-section {
+    order: 0;
+  }
+  .page-template-page-about .available-anywhere .america-outline {
+    margin: 0 0 40px;
+    display: block;
+    text-align: center;
+  }
+  .page-template-page-about .available-anywhere .address-wrapper.last-one address {
+    margin: 0;
+  }
+  .page-template-page-about .available-anywhere .address-wrapper.last-one address h3 {
+    display: none;
+  }
+}
+@media (max-width: 480px) {
+  .page-template-page-about .tile-story .story-section header {
+    padding: 30px 15px;
+  }
+  .page-template-page-about .available-anywhere .america-outline {
+    margin: 0 0 30px;
   }
 }
 .testimonial {
@@ -9920,7 +10017,7 @@ fieldset[disabled] .page-content .gform_wrapper .gform_button.active {
   font-size: 76px;
   color: #F55F36;
 }
-.page-template-page-calculator select {
+.page-template-page-calculator .calculator select {
   font-size: 36px;
   height: 60px;
   width: 200px;
@@ -9929,7 +10026,7 @@ fieldset[disabled] .page-content .gform_wrapper .gform_button.active {
   vertical-align: middle;
   display: inline-block;
 }
-.page-template-page-calculator input {
+.page-template-page-calculator .calculator input {
   font-size: 36px;
   height: 60px;
   width: 120px;
@@ -9939,12 +10036,87 @@ fieldset[disabled] .page-content .gform_wrapper .gform_button.active {
   margin-bottom: 0;
   vertical-align: middle;
 }
-.page-template-page-calculator .styled-select {
+.page-template-page-calculator .calculator .styled-select {
   display: inline-block;
   width: 140px;
   height: 34px;
   overflow: hidden;
   border: 1px solid #ccc;
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .page-template-page-calculator .calculator p {
+    font-size: 24px;
+  }
+  .page-template-page-calculator .calculator select,
+  .page-template-page-calculator .calculator input {
+    font-size: 24px;
+    height: 50px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .page-template-page-calculator .calculator {
+    margin: 0 0 60px;
+  }
+  .page-template-page-calculator .calculator p {
+    font-size: 24px;
+    line-height: 2.5;
+    text-align: left;
+  }
+  .page-template-page-calculator .calculator select,
+  .page-template-page-calculator .calculator input {
+    font-size: 24px;
+    height: 50px;
+  }
+  .page-template-page-calculator .calculator h1 strong,
+  .page-template-page-calculator .calculator h1 span {
+    font-size: 50px;
+  }
+}
+@media (max-width: 767px) {
+  .page-template-page-calculator .calculator {
+    margin: 0 0 40px;
+  }
+  .page-template-page-calculator .calculator p {
+    font-size: 21px;
+    line-height: 2.5;
+    text-align: left;
+    padding: 15px;
+  }
+  .page-template-page-calculator .calculator h1 {
+    padding: 30px;
+    font-size: 30px;
+  }
+  .page-template-page-calculator .calculator h1 span,
+  .page-template-page-calculator .calculator h1 strong {
+    font-size: 30px;
+  }
+  .page-template-page-calculator .calculator select,
+  .page-template-page-calculator .calculator input {
+    font-size: 21px;
+    height: 36px;
+  }
+  .page-template-page-calculator .calculator select {
+    width: auto;
+  }
+  .page-template-page-calculator .calculator input {
+    width: 80px;
+    display: inline-block;
+  }
+}
+@media (max-width: 480px) {
+  .page-template-page-calculator .calculator {
+    margin: 0 -15px 30px;
+  }
+  .page-template-page-calculator .calculator p,
+  .page-template-page-calculator .calculator select,
+  .page-template-page-calculator .calculator input {
+    font-size: 18px;
+  }
+  .page-template-page-calculator .calculator h1 strong,
+  .page-template-page-calculator .calculator h1 span {
+    font-size: 24px;
+    margin: 0;
+  }
 }
 .single-product .hero-title {
   height: 550px;

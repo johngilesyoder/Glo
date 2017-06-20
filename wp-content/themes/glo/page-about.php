@@ -51,7 +51,7 @@ get_header(); ?>
 				<h2 class="story-section-title">Available wherever you are.</h2>
 			</header>
 			<div class="row">
-				<div class="col-md-6 col-md-offset-3">
+				<div class="col-lg-6 col-lg-offset-3 col-md-8 col-md-offset-2">
 					<div class="america-outline">
             <img src="<?php echo get_template_directory_uri(); ?>/assets/img/usa-outline.svg">
           </div>
@@ -69,7 +69,7 @@ get_header(); ?>
                 </div>
 							</div>
 							<div class="col-md-6">
-                <div class="address-wrapper">
+                <div class="address-wrapper last-one">
   								<address>
                     <h3 style="color: #282828;">Headquarters</h3>
   									<strong>European Finishes</strong>

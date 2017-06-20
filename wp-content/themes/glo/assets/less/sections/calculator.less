@@ -8,62 +8,61 @@
     background: @grey-bg;
     color: @dark-grey;
   }
-  .calculator p {
-    font-size: 36px;
-    text-align: center;
-    line-height: 1.5em;
-    margin: 0;
-    padding: 40px 30px;
-  }
-  .calculator h1 {
-    background: #DCDCDC;
-    margin: 0;
-    padding: 40px 30px;
-    text-align: center;
-    line-height: 1.5em;
-    strong {
+  .calculator {
+    p {
       font-size: 36px;
-      font-weight: 700;
-      margin: 0 0 10px;
-      display: block;
+      text-align: center;
+      line-height: 1.5em;
+      margin: 0;
+      padding: 40px 30px;
     }
-    span {
-      font-size: 76px;
-      color: @orange;
+    h1 {
+      background: #DCDCDC;
+      margin: 0;
+      padding: 40px 30px;
+      text-align: center;
+      line-height: 1.5em;
+      strong {
+        font-size: 36px;
+        font-weight: 700;
+        margin: 0 0 10px;
+        display: block;
+      }
+      span {
+        font-size: 76px;
+        color: @orange;
+      }
     }
+    select {
+      font-size: 36px;
+      height: 60px;
+      width: 200px;
+      padding: 5px 10px;
+      margin: 0 10px;
+      vertical-align: middle;
+      display: inline-block;
+     }
+     input {
+       font-size: 36px;
+       height: 60px;
+       width: 120px;
+       display: inline-block;
+       text-align: center;
+       margin-left: 10px;
+       margin-bottom: 0;
+       vertical-align: middle;
+     }
+     input:focus {
+
+     }
+     .styled-select {
+       display: inline-block;
+       width: 140px;
+       height: 34px;
+       overflow: hidden;
+       border: 1px solid #ccc;
+     }
   }
-  select {
-    font-size: 36px;
-    height: 60px;
-    width: 200px;
-    padding: 5px 10px;
-    margin: 0 10px;
-    vertical-align: middle;
-    display: inline-block;
-   }
-
-   input {
-     font-size: 36px;
-     height: 60px;
-     width: 120px;
-     display: inline-block;
-     text-align: center;
-     margin-left: 10px;
-     margin-bottom: 0;
-     vertical-align: middle;
-   }
-
-   input:focus {
-
-   }
-
-   .styled-select {
-     display: inline-block;
-     width: 140px;
-     height: 34px;
-     overflow: hidden;
-     border: 1px solid #ccc;
-   }
    .callouts {
 
    }
@@ -77,13 +76,106 @@
 @media (min-width: 1200px) {}
 
 // Desktop to large desktop
-@media (min-width: 992px) and (max-width: 1199px) {}
+@media (min-width: 992px) and (max-width: 1199px) {
+
+  .page-template-page-calculator {
+    .calculator {
+      p {
+        font-size: 24px;
+      }
+      select,
+      input {
+        font-size: 24px;
+        height: 50px;
+      }
+    }
+  }
+
+}
 
 // Tablet to desktop
-@media (min-width: 768px) and (max-width: 991px) {}
+@media (min-width: 768px) and (max-width: 991px) {
+
+  .page-template-page-calculator {
+    .calculator {
+      margin: 0 0 60px;
+      p {
+        font-size: 24px;
+        line-height: 2.5;
+        text-align: left;
+      }
+      select,
+      input {
+        font-size: 24px;
+        height: 50px;
+      }
+      h1 {
+        strong,
+        span {
+          font-size: 50px;
+        }
+      }
+    }
+  }
+
+}
 
 // Up to tablet
-@media (max-width: 767px) {}
+@media (max-width: 767px) {
+
+  .page-template-page-calculator {
+    .calculator {
+      margin: 0 0 40px;
+      p {
+        font-size: 21px;
+        line-height: 2.5;
+        text-align: left;
+        padding: 15px;
+      }
+      h1 {
+        padding: 30px;
+        font-size: 30px;
+        span,
+        strong {
+          font-size: 30px;
+        }
+      }
+      select,
+      input {
+        font-size: 21px;
+        height: 36px;
+      }
+      select {
+        width: auto;
+      }
+      input {
+        width: 80px;
+        display: inline-block;
+      }
+    }
+  }
+
+}
 
 // Up to landscape phone
-@media (max-width: 480px) {}
+@media (max-width: 480px) {
+
+  .page-template-page-calculator {
+    .calculator {
+      margin: 0 -15px 30px;
+      p,
+      select,
+      input {
+        font-size: 18px;
+      }
+      h1 {
+        strong,
+        span {
+          font-size: 24px;
+          margin: 0;
+        }
+      }
+    }
+  }
+
+}
