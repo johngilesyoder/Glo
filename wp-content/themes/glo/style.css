@@ -7976,6 +7976,9 @@ fieldset[disabled] .modal-content .gform_wrapper .gform_button.active {
   .product-result .series-text {
     padding: 0 15px 15px;
   }
+  .product-result .series-title {
+    font-size: 18px;
+  }
 }
 .sidebar-block-materials {
   margin: 0 0 60px;
