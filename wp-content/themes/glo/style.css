@@ -9845,44 +9845,66 @@ fieldset[disabled] .page-content .gform_wrapper .gform_button.active {
   height: 100%;
   transition: 200ms opacity;
 }
-.professional-tile {
+.page-template-page-professionals .professional-tile {
   background: #F5F5F5;
   color: #848484;
   text-decoration: none;
   display: flex;
+  flex-flow: row wrap;
   margin-bottom: 30px;
   transition: background 150ms;
 }
-.professional-tile .tile-content {
+.page-template-page-professionals .professional-tile .tile-content {
   padding: 30px;
   font-size: 16px;
   color: #282828;
   width: 75%;
 }
-.professional-tile:hover {
+.page-template-page-professionals .professional-tile:hover {
   text-decoration: none;
   color: #848484;
   background: #e8e8e8;
 }
-.professional-tile:hover h3 {
+.page-template-page-professionals .professional-tile:hover h3 {
   color: #d4360b;
 }
-.professional-tile .tile-img {
+.page-template-page-professionals .professional-tile .tile-img {
   background-size: cover;
   background-position: 50% 50%;
   width: 25%;
 }
-.professional-tile h3 {
+.page-template-page-professionals .professional-tile h3 {
   color: #F55F36;
   font-size: 21px;
+  line-height: 1.35;
   text-transform: uppercase;
   letter-spacing: 2px;
   font-weight: normal;
   margin-top: 0;
 }
 @media (max-width: 767px) {
-  .professionals-links li a {
+  .page-template-page-professionals .professional-tile .tile-img {
+    width: 100%;
+    height: 200px;
+  }
+  .page-template-page-professionals .professional-tile .tile-content {
+    width: 100%;
+  }
+  .page-template-page-professionals .professional-tile h3 {
     font-size: 18px;
+  }
+}
+@media (max-width: 480px) {
+  .page-template-page-professionals .professional-tile {
+    margin-left: -15px;
+    margin-right: -15px;
+  }
+  .page-template-page-professionals .professional-tile .tile-img {
+    width: 100%;
+    height: 200px;
+  }
+  .page-template-page-professionals .professional-tile .tile-content {
+    width: 100%;
     padding: 15px;
   }
 }

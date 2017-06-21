@@ -16,7 +16,7 @@ get_header(); ?>
   <div class="container-fluid">
     <div class="row">
 
-      <div class="col-md-6">
+      <div class="col-md-12 col-lg-6">
         <a href="/installation-videos" class="professional-tile">
           <div class="tile-img" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/professionals-videos.jpg');"></div>
           <div class="tile-content">
@@ -25,7 +25,7 @@ get_header(); ?>
           </div>
         </a>
       </div>
-      <div class="col-md-6">
+      <div class="col-md-12 col-lg-6">
         <a href="/calculator" class="professional-tile">
           <div class="tile-img" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/professionals-calculator.jpg');"></div>
           <div class="tile-content">
@@ -34,7 +34,7 @@ get_header(); ?>
           </div>
         </a>
       </div>
-      <div class="col-md-6">
+      <div class="col-md-12 col-lg-6">
         <a href="/details-sets" class="professional-tile">
           <div class="tile-img" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/professionals-detail-sets.jpg');"></div>
           <div class="tile-content">
@@ -43,7 +43,7 @@ get_header(); ?>
           </div>
         </a>
       </div>
-      <div class="col-md-6">
+      <div class="col-md-12 col-lg-6">
         <a href="/receiving-unloading-windows" class="professional-tile">
           <div class="tile-img" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/professionals-receiving-unloading.jpg');"></div>
           <div class="tile-content">
@@ -52,7 +52,7 @@ get_header(); ?>
           </div>
         </a>
       </div>
-      <div class="col-md-6">
+      <div class="col-md-12 col-lg-6">
         <a href="/performance-specs" class="professional-tile">
           <div class="tile-img" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/professionals-performance-specs.jpg');"></div>
           <div class="tile-content">
@@ -61,7 +61,7 @@ get_header(); ?>
           </div>
         </a>
       </div>
-      <div class="col-md-6">
+      <div class="col-md-12 col-lg-6">
         <a href="/installation" class="professional-tile">
           <div class="tile-img" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/professionals-installation.jpg');"></div>
           <div class="tile-content">
