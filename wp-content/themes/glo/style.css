@@ -7259,6 +7259,9 @@ fieldset[disabled] .modal-content .gform_wrapper .gform_button.active {
     margin-top: -30px;
     margin-bottom: 40px;
   }
+  .hero-title .hero-content {
+    padding: 30px;
+  }
   .hero-title .hero-content h1 {
     font-size: 50px;
   }
@@ -7267,6 +7270,9 @@ fieldset[disabled] .modal-content .gform_wrapper .gform_button.active {
   .hero-title {
     margin-bottom: 30px;
     height: 320px;
+  }
+  .hero-title .hero-content {
+    padding: 15px;
   }
   .hero-title .hero-content h1 {
     font-size: 36px;
@@ -7914,6 +7920,7 @@ fieldset[disabled] .modal-content .gform_wrapper .gform_button.active {
 .product-result .series-title {
   margin: 0 0 15px;
   font-size: 21px;
+  line-height: 1.35;
   font-weight: 400;
   color: #F55F36;
   letter-spacing: 2px;
@@ -7933,6 +7940,42 @@ fieldset[disabled] .modal-content .gform_wrapper .gform_button.active {
   letter-spacing: .2px;
   color: #282828;
   margin: 0;
+}
+@media (min-width: 768px) and (max-width: 991px) {
+}
+@media (max-width: 767px) {
+  .product-result {
+    flex-flow: row wrap;
+    align-items: flex-start;
+  }
+  .product-result .series-image {
+    width: 100%;
+    height: 250px;
+  }
+  .product-result .series-id {
+    padding: 30px 0;
+    width: 25%;
+  }
+  .product-result .series-text {
+    padding: 30px 40px 30px 0;
+    width: auto;
+    flex: 1;
+  }
+}
+@media (max-width: 480px) {
+  .product-result {
+    flex-flow: column;
+    justify-content: flex-start;
+  }
+  .product-result .series-id {
+    padding: 15px;
+    width: 100%;
+    font-size: 36px;
+    text-align: left;
+  }
+  .product-result .series-text {
+    padding: 0 15px 15px;
+  }
 }
 .sidebar-block-materials {
   margin: 0 0 60px;
@@ -7963,6 +8006,19 @@ fieldset[disabled] .modal-content .gform_wrapper .gform_button.active {
   text-align: center;
   display: block;
   margin-top: 10px;
+}
+@media (max-width: 767px) {
+  .sidebar-block-materials {
+    margin: 0 0 40px;
+  }
+}
+@media (max-width: 480px) {
+  .sidebar-block-materials {
+    margin: 0;
+  }
+  .sidebar-block-materials + .sidebar-block-styles {
+    margin-top: 30px;
+  }
 }
 .sidebar-block-styles {
   margin: 0 0 60px;
@@ -8008,6 +8064,16 @@ fieldset[disabled] .modal-content .gform_wrapper .gform_button.active {
   display: block;
   margin-top: 15px;
 }
+@media (max-width: 767px) {
+  .sidebar-block-styles {
+    margin: 0 0 40px;
+  }
+}
+@media (max-width: 480px) {
+  .sidebar-block-styles {
+    margin: 0;
+  }
+}
 .sidebar-block-quote {
   border: 1px solid #F55F36;
   color: #F55F36;
@@ -8016,21 +8082,57 @@ fieldset[disabled] .modal-content .gform_wrapper .gform_button.active {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
+  align-items: center;
 }
 .sidebar-block-quote .icon-quote {
   font-size: 75px;
-  width: calc(30% - 30px);
+  width: 25%;
 }
 .sidebar-block-quote p {
   width: 75%;
   font-size: 16px;
   line-height: 1.5;
   margin: 0;
+  padding-left: 15px;
 }
 .sidebar-block-quote .btn {
   width: 100%;
   margin-top: 30px;
   padding: 14px 20px;
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .sidebar-block-quote .icon-quote {
+    font-size: 60px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .sidebar-block-quote {
+    width: 50%;
+    margin: 0 auto 60px;
+  }
+  .sidebar-block-quote .icon-quote {
+    font-size: 60px;
+    width: 53px;
+  }
+  .sidebar-block-quote p {
+    flex: 1;
+    width: auto;
+    padding-left: 30px;
+  }
+}
+@media (max-width: 767px) {
+  .sidebar-block-quote {
+    margin: 0 auto 40px;
+  }
+  .sidebar-block-quote .icon-quote {
+    font-size: 60px;
+    width: 53px;
+  }
+  .sidebar-block-quote p {
+    flex: 1;
+    width: auto;
+    padding-left: 30px;
+  }
 }
 :focus {
   outline: 0 !important;
@@ -9153,6 +9255,28 @@ fieldset[disabled] .page-content .gform_wrapper .gform_button.active {
   letter-spacing: 1px;
   margin: 0 0 15px;
   font-weight: 700;
+}
+@media (max-width: 767px) {
+  .tax-product-line .product-line-description,
+  .tax-frame-material .product-line-description,
+  .tax-window-style .product-line-description,
+  .tax-series .product-line-description {
+    margin-bottom: 40px;
+  }
+  .product-results {
+    margin-bottom: 40px;
+  }
+}
+@media (max-width: 480px) {
+  .tax-product-line .product-line-description,
+  .tax-frame-material .product-line-description,
+  .tax-window-style .product-line-description,
+  .tax-series .product-line-description {
+    margin-bottom: 30px;
+  }
+  .product-results {
+    margin-bottom: 30px;
+  }
 }
 .error404 {
   padding-top: 100px;
