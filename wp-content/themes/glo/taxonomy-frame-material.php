@@ -31,7 +31,7 @@
 								 array_merge(
 										$wp_query->query,
 										array(
-											'orderby' => 'title',
+											'orderby' => 'series',
 											'order' => 'ASC',
 											'tax_query' => array(
 												array(
@@ -69,7 +69,7 @@
 								 array_merge(
 										$wp_query->query,
 										array(
-											'orderby' => 'title',
+											'orderby' => 'name',
 											'order' => 'ASC',
 											'tax_query' => array(
 												array(
