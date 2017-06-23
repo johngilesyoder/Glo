@@ -1,5 +1,5 @@
 <?php $url = wp_get_attachment_url( get_post_thumbnail_id($post->ID) ); ?>
-<article class="col-md-4">
+<article class="col-sm-6 col-md-4">
 
   <?php if ( has_post_thumbnail() ) : ?>
 
