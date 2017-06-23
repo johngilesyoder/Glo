@@ -9242,6 +9242,12 @@ fieldset[disabled] .page-content .gform_wrapper .gform_button.active {
 .tax-series .navbar {
   margin: 0;
 }
+.tax-product-line .hero-title,
+.tax-frame-material .hero-title,
+.tax-window-style .hero-title,
+.tax-series .hero-title {
+  margin-top: 0;
+}
 .tax-product-line .product-line-description,
 .tax-frame-material .product-line-description,
 .tax-window-style .product-line-description,
