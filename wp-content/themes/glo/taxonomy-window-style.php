@@ -28,20 +28,10 @@
 						<?php
 							global $wp_query;
 							query_posts(
-								 array_merge(
-										$wp_query->query,
-										array(
-											'orderby' => 'series',
-											'order' => 'ASC',
-											'tax_query' => array(
-												array(
-													'taxonomy' => 'product-line',
-													'field'    => 'slug',
-													'terms'    => 'windows',
-												),
-											),
-										)
-								 )
+								array_merge(
+									 $wp_query->query,
+									 array('orderby' => 'series','order' => 'ASC')
+								)
 							);
 							if ( have_posts() ) : while ( have_posts() ) : the_post();
 						?>

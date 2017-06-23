@@ -26,7 +26,7 @@
 							query_posts(
 								 array_merge(
 										$wp_query->query,
-										array('orderby' => 'title','order' => 'ASC')
+										array('orderby' => 'series','order' => 'ASC')
 								 )
 							);
 							if ( have_posts() ) : while ( have_posts() ) : the_post();
