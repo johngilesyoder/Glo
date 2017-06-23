@@ -22,15 +22,25 @@
 					<div class="product-line-description">
 						<?php echo term_description(); ?>
 					</div>
-					<!-- RESULTS -->
+					<!-- WINDOW RESULTS -->
 					<div class="product-results">
-						<h3 class="results-title"><?php single_term_title(); ?> Window &amp; Door Series</h3>
+						<h3 class="results-title"><?php single_term_title(); ?> Windows</h3>
 						<?php
 							global $wp_query;
 							query_posts(
 								 array_merge(
 										$wp_query->query,
-										array('orderby' => 'title','order' => 'ASC')
+										array(
+											'orderby' => 'title',
+											'order' => 'ASC',
+											'tax_query' => array(
+												array(
+													'taxonomy' => 'product-line',
+													'field'    => 'slug',
+													'terms'    => 'windows',
+												),
+											),
+										)
 								 )
 							);
 							if ( have_posts() ) : while ( have_posts() ) : the_post();
@@ -46,7 +56,48 @@
 
 						<?php endif; ?>
 
+						<?php wp_reset_query(); ?>
+
 					</div>
+
+					<!-- DOOR RESULTS -->
+					<div class="product-results">
+						<h3 class="results-title"><?php single_term_title(); ?> Doors</h3>
+						<?php
+							global $wp_query;
+							query_posts(
+								 array_merge(
+										$wp_query->query,
+										array(
+											'orderby' => 'title',
+											'order' => 'ASC',
+											'tax_query' => array(
+												array(
+													'taxonomy' => 'product-line',
+													'field'    => 'slug',
+													'terms'    => 'doors',
+												),
+											),
+										)
+								 )
+							);
+							if ( have_posts() ) : while ( have_posts() ) : the_post();
+						?>
+
+							<?php get_template_part( 'inc/product-result' ); ?>
+
+						<?php endwhile; ?>
+
+						<?php else : ?>
+
+							<?php get_template_part( 'template-parts/content', 'none' ); ?>
+
+						<?php endif; ?>
+
+						<?php wp_reset_query(); ?>
+
+					</div>
+
 				</div>
 				<div class="col-md-4">
 					<aside class="sidebar-product-line">
