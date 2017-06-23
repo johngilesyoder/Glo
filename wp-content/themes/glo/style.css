@@ -10104,6 +10104,7 @@ fieldset[disabled] .page-content .gform_wrapper .gform_button.active {
   letter-spacing: 1px;
   color: #999;
   font-weight: 600;
+  padding-right: 15px;
 }
 .single-project .project-details .single-detail .detail-value {
   color: #282828;
@@ -10161,15 +10162,30 @@ fieldset[disabled] .page-content .gform_wrapper .gform_button.active {
 .single-project .gallery .flickity-prev-next-button.next {
   right: 0px;
 }
+@media (min-width: 768px) and (max-width: 991px) {
+  .single-project .gallery {
+    margin: 0 0 60px;
+    height: 500px;
+  }
+  .single-project .gallery img {
+    height: 500px;
+  }
+}
 @media (max-width: 767px) {
-  .single-project .post-title {
-    font-size: 24px;
-    margin-bottom: 30px;
+  .single-project .gallery {
+    margin: 0 0 40px;
+    height: 400px;
+  }
+  .single-project .gallery img {
+    height: 400px;
   }
 }
 @media (max-width: 480px) {
-  .single-format-standard .post-title {
-    margin-bottom: 15px;
+  .single-project .gallery {
+    margin: 0 0 30px;
+  }
+  .single-project .project-details {
+    padding: 15px;
   }
 }
 .page-template-page-calculator .calculator {

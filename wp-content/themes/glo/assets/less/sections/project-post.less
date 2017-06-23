@@ -49,6 +49,7 @@
         letter-spacing: 1px;
         color: #999;
         font-weight: 600;
+        padding-right: 15px;
       }
       .detail-value {
         font-size: 16px;
@@ -129,15 +130,30 @@
 @media (min-width: 992px) and (max-width: 1199px) {}
 
 // Tablet to desktop
-@media (min-width: 768px) and (max-width: 991px) {}
+@media (min-width: 768px) and (max-width: 991px) {
+
+  .single-project {
+    .gallery {
+      margin: 0 0 60px;
+      height: 500px;
+      img {
+        height: 500px;
+      }
+    }
+  }
+
+}
 
 // Up to tablet
 @media (max-width: 767px) {
 
   .single-project {
-    .post-title {
-      font-size: 24px;
-      margin-bottom: 30px;
+    .gallery {
+      margin: 0 0 40px;
+      height: 400px;
+      img {
+        height: 400px;
+      }
     }
   }
 
@@ -146,9 +162,12 @@
 // Up to landscape phone
 @media (max-width: 480px) {
 
-  .single-format-standard {
-    .post-title {
-      margin-bottom: 15px;
+  .single-project {
+    .gallery {
+      margin: 0 0 30px;
+    }
+    .project-details {
+      padding: 15px;
     }
   }
 
