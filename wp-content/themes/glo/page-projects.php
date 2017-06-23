@@ -11,6 +11,7 @@ get_header(); ?>
 	</div>
 </div>
 
+<?php while ( have_posts() ) : the_post(); ?>
 <div class="page-summary">
   <div class="container-fluid">
     <div class="row">
@@ -22,6 +23,7 @@ get_header(); ?>
     </div>
   </div>
 </div>
+<?php endwhile; ?>
 
 <main class="page-wrapper">
 	<div class="container-fluid">
