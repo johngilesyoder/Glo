@@ -7285,10 +7285,8 @@ fieldset[disabled] .modal-content .gform_wrapper .gform_button.active {
   -webkit-flex-flow: row wrap;
       -ms-flex-flow: row wrap;
           flex-flow: row wrap;
-  list-style-type: none;
-  list-style: none;
+  list-style-type: none; list-style: none;
   margin: 25px 0 0;
-  list-style-image: url(data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7);
 }
 .menu-list .menu-items li {
   -webkit-box-flex: 50%;
@@ -7362,8 +7360,7 @@ fieldset[disabled] .modal-content .gform_wrapper .gform_button.active {
           flex-direction: column;
 }
 .menu-visual .menu-items {
-  list-style-type: none;
-  list-style: none;
+  list-style-type: none; list-style: none;
   margin: 0;
   padding: 30px;
   display: -webkit-box;
@@ -7375,7 +7372,6 @@ fieldset[disabled] .modal-content .gform_wrapper .gform_button.active {
   -webkit-flex-flow: row wrap;
       -ms-flex-flow: row wrap;
           flex-flow: row wrap;
-  list-style-image: url(data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7);
 }
 .menu-visual .menu-items .menu-item {
   text-align: center;
@@ -7483,8 +7479,7 @@ fieldset[disabled] .modal-content .gform_wrapper .gform_button.active {
     -webkit-flex-flow: row wrap;
         -ms-flex-flow: row wrap;
             flex-flow: row wrap;
-    list-style-type: none;
-    list-style: none;
+    list-style-type: none; list-style: none;
     margin: 0;
   }
   .menu-visual .menu-items .menu-item {
@@ -7562,8 +7557,7 @@ fieldset[disabled] .modal-content .gform_wrapper .gform_button.active {
     -webkit-flex-flow: row wrap;
         -ms-flex-flow: row wrap;
             flex-flow: row wrap;
-    list-style-type: none;
-    list-style: none;
+    list-style-type: none; list-style: none;
     margin: 0;
   }
   .menu-visual .menu-items .menu-item {
@@ -7641,8 +7635,7 @@ fieldset[disabled] .modal-content .gform_wrapper .gform_button.active {
     -webkit-flex-flow: row wrap;
         -ms-flex-flow: row wrap;
             flex-flow: row wrap;
-    list-style-type: none;
-    list-style: none;
+    list-style-type: none; list-style: none;
     margin: 0;
   }
   .menu-visual .menu-items .menu-item {
@@ -8107,8 +8100,7 @@ fieldset[disabled] .modal-content .gform_wrapper .gform_button.active {
   letter-spacing: 1px;
 }
 .sidebar-block-materials .the-materials {
-  list-style-type: none;
-  list-style: none;
+  list-style-type: none; list-style: none;
   margin: 0;
   padding: 0;
 }
@@ -8161,8 +8153,7 @@ fieldset[disabled] .modal-content .gform_wrapper .gform_button.active {
   letter-spacing: 1px;
 }
 .sidebar-block-styles .the-styles {
-  list-style-type: none;
-  list-style: none;
+  list-style-type: none; list-style: none;
   margin: 0;
   padding: 0;
   display: -webkit-box;
@@ -8838,8 +8829,7 @@ fieldset[disabled] .dwg-form .quote-btn.active {
   color: #AEAEAE;
 }
 .site-footer ul {
-  list-style-type: none;
-  list-style: none;
+  list-style-type: none; list-style: none;
   margin: 0;
   padding: 0;
 }
@@ -9382,8 +9372,7 @@ fieldset[disabled] .page-content .gform_wrapper .gform_button.active {
 }
 .topbar .topbar-series ul {
   display: inline-block;
-  list-style-type: none;
-  list-style: none;
+  list-style-type: none; list-style: none;
   padding: 0;
   margin: 0;
 }
@@ -9407,8 +9396,7 @@ fieldset[disabled] .page-content .gform_wrapper .gform_button.active {
           flex: 1 0 auto;
 }
 .topbar .topbar-links ul {
-  list-style-type: none;
-  list-style: none;
+  list-style-type: none; list-style: none;
   padding: 0;
   margin: 0;
 }
@@ -10867,8 +10855,7 @@ fieldset[disabled] .page-content .gform_wrapper .gform_button.active {
   font-weight: 700;
 }
 .single-product .available-styles .operating-styles {
-  list-style-type: none;
-  list-style: none;
+  list-style-type: none; list-style: none;
   margin: 0;
   padding: 0;
   display: -webkit-box;
@@ -11028,8 +11015,7 @@ fieldset[disabled] .page-content .gform_wrapper .gform_button.active {
   margin: 0 0 20px;
 }
 .single-product .key-features ul {
-  list-style-type: none;
-  list-style: none;
+  list-style-type: none; list-style: none;
   margin: 0;
   padding: 0;
   color: #282828;
@@ -11183,8 +11169,7 @@ fieldset[disabled] .page-content .gform_wrapper .gform_button.active {
   max-width: 100%;
 }
 .single-product .product-tabs #specs ul {
-  list-style-type: none;
-  list-style: none;
+  list-style-type: none; list-style: none;
   margin: 0;
   padding: 0;
   color: #282828;

@@ -12,7 +12,9 @@ get_header(); ?>
 <section class="hero-title">
   <div class="hero-bg" style="background-image:url('<?php echo $hero_background['url']; ?>')"></div>
   <div class="hero-content">
-    <h1><?php the_title(); ?></h1>
+    <div>
+      <h1><?php the_title(); ?></h1>
+    </div>
   </div>
 </section>
 
