@@ -98,18 +98,20 @@
 @media (min-width: 768px) and (max-width: 991px) {
 
   .single-product {
-    .product-top {
-      margin-bottom: 30px;
-    }
-    .product-meta {
-      margin-top: 30px;
-      margin-bottom: 30px;
-    }
-    .product-image {
-      img {
-        width: 50%;
-        margin: 0 auto 60px;
+    .hero-title {
+      margin-bottom: 60px;
+      h1 {
+        font-size: 60px;
       }
+    }
+    .product-top {
+      margin: 0 0 60px;
+      & > * {
+        width: 50%;
+      }
+    }
+    .product-middle {
+      margin: 0;
     }
   }
 
@@ -119,32 +121,42 @@
 @media (max-width: 767px) {
 
   .single-product {
+    .hero-title {
+      height: 480px;
+      margin-bottom: 40px;
+    }
     .product-top {
-      margin-bottom: 30px;
-    }
-    .product-meta {
-      margin-top: 30px;
-      margin-bottom: 30px;
-    }
-    .product-image {
-      img {
-        width: 50%;
-        margin: 0 auto 60px;
+      margin: 0 0 60px;
+      flex-flow: column;
+      & > * {
+        width: 100%;
       }
     }
-    .nav-tabs {
-      li {
-        float: none;
-        margin-bottom: 0;
-        a {
-          border: 0;
-          border-radius: 3px;
-        }
-        &.active {
-          a {
+    .product-middle {
+      margin: 0;
+    }
+    .product-tabs {
+      .nav-tabs {
+        border: 0;
+        & > li {
+          float: none;
+          margin-bottom: 0;
+          & > a {
             border: 0;
-            background: @brand-primary;
-            color: #fff;
+            border-radius: 3px;
+            margin-right: 0 !important;
+          }
+          &.active {
+            & > a {
+              border: 0;
+              background: @brand-primary;
+              color: #fff;
+              &:hover {
+                border: 0;
+                background: @brand-primary;
+                color: #fff;
+              }
+            }
           }
         }
       }
@@ -154,4 +166,36 @@
 }
 
 // Up to landscape phone
-@media (max-width: 480px) {}
+@media (max-width: 480px) {
+
+  .single-product {
+    .hero-title {
+      height: 400px;
+      margin-bottom: 30px;
+      .series-name {
+        font-size: 70px;
+      }
+      .btn-primary {
+        width: 100%;
+      }
+    }
+    .product-top {
+      & > * {
+        width: 100%;
+        padding: 30px 15px;
+      }
+    }
+    .product-tabs {
+      .nav-tabs {
+        & > li {
+          & > a {
+            padding-left: 15px !important;
+            padding-right: 15px !important;
+          }
+        }
+      }
+    }
+
+  }
+
+}

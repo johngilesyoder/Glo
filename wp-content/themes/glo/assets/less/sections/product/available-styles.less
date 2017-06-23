@@ -61,3 +61,75 @@
     }
   }
 }
+
+// Media Queries
+// --------------------------------------------------
+
+// Large desktop and up
+@media (min-width: 1200px) {}
+
+// Desktop to large desktop
+@media (min-width: 992px) and (max-width: 1199px) {}
+
+// Tablet to desktop
+@media (min-width: 768px) and (max-width: 991px) {
+
+  .single-product {
+    .available-styles {
+      margin: 0 0 60px;
+      padding: 50px 0 20px;
+      .operating-styles {
+        .menu-item {
+          width: 33.333%;
+          margin: 0 0 30px;
+        }
+      }
+    }
+  }
+
+}
+
+// Up to tablet
+@media (max-width: 767px) {
+
+  .single-product {
+    .available-styles {
+      margin: 0 0 40px;
+      padding: 30px 0 0;
+      .available-styles-header {
+        flex-flow: column;
+        align-items: flex-start;
+        margin: 0 0 40px;
+        h3 {
+          margin: 0 0 15px;
+        }
+        .cross-pollination-link {
+          margin-left: 0;
+        }
+      }
+      .operating-styles {
+        .menu-item {
+          width: 33.333%;
+          margin: 0 0 30px;
+        }
+      }
+    }
+  }
+
+}
+
+// Up to landscape phone
+@media (max-width: 480px) {
+
+  .single-product {
+    .available-styles {
+      margin: 0 0 30px;
+      .operating-styles {
+        .menu-item {
+          width: 50%;
+        }
+      }
+    }
+  }
+
+}
