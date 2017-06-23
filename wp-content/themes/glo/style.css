@@ -9949,13 +9949,13 @@ fieldset[disabled] .page-content .gform_wrapper .gform_button.active {
   }
 }
 @media (max-width: 767px) {
-  .group-blog .blog-post {
-    margin-bottom: 60px;
+  .blog-posts .blog-post {
+    margin-bottom: 40px;
   }
-  .group-blog .blog-post .post-image {
+  .blog-posts .blog-post .post-image {
     height: 350px;
   }
-  .group-blog .blog-post .post-title {
+  .blog-posts .blog-post .post-title {
     height: auto;
   }
 }
