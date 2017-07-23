@@ -47,7 +47,7 @@
             <?php get_template_part( 'inc/menus/learn' ); ?>
           </div>
         </li>
-        <li><a href="#"><span>Service</span></a></li>
+        <li><a href="/professionals"><span>Professionals</span></a></li>
         <li><a href="/blog"><span>Blog</span></a></li>
         <li class="dealers-link"><a href="/dealers"><span>Dealer Portal</span></a></li>
         <li class="contact-link"><a href="/contact-us"><span>Contact Us</span></a></li>

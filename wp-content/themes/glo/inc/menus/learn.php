@@ -10,7 +10,7 @@
       <li><a href="/performance-specs/"><i class="icon-performance-specs"></i> Window Performance Specs</a></li>
       <li><a href="/installation"><i class="icon-installation"></i> European Window Installation</a></li>
       <!-- <li><a href="#"><i class="icon-troubleshooting"></i> Troubleshooting</a></li> -->
-      <li><a href="/professionals"><i class="icon-tilt-turn-windows"></i> For Professionals</a></li>
+      <li><a href="/service"><i class="icon-tilt-turn-windows"></i> Service</a></li>
     </ul>
   </div>
   <div class="menu-right">
