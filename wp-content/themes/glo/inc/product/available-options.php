@@ -7,6 +7,9 @@
         <?php if( get_field('handles') ): ?>
           <li><a href="#handles" data-toggle="tab">Handles</a></li>
         <?php endif; ?>
+        <?php if( get_field('hinges') ): ?>
+          <li><a href="#hinges" data-toggle="tab">Hinges</a></li>
+        <?php endif; ?>
         <?php if( get_field('colors') ): ?>
           <li><a href="#colors" data-toggle="tab">Colors</a></li>
         <?php endif; ?>
@@ -26,6 +29,11 @@
         <?php if( get_field('handles') ): ?>
           <div class="tab-pane fade" id="handles">
             <?php the_field('handles'); ?>
+          </div>
+        <?php endif; ?>
+        <?php if( get_field('hinges') ): ?>
+          <div class="tab-pane fade" id="hinges">
+            <?php the_field('hinges'); ?>
           </div>
         <?php endif; ?>
         <?php if( get_field('colors') ): ?>
