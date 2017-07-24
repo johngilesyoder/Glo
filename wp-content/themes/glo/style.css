@@ -10904,10 +10904,9 @@ fieldset[disabled] .page-content .gform_wrapper .gform_button.active {
   -webkit-flex-flow: row wrap;
       -ms-flex-flow: row wrap;
           flex-flow: row wrap;
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+          justify-content: space-around;
 }
 .single-product .available-styles .operating-styles .menu-item {
   text-align: center;
