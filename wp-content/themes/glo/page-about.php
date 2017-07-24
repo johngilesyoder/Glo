@@ -62,7 +62,7 @@ get_header(); ?>
 							<div class="col-md-6">
                 <div class="address-wrapper">
   								<address>
-                    <h3>Headquarters</h3>
+                    <h3>Headquarters &amp; Showrooms</h3>
   									<strong>Glo European Windows</strong>
   									+1 (406) 721-2741<br>
   									1001 S 4th Street W, Suite 1<br>
@@ -74,10 +74,24 @@ get_header(); ?>
                 <div class="address-wrapper last-one">
   								<address>
                     <h3 style="color: #282828;">Headquarters</h3>
-  									<strong>European Finishes</strong>
-  									+1 (543) 767-3701<br>
-  									234 Dougal St.<br>
-  									Seattle, Washington 87334
+  									<strong>Washington Window &amp; Door (Redmond)</strong>
+  									+1 (425) 702-9227<br>
+  									17832 NE 65th St.<br>
+  									Redmond, Washington 98052
+  								</address>
+                </div>
+							</div>
+              <div class="col-md-6">
+                &nbsp;
+              </div>
+              <div class="col-md-6">
+                <div class="address-wrapper last-one">
+  								<address>
+                    <h3 style="color: #282828;">Headquarters</h3>
+  									<strong>Washington Window &amp; Door (Spokane)</strong>
+  									+1 (509) 926-9227<br>
+  									12209 E Mission Ave<br>
+  									Spokane Valley, Washington 99206
   								</address>
                 </div>
 							</div>

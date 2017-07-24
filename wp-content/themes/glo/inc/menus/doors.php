@@ -32,7 +32,7 @@
     <div id="by-door-material">
       <ul class="menu-items">
         <li class="menu-item">
-          <a href="/frame-material/aluminum-windows-and-doors/">
+          <a href="/frame-material/aluminum/">
             <img src="<?php echo get_template_directory_uri(); ?>/assets/img/material-aluminum-doors.png" alt="Aluminum Doors"/>
             <span class="item-title">Aluminum Doors</span>
           </a>

@@ -8,23 +8,9 @@
     )
   ) );
   if (has_term( 'windows', 'product-line' )) {
-    $terms_styles = apply_filters( 'taxonomy-images-get-terms', '', array(
-      'taxonomy'       => 'window-style',
-      'having_images'  => false,
-      'term_args'      => array(
-        'taxonomy'       => 'window-style',
-        'hide_empty'     => false
-      )
-    ) );
+    $terms = get_the_terms( $post->ID, 'window-style' );
   } elseif (has_term( 'doors', 'product-line' )) {
-    $terms_styles = apply_filters( 'taxonomy-images-get-terms', '', array(
-      'taxonomy'       => 'door-style',
-      'having_images'  => false,
-      'term_args'      => array(
-        'taxonomy'       => 'door-style',
-        'hide_empty'     => false
-      )
-    ) );
+    $terms = get_the_terms( $post->ID, 'door-style' );
   }
 ?>
 
@@ -37,13 +23,24 @@
       <?php endif; ?>
     </header>
     <ul class="operating-styles">
-      <?php foreach ( (array) $terms_styles as $term ) { ?>
-        <li class="menu-item">
-          <a href="<?php echo esc_url( get_term_link( $term, $term->taxonomy ) ) ?>">
-            <?php echo wp_get_attachment_image( $term->image_id, 'full', "", ["class" => "img-window-style"] ) ?>
-            <span class="item-title"><?php echo $term->name; ?></span>
-          </a>
-        </li>
+      <?php foreach ($terms as $term) { ?>
+        <?php
+          $styles = apply_filters( 'taxonomy-images-get-terms', '', array(
+            'taxonomy' => 'window-style',
+              'term_args' => array(
+                'slug' => $term->slug,
+              )
+            )
+          );
+        ?>
+        <?php foreach( (array) $styles as $style) { ?>
+          <li class="menu-item">
+            <a href="<?php echo esc_url( get_term_link( $style, $style->taxonomy ) ) ?>">
+              <?php echo wp_get_attachment_image( $style->image_id, 'full', "", ["class" => "img-window-style"] ); ?>
+              <span class="item-title"><?php echo $style->name; ?></span>
+            </a>
+          </li>
+        <?php } ?>
       <?php } ?>
     </ul>
   </div>
