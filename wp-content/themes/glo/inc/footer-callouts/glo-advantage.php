@@ -4,50 +4,50 @@
     <div class="row">
       <div class="col-sm-6 col-md-3">
         <div class="advantage">
-          <h4>Full Lifetime Warranty</h4>
+          <h4><?php the_field('column_1_title', 'option'); ?></h4>
           <div class="advantage-illustration">
             <i class="icon-warranty"></i>
           </div>
           <p class="advantage-description">
-            Vestibulum id ligula porta felis euismod semper. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.
+            <?php the_field('column_1_text', 'option'); ?>
           </p>
-          <a href="#" class="btn btn-text">View Warranty Info</a>
+          <a href="<?php the_field('column_1_link_url', 'option'); ?>" class="btn btn-text"><?php the_field('column_1_link_text', 'option'); ?></a>
         </div>
       </div>
       <div class="col-sm-6 col-md-3">
         <div class="advantage">
-          <h4>Partners in Your Project</h4>
+          <h4><?php the_field('column_2_title', 'option'); ?></h4>
           <div class="advantage-illustration">
             <i class="icon-project-partners"></i>
           </div>
           <p class="advantage-description">
-            Vestibulum id ligula porta felis euismod semper. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.
+            <?php the_field('column_2_text', 'option'); ?>
           </p>
-          <a href="#" class="btn btn-text">Planning Tools &amp; Tips</a>
+          <a href="<?php the_field('column_2_link_url', 'option'); ?>" class="btn btn-text"><?php the_field('column_2_link_text', 'option'); ?></a>
         </div>
       </div>
       <div class="col-sm-6 col-md-3">
         <div class="advantage">
-          <h4>Energy Efficiency</h4>
+          <h4><?php the_field('column_3_title', 'option'); ?></h4>
           <div class="advantage-illustration">
             <i class="icon-energy-efficiency"></i>
           </div>
           <p class="advantage-description">
-            Vestibulum id ligula porta felis euismod semper. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.
+            <?php the_field('column_3_text', 'option'); ?>
           </p>
-          <a href="#" class="btn btn-text">Learn More About Energy Efficiency</a>
+          <a href="<?php the_field('column_3_link_url', 'option'); ?>" class="btn btn-text"><?php the_field('column_3_link_text', 'option'); ?></a>
         </div>
       </div>
       <div class="col-sm-6 col-md-3">
         <div class="advantage">
-          <h4>Bespoke Installation</h4>
+          <h4><?php the_field('column_4_title', 'option'); ?></h4>
           <div class="advantage-illustration">
             <i class="icon-installation-alt"></i>
           </div>
           <p class="advantage-description">
-            Vestibulum id ligula porta felis euismod semper. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.
+            <?php the_field('column_4_text', 'option'); ?>
           </p>
-          <a href="#" class="btn btn-text">Installation Expectations</a>
+          <a href="<?php the_field('column_4_link_url', 'option'); ?>" class="btn btn-text"><?php the_field('column_4_link_text', 'option'); ?></a>
         </div>
       </div>
     </div>
