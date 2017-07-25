@@ -1010,7 +1010,7 @@ function posts_clauses_with_tax( $clauses, $wp_query ) {
 // Add the script required for category images to the applicable admin pages (was interfering with rest of admin)
 function add_admin_scripts( $hook ) {
 	$screen = get_current_screen();
-  if ( $screen->taxonomy == 'frame-material' || 'window-style' || 'door-style' || 'product-line' || 'series' ) {
+  if ( $screen->taxonomy == 'frame-material' || $screen->taxonomy == 'window-style' || $screen->taxonomy == 'door-style' || $screen->taxonomy == 'product-line' || $screen->taxonomy == 'series' ) {
     wp_enqueue_script(  'category-images-script', get_bloginfo('template_directory').'/assets/js/category-images.js' );
   }
 }
