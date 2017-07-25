@@ -71,17 +71,6 @@
 		"opt": 1,
 		"q": 100
 		},
-	"\/assets\/img\/bg-callout-blog.png": {
-		"ft": 32768,
-		"iS": 1429737,
-		"oA": 0,
-		"oAP": "\/assets\/img\/bg-callout-blog.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
 	"\/assets\/img\/bg-callout-portfolio.jpg": {
 		"ft": 16384,
 		"iS": 756607,
@@ -813,6 +802,15 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/assets\/js\/category-images.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/js\/min\/category-images-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"\/assets\/js\/lib\/animation.gsap.js": {
 		"ft": 64,
 		"mi": 1,
@@ -899,6 +897,15 @@
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/assets\/js\/min\/masonry-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/assets\/js\/min\/category-images-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/js\/min\/min\/category-images-min-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
