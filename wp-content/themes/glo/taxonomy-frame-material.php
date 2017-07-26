@@ -23,80 +23,74 @@
 						<?php echo term_description(); ?>
 					</div>
 					<!-- WINDOW RESULTS -->
-					<div class="product-results">
-						<h3 class="results-title"><?php single_term_title(); ?> Windows</h3>
-						<?php
-							global $wp_query;
-							query_posts(
-								 array_merge(
-										$wp_query->query,
-										array(
-											'orderby' => 'series',
-											'order' => 'ASC',
-											'tax_query' => array(
-												array(
-													'taxonomy' => 'product-line',
-													'field'    => 'slug',
-													'terms'    => 'windows',
-												),
-											),
-										)
-								 )
-							);
-							if ( have_posts() ) : while ( have_posts() ) : the_post();
-						?>
+					<?php
+						$windows_args = array(
+							'orderby' => 'series',
+							'order' => 'ASC',
+							'tax_query' => array(
+								array(
+									'taxonomy' => 'product-line',
+									'field'    => 'slug',
+									'terms'    => 'windows',
+								),
+							),
+						);
 
-							<?php get_template_part( 'inc/product-result' ); ?>
+						$windows_loop = new WP_Query( $windows_args );
 
-						<?php endwhile; ?>
+					?>
 
-						<?php else : ?>
+					<?php	if ( $windows_loop->have_posts() ) : ?>
 
-							<?php get_template_part( 'template-parts/content', 'none' ); ?>
+							<div class="product-results">
+								<h3 class="results-title"><?php single_term_title(); ?> Windows</h3>
 
-						<?php endif; ?>
+								<?php while ( $windows_loop->have_posts() ) : $windows_loop->the_post(); ?>
 
-						<?php wp_reset_query(); ?>
+									<?php get_template_part( 'inc/product-result' ); ?>
 
-					</div>
+								<?php endwhile; ?>
+
+							</div>
+
+					<?php endif; ?>
+
+					<?php wp_reset_query(); ?>
 
 					<!-- DOOR RESULTS -->
-					<div class="product-results">
-						<h3 class="results-title"><?php single_term_title(); ?> Doors</h3>
-						<?php
-							global $wp_query;
-							query_posts(
-								 array_merge(
-										$wp_query->query,
-										array(
-											'orderby' => 'name',
-											'order' => 'ASC',
-											'tax_query' => array(
-												array(
-													'taxonomy' => 'product-line',
-													'field'    => 'slug',
-													'terms'    => 'doors',
-												),
-											),
-										)
-								 )
-							);
-							if ( have_posts() ) : while ( have_posts() ) : the_post();
-						?>
+					<?php
+						$doors_args = array(
+							'orderby' => 'series',
+							'order' => 'ASC',
+							'tax_query' => array(
+								array(
+									'taxonomy' => 'product-line',
+									'field'    => 'slug',
+									'terms'    => 'doors',
+								),
+							),
+						);
 
-							<?php get_template_part( 'inc/product-result' ); ?>
+						$doors_loop = new WP_Query( $doors_args );
 
-						<?php endwhile; ?>
+					?>
 
-						<?php else : ?>
+					<?php	if ( $doors_loop->have_posts() ) : ?>
 
-							<?php get_template_part( 'template-parts/content', 'none' ); ?>
+							<div class="product-results">
+								<h3 class="results-title"><?php single_term_title(); ?> Doors</h3>
 
-						<?php endif; ?>
+								<?php while ( $doors_loop->have_posts() ) : $doors_loop->the_post(); ?>
 
-						<?php wp_reset_query(); ?>
+									<?php get_template_part( 'inc/product-result' ); ?>
 
-					</div>
+								<?php endwhile; ?>
+
+							</div>
+
+					<?php endif; ?>
+
+					<?php wp_reset_query(); ?>
 
 				</div>
 				<div class="col-md-4">
