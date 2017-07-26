@@ -41,7 +41,7 @@
     <div id="by-window-material">
       <ul class="menu-items">
 
-        <?php foreach ( (array) $terms_materials as $term ) { ?>
+        <!-- <?php foreach ( (array) $terms_materials as $term ) { ?>
           <li class="menu-item">
             <a href="<?php echo esc_url( get_term_link( $term, $term->taxonomy ) ) ?>">
               <div class="img-wrapper">
@@ -50,7 +50,20 @@
               <span class="item-title"><?php echo $term->name; ?> Windows</span>
             </a>
           </li>
-        <?php } ?>
+        <?php } ?> -->
+
+        <li class="menu-item">
+          <a href="/frame-material/aluminum/">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/material-aluminum.png" alt="Aluminum Windows"/>
+            <span class="item-title">Aluminum Windows</span>
+          </a>
+        </li>
+        <li class="menu-item">
+          <a href="/frame-material/wood-aluminum/">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/material-wood-aluminum.png" alt="Wood Aluminum Windows"/>
+            <span class="item-title">Wood Aluminum Windows</span>
+          </a>
+        </li>
 
       </ul>
     </div>

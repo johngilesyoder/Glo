@@ -43,6 +43,14 @@
             <span class="item-title">Wood Aluminum Doors</span>
           </a>
         </li>
+        <li class="menu-item">
+          <a href="/frame-material/modern-aluminum/">
+            <div class="img-wrapper">
+              <img src="<?php echo get_template_directory_uri(); ?>/assets/img/material-modern-aluminum.jpg" class="attachment-thumbnail size-thumbnail" alt="modern door designs, modern doors, european doors, modern european doors, european windows, glo european windows, modern door styles,">
+            </div>
+            <span class="item-title">Modern Aluminum Windows</span>
+          </a>
+        </li>
       </ul>
     </div>
 
