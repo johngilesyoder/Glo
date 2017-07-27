@@ -24,34 +24,34 @@
 					</div>
 					<!-- WINDOW RESULTS -->
 					<?php
-						$windows_args = array(
-							'orderby' => 'series',
-							'order' => 'ASC',
-							'tax_query' => array(
-								array(
-									'taxonomy' => 'product-line',
-									'field'    => 'slug',
-									'terms'    => 'windows',
-								),
-							),
+						global $wp_query;
+						$windows_args = array_merge( $wp_query->query, array(
+								 'orderby' => 'series',
+								 'order' => 'ASC',
+								 'tax_query' => array(
+									 array(
+										 'taxonomy' => 'product-line',
+										 'field'    => 'slug',
+										 'terms'    => 'windows',
+									 ),
+								 ),
+							 )
 						);
 
 						$windows_loop = new WP_Query( $windows_args );
 
-					?>
+						if ( $windows_loop->have_posts() ) : ?>
 
-					<?php	if ( $windows_loop->have_posts() ) : ?>
+						<div class="product-results">
+							<h3 class="results-title"><?php single_term_title(); ?> Windows</h3>
 
-							<div class="product-results">
-								<h3 class="results-title"><?php single_term_title(); ?> Windows</h3>
+						<?php while ( $windows_loop->have_posts() ) : $windows_loop->the_post(); ?>
 
-								<?php while ( $windows_loop->have_posts() ) : $windows_loop->the_post(); ?>
+						<?php get_template_part( 'inc/product-result' ); ?>
 
-									<?php get_template_part( 'inc/product-result' ); ?>
+					<?php endwhile; ?>
 
-								<?php endwhile; ?>
-
-							</div>
+						</div>
 
 					<?php endif; ?>
 
@@ -59,34 +59,34 @@
 
 					<!-- DOOR RESULTS -->
 					<?php
-						$doors_args = array(
-							'orderby' => 'series',
-							'order' => 'ASC',
-							'tax_query' => array(
-								array(
-									'taxonomy' => 'product-line',
-									'field'    => 'slug',
-									'terms'    => 'doors',
-								),
-							),
+						global $wp_query;
+						$doors_args = array_merge( $wp_query->query, array(
+								 'orderby' => 'series',
+								 'order' => 'ASC',
+								 'tax_query' => array(
+									 array(
+										 'taxonomy' => 'product-line',
+										 'field'    => 'slug',
+										 'terms'    => 'doors',
+									 ),
+								 ),
+							 )
 						);
 
 						$doors_loop = new WP_Query( $doors_args );
 
-					?>
+						if ( $doors_loop->have_posts() ) : ?>
 
-					<?php	if ( $doors_loop->have_posts() ) : ?>
+						<div class="product-results">
+							<h3 class="results-title"><?php single_term_title(); ?> Doors</h3>
 
-							<div class="product-results">
-								<h3 class="results-title"><?php single_term_title(); ?> Doors</h3>
+						<?php while ( $doors_loop->have_posts() ) : $doors_loop->the_post(); ?>
 
-								<?php while ( $doors_loop->have_posts() ) : $doors_loop->the_post(); ?>
+						<?php get_template_part( 'inc/product-result' ); ?>
 
-									<?php get_template_part( 'inc/product-result' ); ?>
+					<?php endwhile; ?>
 
-								<?php endwhile; ?>
-
-							</div>
+						</div>
 
 					<?php endif; ?>
 
