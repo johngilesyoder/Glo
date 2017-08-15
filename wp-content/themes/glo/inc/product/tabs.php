@@ -3,7 +3,7 @@
   <ul class="nav nav-tabs">
     <li class="active"><a href="#description" data-toggle="tab">Description</a></li>
     <?php if( get_field('styles') ): ?>
-      <li><a href="#styles" data-toggle="tab">Styles</a></li>
+      <li><a href="#styles" data-toggle="tab">Frame Styles</a></li>
     <?php endif; ?>
     <li><a href="#specs" data-toggle="tab">Specs</a></li>
     <?php if( get_field('detail_sets') ): ?>
