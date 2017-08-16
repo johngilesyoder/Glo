@@ -7,7 +7,7 @@
     <?php endif; ?>
     <li><a href="#specs" data-toggle="tab">Specs</a></li>
     <?php if( get_field('detail_sets') ): ?>
-      <li><a href="#detail-sets" data-toggle="tab">Detail Sets</a></li>
+      <li><a href="#detail-drawings" data-toggle="tab">Detail Drawings</a></li>
     <?php endif; ?>
   </ul>
 
@@ -38,7 +38,7 @@
       <?php endif; ?>
     </div>
     <?php if( get_field('detail_sets') ): ?>
-      <div class="tab-pane fade" id="detail-sets">
+      <div class="tab-pane fade" id="detail-drawings">
         <?php the_field('detail_sets'); ?>
       </div>
     <?php endif; ?>
