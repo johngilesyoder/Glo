@@ -5,6 +5,9 @@
     <?php if( get_field('styles') ): ?>
       <li><a href="#styles" data-toggle="tab">Frame Styles</a></li>
     <?php endif; ?>
+    <?php if( get_field('door_panels') ): ?>
+      <li><a href="#door-panels" data-toggle="tab">Door Panels</a></li>
+    <?php endif; ?>
     <li><a href="#specs" data-toggle="tab">Specs</a></li>
     <?php if( get_field('detail_sets') ): ?>
       <li><a href="#detail-drawings" data-toggle="tab">Detail Drawings</a></li>
@@ -21,6 +24,11 @@
     <?php if( get_field('styles') ): ?>
       <div class="tab-pane fade" id="styles">
         <?php the_field('styles'); ?>
+      </div>
+    <?php endif; ?>
+    <?php if( get_field('door_panels') ): ?>
+      <div class="tab-pane fade" id="door-panels">
+        <?php the_field('door_panels'); ?>
       </div>
     <?php endif; ?>
     <div class="tab-pane fade" id="specs">
