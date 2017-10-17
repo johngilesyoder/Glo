@@ -20,7 +20,7 @@
           <li><a href="#obscure-glass" data-toggle="tab">Obscure Glass</a></li>
         <?php endif; ?>
         <?php // if( get_field('shades') ): ?>
-          <li><a href="#shades" data-toggle="tab">Shades</a></li>
+          <li><a href="#shades" data-toggle="tab">Test</a></li>
         <?php // endif; ?>
       </ul>
 
