@@ -19,9 +19,9 @@
         <?php if( get_field('obscure_glass') ): ?>
           <li><a href="#obscure-glass" data-toggle="tab">Obscure Glass</a></li>
         <?php endif; ?>
-        <?php if( get_field('shades') ): ?>
+        <?php // if( get_field('shades') ): ?>
           <li><a href="#shades" data-toggle="tab">Shades</a></li>
-        <?php endif; ?>
+        <?php // endif; ?>
       </ul>
 
       <!-- Tab panes -->
@@ -50,12 +50,12 @@
           <div class="tab-pane fade" id="obscure-glass">
             <?php the_field('obscure_glass'); ?>
           </div>
-        <?php endif; ?>
+        <?php // endif; ?>
         <?php if( get_field('shades') ): ?>
           <div class="tab-pane fade" id="shades">
             <?php the_field('shades'); ?>
           </div>
-        <?php endif; ?>
+        <?php // endif; ?>
       </div>
     </div>
   </div>
