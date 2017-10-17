@@ -50,8 +50,8 @@
           <div class="tab-pane fade" id="obscure-glass">
             <?php the_field('obscure_glass'); ?>
           </div>
-        <?php // endif; ?>
-        <?php if( get_field('shades') ): ?>
+        <?php endif; ?>
+        <?php // if( get_field('shades') ): ?>
           <div class="tab-pane fade" id="shades">
             <?php the_field('shades'); ?>
           </div>
