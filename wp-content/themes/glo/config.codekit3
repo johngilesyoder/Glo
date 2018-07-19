@@ -7,15 +7,17 @@
 		"uuidString": "218CD8C3-E3CA-434E-A6A7-FDBDAB3EEE80"
 		}
 	],
-"creatorBuild": "25900",
+"creatorBuild": "26680",
 "files": {
 	"\/404.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/404.php",
 		"oF": 0
 		},
 	"\/archive.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/archive.php",
@@ -44,6 +46,7 @@
 	"\/assets\/img\/2.jpg": {
 		"ft": 16384,
 		"iS": 44079,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/img\/2.jpg",
 		"oF": 0,
@@ -54,6 +57,7 @@
 	"\/assets\/img\/about-us-tile.jpg": {
 		"ft": 16384,
 		"iS": 1301702,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/img\/about-us-tile.jpg",
 		"oF": 0,
@@ -64,6 +68,7 @@
 	"\/assets\/img\/bg-callout-blog.jpg": {
 		"ft": 16384,
 		"iS": 1017654,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/img\/bg-callout-blog.jpg",
 		"oF": 0,
@@ -74,6 +79,7 @@
 	"\/assets\/img\/bg-callout-portfolio.jpg": {
 		"ft": 16384,
 		"iS": 756607,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/img\/bg-callout-portfolio.jpg",
 		"oF": 0,
@@ -84,6 +90,7 @@
 	"\/assets\/img\/bg-callout-professionals.jpg": {
 		"ft": 16384,
 		"iS": 390685,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/img\/bg-callout-professionals.jpg",
 		"oF": 0,
@@ -94,6 +101,7 @@
 	"\/assets\/img\/callout-products.jpg": {
 		"ft": 16384,
 		"iS": 296022,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/img\/callout-products.jpg",
 		"oF": 0,
@@ -104,6 +112,7 @@
 	"\/assets\/img\/callout-projects.jpg": {
 		"ft": 16384,
 		"iS": 703903,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/img\/callout-projects.jpg",
 		"oF": 0,
@@ -124,6 +133,7 @@
 	"\/assets\/img\/fake\/about-hero.jpg": {
 		"ft": 16384,
 		"iS": 2623614,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/img\/fake\/about-hero.jpg",
 		"oF": 0,
@@ -134,6 +144,7 @@
 	"\/assets\/img\/fake\/about-you-tile.jpg": {
 		"ft": 16384,
 		"iS": 359495,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/img\/fake\/about-you-tile.jpg",
 		"oF": 0,
@@ -144,6 +155,7 @@
 	"\/assets\/img\/fake\/professionals-hero.jpg": {
 		"ft": 16384,
 		"iS": 831938,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/img\/fake\/professionals-hero.jpg",
 		"oF": 0,
@@ -175,6 +187,7 @@
 	"\/assets\/img\/hero-bg.jpg": {
 		"ft": 16384,
 		"iS": 1625344,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/img\/hero-bg.jpg",
 		"oF": 0,
@@ -185,6 +198,7 @@
 	"\/assets\/img\/home-doors.jpg": {
 		"ft": 16384,
 		"iS": 365585,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/img\/home-doors.jpg",
 		"oF": 0,
@@ -195,6 +209,7 @@
 	"\/assets\/img\/home-mural.jpg": {
 		"ft": 16384,
 		"iS": 851598,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/img\/home-mural.jpg",
 		"oF": 0,
@@ -622,6 +637,7 @@
 	"\/assets\/img\/material-modern-aluminum.jpg": {
 		"ft": 16384,
 		"iS": 412811,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/img\/material-modern-aluminum.jpg",
 		"oF": 0,
@@ -675,6 +691,7 @@
 	"\/assets\/img\/product-a5.jpg": {
 		"ft": 16384,
 		"iS": 106489,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/img\/product-a5.jpg",
 		"oF": 0,
@@ -685,6 +702,7 @@
 	"\/assets\/img\/product-a7.jpg": {
 		"ft": 16384,
 		"iS": 135139,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/img\/product-a7.jpg",
 		"oF": 0,
@@ -695,6 +713,7 @@
 	"\/assets\/img\/product-a8.jpg": {
 		"ft": 16384,
 		"iS": 116032,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/img\/product-a8.jpg",
 		"oF": 0,
@@ -705,6 +724,7 @@
 	"\/assets\/img\/product-pw.jpg": {
 		"ft": 16384,
 		"iS": 140328,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/img\/product-pw.jpg",
 		"oF": 0,
@@ -715,6 +735,7 @@
 	"\/assets\/img\/product-w5.jpg": {
 		"ft": 16384,
 		"iS": 97625,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/img\/product-w5.jpg",
 		"oF": 0,
@@ -725,6 +746,7 @@
 	"\/assets\/img\/product-w7.jpg": {
 		"ft": 16384,
 		"iS": 43889,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/img\/product-w7.jpg",
 		"oF": 0,
@@ -735,6 +757,7 @@
 	"\/assets\/img\/professionals-calculator.jpg": {
 		"ft": 16384,
 		"iS": 1311231,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/img\/professionals-calculator.jpg",
 		"oF": 0,
@@ -745,6 +768,7 @@
 	"\/assets\/img\/professionals-detail-sets.jpg": {
 		"ft": 16384,
 		"iS": 772460,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/img\/professionals-detail-sets.jpg",
 		"oF": 0,
@@ -755,6 +779,7 @@
 	"\/assets\/img\/professionals-installation.jpg": {
 		"ft": 16384,
 		"iS": 528182,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/img\/professionals-installation.jpg",
 		"oF": 0,
@@ -765,6 +790,7 @@
 	"\/assets\/img\/professionals-performance-specs.jpg": {
 		"ft": 16384,
 		"iS": 721638,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/img\/professionals-performance-specs.jpg",
 		"oF": 0,
@@ -775,6 +801,7 @@
 	"\/assets\/img\/professionals-receiving-unloading.jpg": {
 		"ft": 16384,
 		"iS": 1365105,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/img\/professionals-receiving-unloading.jpg",
 		"oF": 0,
@@ -785,6 +812,7 @@
 	"\/assets\/img\/professionals-videos.jpg": {
 		"ft": 16384,
 		"iS": 261814,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/img\/professionals-videos.jpg",
 		"oF": 0,
@@ -3237,24 +3265,28 @@
 		"sU": 0
 		},
 	"\/comments.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/comments.php",
 		"oF": 0
 		},
 	"\/footer.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/footer.php",
 		"oF": 0
 		},
 	"\/functions.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/functions.php",
 		"oF": 0
 		},
 	"\/header.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/header.php",
@@ -3263,6 +3295,7 @@
 	"\/images\/1.jpg": {
 		"ft": 16384,
 		"iS": 24467,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/1.jpg",
 		"oF": 0,
@@ -3273,6 +3306,7 @@
 	"\/images\/2.jpg": {
 		"ft": 16384,
 		"iS": 34434,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/2.jpg",
 		"oF": 0,
@@ -3283,6 +3317,7 @@
 	"\/images\/3.jpg": {
 		"ft": 16384,
 		"iS": 38299,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/3.jpg",
 		"oF": 0,
@@ -3293,6 +3328,7 @@
 	"\/images\/4.jpg": {
 		"ft": 16384,
 		"iS": 10108,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/4.jpg",
 		"oF": 0,
@@ -3303,6 +3339,7 @@
 	"\/images\/5.jpg": {
 		"ft": 16384,
 		"iS": 70171,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/5.jpg",
 		"oF": 0,
@@ -3313,6 +3350,7 @@
 	"\/images\/6.jpg": {
 		"ft": 16384,
 		"iS": 13511,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/6.jpg",
 		"oF": 0,
@@ -3323,6 +3361,7 @@
 	"\/images\/about-us.jpg": {
 		"ft": 16384,
 		"iS": 134736,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/about-us.jpg",
 		"oF": 0,
@@ -3333,6 +3372,7 @@
 	"\/images\/about-you.jpg": {
 		"ft": 16384,
 		"iS": 98804,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/about-you.jpg",
 		"oF": 0,
@@ -3354,6 +3394,7 @@
 	"\/images\/product\/3.jpg": {
 		"ft": 16384,
 		"iS": 129380,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/product\/3.jpg",
 		"oF": 0,
@@ -3364,6 +3405,7 @@
 	"\/images\/product\/4.jpg": {
 		"ft": 16384,
 		"iS": 230362,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/product\/4.jpg",
 		"oF": 0,
@@ -3374,6 +3416,7 @@
 	"\/images\/product\/5.jpg": {
 		"ft": 16384,
 		"iS": 203271,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/product\/5.jpg",
 		"oF": 0,
@@ -3384,6 +3427,7 @@
 	"\/images\/product\/6.jpg": {
 		"ft": 16384,
 		"iS": 181311,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/product\/6.jpg",
 		"oF": 0,
@@ -3394,6 +3438,7 @@
 	"\/images\/product\/awning-windows.jpg": {
 		"ft": 16384,
 		"iS": 861188,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/product\/awning-windows.jpg",
 		"oF": 0,
@@ -3404,6 +3449,7 @@
 	"\/images\/product\/curtain-wall-windows.jpg": {
 		"ft": 16384,
 		"iS": 1139610,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/product\/curtain-wall-windows.jpg",
 		"oF": 0,
@@ -3414,6 +3460,7 @@
 	"\/images\/product\/decorative-entry-doors-types.jpg": {
 		"ft": 16384,
 		"iS": 902991,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/product\/decorative-entry-doors-types.jpg",
 		"oF": 0,
@@ -3424,6 +3471,7 @@
 	"\/images\/product\/decorative-entry-doors.jpg": {
 		"ft": 16384,
 		"iS": 902991,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/product\/decorative-entry-doors.jpg",
 		"oF": 0,
@@ -3434,6 +3482,7 @@
 	"\/images\/product\/door-types.jpg": {
 		"ft": 16384,
 		"iS": 918368,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/product\/door-types.jpg",
 		"oF": 0,
@@ -3444,6 +3493,7 @@
 	"\/images\/product\/double-pane-aluminum-doors.jpg": {
 		"ft": 16384,
 		"iS": 197857,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/product\/double-pane-aluminum-doors.jpg",
 		"oF": 0,
@@ -3454,6 +3504,7 @@
 	"\/images\/product\/double-pane-aluminum-windows.jpg": {
 		"ft": 16384,
 		"iS": 791996,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/product\/double-pane-aluminum-windows.jpg",
 		"oF": 0,
@@ -3464,6 +3515,7 @@
 	"\/images\/product\/double-pane-doors.jpg": {
 		"ft": 16384,
 		"iS": 1151960,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/product\/double-pane-doors.jpg",
 		"oF": 0,
@@ -3474,6 +3526,7 @@
 	"\/images\/product\/double-pane-windows.jpg": {
 		"ft": 16384,
 		"iS": 856923,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/product\/double-pane-windows.jpg",
 		"oF": 0,
@@ -3484,6 +3537,7 @@
 	"\/images\/product\/double-pane-wood-aluminum-doors.jpg": {
 		"ft": 16384,
 		"iS": 990613,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/product\/double-pane-wood-aluminum-doors.jpg",
 		"oF": 0,
@@ -3494,6 +3548,7 @@
 	"\/images\/product\/double-pane-wood-aluminum-windows.jpg": {
 		"ft": 16384,
 		"iS": 888686,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/product\/double-pane-wood-aluminum-windows.jpg",
 		"oF": 0,
@@ -3504,6 +3559,7 @@
 	"\/images\/product\/entry-doors.jpg": {
 		"ft": 16384,
 		"iS": 305737,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/product\/entry-doors.jpg",
 		"oF": 0,
@@ -3514,6 +3570,7 @@
 	"\/images\/product\/fixed-windows.jpg": {
 		"ft": 16384,
 		"iS": 678375,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/product\/fixed-windows.jpg",
 		"oF": 0,
@@ -3524,6 +3581,7 @@
 	"\/images\/product\/folding-doors.jpg": {
 		"ft": 16384,
 		"iS": 7254070,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/product\/folding-doors.jpg",
 		"oF": 0,
@@ -3534,6 +3592,7 @@
 	"\/images\/product\/french-doors.jpg": {
 		"ft": 16384,
 		"iS": 885087,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/product\/french-doors.jpg",
 		"oF": 0,
@@ -3544,6 +3603,7 @@
 	"\/images\/product\/french-windows.jpg": {
 		"ft": 16384,
 		"iS": 679090,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/product\/french-windows.jpg",
 		"oF": 0,
@@ -3554,6 +3614,7 @@
 	"\/images\/product\/lift-and-slide-doors.jpg": {
 		"ft": 16384,
 		"iS": 301040,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/product\/lift-and-slide-doors.jpg",
 		"oF": 0,
@@ -3564,6 +3625,7 @@
 	"\/images\/product\/postless-corner-door.jpg": {
 		"ft": 16384,
 		"iS": 9346120,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/product\/postless-corner-door.jpg",
 		"oF": 0,
@@ -3574,6 +3636,7 @@
 	"\/images\/product\/sliding-doors.jpg": {
 		"ft": 16384,
 		"iS": 856830,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/product\/sliding-doors.jpg",
 		"oF": 0,
@@ -3584,6 +3647,7 @@
 	"\/images\/product\/sliding-windows.jpg": {
 		"ft": 16384,
 		"iS": 7078140,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/product\/sliding-windows.jpg",
 		"oF": 0,
@@ -3594,6 +3658,7 @@
 	"\/images\/product\/tilt-turn-windows.jpg": {
 		"ft": 16384,
 		"iS": 1195120,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/product\/tilt-turn-windows.jpg",
 		"oF": 0,
@@ -3604,6 +3669,7 @@
 	"\/images\/product\/triple-pane-aluminum-doors.jpg": {
 		"ft": 16384,
 		"iS": 1283390,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/product\/triple-pane-aluminum-doors.jpg",
 		"oF": 0,
@@ -3614,6 +3680,7 @@
 	"\/images\/product\/triple-pane-aluminum-windows.jpg": {
 		"ft": 16384,
 		"iS": 886984,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/product\/triple-pane-aluminum-windows.jpg",
 		"oF": 0,
@@ -3624,6 +3691,7 @@
 	"\/images\/product\/triple-pane-doors.jpg": {
 		"ft": 16384,
 		"iS": 941346,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/product\/triple-pane-doors.jpg",
 		"oF": 0,
@@ -3634,6 +3702,7 @@
 	"\/images\/product\/triple-pane-passive-house-doors.jpg": {
 		"ft": 16384,
 		"iS": 1348150,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/product\/triple-pane-passive-house-doors.jpg",
 		"oF": 0,
@@ -3644,6 +3713,7 @@
 	"\/images\/product\/triple-pane-passive-house-windows.jpg": {
 		"ft": 16384,
 		"iS": 775519,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/product\/triple-pane-passive-house-windows.jpg",
 		"oF": 0,
@@ -3654,6 +3724,7 @@
 	"\/images\/product\/triple-pane-windows.jpg": {
 		"ft": 16384,
 		"iS": 739839,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/product\/triple-pane-windows.jpg",
 		"oF": 0,
@@ -3664,6 +3735,7 @@
 	"\/images\/product\/triple-pane-wood-aluminum-doors.jpg": {
 		"ft": 16384,
 		"iS": 1108130,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/product\/triple-pane-wood-aluminum-doors.jpg",
 		"oF": 0,
@@ -3674,6 +3746,7 @@
 	"\/images\/product\/triple-pane-wood-aluminum-windows.jpg": {
 		"ft": 16384,
 		"iS": 727693,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/product\/triple-pane-wood-aluminum-windows.jpg",
 		"oF": 0,
@@ -3684,6 +3757,7 @@
 	"\/images\/product\/window-types.jpg": {
 		"ft": 16384,
 		"iS": 897031,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/product\/window-types.jpg",
 		"oF": 0,
@@ -3694,6 +3768,7 @@
 	"\/images\/product\/windows.jpg": {
 		"ft": 16384,
 		"iS": 1453782,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/product\/windows.jpg",
 		"oF": 0,
@@ -3704,6 +3779,7 @@
 	"\/images\/under-construction.jpg": {
 		"ft": 16384,
 		"iS": 86555,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/under-construction.jpg",
 		"oF": 0,
@@ -3714,6 +3790,7 @@
 	"\/images\/under_construction.jpg": {
 		"ft": 16384,
 		"iS": 104756,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/under_construction.jpg",
 		"oF": 0,
@@ -3722,310 +3799,360 @@
 		"q": 100
 		},
 	"\/inc\/blog-tile.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/inc\/blog-tile.php",
 		"oF": 0
 		},
 	"\/inc\/calculator\/callouts.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/inc\/calculator\/callouts.php",
 		"oF": 0
 		},
 	"\/inc\/custom-fields.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/inc\/custom-fields.php",
 		"oF": 0
 		},
 	"\/inc\/customizer.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/inc\/customizer.php",
 		"oF": 0
 		},
 	"\/inc\/footer-callouts\/glo-advantage.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/inc\/footer-callouts\/glo-advantage.php",
 		"oF": 0
 		},
 	"\/inc\/footer-callouts\/request-quote.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/inc\/footer-callouts\/request-quote.php",
 		"oF": 0
 		},
 	"\/inc\/home\/callouts.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/inc\/home\/callouts.php",
 		"oF": 0
 		},
 	"\/inc\/home\/doors.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/inc\/home\/doors.php",
 		"oF": 0
 		},
 	"\/inc\/home\/hero.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/inc\/home\/hero.php",
 		"oF": 0
 		},
 	"\/inc\/home\/mural.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/inc\/home\/mural.php",
 		"oF": 0
 		},
 	"\/inc\/home\/purpose.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/inc\/home\/purpose.php",
 		"oF": 0
 		},
 	"\/inc\/home\/windows.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/inc\/home\/windows.php",
 		"oF": 0
 		},
 	"\/inc\/menus\/block.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/inc\/menus\/block.php",
 		"oF": 0
 		},
 	"\/inc\/menus\/doors.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/inc\/menus\/doors.php",
 		"oF": 0
 		},
 	"\/inc\/menus\/learn.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/inc\/menus\/learn.php",
 		"oF": 0
 		},
 	"\/inc\/menus\/windows.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/inc\/menus\/windows.php",
 		"oF": 0
 		},
 	"\/inc\/primary-nav.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/inc\/primary-nav.php",
 		"oF": 0
 		},
 	"\/inc\/product-result.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/inc\/product-result.php",
 		"oF": 0
 		},
 	"\/inc\/product\/available-options.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/inc\/product\/available-options.php",
 		"oF": 0
 		},
 	"\/inc\/product\/available-styles.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/inc\/product\/available-styles.php",
 		"oF": 0
 		},
 	"\/inc\/product\/gallery.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/inc\/product\/gallery.php",
 		"oF": 0
 		},
 	"\/inc\/product\/key-features.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/inc\/product\/key-features.php",
 		"oF": 0
 		},
 	"\/inc\/product\/marketing-block.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/inc\/product\/marketing-block.php",
 		"oF": 0
 		},
 	"\/inc\/product\/r-value.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/inc\/product\/r-value.php",
 		"oF": 0
 		},
 	"\/inc\/product\/related-projects.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/inc\/product\/related-projects.php",
 		"oF": 0
 		},
 	"\/inc\/product\/tabs.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/inc\/product\/tabs.php",
 		"oF": 0
 		},
 	"\/inc\/project-tile.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/inc\/project-tile.php",
 		"oF": 0
 		},
 	"\/inc\/shortcodes.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/inc\/shortcodes.php",
 		"oF": 0
 		},
 	"\/inc\/sidebar-blocks\/additional-door-styles.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/inc\/sidebar-blocks\/additional-door-styles.php",
 		"oF": 0
 		},
 	"\/inc\/sidebar-blocks\/additional-materials.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/inc\/sidebar-blocks\/additional-materials.php",
 		"oF": 0
 		},
 	"\/inc\/sidebar-blocks\/additional-window-styles.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/inc\/sidebar-blocks\/additional-window-styles.php",
 		"oF": 0
 		},
 	"\/inc\/sidebar-blocks\/materials.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/inc\/sidebar-blocks\/materials.php",
 		"oF": 0
 		},
 	"\/inc\/sidebar-blocks\/request-quote.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/inc\/sidebar-blocks\/request-quote.php",
 		"oF": 0
 		},
 	"\/inc\/sidebar-blocks\/styles.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/inc\/sidebar-blocks\/styles.php",
 		"oF": 0
 		},
 	"\/inc\/topbar.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/inc\/topbar.php",
 		"oF": 0
 		},
 	"\/index.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/index.php",
 		"oF": 0
 		},
 	"\/languages\/glo.pot": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/languages\/glo.pot",
 		"oF": 0
 		},
 	"\/languages\/readme.txt": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/languages\/readme.txt",
 		"oF": 0
 		},
 	"\/page-about.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/page-about.php",
 		"oF": 0
 		},
 	"\/page-calculator.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/page-calculator.php",
 		"oF": 0
 		},
 	"\/page-careers.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/page-careers.php",
 		"oF": 0
 		},
 	"\/page-contact-us-thank-you.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/page-contact-us-thank-you.php",
 		"oF": 0
 		},
 	"\/page-home.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/page-home.php",
 		"oF": 0
 		},
 	"\/page-press.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/page-press.php",
 		"oF": 0
 		},
 	"\/page-products.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/page-products.php",
 		"oF": 0
 		},
 	"\/page-professionals.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/page-professionals.php",
 		"oF": 0
 		},
 	"\/page-projects.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/page-projects.php",
 		"oF": 0
 		},
 	"\/page-request-a-quote-thank-you.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/page-request-a-quote-thank-you.php",
 		"oF": 0
 		},
 	"\/page-testimonials.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/page-testimonials.php",
 		"oF": 0
 		},
 	"\/page.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/page.php",
 		"oF": 0
 		},
 	"\/README.md": {
+		"cB": 0,
 		"cS": 0,
 		"eF": 1,
 		"eL": 1,
-		"eLB": 0,
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
@@ -4040,6 +4167,7 @@
 		"uCM": 0
 		},
 	"\/readme.txt": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/readme.txt",
@@ -4057,30 +4185,35 @@
 		"q": 100
 		},
 	"\/search.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/search.php",
 		"oF": 0
 		},
 	"\/sidebar.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/sidebar.php",
 		"oF": 0
 		},
 	"\/single-product.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/single-product.php",
 		"oF": 0
 		},
 	"\/single-project.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/single-project.php",
 		"oF": 0
 		},
 	"\/single.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/single.php",
@@ -4107,66 +4240,77 @@
 		"oS": 0
 		},
 	"\/taxonomy-door-style.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/taxonomy-door-style.php",
 		"oF": 0
 		},
 	"\/taxonomy-frame-material.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/taxonomy-frame-material.php",
 		"oF": 0
 		},
 	"\/taxonomy-product-line.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/taxonomy-product-line.php",
 		"oF": 0
 		},
 	"\/taxonomy-series.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/taxonomy-series.php",
 		"oF": 0
 		},
 	"\/taxonomy-window-style.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/taxonomy-window-style.php",
 		"oF": 0
 		},
 	"\/template-parts\/content-none.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/template-parts\/content-none.php",
 		"oF": 0
 		},
 	"\/template-parts\/content-page.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/template-parts\/content-page.php",
 		"oF": 0
 		},
 	"\/template-parts\/content-search.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/template-parts\/content-search.php",
 		"oF": 0
 		},
 	"\/template-parts\/content-single.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/template-parts\/content-single.php",
 		"oF": 0
 		},
 	"\/template-parts\/content.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/template-parts\/content.php",
 		"oF": 0
 		},
 	"\/wp_bootstrap_navwalker.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/wp_bootstrap_navwalker.php",
@@ -4181,7 +4325,8 @@
 	"creationDate": 513396509,
 	"displayValue": "glo",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "meme-jake"
+	"iconImageName": "meme-jake",
+	"iconImageWasSetByUser": 0
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -4189,6 +4334,7 @@
 	"animateCSSInjections": 1,
 	"autoBuildNewItems": 1,
 	"autoprefixerBrowserString": "last 2 versions, Explorer >= 10, Android >= 4.1, Safari >= 7, iOS >= 7",
+	"autoprefixerEnableIEGrid": 0,
 	"babelAuxiliaryCommentAfter": "",
 	"babelAuxiliaryCommentBefore": "",
 	"babelConfigFileHandlingType": 0,
@@ -4717,6 +4863,10 @@
 			"active": 0,
 			"optionString": "'expression'"
 			},
+		"function-paren-newline": {
+			"active": 0,
+			"optionString": "'multiline'"
+			},
 		"generator-star-spacing": {
 			"active": 0,
 			"optionString": "{'before': true, 'after': false}"
@@ -4748,6 +4898,10 @@
 		"id-match": {
 			"active": 0,
 			"optionString": "'^[a-z]+([A-Z][a-z]+)*$', {'properties': false, 'onlyDeclarations': true}"
+			},
+		"implicit-arrow-linebreak": {
+			"active": 0,
+			"optionString": "'beside'"
 			},
 		"indent": {
 			"active": 0,
@@ -4781,9 +4935,9 @@
 			"active": 0,
 			"optionString": "{'beforeBlockComment': true}"
 			},
-		"lines-around-directive": {
+		"lines-between-class-members": {
 			"active": 0,
-			"optionString": "{'before': 'always', 'after': 'always'}"
+			"optionString": "'always', {exceptAfterSingleLine: false}"
 			},
 		"max-depth": {
 			"active": 0,
@@ -4813,6 +4967,10 @@
 			"active": 0,
 			"optionString": "{'max': 1}"
 			},
+		"multiline-comment-style": {
+			"active": 0,
+			"optionString": "'starred-block'"
+			},
 		"multiline-ternary": {
 			"active": 0,
 			"optionString": "'always'"
@@ -4822,14 +4980,6 @@
 			"optionString": "{'newIsCap': true, 'capIsNew': true, 'newIsCapExceptions': [], 'capIsNewExceptions': ['Array', 'Boolean', 'Date', 'Error', 'Function', 'Number', 'Object', 'RegExp', 'String', 'Symbol'], 'properties': true}"
 			},
 		"new-parens": {
-			"active": 0,
-			"optionString": ""
-			},
-		"newline-after-var": {
-			"active": 0,
-			"optionString": "'always'"
-			},
-		"newline-before-return": {
 			"active": 0,
 			"optionString": ""
 			},
@@ -5571,7 +5721,7 @@
 			}
 		},
 	"esLintSourceType": 0,
-	"externalServerAddress": "http:\/\/glo.dev",
+	"externalServerAddress": "http:\/\/glo.build",
 	"gitIgnoreBuildFolder": 1,
 	"hideConfigFile": 0,
 	"jsCheckerReservedNamesString": "",
@@ -5933,7 +6083,8 @@
 		"createSourceMap": 0,
 		"minifyOutput": 1,
 		"outputStyle": 0,
-		"syntaxCheckerStyle": 1
+		"syntaxCheckerStyle": 1,
+		"transpilerStyle": 1
 		},
 	"languageDefaultsCSS": {
 		"autoOutputAction": 0,
@@ -5966,6 +6117,7 @@
 		"noEscapeInAttributes": 0,
 		"outputFormat": 2,
 		"outputStyle": 0,
+		"shouldRunCacheBuster": 0,
 		"useCDATA": 0,
 		"useDoubleQuotes": 0,
 		"useUnixNewlines": 0
@@ -5977,6 +6129,7 @@
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
+		"outputFormat": 0,
 		"quality": 100
 		},
 	"languageDefaultsJS": {
@@ -6007,7 +6160,8 @@
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 0
+		"autoOutputPathStyle": 0,
+		"shouldRunCacheBuster": 0
 		},
 	"languageDefaultsLESS": {
 		"allowInsecureImports": 0,
@@ -6039,13 +6193,13 @@
 		"enableFootnotes": 1,
 		"enableLabels": 1,
 		"enableSmartQuotes": 1,
-		"escapeLineBreaks": 0,
 		"maskEmailAddresses": 1,
 		"outputFormat": 0,
 		"outputStyle": 0,
 		"parseMetadata": 1,
 		"processHTML": 0,
 		"randomFootnoteNumbers": 0,
+		"shouldRunCacheBuster": 0,
 		"useCompatibilityMode": 0
 		},
 	"languageDefaultsOTHER": {
@@ -6054,7 +6208,8 @@
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 0
+		"autoOutputPathStyle": 0,
+		"shouldRunCacheBuster": 0
 		},
 	"languageDefaultsPNG": {
 		"autoOutputAction": 0,
@@ -6074,7 +6229,8 @@
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
 		"compileDebug": 1,
-		"outputStyle": 0
+		"outputStyle": 0,
+		"shouldRunCacheBuster": 0
 		},
 	"languageDefaultsSASS": {
 		"autoOutputAction": 0,
@@ -6102,7 +6258,8 @@
 		"logicless": 0,
 		"outputFormat": 0,
 		"outputStyle": 1,
-		"railsCompatible": 0
+		"railsCompatible": 0,
+		"shouldRunCacheBuster": 0
 		},
 	"languageDefaultsSTYLUS": {
 		"autoOutputAction": 0,

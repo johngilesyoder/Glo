@@ -37,10 +37,10 @@
         ?>
         <?php foreach( (array) $styles as $style) { ?>
           <li class="menu-item">
-            <a href="<?php echo esc_url( get_term_link( $style, $style->taxonomy ) ) ?>">
+            <div class="item">
               <?php echo wp_get_attachment_image( $style->image_id, 'full', "", ["class" => "img-window-style"] ); ?>
               <span class="item-title"><?php echo $style->name; ?></span>
-            </a>
+            </div>
           </li>
         <?php } ?>
       <?php } ?>
