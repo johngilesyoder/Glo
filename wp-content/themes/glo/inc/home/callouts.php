@@ -1,5 +1,5 @@
 <section class="home-callouts">
-  <div class="callout callout-blog" style="background-image:url('<?php echo get_template_directory_uri(); ?>/assets/img/bg-callout-blog.jpg');">
+  <div class="callout callout-blog" style="background-image:url('<?php echo get_template_directory_uri(); ?>/assets/img/bg-callout-blog-2.jpg');">
     <div>
       <h3>A pretty good read.</h3>
       <a href="/blog" class="btn btn-primary">Our Blog</a>
