@@ -1,4 +1,4 @@
- /*!
+/*!
  * Glo Windows
  *
  * Copyright 2015 Glo Windows
@@ -8146,6 +8146,9 @@ fieldset[disabled] .modal-content .gform_wrapper .gform_button.active {
   letter-spacing: 1px;
   margin: 0 0 30px;
 }
+.available-anywhere address {
+  margin: 0 0 30px;
+}
 .available-anywhere address strong {
   display: block;
   color: #fff;
@@ -8156,24 +8159,12 @@ fieldset[disabled] .modal-content .gform_wrapper .gform_button.active {
     display: block;
     text-align: center;
   }
-  .available-anywhere .address-wrapper.last-one address {
-    margin: 0;
-  }
-  .available-anywhere .address-wrapper.last-one address h3 {
-    display: none;
-  }
 }
 @media (max-width: 767px) {
   .available-anywhere .america-outline {
     margin: 0 0 40px;
     display: block;
     text-align: center;
-  }
-  .available-anywhere .address-wrapper.last-one address {
-    margin: 0;
-  }
-  .available-anywhere .address-wrapper.last-one address h3 {
-    display: none;
   }
 }
 @media (max-width: 480px) {

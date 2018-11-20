@@ -31,6 +31,8 @@
                 </address>
               </div>
             </div>
+          </div>
+          <div class="row">
             <div class="col-md-6">
               <div class="address-wrapper last-one">
                 <address>
@@ -51,6 +53,8 @@
                 </address>
               </div>
             </div>
+          </div>
+          <div class="row">
             <div class="col-md-6">
               <div class="address-wrapper last-one">
                 <address>
@@ -71,6 +75,8 @@
                 </address>
               </div>
             </div>
+          </div>
+          <div class="row">
             <div class="col-md-6">
               <div class="address-wrapper last-one">
                 <address>
