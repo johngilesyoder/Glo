@@ -213,9 +213,6 @@ function html5blank_styles()
 		wp_register_style( 'glo-style', get_stylesheet_uri() );
 		wp_enqueue_style( 'glo-style' );
 
-		wp_register_style( 'glo-icons', 'https://i.icomoon.io/public/f173fca63f/Glo/style.css' );
-		wp_enqueue_style( 'glo-icons' );
-
 }
 
 // Load HTML5 Blank conditional styles

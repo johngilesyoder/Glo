@@ -1,5 +1,5 @@
 {
-"AAInfo": "This is a CodeKit 3 project config file. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. Doing so will cause CodeKit to crash and\/or corrupt your project. I know it looks like JSON, but it is *not*. Many numbers in this file are 64-bit long long bitFlags, which JSON does not support. These numbers *cannot* be treated as discrete values and if you attempt to parse this file as standard JSON with any public JSON parser, these values will be corrupted. This file is not backwards-compatible with CodeKit 1 or 2. For more information, see https:\/\/codekitapp.com\/",
+"AAInfo": "This is a CodeKit 3 project config file. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. Doing so will cause CodeKit to crash and/or corrupt your project. I know it looks like JSON, but it is *not*. Many numbers in this file are 64-bit long long bitFlags, which JSON does not support. These numbers *cannot* be treated as discrete values and if you attempt to parse this file as standard JSON with any public JSON parser, these values will be corrupted. This file is not backwards-compatible with CodeKit 1 or 2. For more information, see https://codekitapp.com/",
 "buildSteps": [
 	{
 		"name": "Process All Remaining Files and Folders",
@@ -7,4148 +7,4186 @@
 		"uuidString": "218CD8C3-E3CA-434E-A6A7-FDBDAB3EEE80"
 		}
 	],
-"creatorBuild": "26680",
+"creatorBuild": "28905",
 "files": {
-	"\/404.php": {
+	"/404.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/404.php",
+		"oAP": "/404.php",
 		"oF": 0
 		},
-	"\/archive.php": {
+	"/archive.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/archive.php",
+		"oAP": "/archive.php",
 		"oF": 0
 		},
-	"\/assets\/css\/style-min.css": {
+	"/assets/css/style-min.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/assets\/css\/style-min-min.css",
+		"oAP": "/assets/css/style-min-min.css",
 		"oF": 0,
 		"oS": 3
 		},
-	"\/assets\/css\/style.css": {
+	"/assets/css/style.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/assets\/css\/style-min.css",
+		"oAP": "/assets/css/style-min.css",
 		"oF": 0,
 		"oS": 3
 		},
-	"\/assets\/img\/2.jpg": {
+	"/assets/font/icomoon.eot": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "/assets/font/icomoon.eot",
+		"oF": 0
+		},
+	"/assets/font/icomoon.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/assets/font/icomoon.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/assets/font/icomoon.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "/assets/font/icomoon.ttf",
+		"oF": 0
+		},
+	"/assets/font/icomoon.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "/assets/font/icomoon.woff",
+		"oF": 0
+		},
+	"/assets/font/icomoon.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "/assets/font/icomoon.woff2",
+		"oF": 0
+		},
+	"/assets/img/2.jpg": {
 		"ft": 16384,
 		"iS": 44079,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/assets\/img\/2.jpg",
+		"oAP": "/assets/img/2.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/assets\/img\/about-us-tile.jpg": {
+	"/assets/img/about-us-tile.jpg": {
 		"ft": 16384,
 		"iS": 1301702,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/assets\/img\/about-us-tile.jpg",
+		"oAP": "/assets/img/about-us-tile.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/assets\/img\/bg-callout-blog.jpg": {
+	"/assets/img/bg-callout-blog-2.jpg": {
 		"ft": 16384,
-		"iS": 1017654,
+		"iS": 118892,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/assets\/img\/bg-callout-blog.jpg",
+		"oAP": "/assets/img/bg-callout-blog-2.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
-	"\/assets\/img\/bg-callout-portfolio.jpg": {
+	"/assets/img/bg-callout-portfolio.jpg": {
 		"ft": 16384,
 		"iS": 756607,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/assets\/img\/bg-callout-portfolio.jpg",
+		"oAP": "/assets/img/bg-callout-portfolio.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/assets\/img\/bg-callout-professionals.jpg": {
+	"/assets/img/bg-callout-professionals.jpg": {
 		"ft": 16384,
 		"iS": 390685,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/assets\/img\/bg-callout-professionals.jpg",
+		"oAP": "/assets/img/bg-callout-professionals.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
 		},
-	"\/assets\/img\/callout-products.jpg": {
+	"/assets/img/callout-products.jpg": {
 		"ft": 16384,
 		"iS": 296022,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/assets\/img\/callout-products.jpg",
+		"oAP": "/assets/img/callout-products.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/assets\/img\/callout-projects.jpg": {
+	"/assets/img/callout-projects.jpg": {
 		"ft": 16384,
 		"iS": 703903,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/assets\/img\/callout-projects.jpg",
+		"oAP": "/assets/img/callout-projects.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/assets\/img\/facebook.svg": {
+	"/assets/img/facebook.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/assets\/img\/facebook.svg",
+		"oAP": "/assets/img/facebook.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/assets\/img\/fake\/about-hero.jpg": {
+	"/assets/img/fake/about-hero.jpg": {
 		"ft": 16384,
 		"iS": 2623614,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/assets\/img\/fake\/about-hero.jpg",
+		"oAP": "/assets/img/fake/about-hero.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/assets\/img\/fake\/about-you-tile.jpg": {
+	"/assets/img/fake/about-you-tile.jpg": {
 		"ft": 16384,
 		"iS": 359495,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/assets\/img\/fake\/about-you-tile.jpg",
+		"oAP": "/assets/img/fake/about-you-tile.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/assets\/img\/fake\/professionals-hero.jpg": {
+	"/assets/img/fake/professionals-hero.jpg": {
 		"ft": 16384,
 		"iS": 831938,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/assets\/img\/fake\/professionals-hero.jpg",
+		"oAP": "/assets/img/fake/professionals-hero.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/assets\/img\/googleplus.svg": {
+	"/assets/img/googleplus.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/assets\/img\/googleplus.svg",
+		"oAP": "/assets/img/googleplus.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/assets\/img\/headers\/PW-HOME-EXTERIOR.png": {
+	"/assets/img/headers/PW-HOME-EXTERIOR.png": {
 		"ft": 32768,
 		"iS": 338220,
 		"oA": 0,
-		"oAP": "\/assets\/img\/headers\/PW-HOME-EXTERIOR.png",
+		"oAP": "/assets/img/headers/PW-HOME-EXTERIOR.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/assets\/img\/hero-bg.jpg": {
+	"/assets/img/hero-bg.jpg": {
 		"ft": 16384,
 		"iS": 1625344,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/assets\/img\/hero-bg.jpg",
+		"oAP": "/assets/img/hero-bg.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/assets\/img\/home-doors.jpg": {
+	"/assets/img/home-doors.jpg": {
 		"ft": 16384,
 		"iS": 365585,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/assets\/img\/home-doors.jpg",
+		"oAP": "/assets/img/home-doors.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/assets\/img\/home-mural.jpg": {
+	"/assets/img/home-mural.jpg": {
 		"ft": 16384,
 		"iS": 851598,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/assets\/img\/home-mural.jpg",
+		"oAP": "/assets/img/home-mural.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/assets\/img\/houzz.svg": {
+	"/assets/img/houzz.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/assets\/img\/houzz.svg",
+		"oAP": "/assets/img/houzz.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/assets\/img\/icon-chevron-right-black.svg": {
+	"/assets/img/icon-chevron-right-black.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/assets\/img\/icon-chevron-right-black.svg",
+		"oAP": "/assets/img/icon-chevron-right-black.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/assets\/img\/icon-chevron-right-white.svg": {
+	"/assets/img/icon-chevron-right-white.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/assets\/img\/icon-chevron-right-white.svg",
+		"oAP": "/assets/img/icon-chevron-right-white.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/assets\/img\/icon-curtain-wall.png": {
+	"/assets/img/icon-curtain-wall.png": {
 		"ft": 32768,
 		"iS": 1165,
 		"oA": 0,
-		"oAP": "\/assets\/img\/icon-curtain-wall.png",
+		"oAP": "/assets/img/icon-curtain-wall.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/assets\/img\/icon-entry-doors.png": {
+	"/assets/img/icon-entry-doors.png": {
 		"ft": 32768,
 		"iS": 2371,
 		"oA": 0,
-		"oAP": "\/assets\/img\/icon-entry-doors.png",
+		"oAP": "/assets/img/icon-entry-doors.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/assets\/img\/icon-fixed.png": {
+	"/assets/img/icon-fixed.png": {
 		"ft": 32768,
 		"iS": 1066,
 		"oA": 0,
-		"oAP": "\/assets\/img\/icon-fixed.png",
+		"oAP": "/assets/img/icon-fixed.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/assets\/img\/icon-french-doors.png": {
+	"/assets/img/icon-french-doors.png": {
 		"ft": 32768,
 		"iS": 4032,
 		"oA": 0,
-		"oAP": "\/assets\/img\/icon-french-doors.png",
+		"oAP": "/assets/img/icon-french-doors.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/assets\/img\/icon-french-windows.png": {
+	"/assets/img/icon-french-windows.png": {
 		"ft": 32768,
 		"iS": 7283,
 		"oA": 0,
-		"oAP": "\/assets\/img\/icon-french-windows.png",
+		"oAP": "/assets/img/icon-french-windows.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/assets\/img\/icon-inward-opening.png": {
+	"/assets/img/icon-inward-opening.png": {
 		"ft": 32768,
 		"iS": 4485,
 		"oA": 0,
-		"oAP": "\/assets\/img\/icon-inward-opening.png",
+		"oAP": "/assets/img/icon-inward-opening.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/assets\/img\/icon-lift-slide-doors.png": {
+	"/assets/img/icon-lift-slide-doors.png": {
 		"ft": 32768,
 		"iS": 1446,
 		"oA": 0,
-		"oAP": "\/assets\/img\/icon-lift-slide-doors.png",
+		"oAP": "/assets/img/icon-lift-slide-doors.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/assets\/img\/icon-pivot-doors.png": {
+	"/assets/img/icon-pivot-doors.png": {
 		"ft": 32768,
 		"iS": 3852,
 		"oA": 0,
-		"oAP": "\/assets\/img\/icon-pivot-doors.png",
+		"oAP": "/assets/img/icon-pivot-doors.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/assets\/img\/icon-postless-corner-doors.png": {
+	"/assets/img/icon-postless-corner-doors.png": {
 		"ft": 32768,
 		"iS": 8214,
 		"oA": 0,
-		"oAP": "\/assets\/img\/icon-postless-corner-doors.png",
+		"oAP": "/assets/img/icon-postless-corner-doors.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/assets\/img\/icon-sliding-doors.png": {
+	"/assets/img/icon-sliding-doors.png": {
 		"ft": 32768,
 		"iS": 1297,
 		"oA": 0,
-		"oAP": "\/assets\/img\/icon-sliding-doors.png",
+		"oAP": "/assets/img/icon-sliding-doors.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/assets\/img\/icon-tilt-only.png": {
+	"/assets/img/icon-tilt-only.png": {
 		"ft": 32768,
 		"iS": 4417,
 		"oA": 0,
-		"oAP": "\/assets\/img\/icon-tilt-only.png",
+		"oAP": "/assets/img/icon-tilt-only.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/assets\/img\/icon-tilt-turn.png": {
+	"/assets/img/icon-tilt-turn.png": {
 		"ft": 32768,
 		"iS": 5812,
 		"oA": 0,
-		"oAP": "\/assets\/img\/icon-tilt-turn.png",
+		"oAP": "/assets/img/icon-tilt-turn.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/assets\/img\/icons\/calculator.svg": {
+	"/assets/img/icons/calculator.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/assets\/img\/icons\/calculator.svg",
+		"oAP": "/assets/img/icons/calculator.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/assets\/img\/icons\/curtain-call-windows.svg": {
+	"/assets/img/icons/curtain-call-windows.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/assets\/img\/icons\/curtain-call-windows.svg",
+		"oAP": "/assets/img/icons/curtain-call-windows.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/assets\/img\/icons\/energy-efficiency.svg": {
+	"/assets/img/icons/energy-efficiency.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/assets\/img\/icons\/energy-efficiency.svg",
+		"oAP": "/assets/img/icons/energy-efficiency.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/assets\/img\/icons\/fixed-windows.svg": {
+	"/assets/img/icons/fixed-windows.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/assets\/img\/icons\/fixed-windows.svg",
+		"oAP": "/assets/img/icons/fixed-windows.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/assets\/img\/icons\/french-windows.svg": {
+	"/assets/img/icons/french-windows.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/assets\/img\/icons\/french-windows.svg",
+		"oAP": "/assets/img/icons/french-windows.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/assets\/img\/icons\/info.svg": {
+	"/assets/img/icons/info.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/assets\/img\/icons\/info.svg",
+		"oAP": "/assets/img/icons/info.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/assets\/img\/icons\/installation-alt.svg": {
+	"/assets/img/icons/installation-alt.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/assets\/img\/icons\/installation-alt.svg",
+		"oAP": "/assets/img/icons/installation-alt.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/assets\/img\/icons\/installation.svg": {
+	"/assets/img/icons/installation.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/assets\/img\/icons\/installation.svg",
+		"oAP": "/assets/img/icons/installation.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/assets\/img\/icons\/inward-opening-awning-windows.svg": {
+	"/assets/img/icons/inward-opening-awning-windows.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/assets\/img\/icons\/inward-opening-awning-windows.svg",
+		"oAP": "/assets/img/icons/inward-opening-awning-windows.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/assets\/img\/icons\/passive-house.svg": {
+	"/assets/img/icons/passive-house.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/assets\/img\/icons\/passive-house.svg",
+		"oAP": "/assets/img/icons/passive-house.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/assets\/img\/icons\/performance-specs.svg": {
+	"/assets/img/icons/performance-specs.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/assets\/img\/icons\/performance-specs.svg",
+		"oAP": "/assets/img/icons/performance-specs.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/assets\/img\/icons\/project-partners.svg": {
+	"/assets/img/icons/project-partners.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/assets\/img\/icons\/project-partners.svg",
+		"oAP": "/assets/img/icons/project-partners.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/assets\/img\/icons\/question.svg": {
+	"/assets/img/icons/question.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/assets\/img\/icons\/question.svg",
+		"oAP": "/assets/img/icons/question.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/assets\/img\/icons\/quote.svg": {
+	"/assets/img/icons/quote.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/assets\/img\/icons\/quote.svg",
+		"oAP": "/assets/img/icons/quote.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/assets\/img\/icons\/r-value.svg": {
+	"/assets/img/icons/r-value.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/assets\/img\/icons\/r-value.svg",
+		"oAP": "/assets/img/icons/r-value.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/assets\/img\/icons\/testimonials.svg": {
+	"/assets/img/icons/testimonials.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/assets\/img\/icons\/testimonials.svg",
+		"oAP": "/assets/img/icons/testimonials.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/assets\/img\/icons\/tilt-only-windows.svg": {
+	"/assets/img/icons/tilt-only-windows.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/assets\/img\/icons\/tilt-only-windows.svg",
+		"oAP": "/assets/img/icons/tilt-only-windows.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/assets\/img\/icons\/tilt-turn-windows.svg": {
+	"/assets/img/icons/tilt-turn-windows.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/assets\/img\/icons\/tilt-turn-windows.svg",
+		"oAP": "/assets/img/icons/tilt-turn-windows.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/assets\/img\/icons\/troubleshooting.svg": {
+	"/assets/img/icons/troubleshooting.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/assets\/img\/icons\/troubleshooting.svg",
+		"oAP": "/assets/img/icons/troubleshooting.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/assets\/img\/icons\/warranty.svg": {
+	"/assets/img/icons/warranty.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/assets\/img\/icons\/warranty.svg",
+		"oAP": "/assets/img/icons/warranty.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/assets\/img\/logo-sm-white.png": {
+	"/assets/img/logo-sm-white.png": {
 		"ft": 32768,
 		"iS": 1853,
 		"oA": 0,
-		"oAP": "\/assets\/img\/logo-sm-white.png",
+		"oAP": "/assets/img/logo-sm-white.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/assets\/img\/logo-white.png": {
+	"/assets/img/logo-white.png": {
 		"ft": 32768,
 		"iS": 5700,
 		"oA": 0,
-		"oAP": "\/assets\/img\/logo-white.png",
+		"oAP": "/assets/img/logo-white.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/assets\/img\/logo.png": {
+	"/assets/img/logo.png": {
 		"ft": 32768,
 		"iS": 8491,
 		"oA": 0,
-		"oAP": "\/assets\/img\/logo.png",
+		"oAP": "/assets/img/logo.png",
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/assets\/img\/material-aluminum-doors.png": {
+	"/assets/img/material-aluminum-doors.png": {
 		"ft": 32768,
 		"iS": 165922,
 		"oA": 0,
-		"oAP": "\/assets\/img\/material-aluminum-doors.png",
+		"oAP": "/assets/img/material-aluminum-doors.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/assets\/img\/material-aluminum.png": {
+	"/assets/img/material-aluminum.png": {
 		"ft": 32768,
 		"iS": 188614,
 		"oA": 0,
-		"oAP": "\/assets\/img\/material-aluminum.png",
+		"oAP": "/assets/img/material-aluminum.png",
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/assets\/img\/material-modern-aluminum.jpg": {
+	"/assets/img/material-modern-aluminum.jpg": {
 		"ft": 16384,
 		"iS": 412811,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/assets\/img\/material-modern-aluminum.jpg",
+		"oAP": "/assets/img/material-modern-aluminum.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/assets\/img\/material-wood-aluminum-doors.png": {
+	"/assets/img/material-wood-aluminum-doors.png": {
 		"ft": 32768,
 		"iS": 114497,
 		"oA": 0,
-		"oAP": "\/assets\/img\/material-wood-aluminum-doors.png",
+		"oAP": "/assets/img/material-wood-aluminum-doors.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/assets\/img\/material-wood-aluminum.png": {
+	"/assets/img/material-wood-aluminum.png": {
 		"ft": 32768,
 		"iS": 199838,
 		"oA": 0,
-		"oAP": "\/assets\/img\/material-wood-aluminum.png",
+		"oAP": "/assets/img/material-wood-aluminum.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/assets\/img\/material-wood.png": {
+	"/assets/img/material-wood.png": {
 		"ft": 32768,
 		"iS": 226664,
 		"oA": 0,
-		"oAP": "\/assets\/img\/material-wood.png",
+		"oAP": "/assets/img/material-wood.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/assets\/img\/pinterest.svg": {
+	"/assets/img/pinterest.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/assets\/img\/pinterest.svg",
+		"oAP": "/assets/img/pinterest.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/assets\/img\/product-a5.jpg": {
+	"/assets/img/product-a5.jpg": {
 		"ft": 16384,
 		"iS": 106489,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/assets\/img\/product-a5.jpg",
+		"oAP": "/assets/img/product-a5.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
 		},
-	"\/assets\/img\/product-a7.jpg": {
+	"/assets/img/product-a7.jpg": {
 		"ft": 16384,
 		"iS": 135139,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/assets\/img\/product-a7.jpg",
+		"oAP": "/assets/img/product-a7.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/assets\/img\/product-a8.jpg": {
+	"/assets/img/product-a8.jpg": {
 		"ft": 16384,
 		"iS": 116032,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/assets\/img\/product-a8.jpg",
+		"oAP": "/assets/img/product-a8.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/assets\/img\/product-pw.jpg": {
+	"/assets/img/product-pw.jpg": {
 		"ft": 16384,
 		"iS": 140328,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/assets\/img\/product-pw.jpg",
+		"oAP": "/assets/img/product-pw.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/assets\/img\/product-w5.jpg": {
+	"/assets/img/product-w5.jpg": {
 		"ft": 16384,
 		"iS": 97625,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/assets\/img\/product-w5.jpg",
+		"oAP": "/assets/img/product-w5.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/assets\/img\/product-w7.jpg": {
+	"/assets/img/product-w7.jpg": {
 		"ft": 16384,
 		"iS": 43889,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/assets\/img\/product-w7.jpg",
+		"oAP": "/assets/img/product-w7.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
 		},
-	"\/assets\/img\/professionals-calculator.jpg": {
+	"/assets/img/professionals-calculator.jpg": {
 		"ft": 16384,
 		"iS": 1311231,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/assets\/img\/professionals-calculator.jpg",
+		"oAP": "/assets/img/professionals-calculator.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/assets\/img\/professionals-detail-sets.jpg": {
+	"/assets/img/professionals-detail-sets.jpg": {
 		"ft": 16384,
 		"iS": 772460,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/assets\/img\/professionals-detail-sets.jpg",
+		"oAP": "/assets/img/professionals-detail-sets.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/assets\/img\/professionals-installation.jpg": {
+	"/assets/img/professionals-installation.jpg": {
 		"ft": 16384,
 		"iS": 528182,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/assets\/img\/professionals-installation.jpg",
+		"oAP": "/assets/img/professionals-installation.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/assets\/img\/professionals-performance-specs.jpg": {
+	"/assets/img/professionals-performance-specs.jpg": {
 		"ft": 16384,
 		"iS": 721638,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/assets\/img\/professionals-performance-specs.jpg",
+		"oAP": "/assets/img/professionals-performance-specs.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/assets\/img\/professionals-receiving-unloading.jpg": {
+	"/assets/img/professionals-receiving-unloading.jpg": {
 		"ft": 16384,
 		"iS": 1365105,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/assets\/img\/professionals-receiving-unloading.jpg",
+		"oAP": "/assets/img/professionals-receiving-unloading.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/assets\/img\/professionals-videos.jpg": {
+	"/assets/img/professionals-videos.jpg": {
 		"ft": 16384,
 		"iS": 261814,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/assets\/img\/professionals-videos.jpg",
+		"oAP": "/assets/img/professionals-videos.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
 		},
-	"\/assets\/img\/twitter.svg": {
+	"/assets/img/twitter.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/assets\/img\/twitter.svg",
+		"oAP": "/assets/img/twitter.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/assets\/img\/usa-outline.svg": {
+	"/assets/img/usa-outline.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/assets\/img\/usa-outline.svg",
+		"oAP": "/assets/img/usa-outline.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/assets\/js\/category-images.js": {
+	"/assets/js/category-images.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/min\/category-images-min.js",
+		"oAP": "/assets/js/min/category-images-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/assets\/js\/lib\/animation.gsap.js": {
+	"/assets/js/lib/animation.gsap.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/lib\/min\/animation.gsap-min.js",
+		"oAP": "/assets/js/lib/min/animation.gsap-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/assets\/js\/lib\/bootstrap.min.js": {
+	"/assets/js/lib/bootstrap.min.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/lib\/min\/bootstrap.min-min.js",
+		"oAP": "/assets/js/lib/min/bootstrap.min-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/assets\/js\/lib\/conditionizr-4.3.0.min.js": {
+	"/assets/js/lib/conditionizr-4.3.0.min.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/lib\/min\/conditionizr-4.3.0.min-min.js",
+		"oAP": "/assets/js/lib/min/conditionizr-4.3.0.min-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/assets\/js\/lib\/countUp.min.js": {
+	"/assets/js/lib/countUp.min.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/lib\/min\/countUp.min-min.js",
+		"oAP": "/assets/js/lib/min/countUp.min-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/assets\/js\/lib\/flexibility.js": {
+	"/assets/js/lib/flexibility.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/lib\/min\/flexibility-min.js",
+		"oAP": "/assets/js/lib/min/flexibility-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/assets\/js\/lib\/flickity-imagesloaded.js": {
+	"/assets/js/lib/flickity-imagesloaded.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/lib\/min\/flickity-imagesloaded-min.js",
+		"oAP": "/assets/js/lib/min/flickity-imagesloaded-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/assets\/js\/lib\/flickity.pkgd.min.js": {
+	"/assets/js/lib/flickity.pkgd.min.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/lib\/min\/flickity.pkgd.min-min.js",
+		"oAP": "/assets/js/lib/min/flickity.pkgd.min-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/assets\/js\/lib\/modernizr-2.7.1.min.js": {
+	"/assets/js/lib/modernizr-2.7.1.min.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/lib\/min\/modernizr-2.7.1.min-min.js",
+		"oAP": "/assets/js/lib/min/modernizr-2.7.1.min-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/assets\/js\/lib\/modernizr-3.5.js": {
+	"/assets/js/lib/modernizr-3.5.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/lib\/min\/modernizr-3.5-min.js",
+		"oAP": "/assets/js/lib/min/modernizr-3.5-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/assets\/js\/masonry.js": {
+	"/assets/js/masonry.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/min\/masonry-min.js",
+		"oAP": "/assets/js/min/masonry-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/assets\/js\/min\/category-images-min.js": {
+	"/assets/js/min/category-images-min.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/min\/min\/category-images-min-min.js",
+		"oAP": "/assets/js/min/min/category-images-min-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/assets\/js\/min\/scripts-min.js": {
+	"/assets/js/min/scripts-min.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/min\/min\/scripts-min-min.js",
+		"oAP": "/assets/js/min/min/scripts-min-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/assets\/js\/scripts.js": {
+	"/assets/js/scripts.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/min\/scripts-min.js",
+		"oAP": "/assets/js/min/scripts-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/assets\/js\/sections\/home.js": {
+	"/assets/js/sections/home.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/sections\/min\/home-min.js",
+		"oAP": "/assets/js/sections/min/home-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/assets\/js\/sections\/min\/product-min.js": {
+	"/assets/js/sections/min/product-min.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/sections\/min\/min\/product-min-min.js",
+		"oAP": "/assets/js/sections/min/min/product-min-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/assets\/js\/sections\/product.js": {
+	"/assets/js/sections/product.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/sections\/min\/product-min.js",
+		"oAP": "/assets/js/sections/min/product-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/assets\/less\/bootstrap\/alerts.less": {
+	"/assets/less/bootstrap/alerts.less": {
 		"aP": 1,
 		"bl": 1,
-		"dJ": 0,
+		"eJ": 0,
 		"ft": 1,
 		"ie": 1,
 		"iI": 0,
 		"ma": 0,
+		"mS": 0,
 		"oA": 1,
-		"oAP": "\/assets\/less\/css\/alerts.css",
+		"oAP": "/assets/less/css/alerts.css",
 		"oF": 0,
 		"oS": 0,
-		"rU": 0,
+		"rwU": 0,
 		"sI": 0,
-		"sM": 0,
 		"sU": 0
 		},
-	"\/assets\/less\/bootstrap\/badges.less": {
+	"/assets/less/bootstrap/badges.less": {
 		"aP": 1,
 		"bl": 1,
-		"dJ": 0,
+		"eJ": 0,
 		"ft": 1,
 		"ie": 1,
 		"iI": 0,
 		"ma": 0,
+		"mS": 0,
 		"oA": 1,
-		"oAP": "\/assets\/less\/css\/badges.css",
+		"oAP": "/assets/less/css/badges.css",
 		"oF": 0,
 		"oS": 0,
-		"rU": 0,
+		"rwU": 0,
 		"sI": 0,
-		"sM": 0,
 		"sU": 0
 		},
-	"\/assets\/less\/bootstrap\/bootstrap.less": {
+	"/assets/less/bootstrap/bootstrap.less": {
 		"aP": 1,
 		"bl": 1,
-		"dJ": 0,
+		"eJ": 0,
 		"ft": 1,
 		"ie": 1,
 		"iI": 0,
 		"ma": 0,
+		"mS": 0,
 		"oA": 1,
-		"oAP": "\/assets\/less\/css\/bootstrap.css",
+		"oAP": "/assets/less/css/bootstrap.css",
 		"oF": 0,
 		"oS": 0,
-		"rU": 0,
+		"rwU": 0,
 		"sI": 0,
-		"sM": 0,
 		"sU": 0
 		},
-	"\/assets\/less\/bootstrap\/breadcrumbs.less": {
+	"/assets/less/bootstrap/breadcrumbs.less": {
 		"aP": 1,
 		"bl": 1,
-		"dJ": 0,
+		"eJ": 0,
 		"ft": 1,
 		"ie": 1,
 		"iI": 0,
 		"ma": 0,
+		"mS": 0,
 		"oA": 1,
-		"oAP": "\/assets\/less\/css\/breadcrumbs.css",
+		"oAP": "/assets/less/css/breadcrumbs.css",
 		"oF": 0,
 		"oS": 0,
-		"rU": 0,
+		"rwU": 0,
 		"sI": 0,
-		"sM": 0,
 		"sU": 0
 		},
-	"\/assets\/less\/bootstrap\/button-groups.less": {
+	"/assets/less/bootstrap/button-groups.less": {
 		"aP": 1,
 		"bl": 1,
-		"dJ": 0,
+		"eJ": 0,
 		"ft": 1,
 		"ie": 1,
 		"iI": 0,
 		"ma": 0,
+		"mS": 0,
 		"oA": 1,
-		"oAP": "\/assets\/less\/css\/button-groups.css",
+		"oAP": "/assets/less/css/button-groups.css",
 		"oF": 0,
 		"oS": 0,
-		"rU": 0,
+		"rwU": 0,
 		"sI": 0,
-		"sM": 0,
 		"sU": 0
 		},
-	"\/assets\/less\/bootstrap\/buttons.less": {
+	"/assets/less/bootstrap/buttons.less": {
 		"aP": 1,
 		"bl": 1,
-		"dJ": 0,
+		"eJ": 0,
 		"ft": 1,
 		"ie": 1,
 		"iI": 0,
 		"ma": 0,
+		"mS": 0,
 		"oA": 1,
-		"oAP": "\/assets\/less\/css\/buttons.css",
+		"oAP": "/assets/less/css/buttons.css",
 		"oF": 0,
 		"oS": 0,
-		"rU": 0,
+		"rwU": 0,
 		"sI": 0,
-		"sM": 0,
 		"sU": 0
 		},
-	"\/assets\/less\/bootstrap\/carousel.less": {
+	"/assets/less/bootstrap/carousel.less": {
 		"aP": 1,
 		"bl": 1,
-		"dJ": 0,
+		"eJ": 0,
 		"ft": 1,
 		"ie": 1,
 		"iI": 0,
 		"ma": 0,
+		"mS": 0,
 		"oA": 1,
-		"oAP": "\/assets\/less\/css\/carousel.css",
+		"oAP": "/assets/less/css/carousel.css",
 		"oF": 0,
 		"oS": 0,
-		"rU": 0,
+		"rwU": 0,
 		"sI": 0,
-		"sM": 0,
 		"sU": 0
 		},
-	"\/assets\/less\/bootstrap\/close.less": {
+	"/assets/less/bootstrap/close.less": {
 		"aP": 1,
 		"bl": 1,
-		"dJ": 0,
+		"eJ": 0,
 		"ft": 1,
 		"ie": 1,
 		"iI": 0,
 		"ma": 0,
+		"mS": 0,
 		"oA": 1,
-		"oAP": "\/assets\/less\/css\/close.css",
+		"oAP": "/assets/less/css/close.css",
 		"oF": 0,
 		"oS": 0,
-		"rU": 0,
+		"rwU": 0,
 		"sI": 0,
-		"sM": 0,
 		"sU": 0
 		},
-	"\/assets\/less\/bootstrap\/code.less": {
+	"/assets/less/bootstrap/code.less": {
 		"aP": 1,
 		"bl": 1,
-		"dJ": 0,
+		"eJ": 0,
 		"ft": 1,
 		"ie": 1,
 		"iI": 0,
 		"ma": 0,
+		"mS": 0,
 		"oA": 1,
-		"oAP": "\/assets\/less\/css\/code.css",
+		"oAP": "/assets/less/css/code.css",
 		"oF": 0,
 		"oS": 0,
-		"rU": 0,
+		"rwU": 0,
 		"sI": 0,
-		"sM": 0,
 		"sU": 0
 		},
-	"\/assets\/less\/bootstrap\/component-animations.less": {
+	"/assets/less/bootstrap/component-animations.less": {
 		"aP": 1,
 		"bl": 1,
-		"dJ": 0,
+		"eJ": 0,
 		"ft": 1,
 		"ie": 1,
 		"iI": 0,
 		"ma": 0,
+		"mS": 0,
 		"oA": 1,
-		"oAP": "\/assets\/less\/css\/component-animations.css",
+		"oAP": "/assets/less/css/component-animations.css",
 		"oF": 0,
 		"oS": 0,
-		"rU": 0,
+		"rwU": 0,
 		"sI": 0,
-		"sM": 0,
 		"sU": 0
 		},
-	"\/assets\/less\/bootstrap\/dropdowns.less": {
+	"/assets/less/bootstrap/dropdowns.less": {
 		"aP": 1,
 		"bl": 1,
-		"dJ": 0,
+		"eJ": 0,
 		"ft": 1,
 		"ie": 1,
 		"iI": 0,
 		"ma": 0,
+		"mS": 0,
 		"oA": 1,
-		"oAP": "\/assets\/less\/css\/dropdowns.css",
+		"oAP": "/assets/less/css/dropdowns.css",
 		"oF": 0,
 		"oS": 0,
-		"rU": 0,
+		"rwU": 0,
 		"sI": 0,
-		"sM": 0,
 		"sU": 0
 		},
-	"\/assets\/less\/bootstrap\/forms.less": {
+	"/assets/less/bootstrap/forms.less": {
 		"aP": 1,
 		"bl": 1,
-		"dJ": 0,
+		"eJ": 0,
 		"ft": 1,
 		"ie": 1,
 		"iI": 0,
 		"ma": 0,
+		"mS": 0,
 		"oA": 1,
-		"oAP": "\/assets\/less\/css\/forms.css",
+		"oAP": "/assets/less/css/forms.css",
 		"oF": 0,
 		"oS": 0,
-		"rU": 0,
+		"rwU": 0,
 		"sI": 0,
-		"sM": 0,
 		"sU": 0
 		},
-	"\/assets\/less\/bootstrap\/glyphicons.less": {
+	"/assets/less/bootstrap/glyphicons.less": {
 		"aP": 1,
 		"bl": 1,
-		"dJ": 0,
+		"eJ": 0,
 		"ft": 1,
 		"ie": 1,
 		"iI": 0,
 		"ma": 0,
+		"mS": 0,
 		"oA": 1,
-		"oAP": "\/assets\/less\/css\/glyphicons.css",
+		"oAP": "/assets/less/css/glyphicons.css",
 		"oF": 0,
 		"oS": 0,
-		"rU": 0,
+		"rwU": 0,
 		"sI": 0,
-		"sM": 0,
 		"sU": 0
 		},
-	"\/assets\/less\/bootstrap\/grid.less": {
+	"/assets/less/bootstrap/grid.less": {
 		"aP": 1,
 		"bl": 1,
-		"dJ": 0,
+		"eJ": 0,
 		"ft": 1,
 		"ie": 1,
 		"iI": 0,
 		"ma": 0,
+		"mS": 0,
 		"oA": 1,
-		"oAP": "\/assets\/less\/css\/grid.css",
+		"oAP": "/assets/less/css/grid.css",
 		"oF": 0,
 		"oS": 0,
-		"rU": 0,
+		"rwU": 0,
 		"sI": 0,
-		"sM": 0,
 		"sU": 0
 		},
-	"\/assets\/less\/bootstrap\/input-groups.less": {
+	"/assets/less/bootstrap/input-groups.less": {
 		"aP": 1,
 		"bl": 1,
-		"dJ": 0,
+		"eJ": 0,
 		"ft": 1,
 		"ie": 1,
 		"iI": 0,
 		"ma": 0,
+		"mS": 0,
 		"oA": 1,
-		"oAP": "\/assets\/less\/css\/input-groups.css",
+		"oAP": "/assets/less/css/input-groups.css",
 		"oF": 0,
 		"oS": 0,
-		"rU": 0,
+		"rwU": 0,
 		"sI": 0,
-		"sM": 0,
 		"sU": 0
 		},
-	"\/assets\/less\/bootstrap\/jumbotron.less": {
+	"/assets/less/bootstrap/jumbotron.less": {
 		"aP": 1,
 		"bl": 1,
-		"dJ": 0,
+		"eJ": 0,
 		"ft": 1,
 		"ie": 1,
 		"iI": 0,
 		"ma": 0,
+		"mS": 0,
 		"oA": 1,
-		"oAP": "\/assets\/less\/css\/jumbotron.css",
+		"oAP": "/assets/less/css/jumbotron.css",
 		"oF": 0,
 		"oS": 0,
-		"rU": 0,
+		"rwU": 0,
 		"sI": 0,
-		"sM": 0,
 		"sU": 0
 		},
-	"\/assets\/less\/bootstrap\/labels.less": {
+	"/assets/less/bootstrap/labels.less": {
 		"aP": 1,
 		"bl": 1,
-		"dJ": 0,
+		"eJ": 0,
 		"ft": 1,
 		"ie": 1,
 		"iI": 0,
 		"ma": 0,
+		"mS": 0,
 		"oA": 1,
-		"oAP": "\/assets\/less\/css\/labels.css",
+		"oAP": "/assets/less/css/labels.css",
 		"oF": 0,
 		"oS": 0,
-		"rU": 0,
+		"rwU": 0,
 		"sI": 0,
-		"sM": 0,
 		"sU": 0
 		},
-	"\/assets\/less\/bootstrap\/list-group.less": {
+	"/assets/less/bootstrap/list-group.less": {
 		"aP": 1,
 		"bl": 1,
-		"dJ": 0,
+		"eJ": 0,
 		"ft": 1,
 		"ie": 1,
 		"iI": 0,
 		"ma": 0,
+		"mS": 0,
 		"oA": 1,
-		"oAP": "\/assets\/less\/css\/list-group.css",
+		"oAP": "/assets/less/css/list-group.css",
 		"oF": 0,
 		"oS": 0,
-		"rU": 0,
+		"rwU": 0,
 		"sI": 0,
-		"sM": 0,
 		"sU": 0
 		},
-	"\/assets\/less\/bootstrap\/media.less": {
+	"/assets/less/bootstrap/media.less": {
 		"aP": 1,
 		"bl": 1,
-		"dJ": 0,
+		"eJ": 0,
 		"ft": 1,
 		"ie": 1,
 		"iI": 0,
 		"ma": 0,
+		"mS": 0,
 		"oA": 1,
-		"oAP": "\/assets\/less\/css\/media.css",
+		"oAP": "/assets/less/css/media.css",
 		"oF": 0,
 		"oS": 0,
-		"rU": 0,
+		"rwU": 0,
 		"sI": 0,
-		"sM": 0,
 		"sU": 0
 		},
-	"\/assets\/less\/bootstrap\/mixins.less": {
+	"/assets/less/bootstrap/mixins.less": {
 		"aP": 1,
 		"bl": 1,
-		"dJ": 0,
+		"eJ": 0,
 		"ft": 1,
 		"ie": 1,
 		"iI": 0,
 		"ma": 0,
+		"mS": 0,
 		"oA": 1,
-		"oAP": "\/assets\/less\/css\/mixins.css",
+		"oAP": "/assets/less/css/mixins.css",
 		"oF": 0,
 		"oS": 0,
-		"rU": 0,
+		"rwU": 0,
 		"sI": 0,
-		"sM": 0,
 		"sU": 0
 		},
-	"\/assets\/less\/bootstrap\/mixins\/alerts.less": {
+	"/assets/less/bootstrap/mixins/alerts.less": {
 		"aP": 1,
 		"bl": 1,
-		"dJ": 0,
+		"eJ": 0,
 		"ft": 1,
 		"ie": 1,
 		"iI": 0,
 		"ma": 0,
+		"mS": 0,
 		"oA": 1,
-		"oAP": "\/assets\/less\/bootstrap\/css\/alerts.css",
+		"oAP": "/assets/less/bootstrap/css/alerts.css",
 		"oF": 0,
 		"oS": 0,
-		"rU": 0,
+		"rwU": 0,
 		"sI": 0,
-		"sM": 0,
 		"sU": 0
 		},
-	"\/assets\/less\/bootstrap\/mixins\/background-variant.less": {
+	"/assets/less/bootstrap/mixins/background-variant.less": {
 		"aP": 1,
 		"bl": 1,
-		"dJ": 0,
+		"eJ": 0,
 		"ft": 1,
 		"ie": 1,
 		"iI": 0,
 		"ma": 0,
+		"mS": 0,
 		"oA": 1,
-		"oAP": "\/assets\/less\/bootstrap\/css\/background-variant.css",
+		"oAP": "/assets/less/bootstrap/css/background-variant.css",
 		"oF": 0,
 		"oS": 0,
-		"rU": 0,
+		"rwU": 0,
 		"sI": 0,
-		"sM": 0,
 		"sU": 0
 		},
-	"\/assets\/less\/bootstrap\/mixins\/border-radius.less": {
+	"/assets/less/bootstrap/mixins/border-radius.less": {
 		"aP": 1,
 		"bl": 1,
-		"dJ": 0,
+		"eJ": 0,
 		"ft": 1,
 		"ie": 1,
 		"iI": 0,
 		"ma": 0,
+		"mS": 0,
 		"oA": 1,
-		"oAP": "\/assets\/less\/bootstrap\/css\/border-radius.css",
+		"oAP": "/assets/less/bootstrap/css/border-radius.css",
 		"oF": 0,
 		"oS": 0,
-		"rU": 0,
+		"rwU": 0,
 		"sI": 0,
-		"sM": 0,
 		"sU": 0
 		},
-	"\/assets\/less\/bootstrap\/mixins\/buttons.less": {
+	"/assets/less/bootstrap/mixins/buttons.less": {
 		"aP": 1,
 		"bl": 1,
-		"dJ": 0,
+		"eJ": 0,
 		"ft": 1,
 		"ie": 1,
 		"iI": 0,
 		"ma": 0,
+		"mS": 0,
 		"oA": 1,
-		"oAP": "\/assets\/less\/bootstrap\/css\/buttons.css",
+		"oAP": "/assets/less/bootstrap/css/buttons.css",
 		"oF": 0,
 		"oS": 0,
-		"rU": 0,
+		"rwU": 0,
 		"sI": 0,
-		"sM": 0,
 		"sU": 0
 		},
-	"\/assets\/less\/bootstrap\/mixins\/center-block.less": {
+	"/assets/less/bootstrap/mixins/center-block.less": {
 		"aP": 1,
 		"bl": 1,
-		"dJ": 0,
+		"eJ": 0,
 		"ft": 1,
 		"ie": 1,
 		"iI": 0,
 		"ma": 0,
+		"mS": 0,
 		"oA": 1,
-		"oAP": "\/assets\/less\/bootstrap\/css\/center-block.css",
+		"oAP": "/assets/less/bootstrap/css/center-block.css",
 		"oF": 0,
 		"oS": 0,
-		"rU": 0,
+		"rwU": 0,
 		"sI": 0,
-		"sM": 0,
 		"sU": 0
 		},
-	"\/assets\/less\/bootstrap\/mixins\/clearfix.less": {
+	"/assets/less/bootstrap/mixins/clearfix.less": {
 		"aP": 1,
 		"bl": 1,
-		"dJ": 0,
+		"eJ": 0,
 		"ft": 1,
 		"ie": 1,
 		"iI": 0,
 		"ma": 0,
+		"mS": 0,
 		"oA": 1,
-		"oAP": "\/assets\/less\/bootstrap\/css\/clearfix.css",
+		"oAP": "/assets/less/bootstrap/css/clearfix.css",
 		"oF": 0,
 		"oS": 0,
-		"rU": 0,
+		"rwU": 0,
 		"sI": 0,
-		"sM": 0,
 		"sU": 0
 		},
-	"\/assets\/less\/bootstrap\/mixins\/forms.less": {
+	"/assets/less/bootstrap/mixins/forms.less": {
 		"aP": 1,
 		"bl": 1,
-		"dJ": 0,
+		"eJ": 0,
 		"ft": 1,
 		"ie": 1,
 		"iI": 0,
 		"ma": 0,
+		"mS": 0,
 		"oA": 1,
-		"oAP": "\/assets\/less\/bootstrap\/css\/forms.css",
+		"oAP": "/assets/less/bootstrap/css/forms.css",
 		"oF": 0,
 		"oS": 0,
-		"rU": 0,
+		"rwU": 0,
 		"sI": 0,
-		"sM": 0,
 		"sU": 0
 		},
-	"\/assets\/less\/bootstrap\/mixins\/gradients.less": {
+	"/assets/less/bootstrap/mixins/gradients.less": {
 		"aP": 1,
 		"bl": 1,
-		"dJ": 0,
+		"eJ": 0,
 		"ft": 1,
 		"ie": 1,
 		"iI": 0,
 		"ma": 0,
+		"mS": 0,
 		"oA": 1,
-		"oAP": "\/assets\/less\/bootstrap\/css\/gradients.css",
+		"oAP": "/assets/less/bootstrap/css/gradients.css",
 		"oF": 0,
 		"oS": 0,
-		"rU": 0,
+		"rwU": 0,
 		"sI": 0,
-		"sM": 0,
 		"sU": 0
 		},
-	"\/assets\/less\/bootstrap\/mixins\/grid-framework.less": {
+	"/assets/less/bootstrap/mixins/grid-framework.less": {
 		"aP": 1,
 		"bl": 1,
-		"dJ": 0,
+		"eJ": 0,
 		"ft": 1,
 		"ie": 1,
 		"iI": 0,
 		"ma": 0,
+		"mS": 0,
 		"oA": 1,
-		"oAP": "\/assets\/less\/bootstrap\/css\/grid-framework.css",
+		"oAP": "/assets/less/bootstrap/css/grid-framework.css",
 		"oF": 0,
 		"oS": 0,
-		"rU": 0,
+		"rwU": 0,
 		"sI": 0,
-		"sM": 0,
 		"sU": 0
 		},
-	"\/assets\/less\/bootstrap\/mixins\/grid.less": {
+	"/assets/less/bootstrap/mixins/grid.less": {
 		"aP": 1,
 		"bl": 1,
-		"dJ": 0,
+		"eJ": 0,
 		"ft": 1,
 		"ie": 1,
 		"iI": 0,
 		"ma": 0,
+		"mS": 0,
 		"oA": 1,
-		"oAP": "\/assets\/less\/bootstrap\/css\/grid.css",
+		"oAP": "/assets/less/bootstrap/css/grid.css",
 		"oF": 0,
 		"oS": 0,
-		"rU": 0,
+		"rwU": 0,
 		"sI": 0,
-		"sM": 0,
 		"sU": 0
 		},
-	"\/assets\/less\/bootstrap\/mixins\/hide-text.less": {
+	"/assets/less/bootstrap/mixins/hide-text.less": {
 		"aP": 1,
 		"bl": 1,
-		"dJ": 0,
+		"eJ": 0,
 		"ft": 1,
 		"ie": 1,
 		"iI": 0,
 		"ma": 0,
+		"mS": 0,
 		"oA": 1,
-		"oAP": "\/assets\/less\/bootstrap\/css\/hide-text.css",
+		"oAP": "/assets/less/bootstrap/css/hide-text.css",
 		"oF": 0,
 		"oS": 0,
-		"rU": 0,
+		"rwU": 0,
 		"sI": 0,
-		"sM": 0,
 		"sU": 0
 		},
-	"\/assets\/less\/bootstrap\/mixins\/image.less": {
+	"/assets/less/bootstrap/mixins/image.less": {
 		"aP": 1,
 		"bl": 1,
-		"dJ": 0,
+		"eJ": 0,
 		"ft": 1,
 		"ie": 1,
 		"iI": 0,
 		"ma": 0,
+		"mS": 0,
 		"oA": 1,
-		"oAP": "\/assets\/less\/bootstrap\/css\/image.css",
+		"oAP": "/assets/less/bootstrap/css/image.css",
 		"oF": 0,
 		"oS": 0,
-		"rU": 0,
+		"rwU": 0,
 		"sI": 0,
-		"sM": 0,
 		"sU": 0
 		},
-	"\/assets\/less\/bootstrap\/mixins\/labels.less": {
+	"/assets/less/bootstrap/mixins/labels.less": {
 		"aP": 1,
 		"bl": 1,
-		"dJ": 0,
+		"eJ": 0,
 		"ft": 1,
 		"ie": 1,
 		"iI": 0,
 		"ma": 0,
+		"mS": 0,
 		"oA": 1,
-		"oAP": "\/assets\/less\/bootstrap\/css\/labels.css",
+		"oAP": "/assets/less/bootstrap/css/labels.css",
 		"oF": 0,
 		"oS": 0,
-		"rU": 0,
+		"rwU": 0,
 		"sI": 0,
-		"sM": 0,
 		"sU": 0
 		},
-	"\/assets\/less\/bootstrap\/mixins\/list-group.less": {
+	"/assets/less/bootstrap/mixins/list-group.less": {
 		"aP": 1,
 		"bl": 1,
-		"dJ": 0,
+		"eJ": 0,
 		"ft": 1,
 		"ie": 1,
 		"iI": 0,
 		"ma": 0,
+		"mS": 0,
 		"oA": 1,
-		"oAP": "\/assets\/less\/bootstrap\/css\/list-group.css",
+		"oAP": "/assets/less/bootstrap/css/list-group.css",
 		"oF": 0,
 		"oS": 0,
-		"rU": 0,
+		"rwU": 0,
 		"sI": 0,
-		"sM": 0,
 		"sU": 0
 		},
-	"\/assets\/less\/bootstrap\/mixins\/nav-divider.less": {
+	"/assets/less/bootstrap/mixins/nav-divider.less": {
 		"aP": 1,
 		"bl": 1,
-		"dJ": 0,
+		"eJ": 0,
 		"ft": 1,
 		"ie": 1,
 		"iI": 0,
 		"ma": 0,
+		"mS": 0,
 		"oA": 1,
-		"oAP": "\/assets\/less\/bootstrap\/css\/nav-divider.css",
+		"oAP": "/assets/less/bootstrap/css/nav-divider.css",
 		"oF": 0,
 		"oS": 0,
-		"rU": 0,
+		"rwU": 0,
 		"sI": 0,
-		"sM": 0,
 		"sU": 0
 		},
-	"\/assets\/less\/bootstrap\/mixins\/nav-vertical-align.less": {
+	"/assets/less/bootstrap/mixins/nav-vertical-align.less": {
 		"aP": 1,
 		"bl": 1,
-		"dJ": 0,
+		"eJ": 0,
 		"ft": 1,
 		"ie": 1,
 		"iI": 0,
 		"ma": 0,
+		"mS": 0,
 		"oA": 1,
-		"oAP": "\/assets\/less\/bootstrap\/css\/nav-vertical-align.css",
+		"oAP": "/assets/less/bootstrap/css/nav-vertical-align.css",
 		"oF": 0,
 		"oS": 0,
-		"rU": 0,
+		"rwU": 0,
 		"sI": 0,
-		"sM": 0,
 		"sU": 0
 		},
-	"\/assets\/less\/bootstrap\/mixins\/opacity.less": {
+	"/assets/less/bootstrap/mixins/opacity.less": {
 		"aP": 1,
 		"bl": 1,
-		"dJ": 0,
+		"eJ": 0,
 		"ft": 1,
 		"ie": 1,
 		"iI": 0,
 		"ma": 0,
+		"mS": 0,
 		"oA": 1,
-		"oAP": "\/assets\/less\/bootstrap\/css\/opacity.css",
+		"oAP": "/assets/less/bootstrap/css/opacity.css",
 		"oF": 0,
 		"oS": 0,
-		"rU": 0,
+		"rwU": 0,
 		"sI": 0,
-		"sM": 0,
 		"sU": 0
 		},
-	"\/assets\/less\/bootstrap\/mixins\/pagination.less": {
+	"/assets/less/bootstrap/mixins/pagination.less": {
 		"aP": 1,
 		"bl": 1,
-		"dJ": 0,
+		"eJ": 0,
 		"ft": 1,
 		"ie": 1,
 		"iI": 0,
 		"ma": 0,
+		"mS": 0,
 		"oA": 1,
-		"oAP": "\/assets\/less\/bootstrap\/css\/pagination.css",
+		"oAP": "/assets/less/bootstrap/css/pagination.css",
 		"oF": 0,
 		"oS": 0,
-		"rU": 0,
+		"rwU": 0,
 		"sI": 0,
-		"sM": 0,
 		"sU": 0
 		},
-	"\/assets\/less\/bootstrap\/mixins\/panels.less": {
+	"/assets/less/bootstrap/mixins/panels.less": {
 		"aP": 1,
 		"bl": 1,
-		"dJ": 0,
+		"eJ": 0,
 		"ft": 1,
 		"ie": 1,
 		"iI": 0,
 		"ma": 0,
+		"mS": 0,
 		"oA": 1,
-		"oAP": "\/assets\/less\/bootstrap\/css\/panels.css",
+		"oAP": "/assets/less/bootstrap/css/panels.css",
 		"oF": 0,
 		"oS": 0,
-		"rU": 0,
+		"rwU": 0,
 		"sI": 0,
-		"sM": 0,
 		"sU": 0
 		},
-	"\/assets\/less\/bootstrap\/mixins\/progress-bar.less": {
+	"/assets/less/bootstrap/mixins/progress-bar.less": {
 		"aP": 1,
 		"bl": 1,
-		"dJ": 0,
+		"eJ": 0,
 		"ft": 1,
 		"ie": 1,
 		"iI": 0,
 		"ma": 0,
+		"mS": 0,
 		"oA": 1,
-		"oAP": "\/assets\/less\/bootstrap\/css\/progress-bar.css",
+		"oAP": "/assets/less/bootstrap/css/progress-bar.css",
 		"oF": 0,
 		"oS": 0,
-		"rU": 0,
+		"rwU": 0,
 		"sI": 0,
-		"sM": 0,
 		"sU": 0
 		},
-	"\/assets\/less\/bootstrap\/mixins\/reset-filter.less": {
+	"/assets/less/bootstrap/mixins/reset-filter.less": {
 		"aP": 1,
 		"bl": 1,
-		"dJ": 0,
+		"eJ": 0,
 		"ft": 1,
 		"ie": 1,
 		"iI": 0,
 		"ma": 0,
+		"mS": 0,
 		"oA": 1,
-		"oAP": "\/assets\/less\/bootstrap\/css\/reset-filter.css",
+		"oAP": "/assets/less/bootstrap/css/reset-filter.css",
 		"oF": 0,
 		"oS": 0,
-		"rU": 0,
+		"rwU": 0,
 		"sI": 0,
-		"sM": 0,
 		"sU": 0
 		},
-	"\/assets\/less\/bootstrap\/mixins\/reset-text.less": {
+	"/assets/less/bootstrap/mixins/reset-text.less": {
 		"aP": 1,
 		"bl": 1,
-		"dJ": 0,
+		"eJ": 0,
 		"ft": 1,
 		"ie": 1,
 		"iI": 0,
 		"ma": 0,
+		"mS": 0,
 		"oA": 1,
-		"oAP": "\/assets\/less\/bootstrap\/css\/reset-text.css",
+		"oAP": "/assets/less/bootstrap/css/reset-text.css",
 		"oF": 0,
 		"oS": 0,
-		"rU": 0,
+		"rwU": 0,
 		"sI": 0,
-		"sM": 0,
 		"sU": 0
 		},
-	"\/assets\/less\/bootstrap\/mixins\/resize.less": {
+	"/assets/less/bootstrap/mixins/resize.less": {
 		"aP": 1,
 		"bl": 1,
-		"dJ": 0,
+		"eJ": 0,
 		"ft": 1,
 		"ie": 1,
 		"iI": 0,
 		"ma": 0,
+		"mS": 0,
 		"oA": 1,
-		"oAP": "\/assets\/less\/bootstrap\/css\/resize.css",
+		"oAP": "/assets/less/bootstrap/css/resize.css",
 		"oF": 0,
 		"oS": 0,
-		"rU": 0,
+		"rwU": 0,
 		"sI": 0,
-		"sM": 0,
 		"sU": 0
 		},
-	"\/assets\/less\/bootstrap\/mixins\/responsive-visibility.less": {
+	"/assets/less/bootstrap/mixins/responsive-visibility.less": {
 		"aP": 1,
 		"bl": 1,
-		"dJ": 0,
+		"eJ": 0,
 		"ft": 1,
 		"ie": 1,
 		"iI": 0,
 		"ma": 0,
+		"mS": 0,
 		"oA": 1,
-		"oAP": "\/assets\/less\/bootstrap\/css\/responsive-visibility.css",
+		"oAP": "/assets/less/bootstrap/css/responsive-visibility.css",
 		"oF": 0,
 		"oS": 0,
-		"rU": 0,
+		"rwU": 0,
 		"sI": 0,
-		"sM": 0,
 		"sU": 0
 		},
-	"\/assets\/less\/bootstrap\/mixins\/size.less": {
+	"/assets/less/bootstrap/mixins/size.less": {
 		"aP": 1,
 		"bl": 1,
-		"dJ": 0,
+		"eJ": 0,
 		"ft": 1,
 		"ie": 1,
 		"iI": 0,
 		"ma": 0,
+		"mS": 0,
 		"oA": 1,
-		"oAP": "\/assets\/less\/bootstrap\/css\/size.css",
+		"oAP": "/assets/less/bootstrap/css/size.css",
 		"oF": 0,
 		"oS": 0,
-		"rU": 0,
+		"rwU": 0,
 		"sI": 0,
-		"sM": 0,
 		"sU": 0
 		},
-	"\/assets\/less\/bootstrap\/mixins\/tab-focus.less": {
+	"/assets/less/bootstrap/mixins/tab-focus.less": {
 		"aP": 1,
 		"bl": 1,
-		"dJ": 0,
+		"eJ": 0,
 		"ft": 1,
 		"ie": 1,
 		"iI": 0,
 		"ma": 0,
+		"mS": 0,
 		"oA": 1,
-		"oAP": "\/assets\/less\/bootstrap\/css\/tab-focus.css",
+		"oAP": "/assets/less/bootstrap/css/tab-focus.css",
 		"oF": 0,
 		"oS": 0,
-		"rU": 0,
+		"rwU": 0,
 		"sI": 0,
-		"sM": 0,
 		"sU": 0
 		},
-	"\/assets\/less\/bootstrap\/mixins\/table-row.less": {
+	"/assets/less/bootstrap/mixins/table-row.less": {
 		"aP": 1,
 		"bl": 1,
-		"dJ": 0,
+		"eJ": 0,
 		"ft": 1,
 		"ie": 1,
 		"iI": 0,
 		"ma": 0,
+		"mS": 0,
 		"oA": 1,
-		"oAP": "\/assets\/less\/bootstrap\/css\/table-row.css",
+		"oAP": "/assets/less/bootstrap/css/table-row.css",
 		"oF": 0,
 		"oS": 0,
-		"rU": 0,
+		"rwU": 0,
 		"sI": 0,
-		"sM": 0,
 		"sU": 0
 		},
-	"\/assets\/less\/bootstrap\/mixins\/text-emphasis.less": {
+	"/assets/less/bootstrap/mixins/text-emphasis.less": {
 		"aP": 1,
 		"bl": 1,
-		"dJ": 0,
+		"eJ": 0,
 		"ft": 1,
 		"ie": 1,
 		"iI": 0,
 		"ma": 0,
+		"mS": 0,
 		"oA": 1,
-		"oAP": "\/assets\/less\/bootstrap\/css\/text-emphasis.css",
+		"oAP": "/assets/less/bootstrap/css/text-emphasis.css",
 		"oF": 0,
 		"oS": 0,
-		"rU": 0,
+		"rwU": 0,
 		"sI": 0,
-		"sM": 0,
 		"sU": 0
 		},
-	"\/assets\/less\/bootstrap\/mixins\/text-overflow.less": {
+	"/assets/less/bootstrap/mixins/text-overflow.less": {
 		"aP": 1,
 		"bl": 1,
-		"dJ": 0,
+		"eJ": 0,
 		"ft": 1,
 		"ie": 1,
 		"iI": 0,
 		"ma": 0,
+		"mS": 0,
 		"oA": 1,
-		"oAP": "\/assets\/less\/bootstrap\/css\/text-overflow.css",
+		"oAP": "/assets/less/bootstrap/css/text-overflow.css",
 		"oF": 0,
 		"oS": 0,
-		"rU": 0,
+		"rwU": 0,
 		"sI": 0,
-		"sM": 0,
 		"sU": 0
 		},
-	"\/assets\/less\/bootstrap\/mixins\/vendor-prefixes.less": {
+	"/assets/less/bootstrap/mixins/vendor-prefixes.less": {
 		"aP": 1,
 		"bl": 1,
-		"dJ": 0,
+		"eJ": 0,
 		"ft": 1,
 		"ie": 1,
 		"iI": 0,
 		"ma": 0,
+		"mS": 0,
 		"oA": 1,
-		"oAP": "\/assets\/less\/bootstrap\/css\/vendor-prefixes.css",
+		"oAP": "/assets/less/bootstrap/css/vendor-prefixes.css",
 		"oF": 0,
 		"oS": 0,
-		"rU": 0,
+		"rwU": 0,
 		"sI": 0,
-		"sM": 0,
 		"sU": 0
 		},
-	"\/assets\/less\/bootstrap\/modals.less": {
+	"/assets/less/bootstrap/modals.less": {
 		"aP": 1,
 		"bl": 1,
-		"dJ": 0,
+		"eJ": 0,
 		"ft": 1,
 		"ie": 1,
 		"iI": 0,
 		"ma": 0,
+		"mS": 0,
 		"oA": 1,
-		"oAP": "\/assets\/less\/css\/modals.css",
+		"oAP": "/assets/less/css/modals.css",
 		"oF": 0,
 		"oS": 0,
-		"rU": 0,
+		"rwU": 0,
 		"sI": 0,
-		"sM": 0,
 		"sU": 0
 		},
-	"\/assets\/less\/bootstrap\/navbar.less": {
+	"/assets/less/bootstrap/navbar.less": {
 		"aP": 1,
 		"bl": 1,
-		"dJ": 0,
+		"eJ": 0,
 		"ft": 1,
 		"ie": 1,
 		"iI": 0,
 		"ma": 0,
+		"mS": 0,
 		"oA": 1,
-		"oAP": "\/assets\/less\/css\/navbar.css",
+		"oAP": "/assets/less/css/navbar.css",
 		"oF": 0,
 		"oS": 0,
-		"rU": 0,
+		"rwU": 0,
 		"sI": 0,
-		"sM": 0,
 		"sU": 0
 		},
-	"\/assets\/less\/bootstrap\/navs.less": {
+	"/assets/less/bootstrap/navs.less": {
 		"aP": 1,
 		"bl": 1,
-		"dJ": 0,
+		"eJ": 0,
 		"ft": 1,
 		"ie": 1,
 		"iI": 0,
 		"ma": 0,
+		"mS": 0,
 		"oA": 1,
-		"oAP": "\/assets\/less\/css\/navs.css",
+		"oAP": "/assets/less/css/navs.css",
 		"oF": 0,
 		"oS": 0,
-		"rU": 0,
+		"rwU": 0,
 		"sI": 0,
-		"sM": 0,
 		"sU": 0
 		},
-	"\/assets\/less\/bootstrap\/normalize.less": {
+	"/assets/less/bootstrap/normalize.less": {
 		"aP": 1,
 		"bl": 1,
-		"dJ": 0,
+		"eJ": 0,
 		"ft": 1,
 		"ie": 1,
 		"iI": 0,
 		"ma": 0,
+		"mS": 0,
 		"oA": 1,
-		"oAP": "\/assets\/less\/css\/normalize.css",
+		"oAP": "/assets/less/css/normalize.css",
 		"oF": 0,
 		"oS": 0,
-		"rU": 0,
+		"rwU": 0,
 		"sI": 0,
-		"sM": 0,
 		"sU": 0
 		},
-	"\/assets\/less\/bootstrap\/pager.less": {
+	"/assets/less/bootstrap/pager.less": {
 		"aP": 1,
 		"bl": 1,
-		"dJ": 0,
+		"eJ": 0,
 		"ft": 1,
 		"ie": 1,
 		"iI": 0,
 		"ma": 0,
+		"mS": 0,
 		"oA": 1,
-		"oAP": "\/assets\/less\/css\/pager.css",
+		"oAP": "/assets/less/css/pager.css",
 		"oF": 0,
 		"oS": 0,
-		"rU": 0,
+		"rwU": 0,
 		"sI": 0,
-		"sM": 0,
 		"sU": 0
 		},
-	"\/assets\/less\/bootstrap\/pagination.less": {
+	"/assets/less/bootstrap/pagination.less": {
 		"aP": 1,
 		"bl": 1,
-		"dJ": 0,
+		"eJ": 0,
 		"ft": 1,
 		"ie": 1,
 		"iI": 0,
 		"ma": 0,
+		"mS": 0,
 		"oA": 1,
-		"oAP": "\/assets\/less\/css\/pagination.css",
+		"oAP": "/assets/less/css/pagination.css",
 		"oF": 0,
 		"oS": 0,
-		"rU": 0,
+		"rwU": 0,
 		"sI": 0,
-		"sM": 0,
 		"sU": 0
 		},
-	"\/assets\/less\/bootstrap\/panels.less": {
+	"/assets/less/bootstrap/panels.less": {
 		"aP": 1,
 		"bl": 1,
-		"dJ": 0,
+		"eJ": 0,
 		"ft": 1,
 		"ie": 1,
 		"iI": 0,
 		"ma": 0,
+		"mS": 0,
 		"oA": 1,
-		"oAP": "\/assets\/less\/css\/panels.css",
+		"oAP": "/assets/less/css/panels.css",
 		"oF": 0,
 		"oS": 0,
-		"rU": 0,
+		"rwU": 0,
 		"sI": 0,
-		"sM": 0,
 		"sU": 0
 		},
-	"\/assets\/less\/bootstrap\/popovers.less": {
+	"/assets/less/bootstrap/popovers.less": {
 		"aP": 1,
 		"bl": 1,
-		"dJ": 0,
+		"eJ": 0,
 		"ft": 1,
 		"ie": 1,
 		"iI": 0,
 		"ma": 0,
+		"mS": 0,
 		"oA": 1,
-		"oAP": "\/assets\/less\/css\/popovers.css",
+		"oAP": "/assets/less/css/popovers.css",
 		"oF": 0,
 		"oS": 0,
-		"rU": 0,
+		"rwU": 0,
 		"sI": 0,
-		"sM": 0,
 		"sU": 0
 		},
-	"\/assets\/less\/bootstrap\/print.less": {
+	"/assets/less/bootstrap/print.less": {
 		"aP": 1,
 		"bl": 1,
-		"dJ": 0,
+		"eJ": 0,
 		"ft": 1,
 		"ie": 1,
 		"iI": 0,
 		"ma": 0,
+		"mS": 0,
 		"oA": 1,
-		"oAP": "\/assets\/less\/css\/print.css",
+		"oAP": "/assets/less/css/print.css",
 		"oF": 0,
 		"oS": 0,
-		"rU": 0,
+		"rwU": 0,
 		"sI": 0,
-		"sM": 0,
 		"sU": 0
 		},
-	"\/assets\/less\/bootstrap\/progress-bars.less": {
+	"/assets/less/bootstrap/progress-bars.less": {
 		"aP": 1,
 		"bl": 1,
-		"dJ": 0,
+		"eJ": 0,
 		"ft": 1,
 		"ie": 1,
 		"iI": 0,
 		"ma": 0,
+		"mS": 0,
 		"oA": 1,
-		"oAP": "\/assets\/less\/css\/progress-bars.css",
+		"oAP": "/assets/less/css/progress-bars.css",
 		"oF": 0,
 		"oS": 0,
-		"rU": 0,
+		"rwU": 0,
 		"sI": 0,
-		"sM": 0,
 		"sU": 0
 		},
-	"\/assets\/less\/bootstrap\/responsive-embed.less": {
+	"/assets/less/bootstrap/responsive-embed.less": {
 		"aP": 1,
 		"bl": 1,
-		"dJ": 0,
+		"eJ": 0,
 		"ft": 1,
 		"ie": 1,
 		"iI": 0,
 		"ma": 0,
+		"mS": 0,
 		"oA": 1,
-		"oAP": "\/assets\/less\/css\/responsive-embed.css",
+		"oAP": "/assets/less/css/responsive-embed.css",
 		"oF": 0,
 		"oS": 0,
-		"rU": 0,
+		"rwU": 0,
 		"sI": 0,
-		"sM": 0,
 		"sU": 0
 		},
-	"\/assets\/less\/bootstrap\/responsive-utilities.less": {
+	"/assets/less/bootstrap/responsive-utilities.less": {
 		"aP": 1,
 		"bl": 1,
-		"dJ": 0,
+		"eJ": 0,
 		"ft": 1,
 		"ie": 1,
 		"iI": 0,
 		"ma": 0,
+		"mS": 0,
 		"oA": 1,
-		"oAP": "\/assets\/less\/css\/responsive-utilities.css",
+		"oAP": "/assets/less/css/responsive-utilities.css",
 		"oF": 0,
 		"oS": 0,
-		"rU": 0,
+		"rwU": 0,
 		"sI": 0,
-		"sM": 0,
 		"sU": 0
 		},
-	"\/assets\/less\/bootstrap\/scaffolding.less": {
+	"/assets/less/bootstrap/scaffolding.less": {
 		"aP": 1,
 		"bl": 1,
-		"dJ": 0,
+		"eJ": 0,
 		"ft": 1,
 		"ie": 1,
 		"iI": 0,
 		"ma": 0,
+		"mS": 0,
 		"oA": 1,
-		"oAP": "\/assets\/less\/css\/scaffolding.css",
+		"oAP": "/assets/less/css/scaffolding.css",
 		"oF": 0,
 		"oS": 0,
-		"rU": 0,
+		"rwU": 0,
 		"sI": 0,
-		"sM": 0,
 		"sU": 0
 		},
-	"\/assets\/less\/bootstrap\/tables.less": {
+	"/assets/less/bootstrap/tables.less": {
 		"aP": 1,
 		"bl": 1,
-		"dJ": 0,
+		"eJ": 0,
 		"ft": 1,
 		"ie": 1,
 		"iI": 0,
 		"ma": 0,
+		"mS": 0,
 		"oA": 1,
-		"oAP": "\/assets\/less\/css\/tables.css",
+		"oAP": "/assets/less/css/tables.css",
 		"oF": 0,
 		"oS": 0,
-		"rU": 0,
+		"rwU": 0,
 		"sI": 0,
-		"sM": 0,
 		"sU": 0
 		},
-	"\/assets\/less\/bootstrap\/theme.less": {
+	"/assets/less/bootstrap/theme.less": {
 		"aP": 1,
 		"bl": 1,
-		"dJ": 0,
+		"eJ": 0,
 		"ft": 1,
 		"ie": 1,
 		"iI": 0,
 		"ma": 0,
+		"mS": 0,
 		"oA": 0,
-		"oAP": "\/assets\/less\/css\/theme.css",
+		"oAP": "/assets/less/css/theme.css",
 		"oF": 0,
 		"oS": 0,
-		"rU": 0,
+		"rwU": 0,
 		"sI": 0,
-		"sM": 0,
 		"sU": 0
 		},
-	"\/assets\/less\/bootstrap\/thumbnails.less": {
+	"/assets/less/bootstrap/thumbnails.less": {
 		"aP": 1,
 		"bl": 1,
-		"dJ": 0,
+		"eJ": 0,
 		"ft": 1,
 		"ie": 1,
 		"iI": 0,
 		"ma": 0,
+		"mS": 0,
 		"oA": 1,
-		"oAP": "\/assets\/less\/css\/thumbnails.css",
+		"oAP": "/assets/less/css/thumbnails.css",
 		"oF": 0,
 		"oS": 0,
-		"rU": 0,
+		"rwU": 0,
 		"sI": 0,
-		"sM": 0,
 		"sU": 0
 		},
-	"\/assets\/less\/bootstrap\/tooltip.less": {
+	"/assets/less/bootstrap/tooltip.less": {
 		"aP": 1,
 		"bl": 1,
-		"dJ": 0,
+		"eJ": 0,
 		"ft": 1,
 		"ie": 1,
 		"iI": 0,
 		"ma": 0,
+		"mS": 0,
 		"oA": 1,
-		"oAP": "\/assets\/less\/css\/tooltip.css",
+		"oAP": "/assets/less/css/tooltip.css",
 		"oF": 0,
 		"oS": 0,
-		"rU": 0,
+		"rwU": 0,
 		"sI": 0,
-		"sM": 0,
 		"sU": 0
 		},
-	"\/assets\/less\/bootstrap\/type.less": {
+	"/assets/less/bootstrap/type.less": {
 		"aP": 1,
 		"bl": 1,
-		"dJ": 0,
+		"eJ": 0,
 		"ft": 1,
 		"ie": 1,
 		"iI": 0,
 		"ma": 0,
+		"mS": 0,
 		"oA": 1,
-		"oAP": "\/assets\/less\/css\/type.css",
+		"oAP": "/assets/less/css/type.css",
 		"oF": 0,
 		"oS": 0,
-		"rU": 0,
+		"rwU": 0,
 		"sI": 0,
-		"sM": 0,
 		"sU": 0
 		},
-	"\/assets\/less\/bootstrap\/utilities.less": {
+	"/assets/less/bootstrap/utilities.less": {
 		"aP": 1,
 		"bl": 1,
-		"dJ": 0,
+		"eJ": 0,
 		"ft": 1,
 		"ie": 1,
 		"iI": 0,
 		"ma": 0,
+		"mS": 0,
 		"oA": 1,
-		"oAP": "\/assets\/less\/css\/utilities.css",
+		"oAP": "/assets/less/css/utilities.css",
 		"oF": 0,
 		"oS": 0,
-		"rU": 0,
+		"rwU": 0,
 		"sI": 0,
-		"sM": 0,
 		"sU": 0
 		},
-	"\/assets\/less\/bootstrap\/variables.less": {
+	"/assets/less/bootstrap/variables.less": {
 		"aP": 1,
 		"bl": 1,
-		"dJ": 0,
+		"eJ": 0,
 		"ft": 1,
 		"ie": 1,
 		"iI": 0,
 		"ma": 0,
+		"mS": 0,
 		"oA": 1,
-		"oAP": "\/assets\/less\/css\/variables.css",
+		"oAP": "/assets/less/css/variables.css",
 		"oF": 0,
 		"oS": 0,
-		"rU": 0,
+		"rwU": 0,
 		"sI": 0,
-		"sM": 0,
 		"sU": 0
 		},
-	"\/assets\/less\/bootstrap\/wells.less": {
+	"/assets/less/bootstrap/wells.less": {
 		"aP": 1,
 		"bl": 1,
-		"dJ": 0,
+		"eJ": 0,
 		"ft": 1,
 		"ie": 1,
 		"iI": 0,
 		"ma": 0,
+		"mS": 0,
 		"oA": 1,
-		"oAP": "\/assets\/less\/css\/wells.css",
+		"oAP": "/assets/less/css/wells.css",
 		"oF": 0,
 		"oS": 0,
-		"rU": 0,
+		"rwU": 0,
 		"sI": 0,
-		"sM": 0,
 		"sU": 0
 		},
-	"\/assets\/less\/components\/_index.less": {
+	"/assets/less/components/_index.less": {
 		"aP": 1,
 		"bl": 1,
-		"dJ": 0,
+		"eJ": 0,
 		"ft": 1,
 		"ie": 1,
 		"iI": 0,
 		"ma": 0,
+		"mS": 0,
 		"oA": 1,
-		"oAP": "\/assets\/less\/css\/_index.css",
+		"oAP": "/assets/less/css/_index.css",
 		"oF": 0,
 		"oS": 0,
-		"rU": 0,
+		"rwU": 0,
 		"sI": 0,
-		"sM": 0,
 		"sU": 0
 		},
-	"\/assets\/less\/components\/css\/materials.css": {
+	"/assets/less/components/css/materials.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/assets\/less\/components\/css\/materials-min.css",
+		"oAP": "/assets/less/components/css/materials-min.css",
 		"oF": 0,
 		"oS": 3
 		},
-	"\/assets\/less\/components\/footer-callout-advantage.less": {
+	"/assets/less/components/footer-callout-advantage.less": {
 		"aP": 1,
 		"bl": 1,
-		"dJ": 0,
+		"eJ": 0,
 		"ft": 1,
 		"ie": 1,
 		"iI": 0,
 		"ma": 0,
+		"mS": 0,
 		"oA": 1,
-		"oAP": "\/assets\/less\/css\/footer-callout-advantage.css",
+		"oAP": "/assets/less/css/footer-callout-advantage.css",
 		"oF": 0,
 		"oS": 0,
-		"rU": 0,
+		"rwU": 0,
 		"sI": 0,
-		"sM": 0,
 		"sU": 0
 		},
-	"\/assets\/less\/components\/footer-callout-quote.less": {
+	"/assets/less/components/footer-callout-quote.less": {
 		"aP": 1,
 		"bl": 1,
-		"dJ": 0,
+		"eJ": 0,
 		"ft": 1,
 		"ie": 1,
 		"iI": 0,
 		"ma": 0,
+		"mS": 0,
 		"oA": 1,
-		"oAP": "\/assets\/less\/css\/footer-callout-quote.css",
+		"oAP": "/assets/less/css/footer-callout-quote.css",
 		"oF": 0,
 		"oS": 0,
-		"rU": 0,
+		"rwU": 0,
 		"sI": 0,
-		"sM": 0,
 		"sU": 0
 		},
-	"\/assets\/less\/components\/footer-callout.less": {
+	"/assets/less/components/footer-callout.less": {
 		"aP": 1,
 		"bl": 1,
-		"dJ": 0,
+		"eJ": 0,
 		"ft": 1,
 		"ie": 1,
 		"iI": 0,
 		"ma": 0,
+		"mS": 0,
 		"oA": 1,
-		"oAP": "\/assets\/less\/css\/footer-callout.css",
+		"oAP": "/assets/less/css/footer-callout.css",
 		"oF": 0,
 		"oS": 0,
-		"rU": 0,
+		"rwU": 0,
 		"sI": 0,
-		"sM": 0,
 		"sU": 0
 		},
-	"\/assets\/less\/components\/hero-title.less": {
+	"/assets/less/components/hero-title.less": {
 		"aP": 1,
 		"bl": 1,
-		"dJ": 0,
+		"eJ": 0,
 		"ft": 1,
 		"ie": 1,
 		"iI": 0,
 		"ma": 0,
+		"mS": 0,
 		"oA": 1,
-		"oAP": "\/assets\/less\/css\/hero-title.css",
+		"oAP": "/assets/less/css/hero-title.css",
 		"oF": 0,
 		"oS": 0,
-		"rU": 0,
+		"rwU": 0,
 		"sI": 0,
-		"sM": 0,
 		"sU": 0
 		},
-	"\/assets\/less\/components\/hover-blocks.less": {
+	"/assets/less/components/hover-blocks.less": {
 		"aP": 1,
 		"bl": 1,
-		"dJ": 0,
+		"eJ": 0,
 		"ft": 1,
 		"ie": 1,
 		"iI": 0,
 		"ma": 0,
+		"mS": 0,
 		"oA": 0,
-		"oAP": "\/assets\/less\/css\/hover-blocks.css",
+		"oAP": "/assets/less/css/hover-blocks.css",
 		"oF": 0,
 		"oS": 0,
-		"rU": 0,
+		"rwU": 0,
 		"sI": 0,
-		"sM": 0,
 		"sU": 0
 		},
-	"\/assets\/less\/components\/menu-list.less": {
+	"/assets/less/components/menu-list.less": {
 		"aP": 1,
 		"bl": 1,
-		"dJ": 0,
+		"eJ": 0,
 		"ft": 1,
 		"ie": 1,
 		"iI": 0,
 		"ma": 0,
+		"mS": 0,
 		"oA": 1,
-		"oAP": "\/assets\/less\/css\/menu-list.css",
+		"oAP": "/assets/less/css/menu-list.css",
 		"oF": 0,
 		"oS": 0,
-		"rU": 0,
+		"rwU": 0,
 		"sI": 0,
-		"sM": 0,
 		"sU": 0
 		},
-	"\/assets\/less\/components\/menu-marketing-block.less": {
+	"/assets/less/components/menu-marketing-block.less": {
 		"aP": 1,
 		"bl": 1,
-		"dJ": 0,
+		"eJ": 0,
 		"ft": 1,
 		"ie": 1,
 		"iI": 0,
 		"ma": 0,
+		"mS": 0,
 		"oA": 1,
-		"oAP": "\/assets\/less\/css\/menu-marketing-block.css",
+		"oAP": "/assets/less/css/menu-marketing-block.css",
 		"oF": 0,
 		"oS": 0,
-		"rU": 0,
+		"rwU": 0,
 		"sI": 0,
-		"sM": 0,
 		"sU": 0
 		},
-	"\/assets\/less\/components\/menu-visual.less": {
+	"/assets/less/components/menu-visual.less": {
 		"aP": 1,
 		"bl": 1,
-		"dJ": 0,
+		"eJ": 0,
 		"ft": 1,
 		"ie": 1,
 		"iI": 0,
 		"ma": 0,
+		"mS": 0,
 		"oA": 1,
-		"oAP": "\/assets\/less\/css\/menu-visual.css",
+		"oAP": "/assets/less/css/menu-visual.css",
 		"oF": 0,
 		"oS": 0,
-		"rU": 0,
+		"rwU": 0,
 		"sI": 0,
-		"sM": 0,
 		"sU": 0
 		},
-	"\/assets\/less\/components\/modals.less": {
+	"/assets/less/components/modals.less": {
 		"aP": 1,
 		"bl": 1,
-		"dJ": 0,
+		"eJ": 0,
 		"ft": 1,
 		"ie": 1,
 		"iI": 0,
 		"ma": 0,
+		"mS": 0,
 		"oA": 1,
-		"oAP": "\/assets\/less\/css\/modals.css",
+		"oAP": "/assets/less/css/modals.css",
 		"oF": 0,
 		"oS": 0,
-		"rU": 0,
+		"rwU": 0,
 		"sI": 0,
-		"sM": 0,
 		"sU": 0
 		},
-	"\/assets\/less\/components\/pagination.less": {
+	"/assets/less/components/pagination.less": {
 		"aP": 1,
 		"bl": 1,
-		"dJ": 0,
+		"eJ": 0,
 		"ft": 1,
 		"ie": 1,
 		"iI": 0,
 		"ma": 0,
+		"mS": 0,
 		"oA": 1,
-		"oAP": "\/assets\/less\/css\/pagination.css",
+		"oAP": "/assets/less/css/pagination.css",
 		"oF": 0,
 		"oS": 0,
-		"rU": 0,
+		"rwU": 0,
 		"sI": 0,
-		"sM": 0,
 		"sU": 0
 		},
-	"\/assets\/less\/components\/product-result.less": {
+	"/assets/less/components/product-result.less": {
 		"aP": 1,
 		"bl": 1,
-		"dJ": 0,
+		"eJ": 0,
 		"ft": 1,
 		"ie": 1,
 		"iI": 0,
 		"ma": 0,
+		"mS": 0,
 		"oA": 1,
-		"oAP": "\/assets\/less\/css\/product-result.css",
+		"oAP": "/assets/less/css/product-result.css",
 		"oF": 0,
 		"oS": 0,
-		"rU": 0,
+		"rwU": 0,
 		"sI": 0,
-		"sM": 0,
 		"sU": 0
 		},
-	"\/assets\/less\/components\/sidebar-blocks\/materials.less": {
+	"/assets/less/components/sidebar-blocks/materials.less": {
 		"aP": 1,
 		"bl": 1,
-		"dJ": 0,
+		"eJ": 0,
 		"ft": 1,
 		"ie": 1,
 		"iI": 0,
 		"ma": 0,
+		"mS": 0,
 		"oA": 1,
-		"oAP": "\/assets\/less\/components\/css\/materials.css",
+		"oAP": "/assets/less/components/css/materials.css",
 		"oF": 0,
 		"oS": 0,
-		"rU": 0,
+		"rwU": 0,
 		"sI": 0,
-		"sM": 0,
 		"sU": 0
 		},
-	"\/assets\/less\/components\/sidebar-blocks\/request-quote.less": {
+	"/assets/less/components/sidebar-blocks/request-quote.less": {
 		"aP": 1,
 		"bl": 1,
-		"dJ": 0,
+		"eJ": 0,
 		"ft": 1,
 		"ie": 1,
 		"iI": 0,
 		"ma": 0,
+		"mS": 0,
 		"oA": 1,
-		"oAP": "\/assets\/less\/components\/css\/request-quote.css",
+		"oAP": "/assets/less/components/css/request-quote.css",
 		"oF": 0,
 		"oS": 0,
-		"rU": 0,
+		"rwU": 0,
 		"sI": 0,
-		"sM": 0,
 		"sU": 0
 		},
-	"\/assets\/less\/components\/sidebar-blocks\/styles.less": {
+	"/assets/less/components/sidebar-blocks/styles.less": {
 		"aP": 1,
 		"bl": 1,
-		"dJ": 0,
+		"eJ": 0,
 		"ft": 1,
 		"ie": 1,
 		"iI": 0,
 		"ma": 0,
+		"mS": 0,
 		"oA": 1,
-		"oAP": "\/assets\/less\/components\/css\/styles.css",
+		"oAP": "/assets/less/components/css/styles.css",
 		"oF": 0,
 		"oS": 0,
-		"rU": 0,
+		"rwU": 0,
 		"sI": 0,
-		"sM": 0,
 		"sU": 0
 		},
-	"\/assets\/less\/components\/story-section.less": {
+	"/assets/less/components/story-section.less": {
 		"aP": 1,
 		"bl": 1,
-		"dJ": 0,
+		"eJ": 0,
 		"ft": 1,
 		"ie": 1,
 		"iI": 0,
 		"ma": 0,
+		"mS": 0,
 		"oA": 1,
-		"oAP": "\/assets\/less\/css\/story-section.css",
+		"oAP": "/assets/less/css/story-section.css",
 		"oF": 0,
 		"oS": 0,
-		"rU": 0,
+		"rwU": 0,
 		"sI": 0,
-		"sM": 0,
 		"sU": 0
 		},
-	"\/assets\/less\/layout\/_index.less": {
+	"/assets/less/layout/_index.less": {
 		"aP": 1,
 		"bl": 1,
-		"dJ": 0,
+		"eJ": 0,
 		"ft": 1,
 		"ie": 1,
 		"iI": 0,
 		"ma": 0,
+		"mS": 0,
 		"oA": 1,
-		"oAP": "\/assets\/less\/css\/_index.css",
+		"oAP": "/assets/less/css/_index.css",
 		"oF": 0,
 		"oS": 0,
-		"rU": 0,
+		"rwU": 0,
 		"sI": 0,
-		"sM": 0,
 		"sU": 0
 		},
-	"\/assets\/less\/layout\/nav-menus.less": {
+	"/assets/less/layout/nav-menus.less": {
 		"aP": 1,
 		"bl": 1,
-		"dJ": 0,
+		"eJ": 0,
 		"ft": 1,
 		"ie": 1,
 		"iI": 0,
 		"ma": 0,
+		"mS": 0,
 		"oA": 1,
-		"oAP": "\/assets\/less\/css\/nav-menus.css",
+		"oAP": "/assets/less/css/nav-menus.css",
 		"oF": 0,
 		"oS": 0,
-		"rU": 0,
+		"rwU": 0,
 		"sI": 0,
-		"sM": 0,
 		"sU": 0
 		},
-	"\/assets\/less\/layout\/page.less": {
+	"/assets/less/layout/page.less": {
 		"aP": 1,
 		"bl": 1,
-		"dJ": 0,
+		"eJ": 0,
 		"ft": 1,
 		"ie": 1,
 		"iI": 0,
 		"ma": 0,
+		"mS": 0,
 		"oA": 1,
-		"oAP": "\/assets\/less\/css\/page.css",
+		"oAP": "/assets/less/css/page.css",
 		"oF": 0,
 		"oS": 0,
-		"rU": 0,
+		"rwU": 0,
 		"sI": 0,
-		"sM": 0,
 		"sU": 0
 		},
-	"\/assets\/less\/layout\/patterns.less": {
+	"/assets/less/layout/patterns.less": {
 		"aP": 1,
 		"bl": 1,
-		"dJ": 0,
+		"eJ": 0,
 		"ft": 1,
 		"ie": 1,
 		"iI": 0,
 		"ma": 0,
+		"mS": 0,
 		"oA": 1,
-		"oAP": "\/assets\/less\/css\/patterns.css",
+		"oAP": "/assets/less/css/patterns.css",
 		"oF": 0,
 		"oS": 0,
-		"rU": 0,
+		"rwU": 0,
 		"sI": 0,
-		"sM": 0,
 		"sU": 0
 		},
-	"\/assets\/less\/layout\/product-archive.less": {
+	"/assets/less/layout/product-archive.less": {
 		"aP": 1,
 		"bl": 1,
-		"dJ": 0,
+		"eJ": 0,
 		"ft": 1,
 		"ie": 1,
 		"iI": 0,
 		"ma": 0,
+		"mS": 0,
 		"oA": 1,
-		"oAP": "\/assets\/less\/css\/product-archive.css",
+		"oAP": "/assets/less/css/product-archive.css",
 		"oF": 0,
 		"oS": 0,
-		"rU": 0,
+		"rwU": 0,
 		"sI": 0,
-		"sM": 0,
 		"sU": 0
 		},
-	"\/assets\/less\/layout\/site-footer.less": {
+	"/assets/less/layout/site-footer.less": {
 		"aP": 1,
 		"bl": 1,
-		"dJ": 0,
+		"eJ": 0,
 		"ft": 1,
 		"ie": 1,
 		"iI": 0,
 		"ma": 0,
+		"mS": 0,
 		"oA": 1,
-		"oAP": "\/assets\/less\/css\/site-footer.css",
+		"oAP": "/assets/less/css/site-footer.css",
 		"oF": 0,
 		"oS": 0,
-		"rU": 0,
+		"rwU": 0,
 		"sI": 0,
-		"sM": 0,
 		"sU": 0
 		},
-	"\/assets\/less\/layout\/site-header.less": {
+	"/assets/less/layout/site-header.less": {
 		"aP": 1,
 		"bl": 1,
-		"dJ": 0,
+		"eJ": 0,
 		"ft": 1,
 		"ie": 1,
 		"iI": 0,
 		"ma": 0,
+		"mS": 0,
 		"oA": 1,
-		"oAP": "\/assets\/less\/css\/site-header.css",
+		"oAP": "/assets/less/css/site-header.css",
 		"oF": 0,
 		"oS": 0,
-		"rU": 0,
+		"rwU": 0,
 		"sI": 0,
-		"sM": 0,
 		"sU": 0
 		},
-	"\/assets\/less\/layout\/topbar.less": {
+	"/assets/less/layout/topbar.less": {
 		"aP": 1,
 		"bl": 1,
-		"dJ": 0,
+		"eJ": 0,
 		"ft": 1,
 		"ie": 1,
 		"iI": 0,
 		"ma": 0,
+		"mS": 0,
 		"oA": 1,
-		"oAP": "\/assets\/less\/css\/topbar.css",
+		"oAP": "/assets/less/css/topbar.css",
 		"oF": 0,
 		"oS": 0,
-		"rU": 0,
+		"rwU": 0,
 		"sI": 0,
-		"sM": 0,
 		"sU": 0
 		},
-	"\/assets\/less\/sections\/404.less": {
+	"/assets/less/sections/404.less": {
 		"aP": 1,
 		"bl": 1,
-		"dJ": 0,
+		"eJ": 0,
 		"ft": 1,
 		"ie": 1,
 		"iI": 0,
 		"ma": 0,
+		"mS": 0,
 		"oA": 1,
-		"oAP": "\/assets\/less\/css\/404.css",
+		"oAP": "/assets/less/css/404.css",
 		"oF": 1,
 		"oS": 0,
-		"rU": 0,
+		"rwU": 0,
 		"sI": 0,
-		"sM": 0,
 		"sU": 0
 		},
-	"\/assets\/less\/sections\/_index.less": {
+	"/assets/less/sections/_index.less": {
 		"aP": 1,
 		"bl": 1,
-		"dJ": 0,
+		"eJ": 0,
 		"ft": 1,
 		"ie": 1,
 		"iI": 0,
 		"ma": 0,
+		"mS": 0,
 		"oA": 1,
-		"oAP": "\/assets\/less\/css\/_index.css",
+		"oAP": "/assets/less/css/_index.css",
 		"oF": 0,
 		"oS": 0,
-		"rU": 0,
+		"rwU": 0,
 		"sI": 0,
-		"sM": 0,
 		"sU": 0
 		},
-	"\/assets\/less\/sections\/about.less": {
+	"/assets/less/sections/about.less": {
 		"aP": 1,
 		"bl": 1,
-		"dJ": 0,
+		"eJ": 0,
 		"ft": 1,
 		"ie": 1,
 		"iI": 0,
 		"ma": 0,
+		"mS": 0,
 		"oA": 1,
-		"oAP": "\/assets\/less\/css\/about.css",
+		"oAP": "/assets/less/css/about.css",
 		"oF": 1,
 		"oS": 0,
-		"rU": 0,
+		"rwU": 0,
 		"sI": 0,
-		"sM": 0,
 		"sU": 0
 		},
-	"\/assets\/less\/sections\/blog-post.less": {
+	"/assets/less/sections/blog-post.less": {
 		"aP": 1,
 		"bl": 1,
-		"dJ": 0,
+		"eJ": 0,
 		"ft": 1,
 		"ie": 1,
 		"iI": 0,
 		"ma": 0,
+		"mS": 0,
 		"oA": 1,
-		"oAP": "\/assets\/less\/css\/blog-post.css",
+		"oAP": "/assets/less/css/blog-post.css",
 		"oF": 1,
 		"oS": 0,
-		"rU": 0,
+		"rwU": 0,
 		"sI": 0,
-		"sM": 0,
 		"sU": 0
 		},
-	"\/assets\/less\/sections\/blog.less": {
+	"/assets/less/sections/blog.less": {
 		"aP": 1,
 		"bl": 1,
-		"dJ": 0,
+		"eJ": 0,
 		"ft": 1,
 		"ie": 1,
 		"iI": 0,
 		"ma": 0,
+		"mS": 0,
 		"oA": 1,
-		"oAP": "\/assets\/less\/css\/blog.css",
+		"oAP": "/assets/less/css/blog.css",
 		"oF": 1,
 		"oS": 0,
-		"rU": 0,
+		"rwU": 0,
 		"sI": 0,
-		"sM": 0,
 		"sU": 0
 		},
-	"\/assets\/less\/sections\/calculator.less": {
+	"/assets/less/sections/calculator.less": {
 		"aP": 1,
 		"bl": 1,
-		"dJ": 0,
+		"eJ": 0,
 		"ft": 1,
 		"ie": 1,
 		"iI": 0,
 		"ma": 0,
+		"mS": 0,
 		"oA": 1,
-		"oAP": "\/assets\/less\/css\/calculator.css",
+		"oAP": "/assets/less/css/calculator.css",
 		"oF": 1,
 		"oS": 0,
-		"rU": 0,
+		"rwU": 0,
 		"sI": 0,
-		"sM": 0,
 		"sU": 0
 		},
-	"\/assets\/less\/sections\/home.less": {
+	"/assets/less/sections/home.less": {
 		"aP": 1,
 		"bl": 1,
-		"dJ": 0,
+		"eJ": 0,
 		"ft": 1,
 		"ie": 1,
 		"iI": 0,
 		"ma": 0,
+		"mS": 0,
 		"oA": 1,
-		"oAP": "\/assets\/less\/css\/home.css",
+		"oAP": "/assets/less/css/home.css",
 		"oF": 1,
 		"oS": 0,
-		"rU": 0,
+		"rwU": 0,
 		"sI": 0,
-		"sM": 0,
 		"sU": 0
 		},
-	"\/assets\/less\/sections\/home\/callouts.less": {
+	"/assets/less/sections/home/callouts.less": {
 		"aP": 1,
 		"bl": 1,
-		"dJ": 0,
+		"eJ": 0,
 		"ft": 1,
 		"ie": 1,
 		"iI": 0,
 		"ma": 0,
+		"mS": 0,
 		"oA": 1,
-		"oAP": "\/assets\/less\/sections\/css\/callouts.css",
+		"oAP": "/assets/less/sections/css/callouts.css",
 		"oF": 0,
 		"oS": 0,
-		"rU": 0,
+		"rwU": 0,
 		"sI": 0,
-		"sM": 0,
 		"sU": 0
 		},
-	"\/assets\/less\/sections\/home\/doors.less": {
+	"/assets/less/sections/home/doors.less": {
 		"aP": 1,
 		"bl": 1,
-		"dJ": 0,
+		"eJ": 0,
 		"ft": 1,
 		"ie": 1,
 		"iI": 0,
 		"ma": 0,
+		"mS": 0,
 		"oA": 1,
-		"oAP": "\/assets\/less\/sections\/css\/doors.css",
+		"oAP": "/assets/less/sections/css/doors.css",
 		"oF": 0,
 		"oS": 0,
-		"rU": 0,
+		"rwU": 0,
 		"sI": 0,
-		"sM": 0,
 		"sU": 0
 		},
-	"\/assets\/less\/sections\/home\/hero.less": {
+	"/assets/less/sections/home/hero.less": {
 		"aP": 1,
 		"bl": 1,
-		"dJ": 0,
+		"eJ": 0,
 		"ft": 1,
 		"ie": 1,
 		"iI": 0,
 		"ma": 0,
+		"mS": 0,
 		"oA": 1,
-		"oAP": "\/assets\/less\/sections\/css\/hero.css",
+		"oAP": "/assets/less/sections/css/hero.css",
 		"oF": 0,
 		"oS": 0,
-		"rU": 0,
+		"rwU": 0,
 		"sI": 0,
-		"sM": 0,
 		"sU": 0
 		},
-	"\/assets\/less\/sections\/home\/mural.less": {
+	"/assets/less/sections/home/mural.less": {
 		"aP": 1,
 		"bl": 1,
-		"dJ": 0,
+		"eJ": 0,
 		"ft": 1,
 		"ie": 1,
 		"iI": 0,
 		"ma": 0,
+		"mS": 0,
 		"oA": 1,
-		"oAP": "\/assets\/less\/sections\/css\/mural.css",
+		"oAP": "/assets/less/sections/css/mural.css",
 		"oF": 0,
 		"oS": 0,
-		"rU": 0,
+		"rwU": 0,
 		"sI": 0,
-		"sM": 0,
 		"sU": 0
 		},
-	"\/assets\/less\/sections\/home\/purpose.less": {
+	"/assets/less/sections/home/purpose.less": {
 		"aP": 1,
 		"bl": 1,
-		"dJ": 0,
+		"eJ": 0,
 		"ft": 1,
 		"ie": 1,
 		"iI": 0,
 		"ma": 0,
+		"mS": 0,
 		"oA": 1,
-		"oAP": "\/assets\/less\/sections\/css\/purpose.css",
+		"oAP": "/assets/less/sections/css/purpose.css",
 		"oF": 0,
 		"oS": 0,
-		"rU": 0,
+		"rwU": 0,
 		"sI": 0,
-		"sM": 0,
 		"sU": 0
 		},
-	"\/assets\/less\/sections\/home\/windows.less": {
+	"/assets/less/sections/home/windows.less": {
 		"aP": 1,
 		"bl": 1,
-		"dJ": 0,
+		"eJ": 0,
 		"ft": 1,
 		"ie": 1,
 		"iI": 0,
 		"ma": 0,
+		"mS": 0,
 		"oA": 1,
-		"oAP": "\/assets\/less\/sections\/css\/windows.css",
+		"oAP": "/assets/less/sections/css/windows.css",
 		"oF": 0,
 		"oS": 0,
-		"rU": 0,
+		"rwU": 0,
 		"sI": 0,
-		"sM": 0,
 		"sU": 0
 		},
-	"\/assets\/less\/sections\/press.less": {
+	"/assets/less/sections/press.less": {
 		"aP": 1,
 		"bl": 1,
-		"dJ": 0,
+		"eJ": 0,
 		"ft": 1,
 		"ie": 1,
 		"iI": 0,
 		"ma": 0,
+		"mS": 0,
 		"oA": 1,
-		"oAP": "\/assets\/less\/css\/press.css",
+		"oAP": "/assets/less/css/press.css",
 		"oF": 1,
 		"oS": 0,
-		"rU": 0,
+		"rwU": 0,
 		"sI": 0,
-		"sM": 0,
 		"sU": 0
 		},
-	"\/assets\/less\/sections\/product.less": {
+	"/assets/less/sections/product.less": {
 		"aP": 1,
 		"bl": 1,
-		"dJ": 0,
+		"eJ": 0,
 		"ft": 1,
 		"ie": 1,
 		"iI": 0,
 		"ma": 0,
+		"mS": 0,
 		"oA": 1,
-		"oAP": "\/assets\/less\/css\/product.css",
+		"oAP": "/assets/less/css/product.css",
 		"oF": 1,
 		"oS": 0,
-		"rU": 0,
+		"rwU": 0,
 		"sI": 0,
-		"sM": 0,
 		"sU": 0
 		},
-	"\/assets\/less\/sections\/product\/available-options.less": {
+	"/assets/less/sections/product/available-options.less": {
 		"aP": 1,
 		"bl": 1,
-		"dJ": 0,
+		"eJ": 0,
 		"ft": 1,
 		"ie": 1,
 		"iI": 0,
 		"ma": 0,
+		"mS": 0,
 		"oA": 1,
-		"oAP": "\/assets\/less\/sections\/css\/available-options.css",
+		"oAP": "/assets/less/sections/css/available-options.css",
 		"oF": 0,
 		"oS": 0,
-		"rU": 0,
+		"rwU": 0,
 		"sI": 0,
-		"sM": 0,
 		"sU": 0
 		},
-	"\/assets\/less\/sections\/product\/available-styles.less": {
+	"/assets/less/sections/product/available-styles.less": {
 		"aP": 1,
 		"bl": 1,
-		"dJ": 0,
+		"eJ": 0,
 		"ft": 1,
 		"ie": 1,
 		"iI": 0,
 		"ma": 0,
+		"mS": 0,
 		"oA": 1,
-		"oAP": "\/assets\/less\/sections\/css\/available-styles.css",
+		"oAP": "/assets/less/sections/css/available-styles.css",
 		"oF": 0,
 		"oS": 0,
-		"rU": 0,
+		"rwU": 0,
 		"sI": 0,
-		"sM": 0,
 		"sU": 0
 		},
-	"\/assets\/less\/sections\/product\/gallery.less": {
+	"/assets/less/sections/product/gallery.less": {
 		"aP": 1,
 		"bl": 1,
-		"dJ": 0,
+		"eJ": 0,
 		"ft": 1,
 		"ie": 1,
 		"iI": 0,
 		"ma": 0,
+		"mS": 0,
 		"oA": 1,
-		"oAP": "\/assets\/less\/sections\/css\/gallery.css",
+		"oAP": "/assets/less/sections/css/gallery.css",
 		"oF": 0,
 		"oS": 0,
-		"rU": 0,
+		"rwU": 0,
 		"sI": 0,
-		"sM": 0,
 		"sU": 0
 		},
-	"\/assets\/less\/sections\/product\/key-features.less": {
+	"/assets/less/sections/product/key-features.less": {
 		"aP": 1,
 		"bl": 1,
-		"dJ": 0,
+		"eJ": 0,
 		"ft": 1,
 		"ie": 1,
 		"iI": 0,
 		"ma": 0,
+		"mS": 0,
 		"oA": 1,
-		"oAP": "\/assets\/less\/sections\/css\/key-features.css",
+		"oAP": "/assets/less/sections/css/key-features.css",
 		"oF": 0,
 		"oS": 0,
-		"rU": 0,
+		"rwU": 0,
 		"sI": 0,
-		"sM": 0,
 		"sU": 0
 		},
-	"\/assets\/less\/sections\/product\/marketing-block.less": {
+	"/assets/less/sections/product/marketing-block.less": {
 		"aP": 1,
 		"bl": 1,
-		"dJ": 0,
+		"eJ": 0,
 		"ft": 1,
 		"ie": 1,
 		"iI": 0,
 		"ma": 0,
+		"mS": 0,
 		"oA": 1,
-		"oAP": "\/assets\/less\/sections\/css\/marketing-block.css",
+		"oAP": "/assets/less/sections/css/marketing-block.css",
 		"oF": 0,
 		"oS": 0,
-		"rU": 0,
+		"rwU": 0,
 		"sI": 0,
-		"sM": 0,
 		"sU": 0
 		},
-	"\/assets\/less\/sections\/product\/r-value.less": {
+	"/assets/less/sections/product/r-value.less": {
 		"aP": 1,
 		"bl": 1,
-		"dJ": 0,
+		"eJ": 0,
 		"ft": 1,
 		"ie": 1,
 		"iI": 0,
 		"ma": 0,
+		"mS": 0,
 		"oA": 1,
-		"oAP": "\/assets\/less\/sections\/css\/r-value.css",
+		"oAP": "/assets/less/sections/css/r-value.css",
 		"oF": 0,
 		"oS": 0,
-		"rU": 0,
+		"rwU": 0,
 		"sI": 0,
-		"sM": 0,
 		"sU": 0
 		},
-	"\/assets\/less\/sections\/product\/related-projects.less": {
+	"/assets/less/sections/product/related-projects.less": {
 		"aP": 1,
 		"bl": 1,
-		"dJ": 0,
+		"eJ": 0,
 		"ft": 1,
 		"ie": 1,
 		"iI": 0,
 		"ma": 0,
+		"mS": 0,
 		"oA": 1,
-		"oAP": "\/assets\/less\/sections\/css\/related-projects.css",
+		"oAP": "/assets/less/sections/css/related-projects.css",
 		"oF": 0,
 		"oS": 0,
-		"rU": 0,
+		"rwU": 0,
 		"sI": 0,
-		"sM": 0,
 		"sU": 0
 		},
-	"\/assets\/less\/sections\/product\/tabs.less": {
+	"/assets/less/sections/product/tabs.less": {
 		"aP": 1,
 		"bl": 1,
-		"dJ": 0,
+		"eJ": 0,
 		"ft": 1,
 		"ie": 1,
 		"iI": 0,
 		"ma": 0,
+		"mS": 0,
 		"oA": 1,
-		"oAP": "\/assets\/less\/sections\/css\/tabs.css",
+		"oAP": "/assets/less/sections/css/tabs.css",
 		"oF": 0,
 		"oS": 0,
-		"rU": 0,
+		"rwU": 0,
 		"sI": 0,
-		"sM": 0,
 		"sU": 0
 		},
-	"\/assets\/less\/sections\/professionals.less": {
+	"/assets/less/sections/professionals.less": {
 		"aP": 1,
 		"bl": 1,
-		"dJ": 0,
+		"eJ": 0,
 		"ft": 1,
 		"ie": 1,
 		"iI": 0,
 		"ma": 0,
+		"mS": 0,
 		"oA": 1,
-		"oAP": "\/assets\/less\/css\/professionals.css",
+		"oAP": "/assets/less/css/professionals.css",
 		"oF": 1,
 		"oS": 0,
-		"rU": 0,
+		"rwU": 0,
 		"sI": 0,
-		"sM": 0,
 		"sU": 0
 		},
-	"\/assets\/less\/sections\/project-post.less": {
+	"/assets/less/sections/project-post.less": {
 		"aP": 1,
 		"bl": 1,
-		"dJ": 0,
+		"eJ": 0,
 		"ft": 1,
 		"ie": 1,
 		"iI": 0,
 		"ma": 0,
+		"mS": 0,
 		"oA": 1,
-		"oAP": "\/assets\/less\/css\/project-post.css",
+		"oAP": "/assets/less/css/project-post.css",
 		"oF": 1,
 		"oS": 0,
-		"rU": 0,
+		"rwU": 0,
 		"sI": 0,
-		"sM": 0,
 		"sU": 0
 		},
-	"\/assets\/less\/sections\/projects.less": {
+	"/assets/less/sections/projects.less": {
 		"aP": 1,
 		"bl": 1,
-		"dJ": 0,
+		"eJ": 0,
 		"ft": 1,
 		"ie": 1,
 		"iI": 0,
 		"ma": 0,
+		"mS": 0,
 		"oA": 1,
-		"oAP": "\/assets\/less\/css\/projects.css",
+		"oAP": "/assets/less/css/projects.css",
 		"oF": 1,
 		"oS": 0,
-		"rU": 0,
+		"rwU": 0,
 		"sI": 0,
-		"sM": 0,
 		"sU": 0
 		},
-	"\/assets\/less\/sections\/testimonials.less": {
+	"/assets/less/sections/testimonials.less": {
 		"aP": 1,
 		"bl": 1,
-		"dJ": 0,
+		"eJ": 0,
 		"ft": 1,
 		"ie": 1,
 		"iI": 0,
 		"ma": 0,
+		"mS": 0,
 		"oA": 1,
-		"oAP": "\/assets\/less\/css\/testimonials.css",
+		"oAP": "/assets/less/css/testimonials.css",
 		"oF": 1,
 		"oS": 0,
-		"rU": 0,
+		"rwU": 0,
 		"sI": 0,
-		"sM": 0,
 		"sU": 0
 		},
-	"\/assets\/less\/style.less": {
+	"/assets/less/style.less": {
 		"aP": 1,
 		"bl": 1,
-		"dJ": 0,
+		"eJ": 0,
 		"ft": 1,
 		"ie": 1,
 		"iI": 0,
 		"ma": 0,
+		"mS": 0,
 		"oA": 0,
-		"oAP": "\/style.css",
+		"oAP": "/style.css",
 		"oF": 2,
 		"oS": 0,
-		"rU": 0,
+		"rwU": 0,
 		"sI": 0,
-		"sM": 0,
 		"sU": 0
 		},
-	"\/assets\/less\/utilities\/_index.less": {
+	"/assets/less/utilities/_index.less": {
 		"aP": 1,
 		"bl": 1,
-		"dJ": 0,
+		"eJ": 0,
 		"ft": 1,
 		"ie": 1,
 		"iI": 0,
 		"ma": 0,
+		"mS": 0,
 		"oA": 1,
-		"oAP": "\/assets\/less\/css\/_index.css",
+		"oAP": "/assets/less/css/_index.css",
 		"oF": 0,
 		"oS": 0,
-		"rU": 0,
+		"rwU": 0,
 		"sI": 0,
-		"sM": 0,
 		"sU": 0
 		},
-	"\/assets\/less\/utilities\/buttons.less": {
+	"/assets/less/utilities/buttons.less": {
 		"aP": 1,
 		"bl": 1,
-		"dJ": 0,
+		"eJ": 0,
 		"ft": 1,
 		"ie": 1,
 		"iI": 0,
 		"ma": 0,
+		"mS": 0,
 		"oA": 1,
-		"oAP": "\/assets\/less\/css\/buttons.css",
+		"oAP": "/assets/less/css/buttons.css",
 		"oF": 0,
 		"oS": 0,
-		"rU": 0,
+		"rwU": 0,
 		"sI": 0,
-		"sM": 0,
 		"sU": 0
 		},
-	"\/assets\/less\/utilities\/colors.less": {
+	"/assets/less/utilities/colors.less": {
 		"aP": 1,
 		"bl": 1,
-		"dJ": 0,
+		"eJ": 0,
 		"ft": 1,
 		"ie": 1,
 		"iI": 0,
 		"ma": 0,
+		"mS": 0,
 		"oA": 1,
-		"oAP": "\/assets\/less\/css\/colors.css",
+		"oAP": "/assets/less/css/colors.css",
 		"oF": 0,
 		"oS": 0,
-		"rU": 0,
+		"rwU": 0,
 		"sI": 0,
-		"sM": 0,
 		"sU": 0
 		},
-	"\/assets\/less\/utilities\/fonts.less": {
+	"/assets/less/utilities/fonts.less": {
 		"aP": 1,
 		"bl": 1,
-		"dJ": 0,
+		"eJ": 0,
 		"ft": 1,
 		"ie": 1,
 		"iI": 0,
 		"ma": 0,
+		"mS": 0,
 		"oA": 1,
-		"oAP": "\/assets\/less\/css\/fonts.css",
+		"oAP": "/assets/less/css/fonts.css",
 		"oF": 0,
 		"oS": 0,
-		"rU": 0,
+		"rwU": 0,
 		"sI": 0,
-		"sM": 0,
 		"sU": 0
 		},
-	"\/assets\/less\/utilities\/variables.less": {
+	"/assets/less/utilities/variables.less": {
 		"aP": 1,
 		"bl": 1,
-		"dJ": 0,
+		"eJ": 0,
 		"ft": 1,
 		"ie": 1,
 		"iI": 0,
 		"ma": 0,
+		"mS": 0,
 		"oA": 1,
-		"oAP": "\/assets\/less\/css\/variables.css",
+		"oAP": "/assets/less/css/variables.css",
 		"oF": 0,
 		"oS": 0,
-		"rU": 0,
+		"rwU": 0,
 		"sI": 0,
-		"sM": 0,
 		"sU": 0
 		},
-	"\/assets\/less\/utilities\/wordpress-core.less": {
+	"/assets/less/utilities/wordpress-core.less": {
 		"aP": 1,
 		"bl": 1,
-		"dJ": 0,
+		"eJ": 0,
 		"ft": 1,
 		"ie": 1,
 		"iI": 0,
 		"ma": 0,
+		"mS": 0,
 		"oA": 1,
-		"oAP": "\/assets\/less\/css\/wordpress-core.css",
+		"oAP": "/assets/less/css/wordpress-core.css",
 		"oF": 0,
 		"oS": 0,
-		"rU": 0,
+		"rwU": 0,
 		"sI": 0,
-		"sM": 0,
 		"sU": 0
 		},
-	"\/assets\/less\/utilities\/z-index.less": {
+	"/assets/less/utilities/z-index.less": {
 		"aP": 1,
 		"bl": 1,
-		"dJ": 0,
+		"eJ": 0,
 		"ft": 1,
 		"ie": 1,
 		"iI": 0,
 		"ma": 0,
+		"mS": 0,
 		"oA": 1,
-		"oAP": "\/assets\/less\/css\/z-index.css",
+		"oAP": "/assets/less/css/z-index.css",
 		"oF": 0,
 		"oS": 0,
-		"rU": 0,
+		"rwU": 0,
 		"sI": 0,
-		"sM": 0,
 		"sU": 0
 		},
-	"\/assets\/less\/vendor\/_index.less": {
+	"/assets/less/vendor/_index.less": {
 		"aP": 1,
 		"bl": 1,
-		"dJ": 0,
+		"eJ": 0,
 		"ft": 1,
 		"ie": 1,
 		"iI": 0,
 		"ma": 0,
+		"mS": 0,
 		"oA": 1,
-		"oAP": "\/assets\/less\/css\/_index.css",
+		"oAP": "/assets/less/css/_index.css",
 		"oF": 0,
 		"oS": 0,
-		"rU": 0,
+		"rwU": 0,
 		"sI": 0,
-		"sM": 0,
 		"sU": 0
 		},
-	"\/assets\/less\/vendor\/flickity.less": {
+	"/assets/less/vendor/flickity.less": {
 		"aP": 1,
 		"bl": 1,
-		"dJ": 0,
+		"eJ": 0,
 		"ft": 1,
 		"ie": 1,
 		"iI": 0,
 		"ma": 0,
+		"mS": 0,
 		"oA": 1,
-		"oAP": "\/assets\/less\/css\/flickity.css",
+		"oAP": "/assets/less/css/flickity.css",
 		"oF": 0,
 		"oS": 0,
-		"rU": 0,
+		"rwU": 0,
 		"sI": 0,
-		"sM": 0,
 		"sU": 0
 		},
-	"\/comments.php": {
+	"/comments.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/comments.php",
+		"oAP": "/comments.php",
 		"oF": 0
 		},
-	"\/footer.php": {
+	"/footer.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/footer.php",
+		"oAP": "/footer.php",
 		"oF": 0
 		},
-	"\/functions.php": {
+	"/functions.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/functions.php",
+		"oAP": "/functions.php",
 		"oF": 0
 		},
-	"\/header.php": {
+	"/header.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/header.php",
+		"oAP": "/header.php",
 		"oF": 0
 		},
-	"\/images\/1.jpg": {
+	"/images/1.jpg": {
 		"ft": 16384,
 		"iS": 24467,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/1.jpg",
+		"oAP": "/images/1.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/2.jpg": {
+	"/images/2.jpg": {
 		"ft": 16384,
 		"iS": 34434,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/2.jpg",
+		"oAP": "/images/2.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/3.jpg": {
+	"/images/3.jpg": {
 		"ft": 16384,
 		"iS": 38299,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/3.jpg",
+		"oAP": "/images/3.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/4.jpg": {
+	"/images/4.jpg": {
 		"ft": 16384,
 		"iS": 10108,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/4.jpg",
+		"oAP": "/images/4.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/5.jpg": {
+	"/images/5.jpg": {
 		"ft": 16384,
 		"iS": 70171,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/5.jpg",
+		"oAP": "/images/5.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/6.jpg": {
+	"/images/6.jpg": {
 		"ft": 16384,
 		"iS": 13511,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/6.jpg",
+		"oAP": "/images/6.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/about-us.jpg": {
+	"/images/about-us.jpg": {
 		"ft": 16384,
 		"iS": 134736,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/about-us.jpg",
+		"oAP": "/images/about-us.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/about-you.jpg": {
+	"/images/about-you.jpg": {
 		"ft": 16384,
 		"iS": 98804,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/about-you.jpg",
+		"oAP": "/images/about-you.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/logo.png": {
+	"/images/logo.png": {
 		"ft": 32768,
 		"iS": 8516,
 		"oA": 0,
-		"oAP": "\/images\/logo.png",
+		"oAP": "/images/logo.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/images\/product\/3.jpg": {
+	"/images/product/3.jpg": {
 		"ft": 16384,
 		"iS": 129380,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/product\/3.jpg",
+		"oAP": "/images/product/3.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/product\/4.jpg": {
+	"/images/product/4.jpg": {
 		"ft": 16384,
 		"iS": 230362,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/product\/4.jpg",
+		"oAP": "/images/product/4.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/product\/5.jpg": {
+	"/images/product/5.jpg": {
 		"ft": 16384,
 		"iS": 203271,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/product\/5.jpg",
+		"oAP": "/images/product/5.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/product\/6.jpg": {
+	"/images/product/6.jpg": {
 		"ft": 16384,
 		"iS": 181311,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/product\/6.jpg",
+		"oAP": "/images/product/6.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/product\/awning-windows.jpg": {
+	"/images/product/awning-windows.jpg": {
 		"ft": 16384,
 		"iS": 861188,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/product\/awning-windows.jpg",
+		"oAP": "/images/product/awning-windows.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/product\/curtain-wall-windows.jpg": {
+	"/images/product/curtain-wall-windows.jpg": {
 		"ft": 16384,
 		"iS": 1139610,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/product\/curtain-wall-windows.jpg",
+		"oAP": "/images/product/curtain-wall-windows.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/product\/decorative-entry-doors-types.jpg": {
+	"/images/product/decorative-entry-doors-types.jpg": {
 		"ft": 16384,
 		"iS": 902991,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/product\/decorative-entry-doors-types.jpg",
+		"oAP": "/images/product/decorative-entry-doors-types.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/product\/decorative-entry-doors.jpg": {
+	"/images/product/decorative-entry-doors.jpg": {
 		"ft": 16384,
 		"iS": 902991,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/product\/decorative-entry-doors.jpg",
+		"oAP": "/images/product/decorative-entry-doors.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/product\/door-types.jpg": {
+	"/images/product/door-types.jpg": {
 		"ft": 16384,
 		"iS": 918368,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/product\/door-types.jpg",
+		"oAP": "/images/product/door-types.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/product\/double-pane-aluminum-doors.jpg": {
+	"/images/product/double-pane-aluminum-doors.jpg": {
 		"ft": 16384,
 		"iS": 197857,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/product\/double-pane-aluminum-doors.jpg",
+		"oAP": "/images/product/double-pane-aluminum-doors.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/product\/double-pane-aluminum-windows.jpg": {
+	"/images/product/double-pane-aluminum-windows.jpg": {
 		"ft": 16384,
 		"iS": 791996,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/product\/double-pane-aluminum-windows.jpg",
+		"oAP": "/images/product/double-pane-aluminum-windows.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/product\/double-pane-doors.jpg": {
+	"/images/product/double-pane-doors.jpg": {
 		"ft": 16384,
 		"iS": 1151960,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/product\/double-pane-doors.jpg",
+		"oAP": "/images/product/double-pane-doors.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/product\/double-pane-windows.jpg": {
+	"/images/product/double-pane-windows.jpg": {
 		"ft": 16384,
 		"iS": 856923,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/product\/double-pane-windows.jpg",
+		"oAP": "/images/product/double-pane-windows.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/product\/double-pane-wood-aluminum-doors.jpg": {
+	"/images/product/double-pane-wood-aluminum-doors.jpg": {
 		"ft": 16384,
 		"iS": 990613,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/product\/double-pane-wood-aluminum-doors.jpg",
+		"oAP": "/images/product/double-pane-wood-aluminum-doors.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/product\/double-pane-wood-aluminum-windows.jpg": {
+	"/images/product/double-pane-wood-aluminum-windows.jpg": {
 		"ft": 16384,
 		"iS": 888686,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/product\/double-pane-wood-aluminum-windows.jpg",
+		"oAP": "/images/product/double-pane-wood-aluminum-windows.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/product\/entry-doors.jpg": {
+	"/images/product/entry-doors.jpg": {
 		"ft": 16384,
 		"iS": 305737,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/product\/entry-doors.jpg",
+		"oAP": "/images/product/entry-doors.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/product\/fixed-windows.jpg": {
+	"/images/product/fixed-windows.jpg": {
 		"ft": 16384,
 		"iS": 678375,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/product\/fixed-windows.jpg",
+		"oAP": "/images/product/fixed-windows.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/product\/folding-doors.jpg": {
+	"/images/product/folding-doors.jpg": {
 		"ft": 16384,
 		"iS": 7254070,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/product\/folding-doors.jpg",
+		"oAP": "/images/product/folding-doors.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/product\/french-doors.jpg": {
+	"/images/product/french-doors.jpg": {
 		"ft": 16384,
 		"iS": 885087,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/product\/french-doors.jpg",
+		"oAP": "/images/product/french-doors.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/product\/french-windows.jpg": {
+	"/images/product/french-windows.jpg": {
 		"ft": 16384,
 		"iS": 679090,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/product\/french-windows.jpg",
+		"oAP": "/images/product/french-windows.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/product\/lift-and-slide-doors.jpg": {
+	"/images/product/lift-and-slide-doors.jpg": {
 		"ft": 16384,
 		"iS": 301040,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/product\/lift-and-slide-doors.jpg",
+		"oAP": "/images/product/lift-and-slide-doors.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/product\/postless-corner-door.jpg": {
+	"/images/product/postless-corner-door.jpg": {
 		"ft": 16384,
 		"iS": 9346120,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/product\/postless-corner-door.jpg",
+		"oAP": "/images/product/postless-corner-door.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/product\/sliding-doors.jpg": {
+	"/images/product/sliding-doors.jpg": {
 		"ft": 16384,
 		"iS": 856830,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/product\/sliding-doors.jpg",
+		"oAP": "/images/product/sliding-doors.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/product\/sliding-windows.jpg": {
+	"/images/product/sliding-windows.jpg": {
 		"ft": 16384,
 		"iS": 7078140,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/product\/sliding-windows.jpg",
+		"oAP": "/images/product/sliding-windows.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/product\/tilt-turn-windows.jpg": {
+	"/images/product/tilt-turn-windows.jpg": {
 		"ft": 16384,
 		"iS": 1195120,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/product\/tilt-turn-windows.jpg",
+		"oAP": "/images/product/tilt-turn-windows.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/product\/triple-pane-aluminum-doors.jpg": {
+	"/images/product/triple-pane-aluminum-doors.jpg": {
 		"ft": 16384,
 		"iS": 1283390,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/product\/triple-pane-aluminum-doors.jpg",
+		"oAP": "/images/product/triple-pane-aluminum-doors.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/product\/triple-pane-aluminum-windows.jpg": {
+	"/images/product/triple-pane-aluminum-windows.jpg": {
 		"ft": 16384,
 		"iS": 886984,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/product\/triple-pane-aluminum-windows.jpg",
+		"oAP": "/images/product/triple-pane-aluminum-windows.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/product\/triple-pane-doors.jpg": {
+	"/images/product/triple-pane-doors.jpg": {
 		"ft": 16384,
 		"iS": 941346,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/product\/triple-pane-doors.jpg",
+		"oAP": "/images/product/triple-pane-doors.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/product\/triple-pane-passive-house-doors.jpg": {
+	"/images/product/triple-pane-passive-house-doors.jpg": {
 		"ft": 16384,
 		"iS": 1348150,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/product\/triple-pane-passive-house-doors.jpg",
+		"oAP": "/images/product/triple-pane-passive-house-doors.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/product\/triple-pane-passive-house-windows.jpg": {
+	"/images/product/triple-pane-passive-house-windows.jpg": {
 		"ft": 16384,
 		"iS": 775519,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/product\/triple-pane-passive-house-windows.jpg",
+		"oAP": "/images/product/triple-pane-passive-house-windows.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/product\/triple-pane-windows.jpg": {
+	"/images/product/triple-pane-windows.jpg": {
 		"ft": 16384,
 		"iS": 739839,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/product\/triple-pane-windows.jpg",
+		"oAP": "/images/product/triple-pane-windows.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/product\/triple-pane-wood-aluminum-doors.jpg": {
+	"/images/product/triple-pane-wood-aluminum-doors.jpg": {
 		"ft": 16384,
 		"iS": 1108130,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/product\/triple-pane-wood-aluminum-doors.jpg",
+		"oAP": "/images/product/triple-pane-wood-aluminum-doors.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/product\/triple-pane-wood-aluminum-windows.jpg": {
+	"/images/product/triple-pane-wood-aluminum-windows.jpg": {
 		"ft": 16384,
 		"iS": 727693,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/product\/triple-pane-wood-aluminum-windows.jpg",
+		"oAP": "/images/product/triple-pane-wood-aluminum-windows.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/product\/window-types.jpg": {
+	"/images/product/window-types.jpg": {
 		"ft": 16384,
 		"iS": 897031,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/product\/window-types.jpg",
+		"oAP": "/images/product/window-types.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/product\/windows.jpg": {
+	"/images/product/windows.jpg": {
 		"ft": 16384,
 		"iS": 1453782,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/product\/windows.jpg",
+		"oAP": "/images/product/windows.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/under-construction.jpg": {
+	"/images/under-construction.jpg": {
 		"ft": 16384,
 		"iS": 86555,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/under-construction.jpg",
+		"oAP": "/images/under-construction.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/under_construction.jpg": {
+	"/images/under_construction.jpg": {
 		"ft": 16384,
 		"iS": 104756,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/under_construction.jpg",
+		"oAP": "/images/under_construction.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/inc\/blog-tile.php": {
+	"/inc/blog-tile.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/inc\/blog-tile.php",
+		"oAP": "/inc/blog-tile.php",
 		"oF": 0
 		},
-	"\/inc\/calculator\/callouts.php": {
+	"/inc/calculator/callouts.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/inc\/calculator\/callouts.php",
+		"oAP": "/inc/calculator/callouts.php",
 		"oF": 0
 		},
-	"\/inc\/custom-fields.php": {
+	"/inc/custom-fields.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/inc\/custom-fields.php",
+		"oAP": "/inc/custom-fields.php",
 		"oF": 0
 		},
-	"\/inc\/customizer.php": {
+	"/inc/customizer.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/inc\/customizer.php",
+		"oAP": "/inc/customizer.php",
 		"oF": 0
 		},
-	"\/inc\/footer-callouts\/glo-advantage.php": {
+	"/inc/footer-callouts/glo-advantage.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/inc\/footer-callouts\/glo-advantage.php",
+		"oAP": "/inc/footer-callouts/glo-advantage.php",
 		"oF": 0
 		},
-	"\/inc\/footer-callouts\/request-quote.php": {
+	"/inc/footer-callouts/request-quote.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/inc\/footer-callouts\/request-quote.php",
+		"oAP": "/inc/footer-callouts/request-quote.php",
 		"oF": 0
 		},
-	"\/inc\/home\/callouts.php": {
+	"/inc/home/callouts.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/inc\/home\/callouts.php",
+		"oAP": "/inc/home/callouts.php",
 		"oF": 0
 		},
-	"\/inc\/home\/doors.php": {
+	"/inc/home/doors.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/inc\/home\/doors.php",
+		"oAP": "/inc/home/doors.php",
 		"oF": 0
 		},
-	"\/inc\/home\/hero.php": {
+	"/inc/home/hero.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/inc\/home\/hero.php",
+		"oAP": "/inc/home/hero.php",
 		"oF": 0
 		},
-	"\/inc\/home\/mural.php": {
+	"/inc/home/mural.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/inc\/home\/mural.php",
+		"oAP": "/inc/home/mural.php",
 		"oF": 0
 		},
-	"\/inc\/home\/purpose.php": {
+	"/inc/home/purpose.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/inc\/home\/purpose.php",
+		"oAP": "/inc/home/purpose.php",
 		"oF": 0
 		},
-	"\/inc\/home\/windows.php": {
+	"/inc/home/windows.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/inc\/home\/windows.php",
+		"oAP": "/inc/home/windows.php",
 		"oF": 0
 		},
-	"\/inc\/menus\/block.php": {
+	"/inc/menus/block.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/inc\/menus\/block.php",
+		"oAP": "/inc/menus/block.php",
 		"oF": 0
 		},
-	"\/inc\/menus\/doors.php": {
+	"/inc/menus/doors.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/inc\/menus\/doors.php",
+		"oAP": "/inc/menus/doors.php",
 		"oF": 0
 		},
-	"\/inc\/menus\/learn.php": {
+	"/inc/menus/learn.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/inc\/menus\/learn.php",
+		"oAP": "/inc/menus/learn.php",
 		"oF": 0
 		},
-	"\/inc\/menus\/windows.php": {
+	"/inc/menus/windows.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/inc\/menus\/windows.php",
+		"oAP": "/inc/menus/windows.php",
 		"oF": 0
 		},
-	"\/inc\/primary-nav.php": {
+	"/inc/primary-nav.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/inc\/primary-nav.php",
+		"oAP": "/inc/primary-nav.php",
 		"oF": 0
 		},
-	"\/inc\/product-result.php": {
+	"/inc/product-result.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/inc\/product-result.php",
+		"oAP": "/inc/product-result.php",
 		"oF": 0
 		},
-	"\/inc\/product\/available-options.php": {
+	"/inc/product/available-options.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/inc\/product\/available-options.php",
+		"oAP": "/inc/product/available-options.php",
 		"oF": 0
 		},
-	"\/inc\/product\/available-styles.php": {
+	"/inc/product/available-styles.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/inc\/product\/available-styles.php",
+		"oAP": "/inc/product/available-styles.php",
 		"oF": 0
 		},
-	"\/inc\/product\/gallery.php": {
+	"/inc/product/gallery.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/inc\/product\/gallery.php",
+		"oAP": "/inc/product/gallery.php",
 		"oF": 0
 		},
-	"\/inc\/product\/key-features.php": {
+	"/inc/product/key-features.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/inc\/product\/key-features.php",
+		"oAP": "/inc/product/key-features.php",
 		"oF": 0
 		},
-	"\/inc\/product\/marketing-block.php": {
+	"/inc/product/marketing-block.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/inc\/product\/marketing-block.php",
+		"oAP": "/inc/product/marketing-block.php",
 		"oF": 0
 		},
-	"\/inc\/product\/r-value.php": {
+	"/inc/product/r-value.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/inc\/product\/r-value.php",
+		"oAP": "/inc/product/r-value.php",
 		"oF": 0
 		},
-	"\/inc\/product\/related-projects.php": {
+	"/inc/product/related-projects.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/inc\/product\/related-projects.php",
+		"oAP": "/inc/product/related-projects.php",
 		"oF": 0
 		},
-	"\/inc\/product\/tabs.php": {
+	"/inc/product/tabs.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/inc\/product\/tabs.php",
+		"oAP": "/inc/product/tabs.php",
 		"oF": 0
 		},
-	"\/inc\/project-tile.php": {
+	"/inc/project-tile.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/inc\/project-tile.php",
+		"oAP": "/inc/project-tile.php",
 		"oF": 0
 		},
-	"\/inc\/shortcodes.php": {
+	"/inc/shortcodes.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/inc\/shortcodes.php",
+		"oAP": "/inc/shortcodes.php",
 		"oF": 0
 		},
-	"\/inc\/sidebar-blocks\/additional-door-styles.php": {
+	"/inc/sidebar-blocks/additional-door-styles.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/inc\/sidebar-blocks\/additional-door-styles.php",
+		"oAP": "/inc/sidebar-blocks/additional-door-styles.php",
 		"oF": 0
 		},
-	"\/inc\/sidebar-blocks\/additional-materials.php": {
+	"/inc/sidebar-blocks/additional-materials.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/inc\/sidebar-blocks\/additional-materials.php",
+		"oAP": "/inc/sidebar-blocks/additional-materials.php",
 		"oF": 0
 		},
-	"\/inc\/sidebar-blocks\/additional-window-styles.php": {
+	"/inc/sidebar-blocks/additional-window-styles.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/inc\/sidebar-blocks\/additional-window-styles.php",
+		"oAP": "/inc/sidebar-blocks/additional-window-styles.php",
 		"oF": 0
 		},
-	"\/inc\/sidebar-blocks\/materials.php": {
+	"/inc/sidebar-blocks/materials.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/inc\/sidebar-blocks\/materials.php",
+		"oAP": "/inc/sidebar-blocks/materials.php",
 		"oF": 0
 		},
-	"\/inc\/sidebar-blocks\/request-quote.php": {
+	"/inc/sidebar-blocks/request-quote.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/inc\/sidebar-blocks\/request-quote.php",
+		"oAP": "/inc/sidebar-blocks/request-quote.php",
 		"oF": 0
 		},
-	"\/inc\/sidebar-blocks\/styles.php": {
+	"/inc/sidebar-blocks/styles.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/inc\/sidebar-blocks\/styles.php",
+		"oAP": "/inc/sidebar-blocks/styles.php",
 		"oF": 0
 		},
-	"\/inc\/topbar.php": {
+	"/inc/topbar.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/inc\/topbar.php",
+		"oAP": "/inc/topbar.php",
 		"oF": 0
 		},
-	"\/index.php": {
+	"/index.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/index.php",
+		"oAP": "/index.php",
 		"oF": 0
 		},
-	"\/languages\/glo.pot": {
+	"/languages/glo.pot": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/languages\/glo.pot",
+		"oAP": "/languages/glo.pot",
 		"oF": 0
 		},
-	"\/languages\/readme.txt": {
+	"/languages/readme.txt": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/languages\/readme.txt",
+		"oAP": "/languages/readme.txt",
 		"oF": 0
 		},
-	"\/page-about.php": {
+	"/page-about.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/page-about.php",
+		"oAP": "/page-about.php",
 		"oF": 0
 		},
-	"\/page-calculator.php": {
+	"/page-calculator.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/page-calculator.php",
+		"oAP": "/page-calculator.php",
 		"oF": 0
 		},
-	"\/page-careers.php": {
+	"/page-careers.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/page-careers.php",
+		"oAP": "/page-careers.php",
 		"oF": 0
 		},
-	"\/page-contact-us-thank-you.php": {
+	"/page-contact-us-thank-you.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/page-contact-us-thank-you.php",
+		"oAP": "/page-contact-us-thank-you.php",
 		"oF": 0
 		},
-	"\/page-home.php": {
+	"/page-home.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/page-home.php",
+		"oAP": "/page-home.php",
 		"oF": 0
 		},
-	"\/page-press.php": {
+	"/page-press.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/page-press.php",
+		"oAP": "/page-press.php",
 		"oF": 0
 		},
-	"\/page-products.php": {
+	"/page-products.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/page-products.php",
+		"oAP": "/page-products.php",
 		"oF": 0
 		},
-	"\/page-professionals.php": {
+	"/page-professionals.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/page-professionals.php",
+		"oAP": "/page-professionals.php",
 		"oF": 0
 		},
-	"\/page-projects.php": {
+	"/page-projects.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/page-projects.php",
+		"oAP": "/page-projects.php",
 		"oF": 0
 		},
-	"\/page-request-a-quote-thank-you.php": {
+	"/page-request-a-quote-thank-you.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/page-request-a-quote-thank-you.php",
+		"oAP": "/page-request-a-quote-thank-you.php",
 		"oF": 0
 		},
-	"\/page-testimonials.php": {
+	"/page-testimonials.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/page-testimonials.php",
+		"oAP": "/page-testimonials.php",
 		"oF": 0
 		},
-	"\/page.php": {
+	"/page.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/page.php",
+		"oAP": "/page.php",
 		"oF": 0
 		},
-	"\/README.md": {
+	"/README.md": {
 		"cB": 0,
 		"cS": 0,
 		"eF": 1,
@@ -4157,7 +4195,7 @@
 		"eSQ": 1,
 		"ft": 4096,
 		"oA": 0,
-		"oAP": "\/README.html",
+		"oAP": "/README.html",
 		"oF": 0,
 		"oFM": 0,
 		"oS": 0,
@@ -4166,154 +4204,154 @@
 		"rFN": 0,
 		"uCM": 0
 		},
-	"\/readme.txt": {
+	"/readme.txt": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/readme.txt",
+		"oAP": "/readme.txt",
 		"oF": 0
 		},
-	"\/screenshot.png": {
+	"/screenshot.png": {
 		"ft": 32768,
 		"iS": 20412,
 		"oA": 0,
-		"oAP": "\/screenshot.png",
+		"oAP": "/screenshot.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/search.php": {
+	"/search.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/search.php",
+		"oAP": "/search.php",
 		"oF": 0
 		},
-	"\/sidebar.php": {
+	"/sidebar.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/sidebar.php",
+		"oAP": "/sidebar.php",
 		"oF": 0
 		},
-	"\/single-product.php": {
+	"/single-product.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/single-product.php",
+		"oAP": "/single-product.php",
 		"oF": 0
 		},
-	"\/single-project.php": {
+	"/single-project.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/single-project.php",
+		"oAP": "/single-project.php",
 		"oF": 0
 		},
-	"\/single.php": {
+	"/single.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/single.php",
+		"oAP": "/single.php",
 		"oF": 0
 		},
-	"\/style.css": {
+	"/style.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/style-min.css",
+		"oAP": "/style-min.css",
 		"oF": 0,
 		"oS": 0
 		},
-	"\/style2.css": {
+	"/style2.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/style2-min.css",
+		"oAP": "/style2-min.css",
 		"oF": 0,
 		"oS": 0
 		},
-	"\/taxonomy-door-style.php": {
+	"/taxonomy-door-style.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/taxonomy-door-style.php",
+		"oAP": "/taxonomy-door-style.php",
 		"oF": 0
 		},
-	"\/taxonomy-frame-material.php": {
+	"/taxonomy-frame-material.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/taxonomy-frame-material.php",
+		"oAP": "/taxonomy-frame-material.php",
 		"oF": 0
 		},
-	"\/taxonomy-product-line.php": {
+	"/taxonomy-product-line.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/taxonomy-product-line.php",
+		"oAP": "/taxonomy-product-line.php",
 		"oF": 0
 		},
-	"\/taxonomy-series.php": {
+	"/taxonomy-series.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/taxonomy-series.php",
+		"oAP": "/taxonomy-series.php",
 		"oF": 0
 		},
-	"\/taxonomy-window-style.php": {
+	"/taxonomy-window-style.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/taxonomy-window-style.php",
+		"oAP": "/taxonomy-window-style.php",
 		"oF": 0
 		},
-	"\/template-parts\/content-none.php": {
+	"/template-parts/content-none.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/template-parts\/content-none.php",
+		"oAP": "/template-parts/content-none.php",
 		"oF": 0
 		},
-	"\/template-parts\/content-page.php": {
+	"/template-parts/content-page.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/template-parts\/content-page.php",
+		"oAP": "/template-parts/content-page.php",
 		"oF": 0
 		},
-	"\/template-parts\/content-search.php": {
+	"/template-parts/content-search.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/template-parts\/content-search.php",
+		"oAP": "/template-parts/content-search.php",
 		"oF": 0
 		},
-	"\/template-parts\/content-single.php": {
+	"/template-parts/content-single.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/template-parts\/content-single.php",
+		"oAP": "/template-parts/content-single.php",
 		"oF": 0
 		},
-	"\/template-parts\/content.php": {
+	"/template-parts/content.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/template-parts\/content.php",
+		"oAP": "/template-parts/content.php",
 		"oF": 0
 		},
-	"\/wp_bootstrap_navwalker.php": {
+	"/wp_bootstrap_navwalker.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/wp_bootstrap_navwalker.php",
+		"oAP": "/wp_bootstrap_navwalker.php",
 		"oF": 0
 		}
 	},
@@ -4333,141 +4371,94 @@
 	"alwaysUseExternalServer": 1,
 	"animateCSSInjections": 1,
 	"autoBuildNewItems": 1,
-	"autoprefixerBrowserString": "last 2 versions, Explorer >= 10, Android >= 4.1, Safari >= 7, iOS >= 7",
 	"autoprefixerEnableIEGrid": 0,
+	"babel7PresetType": 1,
+	"babelAllowRCFiles": 0,
 	"babelAuxiliaryCommentAfter": "",
 	"babelAuxiliaryCommentBefore": "",
-	"babelConfigFileHandlingType": 0,
+	"babelConfigType": 0,
 	"babelCustomPluginsList": "",
 	"babelCustomPresetsList": "",
 	"babelInsertModuleIDs": 0,
 	"babelModuleID": "",
 	"babelNoComments": 0,
 	"babelPlugins": {
+		"arrow-functions": {
+			"active": 0
+			},
 		"async-generator-functions": {
 			"active": 0
 			},
 		"async-to-generator": {
 			"active": 0
 			},
-		"async-to-module-method": {
+		"block-scoped-functions": {
+			"active": 0
+			},
+		"block-scoping": {
 			"active": 0
 			},
 		"class-properties": {
 			"active": 0
 			},
+		"classes": {
+			"active": 0
+			},
+		"computed-properties": {
+			"active": 0
+			},
 		"decorators": {
 			"active": 0
 			},
-		"decorators-legacy": {
+		"destructuring": {
 			"active": 0
 			},
 		"do-expressions": {
 			"active": 0
 			},
-		"es2015-arrow-functions": {
+		"dotall-regex": {
 			"active": 0
 			},
-		"es2015-block-scoped-functions": {
-			"active": 0
-			},
-		"es2015-block-scoping": {
-			"active": 0
-			},
-		"es2015-classes": {
-			"active": 0
-			},
-		"es2015-computed-properties": {
-			"active": 0
-			},
-		"es2015-constants": {
-			"active": 0
-			},
-		"es2015-destructuring": {
-			"active": 0
-			},
-		"es2015-duplicate-keys": {
-			"active": 0
-			},
-		"es2015-for-of": {
-			"active": 0
-			},
-		"es2015-function-name": {
-			"active": 0
-			},
-		"es2015-literals": {
-			"active": 0
-			},
-		"es2015-modules-amd": {
-			"active": 0
-			},
-		"es2015-modules-commonjs": {
-			"active": 0
-			},
-		"es2015-modules-systemjs": {
-			"active": 0
-			},
-		"es2015-modules-umd": {
-			"active": 0
-			},
-		"es2015-object-super": {
-			"active": 0
-			},
-		"es2015-parameters": {
-			"active": 0
-			},
-		"es2015-shorthand-properties": {
-			"active": 0
-			},
-		"es2015-spread": {
-			"active": 0
-			},
-		"es2015-sticky-regex": {
-			"active": 0
-			},
-		"es2015-template-literals": {
-			"active": 0
-			},
-		"es2015-typeof-symbol": {
-			"active": 0
-			},
-		"es2015-unicode-regex": {
-			"active": 0
-			},
-		"es3-member-expression-literals": {
-			"active": 0
-			},
-		"es3-property-literals": {
-			"active": 0
-			},
-		"es5-property-mutators": {
-			"active": 0
-			},
-		"eval": {
+		"duplicate-keys": {
 			"active": 0
 			},
 		"exponentiation-operator": {
 			"active": 0
 			},
-		"export-extensions": {
+		"export-default-from": {
+			"active": 0
+			},
+		"export-namespace-from": {
 			"active": 0
 			},
 		"external-helpers": {
 			"active": 0
 			},
-		"flow-comments": {
+		"flow-strip-types": {
 			"active": 0
 			},
-		"flow-strip-types": {
+		"for-of": {
 			"active": 0
 			},
 		"function-bind": {
 			"active": 0
 			},
-		"inline-environment-variables": {
+		"function-name": {
+			"active": 0
+			},
+		"function-sent": {
+			"active": 0
+			},
+		"instanceof": {
 			"active": 0
 			},
 		"jscript": {
+			"active": 0
+			},
+		"literals": {
+			"active": 0
+			},
+		"logical-assignment-operators": {
 			"active": 0
 			},
 		"member-expression-literals": {
@@ -4479,7 +4470,28 @@
 		"minify-booleans": {
 			"active": 0
 			},
+		"modules-amd": {
+			"active": 0
+			},
+		"modules-commonjs": {
+			"active": 0
+			},
+		"modules-systemjs": {
+			"active": 0
+			},
+		"modules-umd": {
+			"active": 0
+			},
+		"new-target": {
+			"active": 0
+			},
 		"node-env-inline": {
+			"active": 0
+			},
+		"nullish-coalescing-operator": {
+			"active": 0
+			},
+		"numeric-separator": {
 			"active": 0
 			},
 		"object-assign": {
@@ -4491,7 +4503,25 @@
 		"object-set-prototype-of-to-assign": {
 			"active": 0
 			},
+		"object-super": {
+			"active": 0
+			},
+		"optional-catch-binding": {
+			"active": 0
+			},
+		"optional-chaining": {
+			"active": 0
+			},
+		"parameters": {
+			"active": 0
+			},
+		"pipeline-operator": {
+			"active": 0
+			},
 		"property-literals": {
+			"active": 0
+			},
+		"property-mutators": {
 			"active": 0
 			},
 		"proto-to-assign": {
@@ -4527,53 +4557,46 @@
 		"remove-debugger": {
 			"active": 0
 			},
+		"reserved-words": {
+			"active": 0
+			},
 		"runtime": {
+			"active": 0
+			},
+		"shorthand-properties": {
 			"active": 0
 			},
 		"simplify-comparison-operators": {
 			"active": 0
 			},
+		"spread": {
+			"active": 0
+			},
+		"sticky-regex": {
+			"active": 0
+			},
 		"strict-mode": {
 			"active": 0
 			},
-		"syntax-async-generators": {
+		"template-literals": {
 			"active": 0
 			},
-		"syntax-class-properties": {
+		"throw-expressions": {
 			"active": 0
 			},
-		"syntax-decorators": {
-			"active": 0
-			},
-		"syntax-do-expressions": {
-			"active": 0
-			},
-		"syntax-export-extensions": {
-			"active": 0
-			},
-		"syntax-flow": {
-			"active": 0
-			},
-		"syntax-function-bind": {
-			"active": 0
-			},
-		"syntax-function-sent": {
-			"active": 0
-			},
-		"syntax-jsx": {
-			"active": 0
-			},
-		"syntax-object-rest-spread": {
-			"active": 0
-			},
-		"undeclared-variables-check": {
+		"typeof-symbol": {
 			"active": 0
 			},
 		"undefined-to-void": {
 			"active": 0
+			},
+		"unicode-property-regex": {
+			"active": 0
+			},
+		"unicode-regex": {
+			"active": 0
 			}
 		},
-	"babelPresetType": 193,
 	"babelRetainLines": 0,
 	"bowerAbbreviatedPath": "bower_components",
 	"bowerAutoCreateInfoFile": 1,
@@ -4582,6 +4605,7 @@
 	"bowerSaveDevDependencies": 0,
 	"bowerUseExactVersion": 0,
 	"browserRefreshDelay": 0,
+	"browserslistString": "last 2 versions, Explorer >= 10, Android >= 4.1, Safari >= 7, iOS >= 7",
 	"buildFolderActive": 0,
 	"buildFolderName": "build",
 	"cleanBuild": 1,
@@ -4939,6 +4963,10 @@
 			"active": 0,
 			"optionString": "'always', {exceptAfterSingleLine: false}"
 			},
+		"max-classes-per-file": {
+			"active": 0,
+			"optionString": "1"
+			},
 		"max-depth": {
 			"active": 0,
 			"optionString": "{'max': 4}"
@@ -4950,6 +4978,10 @@
 		"max-lines": {
 			"active": 0,
 			"optionString": "{'max': 300, 'skipBlankLines': true, 'skipComments': true}"
+			},
+		"max-lines-per-function": {
+			"active": 0,
+			"optionString": "{'max': 50, 'skipBlankLines': true, 'skipComments': true, 'IIFEs': false}"
 			},
 		"max-nested-callbacks": {
 			"active": 0,
@@ -4995,6 +5027,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"no-async-promise-executor": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-await-in-loop": {
 			"active": 0,
 			"optionString": ""
@@ -5013,10 +5049,6 @@
 			},
 		"no-case-declarations": {
 			"active": 1,
-			"optionString": ""
-			},
-		"no-catch-shadow": {
-			"active": 0,
 			"optionString": ""
 			},
 		"no-class-assign": {
@@ -5215,9 +5247,13 @@
 			"active": 0,
 			"optionString": "{'ignore': [], 'ignoreArrayIndexes': true, 'enforceConst': false, 'detectObjects': false}"
 			},
+		"no-misleading-character-class": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-mixed-operators": {
 			"active": 0,
-			"optionString": "{'groups': [['+', '-', '*', '\/', '%', '**'], ['&', '|', '^', '~', '<<', '>>', '>>>'], ['==', '!=', '===', '!==', '>', '>=', '<', '<='], ['&&', '||'], ['in', 'instanceof']], 'allowSamePrecedence': true}"
+			"optionString": "{'groups': [['+', '-', '*', '/', '%', '**'], ['&', '|', '^', '~', '<<', '>>', '>>>'], ['==', '!=', '===', '!==', '>', '>=', '<', '<='], ['&&', '||'], ['in', 'instanceof']], 'allowSamePrecedence': true}"
 			},
 		"no-mixed-requires": {
 			"active": 0,
@@ -5571,6 +5607,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"prefer-object-spread": {
+			"active": 0,
+			"optionString": ""
+			},
 		"prefer-promise-reject-errors": {
 			"active": 0,
 			"optionString": "{'allowEmptyReject': false}"
@@ -5599,6 +5639,10 @@
 			"active": 0,
 			"optionString": "'always'"
 			},
+		"require-atomic-updates": {
+			"active": 0,
+			"optionString": ""
+			},
 		"require-await": {
 			"active": 0,
 			"optionString": ""
@@ -5606,6 +5650,10 @@
 		"require-jsdoc": {
 			"active": 0,
 			"optionString": "{'require': {'FunctionDeclaration': true, 'MethodDefinition': false, 'ClassDeclaration': false, 'ArrowFunctionExpression': false}}"
+			},
+		"require-unicode-regexp": {
+			"active": 0,
+			"optionString": ""
 			},
 		"require-yield": {
 			"active": 1,
@@ -5661,7 +5709,7 @@
 			},
 		"spaced-comment": {
 			"active": 0,
-			"optionString": "'always', {'line': {'markers': ['\/'], 'exceptions': ['-', '+']}, 'block': {'markers': ['!'], 'exceptions': ['*'], 'balanced': false}}"
+			"optionString": "'always', {'line': {'markers': ['/'], 'exceptions': ['-', '+']}, 'block': {'markers': ['!'], 'exceptions': ['*'], 'balanced': false}}"
 			},
 		"strict": {
 			"active": 0,
@@ -5721,7 +5769,7 @@
 			}
 		},
 	"esLintSourceType": 0,
-	"externalServerAddress": "http:\/\/glo.build",
+	"externalServerAddress": "http://glo.build",
 	"gitIgnoreBuildFolder": 1,
 	"hideConfigFile": 0,
 	"jsCheckerReservedNamesString": "",
@@ -6116,7 +6164,6 @@
 		"escapeHTMLCharacters": 0,
 		"noEscapeInAttributes": 0,
 		"outputFormat": 2,
-		"outputStyle": 0,
 		"shouldRunCacheBuster": 0,
 		"useCDATA": 0,
 		"useDoubleQuotes": 0,
@@ -6135,7 +6182,7 @@
 	"languageDefaultsJS": {
 		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*-min.js",
-		"autoOutputPathRelativePath": "\/min",
+		"autoOutputPathRelativePath": "/min",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 2,
@@ -6167,19 +6214,19 @@
 		"allowInsecureImports": 0,
 		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*.css",
-		"autoOutputPathRelativePath": "..\/css",
+		"autoOutputPathRelativePath": "../css",
 		"autoOutputPathReplace1": "less",
 		"autoOutputPathReplace2": "css",
 		"autoOutputPathStyle": 2,
 		"createSourceMap": 0,
-		"disableJavascript": 0,
+		"enableJavascript": 0,
 		"ieCompatibility": 1,
+		"mathStyle": 0,
 		"outputStyle": 0,
-		"relativeURLS": 0,
+		"rewriteURLStyle": 0,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
 		"strictImports": 0,
-		"strictMath": 0,
 		"strictUnits": 0
 		},
 	"languageDefaultsMARKDOWN": {
@@ -6235,7 +6282,7 @@
 	"languageDefaultsSASS": {
 		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*.css",
-		"autoOutputPathRelativePath": "..\/css",
+		"autoOutputPathRelativePath": "../css",
 		"autoOutputPathReplace1": "sass",
 		"autoOutputPathReplace2": "css",
 		"autoOutputPathStyle": 2,
@@ -6264,7 +6311,7 @@
 	"languageDefaultsSTYLUS": {
 		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*.css",
-		"autoOutputPathRelativePath": "..\/css",
+		"autoOutputPathRelativePath": "../css",
 		"autoOutputPathReplace1": "stylus",
 		"autoOutputPathReplace2": "css",
 		"autoOutputPathStyle": 2,
@@ -6288,36 +6335,70 @@
 	"languageDefaultsTS": {
 		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*.js",
-		"autoOutputPathRelativePath": "\/js",
+		"autoOutputPathRelativePath": "/js",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 2,
 		"createDeclarationFile": 0,
 		"createSourceMap": 0,
-		"jsxMode": 0,
 		"minifyOutput": 0,
 		"moduleResolutionType": 0,
 		"moduleType": 0,
-		"noImplicitAny": 0,
-		"preserveConstEnums": 0,
 		"removeComments": 0,
-		"suppressImplicitAnyIndexErrors": 0,
 		"targetECMAVersion": 0
 		},
 	"languageDefaultsUserDefined": [
 		],
 	"overrideExternalServerCSS": 0,
 	"previewPathAddition": "",
-	"skippedFoldersString": "log, _logs, logs, _cache, cache, \/storage\/framework\/sessions, node_modules",
+	"skippedFoldersString": "log, _logs, logs, _cache, cache, /storage/framework/sessions, node_modules",
 	"sourceFolderName": "source",
 	"susyVersion": 3,
+	"tsAllowSyntheticDefaultImports": 0,
+	"tsAllowUnreachableCode": 0,
+	"tsAllowUnusedLabels": 0,
+	"tsAlwaysStrict": 0,
+	"tsDownlevelIteration": 0,
+	"tsEmitBOM": 0,
+	"tsEmitDecoratorMetadata": 0,
+	"tsESModuleInterop": 0,
+	"tsForceConsistentCasingInFileNames": 0,
+	"tsImportHelpers": 0,
+	"tsIsolatedModules": 0,
+	"tsJSXFactory": "React.createElement",
+	"tsKeyofStringsOnly": 0,
+	"tsNoEmitHelpers": 0,
+	"tsNoFallthroughCasesInSwitch": 0,
+	"tsNoImplicitAny": 0,
+	"tsNoImplicitReturns": 0,
+	"tsNoImplicitThis": 0,
+	"tsNoImplicitUseStrict": 0,
+	"tsNoLib": 0,
+	"tsNoResolve": 0,
+	"tsNoStrictGenericChecks": 0,
+	"tsNoUnusedLocals": 0,
+	"tsNoUnusedParameters": 0,
+	"tsPreserveConstEnums": 0,
+	"tsPreserveSymlinks": 0,
+	"tsResolveJsonModule": 0,
+	"tsSkipLibCheck": 0,
+	"tsStrictFunctionTypes": 0,
+	"tsStrictNullChecks": 0,
+	"tsStrictPropertyInitialization": 0,
+	"tsStripInternal": 0,
+	"tsSuppressExcessPropertyErrors": 0,
+	"tsSuppressImplicitAnyIndexErrors": 0,
 	"uglifyDefinesString": "",
 	"uglifyFlags2": {
-		"ascii-only": {
+		"arguments": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"ascii_only": {
 			"active": 0,
 			"flagValue": -1
 			},
-		"bare-returns": {
+		"bare_returns": {
 			"active": 0,
 			"flagValue": -1
 			},
@@ -6325,11 +6406,11 @@
 			"active": 1,
 			"flagValue": -1
 			},
-		"bracketize": {
+		"braces": {
 			"active": 0,
 			"flagValue": -1
 			},
-		"cascade": {
+		"collapse_vars": {
 			"active": 1,
 			"flagValue": -1
 			},
@@ -6353,6 +6434,10 @@
 			"active": 0,
 			"flagValue": -1
 			},
+		"directives": {
+			"active": 1,
+			"flagValue": -1
+			},
 		"drop_console": {
 			"active": 0,
 			"flagValue": -1
@@ -6369,7 +6454,15 @@
 			"active": 1,
 			"flagValue": -1
 			},
+		"expression": {
+			"active": 0,
+			"flagValue": -1
+			},
 		"hoist_funs": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"hoist_props": {
 			"active": 1,
 			"flagValue": -1
 			},
@@ -6377,20 +6470,32 @@
 			"active": 0,
 			"flagValue": -1
 			},
-		"if_return": {
+		"html5_comments": {
 			"active": 1,
 			"flagValue": -1
 			},
-		"indent-level": {
+		"ie8": {
 			"active": 0,
-			"flagValue": 4
+			"flagValue": -1
+			},
+		"if_return": {
+			"active": 1,
+			"flagValue": -1
 			},
 		"indent-start": {
 			"active": 0,
 			"flagValue": 0
 			},
-		"inline-script": {
+		"indent_level": {
 			"active": 0,
+			"flagValue": 4
+			},
+		"inline": {
+			"active": 1,
+			"flagValue": 3
+			},
+		"inline_script": {
+			"active": 1,
 			"flagValue": -1
 			},
 		"join_vars": {
@@ -6405,6 +6510,14 @@
 			"active": 0,
 			"flagValue": -1
 			},
+		"keep_infinity": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"keep_quoted_props": {
+			"active": 0,
+			"flagValue": -1
+			},
 		"loops": {
 			"active": 1,
 			"flagValue": -1
@@ -6413,12 +6526,20 @@
 			"active": 1,
 			"flagValue": -1
 			},
-		"max-line-len": {
+		"max_line_len": {
 			"active": 1,
 			"flagValue": 32000
 			},
 		"negate_iife": {
 			"active": 1,
+			"flagValue": -1
+			},
+		"passes": {
+			"active": 1,
+			"flagValue": 1
+			},
+		"preserve_line": {
+			"active": 0,
 			"flagValue": -1
 			},
 		"properties": {
@@ -6429,12 +6550,20 @@
 			"active": 0,
 			"flagValue": -1
 			},
-		"quote-keys": {
+		"quote_keys": {
 			"active": 0,
 			"flagValue": -1
 			},
-		"screw-ie8": {
-			"active": 0,
+		"quote_style": {
+			"active": 1,
+			"flagValue": 0
+			},
+		"reduce_funcs": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"reduce_vars": {
+			"active": 1,
 			"flagValue": -1
 			},
 		"semicolons": {
@@ -6445,23 +6574,51 @@
 			"active": 1,
 			"flagValue": -1
 			},
-		"sort": {
-			"active": 0,
-			"flagValue": -1
-			},
-		"space-colon": {
+		"shebang": {
 			"active": 1,
 			"flagValue": -1
 			},
-		"support-ie8": {
-			"active": 0,
+		"side_effects": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"switches": {
+			"active": 1,
 			"flagValue": -1
 			},
 		"toplevel": {
 			"active": 0,
 			"flagValue": -1
 			},
+		"typeofs": {
+			"active": 1,
+			"flagValue": -1
+			},
 		"unsafe": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe_comps": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe_Function": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe_math": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe_proto": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe_regexp": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe_undefined": {
 			"active": 0,
 			"flagValue": -1
 			},
@@ -6473,9 +6630,17 @@
 			"active": 0,
 			"flagValue": -1
 			},
+		"webkit": {
+			"active": 0,
+			"flagValue": -1
+			},
 		"width": {
 			"active": 1,
 			"flagValue": 80
+			},
+		"wrap_iife": {
+			"active": 0,
+			"flagValue": -1
 			}
 		},
 	"uglifyReservedNamesString": "$",
