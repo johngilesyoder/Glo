@@ -1,7 +1,7 @@
 <section class="available-anywhere story-section">
   <div class="container-fluid">
     <header>
-      <h2 class="story-section-title">Available wherever you are.</h2>
+      <h2 class="story-section-title">Available Anywhere, USA.</h2>
     </header>
     <div class="row">
       <div class="col-lg-6 col-lg-offset-3 col-md-8 col-md-offset-2">
@@ -24,7 +24,7 @@
             <div class="col-md-6">
               <div class="address-wrapper last-one">
                 <address>
-                  <strong><a target="_blank" href="#">Washington Window &amp; Door</a> <small>(Redmond)</small></strong>
+                  <strong><a target="_blank" href="https://washingtonwindowanddoor.com">Washington Window &amp; Door</a> <small>(Redmond)</small></strong>
                   +1 (425) 702-9227<br>
                   17832 NE 65th St.<br>
                   Redmond, Washington 98052
@@ -36,7 +36,7 @@
             <div class="col-md-6">
               <div class="address-wrapper last-one">
                 <address>
-                  <strong><a target="_blank" href="#">Washington Window &amp; Door</a> <small>(Spokane)</small></strong>
+                  <strong><a target="_blank" href="https://washingtonwindowanddoor.com">Washington Window &amp; Door</a> <small>(Spokane)</small></strong>
                   +1 (509) 926-9227<br>
                   12209 E Mission Ave<br>
                   Spokane Valley, Washington 99206
