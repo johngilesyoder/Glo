@@ -2367,6 +2367,23 @@
 		"sI": 0,
 		"sU": 0
 		},
+	"/assets/less/components/map.less": {
+		"aP": 1,
+		"bl": 1,
+		"eJ": 0,
+		"ft": 1,
+		"ie": 1,
+		"iI": 0,
+		"ma": 0,
+		"mS": 0,
+		"oA": 1,
+		"oAP": "/assets/less/css/map.css",
+		"oF": 0,
+		"oS": 0,
+		"rwU": 0,
+		"sI": 0,
+		"sU": 0
+		},
 	"/assets/less/components/menu-list.less": {
 		"aP": 1,
 		"bl": 1,
@@ -3920,6 +3937,13 @@
 		"oAP": "/inc/home/windows.php",
 		"oF": 0
 		},
+	"/inc/map.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "/inc/map.php",
+		"oF": 0
+		},
 	"/inc/menus/block.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -4130,6 +4154,13 @@
 		"oAP": "/page-contact-us-thank-you.php",
 		"oF": 0
 		},
+	"/page-contact.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "/page-contact.php",
+		"oF": 0
+		},
 	"/page-home.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -4163,6 +4194,13 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "/page-projects.php",
+		"oF": 0
+		},
+	"/page-quote.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "/page-quote.php",
 		"oF": 0
 		},
 	"/page-request-a-quote-thank-you.php": {

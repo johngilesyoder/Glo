@@ -8117,6 +8117,70 @@ fieldset[disabled] .modal-content .gform_wrapper .gform_button.active {
     font-size: 40px;
   }
 }
+.available-anywhere {
+  background: #282828;
+  color: #ccc;
+}
+.available-anywhere .story-section-title {
+  color: #fff;
+}
+.available-anywhere .america-outline {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0 0 30px;
+}
+.available-anywhere .america-outline img {
+  max-width: 100%;
+}
+.available-anywhere h3 {
+  color: #999;
+  font-weight: 700;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin: 0 0 30px;
+}
+.available-anywhere address strong {
+  display: block;
+  color: #fff;
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .available-anywhere .america-outline {
+    margin: 0 0 60px;
+    display: block;
+    text-align: center;
+  }
+  .available-anywhere .address-wrapper.last-one address {
+    margin: 0;
+  }
+  .available-anywhere .address-wrapper.last-one address h3 {
+    display: none;
+  }
+}
+@media (max-width: 767px) {
+  .available-anywhere .america-outline {
+    margin: 0 0 40px;
+    display: block;
+    text-align: center;
+  }
+  .available-anywhere .address-wrapper.last-one address {
+    margin: 0;
+  }
+  .available-anywhere .address-wrapper.last-one address h3 {
+    display: none;
+  }
+}
+@media (max-width: 480px) {
+  .available-anywhere .america-outline {
+    margin: 0 0 30px;
+  }
+}
 .story-section {
   padding: 80px 0;
 }
@@ -10228,58 +10292,6 @@ fieldset[disabled] .page-content .gform_wrapper .gform_button.active {
 .page-template-page-about .tile-story .story-section header .story-section-summary {
   font-size: 16px;
 }
-.page-template-page-about .available-anywhere {
-  background: #282828;
-  color: #ccc;
-}
-.page-template-page-about .available-anywhere .story-section-title {
-  color: #fff;
-}
-.page-template-page-about .available-anywhere .america-outline {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  margin: 0 0 30px;
-}
-.page-template-page-about .available-anywhere .america-outline img {
-  max-width: 100%;
-}
-.page-template-page-about .available-anywhere h3 {
-  color: #999;
-  font-weight: 700;
-  font-size: 12px;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  margin: 0 0 30px;
-}
-.page-template-page-about .available-anywhere .address-wrapper {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -webkit-flex-flow: column;
-      -ms-flex-flow: column;
-          flex-flow: column;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-.page-template-page-about .available-anywhere address strong {
-  display: block;
-  color: #fff;
-}
 @media (min-width: 992px) and (max-width: 1199px) {
   .page-template-page-about .tile-story .story-section header {
     padding: 80px;
@@ -10294,17 +10306,6 @@ fieldset[disabled] .page-content .gform_wrapper .gform_button.active {
   }
   .page-template-page-about .tile-story .story-section header {
     padding: 30px;
-  }
-  .page-template-page-about .available-anywhere .america-outline {
-    margin: 0 0 60px;
-    display: block;
-    text-align: center;
-  }
-  .page-template-page-about .available-anywhere .address-wrapper.last-one address {
-    margin: 0;
-  }
-  .page-template-page-about .available-anywhere .address-wrapper.last-one address h3 {
-    display: none;
   }
 }
 @media (max-width: 767px) {
@@ -10339,24 +10340,10 @@ fieldset[disabled] .page-content .gform_wrapper .gform_button.active {
         -ms-flex-order: 0;
             order: 0;
   }
-  .page-template-page-about .available-anywhere .america-outline {
-    margin: 0 0 40px;
-    display: block;
-    text-align: center;
-  }
-  .page-template-page-about .available-anywhere .address-wrapper.last-one address {
-    margin: 0;
-  }
-  .page-template-page-about .available-anywhere .address-wrapper.last-one address h3 {
-    display: none;
-  }
 }
 @media (max-width: 480px) {
   .page-template-page-about .tile-story .story-section header {
     padding: 30px 15px;
-  }
-  .page-template-page-about .available-anywhere .america-outline {
-    margin: 0 0 30px;
   }
 }
 .testimonial {

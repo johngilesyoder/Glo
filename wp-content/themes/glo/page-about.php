@@ -47,60 +47,8 @@ get_header(); ?>
 	  </div>
   </section>
 
-	<section class="available-anywhere story-section">
-		<div class="container-fluid">
-			<header>
-				<h2 class="story-section-title">Available wherever you are.</h2>
-			</header>
-			<div class="row">
-				<div class="col-lg-6 col-lg-offset-3 col-md-8 col-md-offset-2">
-					<div class="america-outline">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/usa-outline.svg">
-          </div>
-					<div class="headquarters">
-						<div class="row">
-							<div class="col-md-6">
-                <div class="address-wrapper">
-  								<address>
-                    <h3>Headquarters &amp; Showrooms</h3>
-  									<strong>Glo European Windows</strong>
-  									+1 (406) 721-2741<br>
-  									1001 S 4th Street W, Suite 1<br>
-  									Missoula, Montana 59801
-  								</address>
-                </div>
-							</div>
-							<div class="col-md-6">
-                <div class="address-wrapper last-one">
-  								<address>
-                    <h3 style="color: #282828;">Headquarters</h3>
-  									<strong>Washington Window &amp; Door (Redmond)</strong>
-  									+1 (425) 702-9227<br>
-  									17832 NE 65th St.<br>
-  									Redmond, Washington 98052
-  								</address>
-                </div>
-							</div>
-              <div class="col-md-6">
-                &nbsp;
-              </div>
-              <div class="col-md-6">
-                <div class="address-wrapper last-one">
-  								<address>
-                    <h3 style="color: #282828;">Headquarters</h3>
-  									<strong>Washington Window &amp; Door (Spokane)</strong>
-  									+1 (509) 926-9227<br>
-  									12209 E Mission Ave<br>
-  									Spokane Valley, Washington 99206
-  								</address>
-                </div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
+  <!-- Map -->
+  <?php get_template_part( 'inc/map' ); ?>
 
 </main>
 
