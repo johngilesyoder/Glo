@@ -30,7 +30,7 @@ get_header(); ?>
 			?>
 			
 				<div class="col-md-4">
-					<a href="<?php thePressURL(); ?>" class="press-link" target="_blank">
+					<a href="<?php the_field('url'); ?>" class="press-link" target="_blank">
 
 						<?php echo get_the_post_thumbnail(); ?>
 
