@@ -1012,4 +1012,165 @@ function add_admin_scripts( $hook ) {
 }
 add_action('admin_enqueue_scripts','add_admin_scripts',10,1);
 
+function cptui_register_my_taxes_door_style() {
+
+	/**
+	 * Taxonomy: Door Styles.
+	 */
+
+	$labels = array(
+		"name" => __( "Door Styles", "custom-post-type-ui" ),
+		"singular_name" => __( "Door Style", "custom-post-type-ui" ),
+	);
+
+	$args = array(
+		"label" => __( "Door Styles", "custom-post-type-ui" ),
+		"labels" => $labels,
+		"public" => true,
+		"publicly_queryable" => true,
+		"hierarchical" => true,
+		"show_ui" => true,
+		"show_in_menu" => true,
+		"show_in_nav_menus" => true,
+		"query_var" => true,
+		"rewrite" => array( 'slug' => 'door-style', 'with_front' => true, ),
+		"show_admin_column" => false,
+		"show_in_rest" => true,
+		"rest_base" => "door-style",
+		"rest_controller_class" => "WP_REST_Terms_Controller",
+		"show_in_quick_edit" => false,
+		);
+	register_taxonomy( "door-style", array( "product" ), $args );
+}
+add_action( 'init', 'cptui_register_my_taxes_door_style' );
+
+function cptui_register_my_taxes_window_style() {
+
+	/**
+	 * Taxonomy: Window Styles.
+	 */
+
+	$labels = array(
+		"name" => __( "Window Styles", "custom-post-type-ui" ),
+		"singular_name" => __( "Window Style", "custom-post-type-ui" ),
+	);
+
+	$args = array(
+		"label" => __( "Window Styles", "custom-post-type-ui" ),
+		"labels" => $labels,
+		"public" => true,
+		"publicly_queryable" => true,
+		"hierarchical" => true,
+		"show_ui" => true,
+		"show_in_menu" => true,
+		"show_in_nav_menus" => true,
+		"query_var" => true,
+		"rewrite" => array( 'slug' => 'window-style', 'with_front' => true, ),
+		"show_admin_column" => false,
+		"show_in_rest" => true,
+		"rest_base" => "window-style",
+		"rest_controller_class" => "WP_REST_Terms_Controller",
+		"show_in_quick_edit" => false,
+		);
+	register_taxonomy( "window-style", array( "product" ), $args );
+}
+add_action( 'init', 'cptui_register_my_taxes_window_style' );
+
+function cptui_register_my_taxes_frame_material() {
+
+	/**
+	 * Taxonomy: Frame Materials.
+	 */
+
+	$labels = array(
+		"name" => __( "Frame Materials", "custom-post-type-ui" ),
+		"singular_name" => __( "Frame Material", "custom-post-type-ui" ),
+	);
+
+	$args = array(
+		"label" => __( "Frame Materials", "custom-post-type-ui" ),
+		"labels" => $labels,
+		"public" => true,
+		"publicly_queryable" => true,
+		"hierarchical" => true,
+		"show_ui" => true,
+		"show_in_menu" => true,
+		"show_in_nav_menus" => true,
+		"query_var" => true,
+		"rewrite" => array( 'slug' => 'frame-material', 'with_front' => true, ),
+		"show_admin_column" => false,
+		"show_in_rest" => true,
+		"rest_base" => "frame-material",
+		"rest_controller_class" => "WP_REST_Terms_Controller",
+		"show_in_quick_edit" => false,
+		);
+	register_taxonomy( "frame-material", array( "product" ), $args );
+}
+add_action( 'init', 'cptui_register_my_taxes_frame_material' );
+
+function cptui_register_my_taxes_product_line() {
+
+	/**
+	 * Taxonomy: Frame Materials.
+	 */
+
+	$labels = array(
+		"name" => __( "Product Lines", "custom-post-type-ui" ),
+		"singular_name" => __( "Product Line", "custom-post-type-ui" ),
+	);
+
+	$args = array(
+		"label" => __( "Product Lines", "custom-post-type-ui" ),
+		"labels" => $labels,
+		"public" => true,
+		"publicly_queryable" => true,
+		"hierarchical" => true,
+		"show_ui" => true,
+		"show_in_menu" => true,
+		"show_in_nav_menus" => true,
+		"query_var" => true,
+		"rewrite" => array( 'slug' => 'product-line', 'with_front' => true, ),
+		"show_admin_column" => false,
+		"show_in_rest" => true,
+		"rest_base" => "product-line",
+		"rest_controller_class" => "WP_REST_Terms_Controller",
+		"show_in_quick_edit" => false,
+		);
+	register_taxonomy( "product-line", array( "product" ), $args );
+}
+add_action( 'init', 'cptui_register_my_taxes_product_line' );
+
+function cptui_register_my_taxes_series() {
+
+	/**
+	 * Taxonomy: Frame Materials.
+	 */
+
+	$labels = array(
+		"name" => __( "Series", "custom-post-type-ui" ),
+		"singular_name" => __( "Series", "custom-post-type-ui" ),
+	);
+
+	$args = array(
+		"label" => __( "Series", "custom-post-type-ui" ),
+		"labels" => $labels,
+		"public" => true,
+		"publicly_queryable" => true,
+		"hierarchical" => true,
+		"show_ui" => true,
+		"show_in_menu" => true,
+		"show_in_nav_menus" => true,
+		"query_var" => true,
+		"rewrite" => array( 'slug' => 'series', 'with_front' => true, ),
+		"show_admin_column" => false,
+		"show_in_rest" => true,
+		"rest_base" => "series",
+		"rest_controller_class" => "WP_REST_Terms_Controller",
+		"show_in_quick_edit" => false,
+		);
+	register_taxonomy( "series", array( "product" ), $args );
+}
+add_action( 'init', 'cptui_register_my_taxes_series' );
+
+
 ?>
