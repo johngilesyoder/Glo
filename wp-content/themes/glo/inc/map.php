@@ -75,6 +75,16 @@
                 </address>
               </div>
             </div>
+            <div class="col-md-6">
+              <div class="address-wrapper last-one">
+                <address>
+                  <strong><a target="_blank" href="https://meteeksupply.com/">Meteek Supply</a></strong>
+                  +1 (218) 722-7599<br>
+                  4218 Enterprise Circle<br>
+                  Duluth, MN 55811
+                </address>
+              </div>
+            </div>
           </div>
         </div>
       </div>
