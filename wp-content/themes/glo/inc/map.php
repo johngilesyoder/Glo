@@ -78,17 +78,8 @@
             <div class="col-md-6">
               <div class="address-wrapper last-one">
                 <address>
-                  <strong><a target="_blank" href="https://meteeksupply.com/">Meteek Supply</a></strong>
-                  +1 (218) 722-7599<br>
-                  4218 Enterprise Circle<br>
-                  Duluth, MN 55811
-                </address>
-              </div>
-            </div>
-            <div class="col-md-6">
-              <div class="address-wrapper last-one">
-                <address>
-                  <strong><a target="_blank" href="https://meteeksupply.com/">Glacier Window and Door, Inc (Portland)</a></strong>
+                  <strong><a target="_blank" href="https://glacierportland.com/">Glacier Window and Door, Inc</a></strong>
+                  (Portland)<br>
                   +1 (503) 408-8838 / +1 (800) 853-6257 toll free<br>
                   1229 SE Grand Avenue<br>
                   Portland, OR 97214
@@ -98,10 +89,21 @@
             <div class="col-md-6">
               <div class="address-wrapper last-one">
                 <address>
-                  <strong><a target="_blank" href="https://meteeksupply.com/">Glacier Window and Door, Inc (Seattle)</a></strong>
+                  <strong><a target="_blank" href="https://glacierseattle.com/">Glacier Window and Door, Inc</a></strong>
+                  (Seattle)<br>
                   +1 (206) 397-3083 / +1 (800) 853-6257 toll free<br>
                   3100 Airport Way S, Bldg 15, Ste 100<br>
                   Seattle, WA 98134
+                </address>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="address-wrapper last-one">
+                <address>
+                  <strong><a target="_blank" href="https://meteeksupply.com/">Meteek Supply</a></strong>
+                  +1 (218) 722-7599<br>
+                  4218 Enterprise Circle<br>
+                  Duluth, MN 55811
                 </address>
               </div>
             </div>
