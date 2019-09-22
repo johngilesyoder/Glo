@@ -85,6 +85,26 @@
                 </address>
               </div>
             </div>
+            <div class="col-md-6">
+              <div class="address-wrapper last-one">
+                <address>
+                  <strong><a target="_blank" href="https://meteeksupply.com/">Glacier Window and Door, Inc (Portland)</a></strong>
+                  +1 (503) 408-8838 / +1 (800) 853-6257 toll free<br>
+                  1229 SE Grand Avenue<br>
+                  Portland, OR 97214
+                </address>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="address-wrapper last-one">
+                <address>
+                  <strong><a target="_blank" href="https://meteeksupply.com/">Glacier Window and Door, Inc (Seattle)</a></strong>
+                  +1 (206) 397-3083 / +1 (800) 853-6257 toll free<br>
+                  3100 Airport Way S, Bldg 15, Ste 100<br>
+                  Seattle, WA 98134
+                </address>
+              </div>
+            </div>
           </div>
         </div>
       </div>
