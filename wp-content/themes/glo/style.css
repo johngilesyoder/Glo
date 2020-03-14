@@ -9733,7 +9733,20 @@ fieldset[disabled] .page-content .gform_wrapper .gform_button.active {
 }
 @media (max-width: 767px) {
   .topbar {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .topbar li:not(#find-dealer),
+  .topbar button,
+  .topbar .topbar-series {
     display: none;
+  }
+  .topbar .topbar-links {
+    text-align: left;
+    margin-left: 0;
+  }
+  .topbar #find-dealer {
+    margin-left: 0;
   }
 }
 .tax-product-line .site-header,

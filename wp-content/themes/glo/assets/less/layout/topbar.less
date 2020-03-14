@@ -119,7 +119,20 @@
 @media (max-width: 767px) {
 
   .topbar {
-    display: none;
+    padding-left: 15px;
+    padding-right: 15px;
+    li:not(#find-dealer),
+    button,
+    .topbar-series {
+      display: none;
+    }
+    .topbar-links {
+      text-align: left;
+      margin-left: 0;
+    }
+    #find-dealer {
+      margin-left: 0;
+    }
   }
 
 }
