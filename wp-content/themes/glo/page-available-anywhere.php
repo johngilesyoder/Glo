@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: Dealers
+ * Template Name: Available Anywhere
  */
 
 $hero_background = get_field('hero_background');

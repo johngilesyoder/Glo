@@ -2489,6 +2489,16 @@
 		"sI": 0,
 		"sU": 0
 		},
+	"/assets/less/css/dealers.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/assets/less/css/dealers-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"/assets/less/layout/_index.less": {
 		"aP": 1,
 		"bl": 1,
@@ -4083,6 +4093,14 @@
 		"oAP": "/page-about.php",
 		"oF": 0
 		},
+	"/page-available-anywhere.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/page-available-anywhere.php",
+		"oF": 0
+		},
 	"/page-calculator.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -4113,14 +4131,6 @@
 		"hM": 0,
 		"oA": 2,
 		"oAP": "/page-contact.php",
-		"oF": 0
-		},
-	"/page-dealers.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 2,
-		"oAP": "/page-dealers.php",
 		"oF": 0
 		},
 	"/page-home.php": {
