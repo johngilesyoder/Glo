@@ -1,4 +1,4 @@
-<section class="available-anywhere story-section">
+<section class="available-anywhere-map story-section">
   <div class="container-fluid">
     <header>
       <h2 class="story-section-title">Available Anywhere, USA.</h2>

@@ -8117,14 +8117,14 @@ fieldset[disabled] .modal-content .gform_wrapper .gform_button.active {
     font-size: 40px;
   }
 }
-.available-anywhere {
+.available-anywhere-map {
   background: #282828;
   color: #ccc;
 }
-.available-anywhere .story-section-title {
+.available-anywhere-map .story-section-title {
   color: #fff;
 }
-.available-anywhere .america-outline {
+.available-anywhere-map .america-outline {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -8135,10 +8135,10 @@ fieldset[disabled] .modal-content .gform_wrapper .gform_button.active {
           justify-content: center;
   margin: 0 0 30px;
 }
-.available-anywhere .america-outline img {
+.available-anywhere-map .america-outline img {
   max-width: 100%;
 }
-.available-anywhere h3 {
+.available-anywhere-map h3 {
   color: #999;
   font-weight: 700;
   font-size: 12px;
@@ -8146,29 +8146,29 @@ fieldset[disabled] .modal-content .gform_wrapper .gform_button.active {
   letter-spacing: 1px;
   margin: 0 0 30px;
 }
-.available-anywhere address {
+.available-anywhere-map address {
   margin: 0 0 30px;
 }
-.available-anywhere address strong {
+.available-anywhere-map address strong {
   display: block;
   color: #fff;
 }
 @media (min-width: 768px) and (max-width: 991px) {
-  .available-anywhere .america-outline {
+  .available-anywhere-map .america-outline {
     margin: 0 0 60px;
     display: block;
     text-align: center;
   }
 }
 @media (max-width: 767px) {
-  .available-anywhere .america-outline {
+  .available-anywhere-map .america-outline {
     margin: 0 0 40px;
     display: block;
     text-align: center;
   }
 }
 @media (max-width: 480px) {
-  .available-anywhere .america-outline {
+  .available-anywhere-map .america-outline {
     margin: 0 0 30px;
   }
 }
@@ -10337,19 +10337,16 @@ fieldset[disabled] .page-content .gform_wrapper .gform_button.active {
     padding: 30px 15px;
   }
 }
-.page-template-page-dealers {
-  color: red !important;
-}
-.page-template-page-dealers .site-header {
+.page-template-page-available-anywhere .site-header {
   margin: 0;
 }
-.page-template-page-dealers .site-header .navbar {
+.page-template-page-available-anywhere .site-header .navbar {
   margin: 0;
 }
-.page-template-page-dealers .page-wrapper {
+.page-template-page-available-anywhere .page-wrapper {
   margin: 0;
 }
-.page-template-page-dealers .hero-title {
+.page-template-page-available-anywhere .hero-title {
   margin-bottom: 0;
   margin-top: 0;
 }
