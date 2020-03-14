@@ -47,9 +47,6 @@ get_header(); ?>
 	  </div>
   </section>
 
-  <!-- Map -->
-  <?php get_template_part( 'inc/map' ); ?>
-
 </main>
 
 <?php get_footer(); ?>

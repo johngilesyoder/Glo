@@ -1,0 +1,70 @@
+.page-template-page-dealers {
+  color: red !important;
+}
+.page-template-page-dealers .site-header {
+  margin: 0;
+}
+.page-template-page-dealers .site-header .navbar {
+  margin: 0;
+}
+.page-template-page-dealers .page-wrapper {
+  margin: 0;
+}
+.page-template-page-dealers .hero-title {
+  margin-bottom: 0;
+  margin-top: 0;
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .page-template-page-about .tile-story .story-section header {
+    padding: 80px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .page-template-page-about .tile-story {
+    height: 500px;
+  }
+  .page-template-page-about .tile-story .story-section {
+    padding: 0;
+  }
+  .page-template-page-about .tile-story .story-section header {
+    padding: 30px;
+  }
+}
+@media (max-width: 767px) {
+  .page-template-page-about .tile-story {
+    height: auto;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-flow: column;
+        -ms-flex-flow: column;
+            flex-flow: column;
+  }
+  .page-template-page-about .tile-story .tile-img {
+    width: 100%;
+    height: 320px;
+  }
+  .page-template-page-about .tile-story .story-section {
+    width: 100%;
+    padding: 0;
+  }
+  .page-template-page-about .tile-story .story-section header {
+    padding: 40px 15px;
+  }
+  .page-template-page-about .about-you .tile-img {
+    -webkit-box-ordinal-group: 2;
+    -webkit-order: 1;
+        -ms-flex-order: 1;
+            order: 1;
+  }
+  .page-template-page-about .about-you .story-section {
+    -webkit-box-ordinal-group: 1;
+    -webkit-order: 0;
+        -ms-flex-order: 0;
+            order: 0;
+  }
+}
+@media (max-width: 480px) {
+  .page-template-page-about .tile-story .story-section header {
+    padding: 30px 15px;
+  }
+}
