@@ -2723,7 +2723,7 @@
 		"sI": 0,
 		"sU": 0
 		},
-	"/assets/less/sections/dealers.less": {
+	"/assets/less/sections/find-a-dealer.less": {
 		"aP": 1,
 		"bl": 1,
 		"eJ": 0,
@@ -2732,7 +2732,7 @@
 		"ma": 0,
 		"mS": 0,
 		"oA": 1,
-		"oAP": "/assets/less/css/dealers.css",
+		"oAP": "/assets/less/css/find-a-dealer.css",
 		"oF": 0,
 		"oS": 0,
 		"rwU": 0,
@@ -4093,14 +4093,6 @@
 		"oAP": "/page-about.php",
 		"oF": 0
 		},
-	"/page-available-anywhere.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 2,
-		"oAP": "/page-available-anywhere.php",
-		"oF": 0
-		},
 	"/page-calculator.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -4131,6 +4123,14 @@
 		"hM": 0,
 		"oA": 2,
 		"oAP": "/page-contact.php",
+		"oF": 0
+		},
+	"/page-find-a-dealer.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/page-find-a-dealer.php",
 		"oF": 0
 		},
 	"/page-home.php": {
