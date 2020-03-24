@@ -2525,6 +2525,22 @@
 		"sI": 0,
 		"sU": 0
 		},
+	"/assets/less/layout/covid-message.less": {
+		"aP": 1,
+		"bl": 1,
+		"eJ": 0,
+		"ft": 1,
+		"iI": 0,
+		"ma": 0,
+		"mS": 0,
+		"oA": 1,
+		"oAP": "/assets/less/css/covid-message.css",
+		"oF": 0,
+		"oS": 0,
+		"rwU": 0,
+		"sI": 0,
+		"sU": 0
+		},
 	"/assets/less/layout/nav-menus.less": {
 		"aP": 1,
 		"bl": 1,
@@ -3797,6 +3813,14 @@
 		"hM": 0,
 		"oA": 2,
 		"oAP": "/inc/calculator/callouts.php",
+		"oF": 0
+		},
+	"/inc/covid-message.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/inc/covid-message.php",
 		"oF": 0
 		},
 	"/inc/custom-fields.php": {

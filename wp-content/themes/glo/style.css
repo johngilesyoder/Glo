@@ -9806,6 +9806,14 @@ fieldset[disabled] .page-content .gform_wrapper .gform_button.active {
     margin-bottom: 30px;
   }
 }
+.covid-message {
+  background: #F55F36;
+  color: #fff;
+  padding: 10px 0;
+}
+.covid-message p {
+  margin: 0;
+}
 .error404 {
   padding-top: 100px;
 }

@@ -27,6 +27,8 @@
 
     <?php get_template_part( 'inc/topbar' ); ?>
 
+    <?php get_template_part( 'inc/covid-message' ); ?>
+
     <?php get_template_part( 'inc/primary-nav' ); ?>
 
   </header>
