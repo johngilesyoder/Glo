@@ -45,6 +45,134 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"/assets/font/GothamBold-Italic.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/assets/font/GothamBold-Italic.woff",
+		"oF": 0
+		},
+	"/assets/font/GothamBold-Italic.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/assets/font/GothamBold-Italic.woff2",
+		"oF": 0
+		},
+	"/assets/font/GothamBold.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/assets/font/GothamBold.woff",
+		"oF": 0
+		},
+	"/assets/font/GothamBold.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/assets/font/GothamBold.woff2",
+		"oF": 0
+		},
+	"/assets/font/GothamBook-Italic.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/assets/font/GothamBook-Italic.woff",
+		"oF": 0
+		},
+	"/assets/font/GothamBook-Italic.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/assets/font/GothamBook-Italic.woff2",
+		"oF": 0
+		},
+	"/assets/font/GothamBook.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/assets/font/GothamBook.woff",
+		"oF": 0
+		},
+	"/assets/font/GothamBook.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/assets/font/GothamBook.woff2",
+		"oF": 0
+		},
+	"/assets/font/GothamLight-Italic.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/assets/font/GothamLight-Italic.woff",
+		"oF": 0
+		},
+	"/assets/font/GothamLight-Italic.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/assets/font/GothamLight-Italic.woff2",
+		"oF": 0
+		},
+	"/assets/font/GothamLight.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/assets/font/GothamLight.woff",
+		"oF": 0
+		},
+	"/assets/font/GothamLight.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/assets/font/GothamLight.woff2",
+		"oF": 0
+		},
+	"/assets/font/GothamMedium-Italic.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/assets/font/GothamMedium-Italic.woff",
+		"oF": 0
+		},
+	"/assets/font/GothamMedium-Italic.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/assets/font/GothamMedium-Italic.woff2",
+		"oF": 0
+		},
+	"/assets/font/GothamMedium.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/assets/font/GothamMedium.woff",
+		"oF": 0
+		},
+	"/assets/font/GothamMedium.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/assets/font/GothamMedium.woff2",
+		"oF": 0
+		},
 	"/assets/font/icomoon.eot": {
 		"cB": 0,
 		"ft": 8192,
@@ -85,6 +213,22 @@
 		"hM": 0,
 		"oA": 2,
 		"oAP": "/assets/font/icomoon.woff2",
+		"oF": 0
+		},
+	"/assets/font/Mercury-TextG1Semibold.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/assets/font/Mercury-TextG1Semibold.woff",
+		"oF": 0
+		},
+	"/assets/font/Mercury-TextG1Semibold.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/assets/font/Mercury-TextG1Semibold.woff2",
 		"oF": 0
 		},
 	"/assets/img/2.jpg": {

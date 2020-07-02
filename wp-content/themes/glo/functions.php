@@ -207,10 +207,7 @@ function html5blank_conditional_scripts()
 function html5blank_styles()
 {
 
-		wp_register_style('webfont', 'https://cloud.typography.com/7104796/7438372/css/fonts.css', array(), '1.0', 'all');
-		wp_enqueue_style('webfont'); // Enqueue it!
-
-		wp_enqueue_style('glo-style', get_template_directory_uri() . '/style.css', array(), '1.3.3', 'all');
+		wp_enqueue_style('glo-style', get_template_directory_uri() . '/style.css', array(), '1.3.4', 'all');
 
 }
 
