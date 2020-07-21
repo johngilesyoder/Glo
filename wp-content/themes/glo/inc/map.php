@@ -110,39 +110,6 @@
             <div class="col-md-6">
               <div class="address-wrapper last-one">
                 <address>
-                  <strong><a target="_blank" href="https://meteeksupply.com/">Signature Windows</a></strong>
-                  (Boulder)<br>
-                  +1 (303) 442-4277<br>
-                  3002 Sterling Circle, Suite 101<br>
-                  Boulder, CO 80301
-                </address>
-              </div>
-            </div>
-            <div class="col-md-6">
-              <div class="address-wrapper last-one">
-                <address>
-                  <strong><a target="_blank" href="https://meteeksupply.com/">Signature Windows</a></strong>
-                  (Denver)<br>
-                  +1 (303) 783-9300<br>
-                  201 University Boulevard, Suite 123<br>
-                  Denver, CO 80206
-                </address>
-              </div>
-            </div>
-            <div class="col-md-6">
-              <div class="address-wrapper last-one">
-                <address>
-                  <strong><a target="_blank" href="https://meteeksupply.com/">Signature Windows</a></strong>
-                  (Aspen)<br>
-                  +1 (970) 279-4772<br>
-                  207 Basalt Center Circle<br>
-                  Basalt, CO 81621
-                </address>
-              </div>
-            </div>
-            <div class="col-md-6">
-              <div class="address-wrapper last-one">
-                <address>
                   <strong><a target="_blank" href="https://www.peakglass.com/">Peak Glass</a></strong>
                   (Jackson)<br>
                   +1 (307) 733-1769<br>
