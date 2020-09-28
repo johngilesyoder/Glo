@@ -24,7 +24,8 @@
             <div class="col-md-6">
               <div class="address-wrapper last-one">
                 <address>
-                  <strong><a target="_blank" href="https://washingtonwindowanddoor.com">Washington Window &amp; Door</a> <small>(Redmond)</small></strong>
+                  <strong><a target="_blank" href="https://washingtonwindowanddoor.com">Washington Window &amp; Door</a></strong>
+                  (Redmond)<br>
                   +1 (425) 702-9227<br>
                   17832 NE 65th St.<br>
                   Redmond, Washington 98052
@@ -36,7 +37,8 @@
             <div class="col-md-6">
               <div class="address-wrapper last-one">
                 <address>
-                  <strong><a target="_blank" href="https://washingtonwindowanddoor.com">Washington Window &amp; Door</a> <small>(Spokane)</small></strong>
+                  <strong><a target="_blank" href="https://washingtonwindowanddoor.com">Washington Window &amp; Door</a></strong>
+                  (Spokane)<br>
                   +1 (509) 926-9227<br>
                   12209 E Mission Ave<br>
                   Spokane Valley, Washington 99206
@@ -58,7 +60,7 @@
             <div class="col-md-6">
               <div class="address-wrapper last-one">
                 <address>
-                  <strong><a target="_blank" href="https://polsonglass.com">Pioneer Window & Door</a></strong>
+                  <strong><a target="_blank" href="http://www.alumaglass.com">Aluma Glass</a></strong>
                   +1 (406) 883-5511<br>
                   202 7th Ave E<br>
                   Polson, Montana 59860
@@ -116,6 +118,39 @@
                   655 W Deer Dr<br>
                   PO Box 8503<br>
                   Jackson, Wyoming 83001
+                </address>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="address-wrapper last-one">
+                <address>
+                  <strong><a target="_blank" href="https://www.peakglass.com/">Peak Glass</a></strong>
+                  (Yellowstone)<br>
+                  +1 (208) 716-1013<br>
+                  4801 N. Yellowstone<br>
+                  Idaho Falls, Idaho 83401
+                </address>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="address-wrapper last-one">
+                <address>
+                  <strong><a target="_blank" href="https://www.peakglass.com/">Peak Glass</a></strong>
+                  (Ketchum)<br>
+                  +1 (208) 921-2681<br>
+                  191 5th Street West #8<br>
+                  Ketchum, Idaho 83340
+                </address>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="address-wrapper last-one">
+                <address>
+                  <strong><a target="_blank" href="https://www.peakglass.com/">Peak Glass</a></strong>
+                  (Pinedale)<br>
+                  +1 (307) 367-2113<br>
+                  9886 HWY 191<br>
+                  Pinedale, WY 82941
                 </address>
               </div>
             </div>
