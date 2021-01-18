@@ -4,11 +4,22 @@
 
 		'use strict';
 
-		// DOM ready, take it away
+    // DOM ready, take it away
+    
+    $(document).ready(function () {
+      if (localStorage.getItem('wasVisited') !== null) {
+        $("#becomeDealer").hide();
+      } else {
+        localStorage.setItem('wasVisited', 1);
+      }
+      $("#btn-becomeDealer").click(function(){
+        $("#becomeDealer").fadeOut(250);
+      });
+    });
 
 		// Init popovers
 		$(function () {
-		  $('[data-toggle="popover"]').popover()
+		  $('[data-toggle="popover"]').popover();
 		});
 
 		// Quick-access series toggle in topbar

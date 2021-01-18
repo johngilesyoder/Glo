@@ -2377,6 +2377,22 @@
 		"sI": 0,
 		"sU": 0
 		},
+	"/assets/less/components/become-a-dealer.less": {
+		"aP": 1,
+		"bl": 1,
+		"eJ": 0,
+		"ft": 1,
+		"iI": 0,
+		"ma": 0,
+		"mS": 0,
+		"oA": 1,
+		"oAP": "/assets/less/css/become-a-dealer.css",
+		"oF": 0,
+		"oS": 0,
+		"rwU": 0,
+		"sI": 0,
+		"sU": 0
+		},
 	"/assets/less/components/css/materials.css": {
 		"aP": 1,
 		"bl": 0,
@@ -3942,6 +3958,14 @@
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
+		},
+	"/inc/become-a-dealer.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/inc/become-a-dealer.php",
+		"oF": 0
 		},
 	"/inc/blog-tile.php": {
 		"cB": 0,

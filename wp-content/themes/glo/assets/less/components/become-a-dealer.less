@@ -1,0 +1,79 @@
+.become-a-dealer-box {
+  background: @brand-primary;
+  #gradient > .horizontal(@start-color: #f34c2b; @end-color:#f77240);
+  color: #fff;
+  display: flex;
+  padding: 15px 30px;
+  align-items: center;
+  a {
+    color: #fff;
+  }
+  .btn-secondary {
+    background: #fff;
+    border: 1px solid #fff;
+    color: @link-color;
+    &:hover {
+      background: #fff;
+      color: @link-color;
+    }
+  }
+  .statement {
+    margin: 0;
+  }
+  .actions {
+    margin-left: auto;
+    .btn-hide {
+      background: transparent;
+      &:hover {
+        color: #fff;
+      }
+    }
+  }
+}
+
+// Media Queries
+// --------------------------------------------------
+
+// Large desktop and up
+@media (min-width: 1200px) {}
+
+// Desktop to large desktop
+@media (min-width: 992px) and (max-width: 1199px) {}
+
+// Tablet to desktop
+@media (min-width: 768px) and (max-width: 991px) {
+
+  .topbar {
+    .topbar-series {
+      display: none;
+    }
+    .topbar-links {
+      ul {
+        li {
+          margin-left: 15px;
+        }
+      }
+    }
+  }
+
+}
+
+// Up to tablet
+@media (max-width: 767px) {
+
+  .become-a-dealer-box {
+    padding-left: 15px;
+    padding-right: 15px;
+    display: block;
+    .statement {
+      margin: 0 0 15px;
+    }
+    .actions {
+
+    }
+  }
+
+}
+
+// Up to landscape phone
+@media (max-width: 480px) {}
