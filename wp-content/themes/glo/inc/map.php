@@ -6,7 +6,7 @@
     <div class="row">
       <div class="col-lg-6 col-lg-offset-3 col-md-8 col-md-offset-2">
         <div class="america-outline">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/img/usa-outline3.svg">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/img/usa-outline4.svg">
         </div>
         <div class="headquarters">
           <h3>Headquarters &amp; Showrooms</h3>
