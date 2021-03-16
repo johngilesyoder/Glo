@@ -6,7 +6,7 @@
     <div class="row">
       <div class="col-lg-6 col-lg-offset-3 col-md-8 col-md-offset-2">
         <div class="america-outline">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/img/usa-outline4.svg">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/img/usa-outline5.svg">
         </div>
         <div class="headquarters">
           <h3>Headquarters &amp; Showrooms</h3>
@@ -151,6 +151,28 @@
                   +1 (307) 367-2113<br>
                   9886 HWY 191<br>
                   Pinedale, WY 82941
+                </address>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="address-wrapper last-one">
+                <address>
+                  <strong><a target="_blank" href="https://www.mtnview.us/">Mountain View Window & Door</a></strong>
+                  (Denver)<br>
+                  +1 (303) 649-2217<br>
+                  815 S Jason St<br>
+                  Denver, CO 802233
+                </address>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="address-wrapper last-one">
+                <address>
+                  <strong><a target="_blank" href="https://www.mtnview.us/">Mountain View Window & Door</a></strong>
+                  (Grand Junction)<br>
+                  +1 (970) 314-2329<br>
+                  571 25 Rd<br>
+                  Grand Junction, CO 81505
                 </address>
               </div>
             </div>
