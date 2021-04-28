@@ -1,7 +1,7 @@
 <section class="available-anywhere-map story-section">
   <div class="container-fluid">
     <header>
-      <h2 class="story-section-title">Available Anywhere, USA.</h2>
+      <h2 class="story-section-title">Trusted Glo Dealers</h2>
     </header>
     <div class="row">
       <div class="col-lg-6 col-lg-offset-3 col-md-8 col-md-offset-2">

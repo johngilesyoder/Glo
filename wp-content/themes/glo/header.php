@@ -30,6 +30,6 @@
     <?php // get_template_part( 'inc/covid-message' ); ?>
 
     <?php get_template_part( 'inc/primary-nav' ); ?>
-    <?php get_template_part( 'inc/become-a-dealer' ); ?>
+    <?php // get_template_part( 'inc/become-a-dealer' ); ?>
 
   </header>
